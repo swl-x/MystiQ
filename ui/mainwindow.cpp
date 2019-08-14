@@ -651,7 +651,8 @@ void MainWindow::setup_appicon()
         }
     }
     setWindowIcon(icon);
-    ui->actionAbout->setIcon(icon);
+    // Using logo app as About icon
+    //ui->actionAbout->setIcon(icon);
 }
 
 void MainWindow::set_poweroff_behavior(int action)

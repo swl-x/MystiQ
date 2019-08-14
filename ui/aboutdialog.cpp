@@ -25,7 +25,7 @@
  #include "services/notificationservice-libnotify.h"
 #endif
 
-#define PROJECT_HOMEPAGE "https://llamaret.github.io/MystiQ/"
+#define PROJECT_HOMEPAGE "https://mystiq.swlx.info/"
 
 namespace {
 QString url(QString lnk)
@@ -46,8 +46,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
     info->setOpenExternalLinks(true);
 
     info->setText(
-         "<b>MystiQ</b> &copy; 2019 SWL-X Project<br>"
-         + tr("Version: %1").arg(VERSION_STRING)
+         "<b>MystiQ </b>"+ tr("%1").arg(VERSION_STRING)
 #ifdef VERSION_ID_STRING
          + QString(" %1").arg(QString(VERSION_ID_STRING))
 #endif
@@ -62,7 +61,9 @@ AboutDialog::AboutDialog(QWidget *parent) :
                 + "<br>" + tr("Compiled with libnotify %1")
                 .arg(NotificationService_libnotify::getVersion())
 #endif
-         + "<br><br>"
+         + "<br>"
+         + tr("MystiQ Homepage: %1").arg(url(PROJECT_HOMEPAGE))
+         + "<br>"
          + tr("MystiQ is a GUI frontend for FFmpeg.")
          + "<br><br>"
          //: %1 is the name and email of the programmer
