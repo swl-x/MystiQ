@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<MystiQConstants>
+  <!-- Options may contain an optional attribute "type" to indicate its data
+       type. Options without the type attributes are considered strings. -->
+
+  <!-- Whether the program is a portable application. This option only works if
+       the operating system is Microsoft Windows. If the program is in portable
+       mode, the settings file is written to
+          (MystiQ Directory)/mystiq.ini.
+       Otherwise, it is written to
+          (Home Directory)/.mystiq/mystiq.ini. -->
+  <Portable type="boolean">false</Portable>
+
+  <!-- video file extensions used in the file open dialog -->
+  <VideoExtensions>
+     avi vfw divx mpg mpeg m1v m2v mpv dv 3gp mov mp4 m4v mqv dat vcd ogg ogm
+     ogv asf wmv bin iso vob mkv nsv ram flv rm swf ts rmvb dvr-ms m2t m2ts rec
+     mts webm
+  </VideoExtensions>
+
+  <!-- audio file extensions used in the file open dialog -->
+  <AudioExtensions>
+     mp3 ogg wav wma  ac3 ra ape flac
+  </AudioExtensions>
+
+  <!-- url pointing to the update info xml -->
+  <UpdateInfoUrl>https://github.com/llamaret/MystiQ/latest.xml</UpdateInfoUrl>
+
+  <!-- Whether to check for updates on program startup by default.
+       This value will be overridden by user settings. -->
+  <CheckUpdateOnStartup type="boolean">false</CheckUpdateOnStartup>
+
+  <!-- Start conversion immediately after adding files to the list.
+       This value will be overridden by user settings. -->
+  <AutoStartConversion type="boolean">false</AutoStartConversion>
+
+  <!-- default folder name to create when setting output path -->
+  <NewFolderName>mystiq_output</NewFolderName>
+
+  <!-- seconds to wait before shutting down or suspending the computer -->
+  <PoweroffTimeout type="integer">30</PoweroffTimeout>
+
+  <!-- entries of the main window toolbar separated by spaces
+       valid values (case insensitive):
+          AddFiles Options Exit
+          RemoveSelectedItems RemoveCompletedItems ClearList
+          OpenOutputFolder SetParameters ChangeOutputFilename
+          ChangeOutputDirectory ShowErrorMessage
+          StartConversion StopConversion Retry RetryAll Poweroff
+          AboutQt AboutFFmpeg About CheckUpdate
+       use "|" to represent a separator
+  -->
+  <ToolbarEntries>
+    AddFiles StartConversion StopConversion Retry RetryAll
+    | RemoveSelectedItems RemoveCompletedItems | OpenOutputFolder Poweroff
+  </ToolbarEntries>
+
+  <!-- number of recent paths to remember -->
+  <NumRecentPaths type="integer">5</NumRecentPaths>
+
+  <!-- the maximum allowable update info size in bytes, a value of 0 means unlimited
+       Warning: Setting this value to 0 may cause buffer overflow and compromise
+       the stability and security of your system.
+       Bytes exceeding the limit will be discarded. -->
+  <UpdateInfoSizeLimit type="integer">4096</UpdateInfoSizeLimit>
+
+  <!-- progressbar of the conversion list -->
+  <ProgressBar>
+    <Colors>
+      <Margin type="color">#C8DCFF</Margin>
+      <Center type="color">#96C8DC</Center>
+      <Border type="color">#6496A0</Border>
+      <Text type="color">#000000</Text>
+      <Background type="color">#FFFFFF5F</Background>
+    </Colors>
+  </ProgressBar>
+
+  <!-- time range selector in "Time" tab in conversion parameter dialog -->
+  <RangeSelector>
+    <!-- radius of the round edges -->
+    <RoundRectRadius type="float">3.0</RoundRectRadius>
+    <Colors>
+      <Container>
+        <BackgroundGradient1 type="color">#D2D2D2</BackgroundGradient1>
+        <BackgroundGradient2 type="color">#EBEBEB</BackgroundGradient2>
+        <OuterBorder type="color">#828282</OuterBorder>
+        <InnerBorder type="color">#FAFAFA</InnerBorder>
+      </Container>
+      <Range>
+        <BackgroundGradient1 type="color">#D8F4A6</BackgroundGradient1>
+        <BackgroundGradient2 type="color">#A8E854</BackgroundGradient2>
+        <OuterBorder type="color">#008A00</OuterBorder>
+        <InnerBorder type="color">#DAFAA7</InnerBorder>
+      </Range>
+    </Colors>
+  </RangeSelector>
+
+  <!-- embedded media player -->
+  <MediaPlayer>
+    <!-- the default audio volume. valid values are integers between 0~100 -->
+    <DefaultVolume>50</DefaultVolume>
+    <!-- style of the media position slider -->
+    <SliderStyle>
+
+    QSlider::groove:horizontal {
+        border: 0px solid #999999;
+        height: 8px;
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+        margin: -1px;
+        padding:0 6px; 
+    }
+    QSlider::handle:horizontal {
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff stop:1 #aaaaaa);
+        border: 1px solid #939393;
+        width: 16px;
+        margin: -5px;
+        border-radius: 8px;
+    }
+
+    QSlider::handle:horizontal:hover {
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff stop:1 #cccccc);
+        border: 1px solid #aaaaaa;
+        box-shadow:0px 0px 3px #ffffff;
+    }
+
+    QSlider::add-page:horizontal {
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d2d2d2, stop:1 #ebebeb);
+        border: 1px solid #939393;
+        border-radius: 2px;
+        margin: 0px;
+    }
+    QSlider::sub-page:horizontal {
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #54aae8, stop:1#b6d3e8 );
+        border: 1px solid #2f82be;
+        border-radius: 2px;
+        margin: 0px;
+    }
+    </SliderStyle>
+  </MediaPlayer>
+
+</MystiQConstants>

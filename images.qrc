@@ -1,0 +1,61 @@
+<RCC>
+    <qresource prefix="/actions">
+        <file>icons/add.png</file>
+        <file>icons/remove.png</file>
+        <file>icons/clear.png</file>
+        <file>icons/play.png</file>
+        <file>icons/settings.png</file>
+        <file>icons/start.png</file>
+        <file>icons/stop.png</file>
+        <file>icons/exit.png</file>
+        <file>icons/open_folder.png</file>
+        <file>icons/remove_completed.png</file>
+        <file>icons/retry.png</file>
+        <file>icons/retry_all.png</file>
+        <file>icons/configure.png</file>
+        <file>icons/system_shutdown.png</file>
+        <file>icons/system_suspend.png</file>
+        <file>icons/dialog_cancel.png</file>
+        <file>icons/system_hibernate.png</file>
+        <file>icons/preview_play.png</file>
+        <file>icons/check_update.png</file>
+        <file>icons/edit_preset.png</file>
+        <file>icons/media-playback-pause.png</file>
+        <file>icons/media-playback-start.png</file>
+        <file>icons/media-seek-backward.png</file>
+        <file>icons/media-seek-forward.png</file>
+        <file>icons/audio_volume.png</file>
+        <file>icons/media-skip-backward.png</file>
+        <file>icons/mark.png</file>
+        <file>icons/seek_to_begin.png</file>
+        <file>icons/seek_to_end.png</file>
+        <file>icons/cut.png</file>
+        <file>icons/edit_file_name.png</file>
+        <file>icons/edit_folder_name.png</file>
+        <file>icons/about.png</file>
+    </qresource>
+    <qresource prefix="/app">
+        <file>icons/qt.png</file>
+        <file>icons/ffmpeg.png</file>
+        <file>icons/ffmpeg_large.png</file>
+        <file>icons/banner.png</file>
+        <file>icons/mystiq_16x16.png</file>
+        <file>icons/mystiq_22x22.png</file>
+        <file>icons/mystiq_32x32.png</file>
+        <file>icons/mystiq_48x48.png</file>
+        <file>icons/mystiq_64x64.png</file>
+        <file>icons/mystiq_72x72.png</file>
+        <file>icons/mystiq_96x96.png</file>
+        <file>icons/mystiq_128x128.png</file>
+        <file>icons/mystiq_256x256.png</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file>icons/list_background.png</file>
+        <file>presets.xml</file>
+        <file>constants.xml</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>constants.xml</file>
+        <file>presets.xml</file>
+    </qresource>
+</RCC>
