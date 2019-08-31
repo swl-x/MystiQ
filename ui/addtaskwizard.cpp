@@ -535,3 +535,4 @@ QStringList AddTaskWizard::list_directory(const QDir &dir)
     QDir::Filters filters = QDir::Files | QDir::Dirs | QDir::NoDotAndDotDot;
     return dir.entryList(filters);
 }
+

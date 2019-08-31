@@ -19,10 +19,10 @@
 #define VERSION_H
 
 // human-readable version string (VersionName)
-#define VERSION_STRING "0.0.1"
+#define VERSION_STRING "0.0.2"
 
 // machine-readable version id (VersionId)
 // the update-checker compares versions using this integer
-#define VERSION_INTEGER 21
+#define VERSION_INTEGER 22
 
 #endif // VERSION_H

@@ -33,6 +33,16 @@
         <file>icons/edit_file_name.png</file>
         <file>icons/edit_folder_name.png</file>
         <file>icons/about.png</file>
+        <file>icons/search.png</file>
+        <file>icons/audio.png</file>
+        <file>icons/video.png</file>
+        <file>icons/time.png</file>
+        <file>icons/error.png</file>
+        <file>icons/poweroff.png</file>
+        <file>icons/info.png</file>
+        <file>icons/translators.png</file>
+        <file>icons/legal.png</file>
+        <file>icons/changelog.png</file>
     </qresource>
     <qresource prefix="/app">
         <file>icons/qt.png</file>

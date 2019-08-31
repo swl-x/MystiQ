@@ -67,20 +67,21 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("MystiQ is a GUI frontend for FFmpeg.")
          + "<br><br>"
          //: %1 is the name and email of the programmer
-         + tr("Developers: %1").arg("Maikel Llamaret Heredia &lt;llamaret@webmisolutions.com&gt;") + "<br><br>"
+         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com") + "<br><br>"
          //: %1 is the name and email of the logo designer
-         + tr("MystiQ Code Name: %1").arg("Hugo Florentino &lt;xxx@xxx.xx&gt;") + "<br><br>"
+         + tr("Aplication Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "
               "under the terms of the GNU General Public License version 2 or 3.")
          + "<br><br>"
-         + tr("MystiQ Homepage: %1").arg(url(PROJECT_HOMEPAGE))
-         + "<br><br>"
          + tr("Some audio-processing functionalities are provided by SoX.")
          + " (" + url("http://sox.sourceforge.net/") + ")<br><br>"
-         + tr("FFmpeg presets were taken from VideoMorph and FF Multi Converter.")
-         + " (" + url("https://videomorph.webmisolutions.com/") + ")"
-         + " (" + url("https://sites.google.com/site/ffmulticonverter/") + ")<br><br>"
-         + "<br><br>"
+         + tr("FFmpeg presets were taken from <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b> and <b>FF Multi Converter</b>.")+"<br>"
+         + " (" + url("https://videomorph.webmisolutions.com/") + ")<br>"
+         + " (" + url("http://qwinff.github.io") + ")<br>"
+         + " (" + url("http://sourceforge.net/projects/curlew") + ")<br>"
+         + " (" + url("https://robertsanseries.github.io/ciano/") + ")<br>"
+         + " (" + url("https://sites.google.com/site/ffmulticonverter/") + ")"
+         + "<br>"
          );
     translators->setHtml(getTranslators());
     //translators->setText(getTranslators());

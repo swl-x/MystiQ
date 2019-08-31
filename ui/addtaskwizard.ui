@@ -6,12 +6,43 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>577</width>
+    <width>580</width>
     <height>428</height>
    </rect>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
   <property name="windowTitle">
    <string>Add Tasks</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../images.qrc">
+    <normaloff>:/app/icons/mystiq_128x128.png</normaloff>:/app/icons/mystiq_128x128.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <property name="wizardStyle">
+   <enum>QWizard::ClassicStyle</enum>
+  </property>
+  <property name="options">
+   <set>QWizard::NoDefaultButton</set>
+  </property>
+  <property name="titleFormat">
+   <enum>Qt::PlainText</enum>
+  </property>
+  <property name="subTitleFormat">
+   <enum>Qt::PlainText</enum>
   </property>
   <widget class="QWizardPage" name="wizardPageSelectFiles">
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -41,6 +72,9 @@
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <widget class="QPushButton" name="btnAdd">
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
           <property name="toolTip">
            <string>Add files.</string>
           </property>
@@ -61,6 +95,9 @@
         </item>
         <item>
          <widget class="QPushButton" name="btnRemove">
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
           <property name="toolTip">
            <string>Remove selected files.</string>
           </property>
@@ -111,6 +148,13 @@
       </item>
       <item>
        <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="lblExtension">
+          <property name="text">
+           <string>Convert to</string>
+          </property>
+         </widget>
+        </item>
         <item row="1" column="0">
          <widget class="QLabel" name="lblPreset">
           <property name="text">
@@ -165,20 +209,6 @@
           </property>
          </widget>
         </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="lblExtension">
-          <property name="text">
-           <string>Convert to</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QCheckBox" name="checkBox">
-          <property name="text">
-           <string>Insert Subtitle if Available in Same Folder</string>
-          </property>
-         </widget>
-        </item>
        </layout>
       </item>
      </layout>
@@ -229,6 +259,10 @@
            <property name="text">
             <string>Browse</string>
            </property>
+           <property name="icon">
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/search.png</normaloff>:/actions/icons/search.png</iconset>
+           </property>
           </widget>
          </item>
         </layout>
@@ -266,7 +300,11 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="txtNewFolderName"/>
+          <widget class="QLineEdit" name="txtNewFolderName">
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacer_3">

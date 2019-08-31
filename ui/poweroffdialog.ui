@@ -57,6 +57,10 @@
        <property name="text">
         <string notr="true">DoAction</string>
        </property>
+       <property name="icon">
+        <iconset theme="ok">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
       </widget>
      </item>
      <item>

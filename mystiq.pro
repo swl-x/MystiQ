@@ -125,21 +125,7 @@ RESOURCES += \
     translator.qrc
 
 TRANSLATIONS += \
-    translations/mystiq_zh_TW.ts \
-    translations/mystiq_ja_JP.ts \
-    translations/mystiq_it_IT.ts \
-    translations/mystiq_cs_CZ.ts \
-    translations/mystiq_zh_CN.ts \
-    translations/mystiq_ru.ts \
     translations/mystiq_es_ES.ts \
-    translations/mystiq_es_GT.ts \
-    translations/mystiq_ro_RO.ts \
-    translations/mystiq_de.ts \
-    translations/mystiq_tr_TR.ts \
-    translations/mystiq_ar.ts \
-    translations/mystiq_hu_HU.ts \
-    translations/mystiq_pl_PL.ts \
-    translations/mystiq_pt_BR.ts \
     translations/mystiq_fr.ts
 
 INCLUDEPATH += .

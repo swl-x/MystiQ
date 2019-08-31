@@ -297,8 +297,8 @@ void MainWindow::conversion_stopped()
 void MainWindow::update_poweroff_button(int id)
 {
     const char *icon_id = "";
-    QString title = "";
-    QString status_tip = "";
+    QString title = "Shutdown Options";
+    QString status_tip = "Shutdown Options";
     switch (id) {
     case PowerManagement::SHUTDOWN:
         icon_id = ":/actions/icons/system_shutdown.png";
@@ -569,7 +569,7 @@ void MainWindow::setup_poweroff_button()
     // Insert all actions into the list.
     for (int i=0; i<PowerManagement::ACTION_COUNT; i++) {
         const char *icon_id = "";
-        QString text = "";
+        QString text = "Shutdown Options";
         switch (i) {
         case PowerManagement::SHUTDOWN:
             //: Shutdown the computer (completely poweroff)
@@ -808,7 +808,7 @@ void MainWindow::refresh_titlebar()
     const int finished_task_count = m_list->finishedCount();
     if (finished_task_count < task_count && m_list->isBusy()) {
         //: Converting the %1-th file in %2 files. %2 is the number of files.
-        setWindowTitle(tr("Converting %1/%2")
+        setWindowTitle(tr("MystiQ is Converting %1/%2")
                        .arg(finished_task_count+1).arg(task_count));
     } else {
         setWindowTitle(tr("MystiQ"));

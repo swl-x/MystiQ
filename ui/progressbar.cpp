@@ -98,7 +98,7 @@ void ProgressBar::paintEvent(QPaintEvent*)
         painter.setPen(pen);
 
         if (!m_show_text) { // show percentage
-            painter.drawText(rect_region, QString("%1\%").arg(m_percentage)
+            painter.drawText(rect_region, QString("%1%").arg(m_percentage)
                              , QTextOption(Qt::AlignCenter));
         } else { // show custom text
             painter.drawText(rect_region, m_text, QTextOption(Qt::AlignCenter));

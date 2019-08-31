@@ -24,7 +24,7 @@
   </AudioExtensions>
 
   <!-- url pointing to the update info xml -->
-  <UpdateInfoUrl>https://github.com/llamaret/MystiQ/latest.xml</UpdateInfoUrl>
+  <UpdateInfoUrl>https://mystiq.swlx.info/latest.xml</UpdateInfoUrl>
 
   <!-- Whether to check for updates on program startup by default.
        This value will be overridden by user settings. -->
@@ -52,7 +52,7 @@
   -->
   <ToolbarEntries>
     AddFiles StartConversion StopConversion Retry RetryAll
-    | RemoveSelectedItems RemoveCompletedItems | OpenOutputFolder Poweroff
+    | RemoveSelectedItems RemoveCompletedItems ClearList | OpenOutputFolder Poweroff
   </ToolbarEntries>
 
   <!-- number of recent paths to remember -->
@@ -67,11 +67,11 @@
   <!-- progressbar of the conversion list -->
   <ProgressBar>
     <Colors>
-      <Margin type="color">#C8DCFF</Margin>
-      <Center type="color">#96C8DC</Center>
-      <Border type="color">#6496A0</Border>
+      <Margin type="color">#83b0ef</Margin>
+      <Center type="color">#2c72c7</Center>
+      <Border type="color">#2a2f3b11</Border>
       <Text type="color">#000000</Text>
-      <Background type="color">#FFFFFF5F</Background>
+      <Background type="color">##4b536801</Background>
     </Colors>
   </ProgressBar>
 
@@ -87,10 +87,10 @@
         <InnerBorder type="color">#FAFAFA</InnerBorder>
       </Container>
       <Range>
-        <BackgroundGradient1 type="color">#D8F4A6</BackgroundGradient1>
-        <BackgroundGradient2 type="color">#A8E854</BackgroundGradient2>
-        <OuterBorder type="color">#008A00</OuterBorder>
-        <InnerBorder type="color">#DAFAA7</InnerBorder>
+        <BackgroundGradient1 type="color">#8ebbff</BackgroundGradient1>
+        <BackgroundGradient2 type="color">#019aed</BackgroundGradient2>
+        <OuterBorder type="color">#3983ed</OuterBorder>
+        <InnerBorder type="color">#3c8dfd</InnerBorder>
       </Range>
     </Colors>
   </RangeSelector>

@@ -104,6 +104,7 @@ enum ConvertListColumns
     COL_VIDEO_BITRATE,
     COL_VIDEO_FRAMERATE,
     COL_VIDEO_CODEC,
+    COL_VIDEO_SUBTITLE,
     COL_PROGRESS,
     NUM_COLUMNS
 };
@@ -896,7 +897,7 @@ void ConvertList::init_treewidget_fill_column_titles(QStringList &columnTitle)
 */
 void ConvertList::init_treewidget_columns_visibility(QTreeWidget *w)
 {
-    w->hideColumn(COL_FILE_SIZE);
+   // w->hideColumn(COL_FILE_SIZE);
     // Audio Information
     w->hideColumn(COL_AUDIO_SAMPLE_RATE);
     w->hideColumn(COL_AUDIO_BITRATE);
@@ -907,6 +908,7 @@ void ConvertList::init_treewidget_columns_visibility(QTreeWidget *w)
     w->hideColumn(COL_VIDEO_BITRATE);
     w->hideColumn(COL_VIDEO_FRAMERATE);
     w->hideColumn(COL_VIDEO_CODEC);
+    w->hideColumn(COL_VIDEO_SUBTITLE);
 }
 
 bool ConvertList::run_first_queued_task()
@@ -1020,7 +1022,7 @@ void ConvertList::remove_items(const QList<QTreeWidgetItem *>& itemList)
  */
 ProgressBar* ConvertList::progressBar(Task *task)
 {
-    ProgressBar *prog = (ProgressBar*) m_list->itemWidget(task->listitem, COL_PROGRESS);
+    ProgressBar *prog = qobject_cast<ProgressBar *>(m_list->itemWidget(task->listitem, COL_PROGRESS));
     if (!prog) {
         prog = new ProgressBar();
         m_list->setItemWidget(task->listitem, COL_PROGRESS, prog);
@@ -1032,7 +1034,7 @@ ProgressBar* ConvertList::progressBar(Task *task)
 // "10 KiB" instead of "102400 Bytes".
 QString ConvertList::to_human_readable_size_1024(qint64 nBytes)
 {
-    float num = nBytes;
+    double num = nBytes;
     QStringList list;
     list << tr("KiB") << tr("MiB") << tr("GiB") << tr("TiB");
 
@@ -1143,7 +1145,7 @@ Task* ConvertList::first_selected_task() const
  */
 Task* ConvertList::get_task(QTreeWidgetItem *item) const
 {
-    return (Task*)item->data(0, Qt::UserRole).value<void*>();
+    return static_cast<Task*>(item->data(0, Qt::UserRole).value<void*>());
 }
 
 void ConvertList::refresh_progressbar(Task *task)

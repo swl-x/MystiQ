@@ -19,7 +19,17 @@
      <property name="currentIndex">
       <number>0</number>
      </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
      <widget class="QWidget" name="tab">
+      <attribute name="icon">
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/edit_preset.png</normaloff>:/actions/icons/edit_preset.png</iconset>
+      </attribute>
       <attribute name="title">
        <string>General</string>
       </attribute>
@@ -57,6 +67,10 @@
       </layout>
      </widget>
      <widget class="QWidget" name="tabFFmpeg">
+      <attribute name="icon">
+       <iconset resource="../images.qrc">
+        <normaloff>:/app/icons/ffmpeg_large.png</normaloff>:/app/icons/ffmpeg_large.png</iconset>
+      </attribute>
       <attribute name="title">
        <string>FFmpeg</string>
       </attribute>
@@ -95,6 +109,10 @@
       </layout>
      </widget>
      <widget class="QWidget" name="tabTools">
+      <attribute name="icon">
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/configure.png</normaloff>:/actions/icons/configure.png</iconset>
+      </attribute>
       <attribute name="title">
        <string>Tools</string>
       </attribute>
@@ -152,7 +170,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

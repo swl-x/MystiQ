@@ -10,12 +10,22 @@
     <height>300</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string notr="true"/>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QVBoxLayout" name="layoutPlayer"/>
+    <layout class="QVBoxLayout" name="layoutPlayer">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+    </layout>
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -75,6 +85,18 @@
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
          <property name="pixmap">
           <pixmap resource="../images.qrc">:/actions/icons/audio_volume.png</pixmap>
          </property>

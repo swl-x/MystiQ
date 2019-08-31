@@ -62,6 +62,7 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     connect(ui->chkDisableAudio, SIGNAL(toggled(bool)), SLOT(audio_tab_update_enabled_widgets()));
     connect(ui->chkCopyAudio, SIGNAL(toggled(bool)), SLOT(audio_tab_update_enabled_widgets()));
     connect(ui->chkDisableVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkInsertSubtitle, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkCopyVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
 
     // Hide speed-changing options if sox is not available.
@@ -149,6 +150,7 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
 
     // Video Options
     ui->chkDisableVideo->setChecked(param.disable_video);
+    ui->chkInsertSubtitle->setChecked(param.insert_subtitle);
     ui->chkCopyVideo->setChecked(param.copy_video);
 
     ui->spinVideoBitrate->setValue(param.video_bitrate);
@@ -172,7 +174,7 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
         MediaProbe probe;
         if (probe.run(param.source)) { // probe the source file, blocking call
             // success, set the duration and show the range slider
-            int duration = (int)probe.mediaDuration();
+            int duration = static_cast<int>(probe.mediaDuration());
             m_timeEdit->setMaxTime(duration);
             m_rangeSel->setMaxValue(duration);
             m_rangeSel->setVisible(true);
@@ -202,9 +204,6 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
         ui->spinSpeedFactor->setValue(param.speed_scaling_factor * 100.0);
     else
         ui->spinSpeedFactor->setValue(100.0);
-
-    // Subtitle Options
-    //ui->chkDisableSubtitle->setChecked(param.disable_subtitle);
 }
 
 //#define QTIME_TO_SECS(t) ((t.hour()) * 3600 + (t.minute()) * 60 + (t.second()))
@@ -225,6 +224,7 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
 
     // Video Options
     param.disable_video = ui->chkDisableVideo->isChecked();
+    param.insert_subtitle = ui->chkInsertSubtitle->isChecked();
     param.copy_video = ui->chkCopyVideo->isChecked();
     param.video_bitrate = ui->spinVideoBitrate->value();
     param.video_same_quality = ui->chkVideoSameQuality->isChecked();
@@ -271,9 +271,13 @@ void ConversionParameterDialog::audio_tab_update_enabled_widgets()
 void ConversionParameterDialog::video_tab_update_enabled_widgets()
 {
     bool disable_video= ui->chkDisableVideo->isChecked();
+    bool insert_subtitle= ui->chkInsertSubtitle->isChecked();
     bool copy_video = ui->chkCopyVideo->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
+    //ui->chkInsertSubtitle->setEnabled(true); // always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
+    ui->chkInsertSubtitle->setWindowModified(!insert_subtitle);
+    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video);
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
 }
