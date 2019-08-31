@@ -479,7 +479,7 @@ class QMPProcess : public QProcess
 			} else if (info[0] == "ID_LENGTH") {
 				m_mediaInfo.length = info[1].toDouble();
 			} else if (info[0] == "ID_SEEKABLE") {
-				m_mediaInfo.seekable = (bool)info[1].toInt();
+                m_mediaInfo.seekable = static_cast<bool>(info[1].toInt());
 
 			} else if (info[0].startsWith("ID_CLIP_INFO_NAME")) {
 				m_currentTag = info[1];
