@@ -38,6 +38,7 @@ public:
     int audio_volume; ///< output volume in binary percent (256 is normal, 512 is double)
 
     bool disable_video;
+    bool insert_subtitle;
     bool copy_video;
     bool video_same_quality; ///< whether to keep all video quality (-sameq option in ffmpeg)
     bool video_deinterlace;
@@ -90,6 +91,7 @@ public:
           audio_channels(0),
           audio_volume(0),
           disable_video(false),
+          insert_subtitle(false),
           copy_video(false),
           video_same_quality(false),
           video_deinterlace(false),

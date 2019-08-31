@@ -18,9 +18,10 @@
 #include "ffmpeginterface.h"
 #include "mediaprobe.h"
 #include "exepath.h"
-#include <QRegularExpression>
+#include <QRegExp>
 #include <QTextStream>
 #include <QDebug>
+#include <QFile>
 #include <QAtomicInt>
 #include <cmath>
 
@@ -357,6 +358,22 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     bNeedsAudioFilter = o.speed_scaling && !o.disable_audio && probe.hasAudio();
 
     QStringList list;
+    QString source = o.source;
+    int last_point_source = source.lastIndexOf(".");
+    //Begins Subtitle files declaration
+    QString subtitulosrt, subtitulossa;
+    if (last_point_source==-1){
+        subtitulosrt = source+".srt";
+        subtitulossa = source+".ssa";
+    }
+    else{
+        subtitulosrt = source.replace(last_point_source, 5, ".srt");
+        subtitulossa = source.replace(last_point_source, 5, ".ssa");
+    }
+    QFile subtitulo_srt, subtitulo_ssa;
+    subtitulo_srt.setFileName(subtitulosrt);
+    subtitulo_ssa.setFileName(subtitulossa);
+    //Finishing Subtitle files declaration
 
     // overwrite if file exists
     list.append("-y");
@@ -378,12 +395,23 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list << "-i" << o.source << "-i" << "-"
                  << "-map" << QString("0:%1").arg(probe.videoStreamIndex())
                  << "-map" << "1";
-        else
+        else{
             list << "-i" << "-";
+        }
     }
+    // begining insert subtitle
+       if (subtitulo_srt.exists() && o.insert_subtitle) {
+           //TODO make insert subtitle happends
+           list << "-vf subtitles='"+subtitulosrt+"':force_style='Fontsize=24':charenc=cp1256";
+       }
+       else if (!subtitulo_srt.exists() && subtitulo_ssa.exists() && o.insert_subtitle) {
+           //TODO make insert subtitle happends
+           list << "-vf subtitles='"+subtitulossa+"':force_style='Fontsize=24':charenc=cp1256";
+       }
+     // finishing insert subtitle
 
     // enable experimental codecs by default
-    list << "-strict" << "experimental";
+   // list << "-strict" << "experimental";
 
     /* ==== Additional Options ==== */
     if (!o.ffmpeg_options.isEmpty()) {
@@ -451,6 +479,7 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         list.append("-vcodec");
         list.append("copy");
     } else { // video enabled
+
 
         // same video quality as source
         if (o.video_same_quality) {
