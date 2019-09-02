@@ -313,9 +313,6 @@
    <property name="visible">
     <bool>true</bool>
    </property>
-   <property name="shortcutVisibleInContextMenu">
-    <bool>false</bool>
-   </property>
   </action>
   <action name="actionExit">
    <property name="icon">
