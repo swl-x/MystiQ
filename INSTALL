@@ -1,0 +1,27 @@
+Requires:
+  - Qt5 >= 5.7
+  - ffmpeg >= 1.1.0
+  
+BuildRequires:
+  - pkgconfig
+  - libqt5-devel
+  - libqt5-linguist
+  - alsa-devel
+  - libX11-devel
+  
+Compile:
+  - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
+  - run "qmake <option>"
+  - run "make"
+  - run ./mystiq
+  
+qmake options:
+DEFINES+=NO_NEW_VERSION_CHECK
+  
+openSUSE:
+Install Schemata: QT 5-Development
+  
+Hint:
+To check that all external programs are installed,
+please run vokoscreen on the console and control
+the output section "---Begin Search external tools---"
