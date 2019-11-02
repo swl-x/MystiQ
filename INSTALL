@@ -1,5 +1,5 @@
 Requires:
-  - Qt5 >= 5.7
+  - Qt5 >= 5.9
   - ffmpeg >= 1.1.0
   
 BuildRequires:
@@ -23,5 +23,5 @@ Install Schemata: QT 5-Development
   
 Hint:
 To check that all external programs are installed,
-please run vokoscreen on the console and control
+please run mystiq on the console and control
 the output section "---Begin Search external tools---"

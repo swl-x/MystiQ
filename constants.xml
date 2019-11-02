@@ -52,7 +52,7 @@
   -->
   <ToolbarEntries>
     AddFiles StartConversion StopConversion Retry RetryAll
-    | RemoveSelectedItems RemoveCompletedItems ClearList Exit | OpenOutputFolder Poweroff
+    | RemoveSelectedItems RemoveCompletedItems ClearList | OpenOutputFolder Poweroff
   </ToolbarEntries>
 
   <!-- number of recent paths to remember -->
