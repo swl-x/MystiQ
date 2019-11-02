@@ -3,17 +3,11 @@ MystiQ 0.1.1
 
 Compiled with Qt 5.12.4
 
-MystiQ is a GUI frontend for FFmpeg. The application name "MystiQ" was provided by Hugo Florentino (cre8or@gmx.net")
+MystiQ is a GUI frontend for FFmpeg. The application name "MystiQ" was provided by Hugo Florentino.
 
 - Homepage: https://mystiq.swlx.info
 - Source: https://github.com/llamaret/mystiq
 - Issues: https://github.com/llamaret/mystiq/issues
-
-Developers
-----------
-
-- Maikel Llamaret Heredia: llamaret@webmisolutions.com
-- Gabriel A. López López: glpz@daxslab.com
 
 Acknowledgments
 ---------------
