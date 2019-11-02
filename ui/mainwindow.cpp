@@ -78,8 +78,6 @@ MainWindow::MainWindow(QWidget *parent, const QStringList& fileList) :
             this, SLOT(conversion_stopped()));
     connect(m_update_checker, SIGNAL(receivedResult(int)),
             this, SLOT(received_update_result(int)));
-    connect(ui->btnStartConversion, SIGNAL(clicked()),
-            this, SLOT(slotStartConversion()));
 
     setup_widgets();
     setup_menus();
@@ -438,7 +436,7 @@ void MainWindow::setup_widgets()
     m_list->adjustSize();
     m_list->setContextMenuPolicy(Qt::CustomContextMenu);
 
-    ui->lblTime->clear();
+    this->m_elapsedTimeLabel->clear();
 }
 
 void MainWindow::setup_menus()
@@ -795,7 +793,7 @@ void MainWindow::refresh_statusbar()
         QString timeinfo = tr("Elapsed Time: %1 h %2 m %3 s")
                 .arg(hours).arg(minutes).arg(seconds);
         //m_elapsedTimeLabel->setText(timeinfo);
-        ui->lblTime->setText(timeinfo);
+        this->m_elapsedTimeLabel->setText(timeinfo);
     } else {
         //m_elapsedTimeLabel->clear();
         //ui->lblTime->clear();
