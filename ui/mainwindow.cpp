@@ -510,7 +510,6 @@ void MainWindow::setup_toolbar(const QStringList &entries)
 #define ADD_ACTION(name) toolbar_table[QString(#name).toUpper()] = ui->action ## name
     ADD_ACTION(AddFiles);
     ADD_ACTION(Options);
-    ADD_ACTION(Exit);
     ADD_ACTION(RemoveSelectedItems);
     ADD_ACTION(RemoveCompletedItems);
     ADD_ACTION(ClearList);
@@ -811,9 +810,4 @@ void MainWindow::refresh_titlebar()
     } else {
         setWindowTitle(tr("MystiQ"));
     }
-}
-
-void MainWindow::on_pushButton_clicked()
-{
-    this->close();
 }
