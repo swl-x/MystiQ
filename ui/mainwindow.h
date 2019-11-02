@@ -78,6 +78,8 @@ private slots:
     void update_poweroff_button(int);
     void received_update_result(int);
 
+    void on_pushButton_clicked();
+
 protected:
     void closeEvent(QCloseEvent *);
 

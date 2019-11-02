@@ -15,7 +15,6 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <QtDebug>
 #include <QtGlobal>
 #include <QLocale>
 #include "aboutdialog.h"
@@ -68,9 +67,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("MystiQ is a GUI frontend for FFmpeg.")
          + "<br><br>"
          //: %1 is the name and email of the programmer
-         + tr("Developers:<br> %1 %2")
-                .arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com")
-                .arg("<b>Gabriel A. López López</b>: glpz@daxslab.com") + "<br><br>"
+         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com<br><b>Gabriel A. López López</b>: glpz@daxslab.com") + "<br><br>"
          //: %1 is the name and email of the logo designer
          + tr("Aplication Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "
@@ -86,15 +83,8 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + " (" + url("https://sites.google.com/site/ffmulticonverter/") + ")"
          + "<br>"
          );
-
-    //TODO: add dynamic info of version
-    QFile about(":/about.html");
-    if(about.open(QIODevice::ReadOnly)){
-        QByteArray dump = about.readAll();
-        info->setHtml(dump);
-    }
-
     translators->setHtml(getTranslators());
+    //translators->setText(getTranslators());
 
     // Constraint the width of text area to the width of the banner.
     //info->setMaximumWidth(ui->lblBanner->pixmap()->width());
@@ -109,24 +99,12 @@ AboutDialog::AboutDialog(QWidget *parent) :
     translators->setPalette(p);
     translators->setFrameShape(QTextBrowser::NoFrame);
 
-    QFile license(":/LICENSE");
-    if(license.open(QIODevice::ReadOnly)){
-        QByteArray dump =license.readAll();
-        ui->textBrowser->setText(dump);
-    }
-
-    QFile changelog(":/CHANGELOG.md");
-    if(changelog.open(QIODevice::ReadOnly)){
-        QByteArray dump = changelog.readAll();
-        ui->textBrowser_2->setText(dump);
-    }
-
     // Make the window size fixed.
-    //this->adjustSize();
-    //this->setMinimumWidth(this->width());
-    //this->setMinimumHeight(this->height());
-    //this->setMaximumWidth(this->width());
-    //this->setMaximumHeight(this->height());
+    this->adjustSize();
+    this->setMinimumWidth(this->width());
+    this->setMinimumHeight(this->height());
+    this->setMaximumWidth(this->width());
+    this->setMaximumHeight(this->height());
 
     ui->tabInfo->setAutoFillBackground(true);
     ui->tabTranslators->setAutoFillBackground(true);
