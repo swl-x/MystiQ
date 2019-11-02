@@ -109,6 +109,12 @@ AboutDialog::AboutDialog(QWidget *parent) :
     translators->setPalette(p);
     translators->setFrameShape(QTextBrowser::NoFrame);
 
+    QFile license(":/LICENSE");
+    if(license.open(QIODevice::ReadOnly)){
+        QByteArray dump =license.readAll();
+        ui->textBrowser->setText(dump);
+    }
+
     QFile changelog(":/CHANGELOG.md");
     if(changelog.open(QIODevice::ReadOnly)){
         QByteArray dump = changelog.readAll();
@@ -116,11 +122,11 @@ AboutDialog::AboutDialog(QWidget *parent) :
     }
 
     // Make the window size fixed.
-    this->adjustSize();
-    this->setMinimumWidth(this->width());
-    this->setMinimumHeight(this->height());
-    this->setMaximumWidth(this->width());
-    this->setMaximumHeight(this->height());
+    //this->adjustSize();
+    //this->setMinimumWidth(this->width());
+    //this->setMinimumHeight(this->height());
+    //this->setMaximumWidth(this->width());
+    //this->setMaximumHeight(this->height());
 
     ui->tabInfo->setAutoFillBackground(true);
     ui->tabTranslators->setAutoFillBackground(true);
