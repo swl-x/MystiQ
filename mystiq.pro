@@ -122,7 +122,8 @@ FORMS    += \
 
 RESOURCES += \
     images.qrc \
-    translator.qrc
+    translator.qrc \
+    documents.qrc
 
 TRANSLATIONS += \
     translations/mystiq_es_ES.ts \
