@@ -42,7 +42,7 @@ static QString find_translation_file()
     QString language = locale.mid(0, 2); // language code (first two chars of locale)
     QString translation_file_basename =
             //QDir(Paths::translationPath()).absoluteFilePath("mystiq_");
-              QDir(":/translations/").absoluteFilePath("mystiq_");
+            QDir(":/translations/").absoluteFilePath("mystiq_");
 
     // look for mystiq_xx_XX.qm in the translation directory
     QString translation_language_country = translation_file_basename + locale + ".qm";

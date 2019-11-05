@@ -58,6 +58,8 @@
         <file>icons/mystiq_96x96.png</file>
         <file>icons/mystiq_128x128.png</file>
         <file>icons/mystiq_256x256.png</file>
+        <file>icons/screenshot1.png</file>
+        <file>icons/screenshot2.png</file>
     </qresource>
     <qresource prefix="/other">
         <file>icons/list_background.png</file>

@@ -16,6 +16,7 @@ TARGET = mystiq
 TEMPLATE = app
 
 SOURCES += main.cpp \
+    ui/helpmystiqdialog.cpp \
     ui/progressbar.cpp \
     ui/mainwindow.cpp \
     ui/convertlist.cpp \
@@ -61,6 +62,7 @@ SOURCES += main.cpp \
     ui/rangewidgetbinder.cpp
 
 HEADERS  += \
+    ui/helpmystiqdialog.h \
     ui/progressbar.h \
     ui/mainwindow.h \
     ui/convertlist.h \
@@ -110,6 +112,7 @@ HEADERS  += \
 FORMS    += \
     ui/conversionparameterdialog.ui \
     ui/addtaskwizard.ui \
+    ui/helpmystiqdialog.ui \
     ui/mainwindow.ui \
     ui/aboutffmpegdialog.ui \
     ui/optionsdialog.ui \
