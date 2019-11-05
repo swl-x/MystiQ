@@ -49,8 +49,7 @@
            <string>Mark as Begin</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/mark.png</normaloff>:/actions/icons/mark.png</iconset>
+           <iconset theme="flag"/>
           </property>
          </widget>
         </item>
@@ -60,8 +59,7 @@
            <string>Seek to Begin</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/seek_to_begin.png</normaloff>:/actions/icons/seek_to_begin.png</iconset>
+           <iconset theme="media-seek-backward"/>
           </property>
          </widget>
         </item>
@@ -79,8 +77,7 @@
          <string>Play Selection</string>
         </property>
         <property name="icon">
-         <iconset resource="../images.qrc">
-          <normaloff>:/actions/icons/preview_play.png</normaloff>:/actions/icons/preview_play.png</iconset>
+         <iconset theme="view-visible"/>
         </property>
        </widget>
       </item>
@@ -92,8 +89,7 @@
            <string>Mark as End</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/mark.png</normaloff>:/actions/icons/mark.png</iconset>
+           <iconset theme="flag"/>
           </property>
          </widget>
         </item>
@@ -103,8 +99,7 @@
            <string>Seek to End</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/seek_to_end.png</normaloff>:/actions/icons/seek_to_end.png</iconset>
+           <iconset theme="media-seek-forward"/>
           </property>
          </widget>
         </item>
@@ -140,9 +135,7 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../images.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

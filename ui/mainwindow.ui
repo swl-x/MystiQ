@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1040</width>
+    <width>990</width>
     <height>450</height>
    </rect>
   </property>
@@ -18,11 +18,6 @@
     <width>700</width>
     <height>450</height>
    </size>
-  </property>
-  <property name="font">
-   <font>
-    <pointsize>10</pointsize>
-   </font>
   </property>
   <property name="windowTitle">
    <string>MystiQ Media Converter</string>
@@ -92,8 +87,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1040</width>
-     <height>30</height>
+     <width>990</width>
+     <height>29</height>
     </rect>
    </property>
    <property name="defaultUp">
@@ -124,12 +119,15 @@
    </widget>
    <widget class="QMenu" name="menuAbout">
     <property name="title">
-     <string>&amp;About</string>
+     <string>&amp;Help</string>
     </property>
+    <addaction name="actionHelpMystiQDialog"/>
+    <addaction name="separator"/>
     <addaction name="actionAboutQt"/>
     <addaction name="actionAboutFFmpeg"/>
     <addaction name="actionAbout"/>
     <addaction name="actionCheckUpdate"/>
+    <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -189,8 +187,8 @@
   </widget>
   <action name="actionAddFiles">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/add.png</normaloff>:/actions/icons/add.png</iconset>
+    <iconset theme="archive-insert">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>&amp;Add Files</string>
@@ -213,8 +211,8 @@
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/exit.png</normaloff>:/actions/icons/exit.png</iconset>
+    <iconset theme="exit">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>E&amp;xit</string>
@@ -225,8 +223,8 @@
   </action>
   <action name="actionStartConversion">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/start.png</normaloff>:/actions/icons/start.png</iconset>
+    <iconset theme="run-build">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>&amp;Start</string>
@@ -240,8 +238,8 @@
   </action>
   <action name="actionStopConversion">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/stop.png</normaloff>:/actions/icons/stop.png</iconset>
+    <iconset theme="dialog-cancel">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>S&amp;top</string>
@@ -252,8 +250,8 @@
   </action>
   <action name="actionSetParameters">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/settings.png</normaloff>:/actions/icons/settings.png</iconset>
+    <iconset theme="run-build-configure">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Set &amp;Parameters</string>
@@ -279,8 +277,8 @@
   </action>
   <action name="actionOpenOutputFolder">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/open_folder.png</normaloff>:/actions/icons/open_folder.png</iconset>
+    <iconset theme="folder-open">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>&amp;Open Output Folder</string>
@@ -303,8 +301,8 @@
   </action>
   <action name="actionRemoveSelectedItems">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/remove.png</normaloff>:/actions/icons/remove.png</iconset>
+    <iconset theme="delete">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string extracomment="remove selected (tasks, items)">&amp;Remove Selected</string>
@@ -315,8 +313,8 @@
   </action>
   <action name="actionRemoveCompletedItems">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/remove_completed.png</normaloff>:/actions/icons/remove_completed.png</iconset>
+    <iconset theme="edit-clear-all">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string extracomment="remove completed (task, items)">R&amp;emove Completed</string>
@@ -330,8 +328,8 @@
   </action>
   <action name="actionClearList">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/clear.png</normaloff>:/actions/icons/clear.png</iconset>
+    <iconset theme="edit-clear">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Clear &amp;List</string>
@@ -345,8 +343,8 @@
   </action>
   <action name="actionRetry">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/retry.png</normaloff>:/actions/icons/retry.png</iconset>
+    <iconset theme="edit-undo">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>&amp;Retry</string>
@@ -360,8 +358,8 @@
   </action>
   <action name="actionRetryAll">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/retry_all.png</normaloff>:/actions/icons/retry_all.png</iconset>
+    <iconset theme="object-rotate-left">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Retry &amp;All</string>
@@ -369,11 +367,14 @@
    <property name="statusTip">
     <string>Retry all tasks.</string>
    </property>
+   <property name="shortcut">
+    <string/>
+   </property>
   </action>
   <action name="actionOptions">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/configure.png</normaloff>:/actions/icons/configure.png</iconset>
+    <iconset theme="settings-configure">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>&amp;Options</string>
@@ -384,8 +385,8 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/about.png</normaloff>:/actions/icons/about.png</iconset>
+    <iconset theme="help-about">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>About MystiQ</string>
@@ -396,8 +397,8 @@
   </action>
   <action name="actionChangeOutputFilename">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/edit_file_name.png</normaloff>:/actions/icons/edit_file_name.png</iconset>
+    <iconset theme="document-edit">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Change Output &amp;Filename</string>
@@ -408,8 +409,8 @@
   </action>
   <action name="actionChangeOutputDirectory">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/edit_folder_name.png</normaloff>:/actions/icons/edit_folder_name.png</iconset>
+    <iconset theme="folder-new">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Change Output &amp;Directory</string>
@@ -420,20 +421,20 @@
   </action>
   <action name="actionPoweroff">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/poweroff.png</normaloff>:/actions/icons/poweroff.png</iconset>
+    <iconset theme="system">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Poweroff</string>
    </property>
    <property name="shortcut">
-    <string notr="true"/>
+    <string/>
    </property>
   </action>
   <action name="actionShowErrorMessage">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/error.png</normaloff>:/actions/icons/error.png</iconset>
+    <iconset theme="tools-report-bug">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Show Error &amp;Message</string>
@@ -441,8 +442,8 @@
   </action>
   <action name="actionCheckUpdate">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/check_update.png</normaloff>:/actions/icons/check_update.png</iconset>
+    <iconset theme="system-software-update">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Check For &amp;Updates</string>
@@ -450,11 +451,35 @@
   </action>
   <action name="actionCut">
    <property name="icon">
-    <iconset resource="../images.qrc">
-     <normaloff>:/actions/icons/cut.png</normaloff>:/actions/icons/cut.png</iconset>
+    <iconset theme="edit-cut">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string extracomment="Cut video file (select a time range to conert)">Cut</string>
+   </property>
+  </action>
+  <action name="actionHelpMystiQDialog">
+   <property name="icon">
+    <iconset theme="help">
+     <normaloff>.</normaloff>.</iconset>
+   </property>
+   <property name="text">
+    <string>User Manual</string>
+   </property>
+   <property name="iconText">
+    <string>User Manual</string>
+   </property>
+   <property name="toolTip">
+    <string>User Manual</string>
+   </property>
+   <property name="statusTip">
+    <string>User Manual</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
    </property>
   </action>
  </widget>

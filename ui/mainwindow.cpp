@@ -20,6 +20,7 @@
 #include "convertlist.h"
 #include "addtaskwizard.h"
 #include "aboutffmpegdialog.h"
+#include "helpmystiqdialog.h"
 #include "optionsdialog.h"
 #include "aboutdialog.h"
 #include "poweroffdialog.h"
@@ -219,6 +220,10 @@ void MainWindow::slotAbout()
     AboutDialog(this).exec();
 }
 
+void MainWindow::slotHelpMystiQDialog()
+{
+    HelpMystiQDialog(this).exec();
+}
 void MainWindow::slotShowUpdateDialog()
 {
     if (ask_for_update_permission()) {
@@ -295,21 +300,25 @@ void MainWindow::conversion_stopped()
 void MainWindow::update_poweroff_button(int id)
 {
     const char *icon_id = "";
+    const char *icon_theme = "";
     QString title = "Shutdown Options";
     QString status_tip = "Shutdown Options";
     switch (id) {
     case PowerManagement::SHUTDOWN:
         icon_id = ":/actions/icons/system_shutdown.png";
+        icon_theme = "system-shutdown";
         title = tr("Shutdown");
         status_tip = tr("Shutdown when all tasks are done.");
         break;
     case PowerManagement::SUSPEND:
         icon_id = ":/actions/icons/system_suspend.png";
+        icon_theme = "system-suspend";
         title = tr("Suspend");
         status_tip = tr("Suspend when all tasks are done.");
         break;
     case PowerManagement::HIBERNATE:
         icon_id = ":/actions/icons/system_hibernate.png";
+        icon_theme = "system-suspend-hibernate";
         title = tr("Hibernate");
         status_tip = tr("Hibernate when all tasks are done.");
         break;
@@ -322,6 +331,15 @@ void MainWindow::update_poweroff_button(int id)
     ui->actionPoweroff->setIcon(QIcon(icon_id));
     ui->actionPoweroff->setText(title);
     ui->actionPoweroff->setStatusTip(status_tip);
+
+#ifdef Q_OS_LINUX
+    m_poweroff_button->setIcon(QIcon::fromTheme(icon_theme));
+    ui->actionPoweroff->setIcon(QIcon::fromTheme(icon_theme));
+#else
+    m_poweroff_button->setIcon(QIcon(icon_id));
+    ui->actionPoweroff->setIcon(QIcon(icon_id));
+#endif
+
 }
 
 void MainWindow::received_update_result(int status)
@@ -490,6 +508,8 @@ void MainWindow::setup_menus()
             this, SLOT(refresh_action_states()));
 
     // About
+    connect(ui->actionHelpMystiQDialog, SIGNAL(triggered()),
+            this, SLOT(slotHelpMystiQDialog()));
     connect(ui->actionAboutQt, SIGNAL(triggered()),
             this, SLOT(slotAboutQt()));
     connect(ui->actionAboutFFmpeg, SIGNAL(triggered()),
@@ -567,27 +587,38 @@ void MainWindow::setup_poweroff_button()
     // Insert all actions into the list.
     for (int i=0; i<PowerManagement::ACTION_COUNT; i++) {
         const char *icon_id = "";
+        const char *icon_theme = "";
         QString text = "Shutdown Options";
         switch (i) {
         case PowerManagement::SHUTDOWN:
             //: Shutdown the computer (completely poweroff)
             text = tr("Shutdown");
             icon_id = ":/actions/icons/system_shutdown.png";
+            icon_theme = "system-shutdown";
             break;
         case PowerManagement::SUSPEND:
             //: Suspend the computer (sleep to ram, standby)
             text = tr("Suspend");
             icon_id = ":/actions/icons/system_suspend.png";
+            icon_theme = "system-suspend";
             break;
         case PowerManagement::HIBERNATE:
             //: Hibernate the computer (sleep to disk, completely poweroff)
             text = tr("Hibernate");
             icon_id = ":/actions/icons/system_hibernate.png";
+            icon_theme = "system-suspend-hibernate";
             break;
         default:
             Q_ASSERT(!"Incorrect id! Be sure to implement every power action in switch().");
         }
-        actionList.append(new QAction(QIcon(icon_id)
+
+#ifdef Q_OS_LINUX
+        QIcon icon = QIcon::fromTheme(icon_theme);
+#else
+        QIcon icon(icon_id);
+#endif
+
+        actionList.append(new QAction(QIcon(icon)
                                       , text, this));
     }
 
@@ -813,7 +844,17 @@ void MainWindow::refresh_titlebar()
     }
 }
 
-void MainWindow::on_pushButton_clicked()
+//void MainWindow::on_pushButton_clicked()
+//{
+//    this->close();
+//}
+
+void MainWindow::on_actionHelpMystiQDialog_triggered()
 {
-    this->close();
+
+}
+
+void MainWindow::on_actionAbout_triggered()
+{
+
 }

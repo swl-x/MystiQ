@@ -37,8 +37,8 @@
      </property>
      <widget class="QWidget" name="tabInfo">
       <attribute name="icon">
-       <iconset resource="../images.qrc">
-        <normaloff>:/actions/icons/info.png</normaloff>:/actions/icons/info.png</iconset>
+       <iconset theme="system-users">
+        <normaloff>.</normaloff>.</iconset>
       </attribute>
       <attribute name="title">
        <string>Information</string>
@@ -51,8 +51,8 @@
      </widget>
      <widget class="QWidget" name="tabTranslators">
       <attribute name="icon">
-       <iconset resource="../images.qrc">
-        <normaloff>:/actions/icons/translators.png</normaloff>:/actions/icons/translators.png</iconset>
+       <iconset theme="language">
+        <normaloff>.</normaloff>.</iconset>
       </attribute>
       <attribute name="title">
        <string>Translators</string>
@@ -65,8 +65,8 @@
      </widget>
      <widget class="QWidget" name="tab">
       <attribute name="icon">
-       <iconset resource="../images.qrc">
-        <normaloff>:/actions/icons/legal.png</normaloff>:/actions/icons/legal.png</iconset>
+       <iconset theme="license">
+        <normaloff>.</normaloff>.</iconset>
       </attribute>
       <attribute name="title">
        <string>License</string>
@@ -181,8 +181,8 @@ p, li { white-space: pre-wrap; }
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="icon">
-       <iconset resource="../images.qrc">
-        <normaloff>:/actions/icons/changelog.png</normaloff>:/actions/icons/changelog.png</iconset>
+       <iconset theme="view-list">
+        <normaloff>.</normaloff>.</iconset>
       </attribute>
       <attribute name="title">
        <string>Changelog</string>
@@ -201,6 +201,10 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt;Version 0.1.1 (2019-10-31)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Cleaning UI&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;

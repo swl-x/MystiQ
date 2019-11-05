@@ -34,16 +34,14 @@
        <item>
         <widget class="QPushButton" name="btnPlayPause">
          <property name="icon">
-          <iconset resource="../images.qrc">
-           <normaloff>:/actions/icons/media-playback-start.png</normaloff>:/actions/icons/media-playback-start.png</iconset>
+          <iconset theme="media-playback-start"/>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="btnReset">
          <property name="icon">
-          <iconset resource="../images.qrc">
-           <normaloff>:/actions/icons/media-skip-backward.png</normaloff>:/actions/icons/media-skip-backward.png</iconset>
+          <iconset theme="media-skip-backward"/>
          </property>
         </widget>
        </item>
@@ -53,16 +51,14 @@
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../images.qrc">
-           <normaloff>:/actions/icons/media-seek-backward.png</normaloff>:/actions/icons/media-seek-backward.png</iconset>
+          <iconset theme="media-seek-backward"/>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="btnForward">
          <property name="icon">
-          <iconset resource="../images.qrc">
-           <normaloff>:/actions/icons/media-seek-forward.png</normaloff>:/actions/icons/media-seek-forward.png</iconset>
+          <iconset theme="media-seek-forward"/>
          </property>
         </widget>
        </item>
@@ -84,21 +80,18 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QLabel" name="label">
-         <property name="maximumSize">
-          <size>
-           <width>48</width>
-           <height>48</height>
-          </size>
+        <widget class="QToolButton" name="toolButton">
+         <property name="enabled">
+          <bool>true</bool>
          </property>
-         <property name="baseSize">
-          <size>
-           <width>48</width>
-           <height>48</height>
-          </size>
+         <property name="text">
+          <string>...</string>
          </property>
-         <property name="pixmap">
-          <pixmap resource="../images.qrc">:/actions/icons/audio_volume.png</pixmap>
+         <property name="icon">
+          <iconset theme="audio"/>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -167,8 +160,6 @@
   <tabstop>slideVolume</tabstop>
   <tabstop>btnPlayPause</tabstop>
  </tabstops>
- <resources>
-  <include location="../images.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

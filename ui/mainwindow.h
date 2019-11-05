@@ -65,6 +65,7 @@ private slots:
     void slotAboutQt();
     void slotAboutFFmpeg();
     void slotAbout();
+    void slotHelpMystiQDialog();
     void slotShowUpdateDialog();
     void slotCut();
 
@@ -78,7 +79,11 @@ private slots:
     void update_poweroff_button(int);
     void received_update_result(int);
 
-    void on_pushButton_clicked();
+    //void on_pushButton_clicked();
+
+    void on_actionHelpMystiQDialog_triggered();
+
+    void on_actionAbout_triggered();
 
 protected:
     void closeEvent(QCloseEvent *);

@@ -79,11 +79,11 @@
            <string>Add files.</string>
           </property>
           <property name="text">
-           <string/>
+           <string>Add Files</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/add.png</normaloff>:/actions/icons/add.png</iconset>
+           <iconset theme="archive-insert">
+            <normaloff>.</normaloff>.</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -102,11 +102,11 @@
            <string>Remove selected files.</string>
           </property>
           <property name="text">
-           <string/>
+           <string>Remove Files</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/remove.png</normaloff>:/actions/icons/remove.png</iconset>
+           <iconset theme="delete">
+            <normaloff>.</normaloff>.</iconset>
           </property>
          </widget>
         </item>
@@ -204,8 +204,8 @@
            <string>Edit</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/edit_preset.png</normaloff>:/actions/icons/edit_preset.png</iconset>
+           <iconset theme="settings-configure">
+            <normaloff>.</normaloff>.</iconset>
           </property>
          </widget>
         </item>
@@ -260,8 +260,8 @@
             <string>Browse</string>
            </property>
            <property name="icon">
-            <iconset resource="../images.qrc">
-             <normaloff>:/actions/icons/search.png</normaloff>:/actions/icons/search.png</iconset>
+            <iconset theme="search">
+             <normaloff>.</normaloff>.</iconset>
            </property>
           </widget>
          </item>

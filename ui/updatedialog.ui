@@ -50,6 +50,9 @@
        <property name="text">
         <string>Show &amp;Release Notes</string>
        </property>
+       <property name="icon">
+        <iconset theme="view-visible"/>
+       </property>
        <property name="checkable">
         <bool>true</bool>
        </property>
