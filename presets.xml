@@ -18,6 +18,12 @@
             <extension>mkv</extension>
             <category>MKV</category>
         </MKV_MPEG4>
+        <MKV_H265>
+            <label>MKV H265</label>
+            <params>-crf 15.0 -f matroska -b:v 8000k -r 25 -vcodec libx265 -acodec aac -ar 48000 -b:a 192k -coder 1 -flags +loop -cmp +chroma -partitions +parti4x4+partp8x8+partb8x8 -me_method hex -subq 6 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -b_strategy 1 -strict -2</params>
+            <extension>mkv</extension>
+            <category>MKV</category>
+        </MKV_H265>
         <AVIMSCompatible640x480>
             <label>MS Compatible 640x480</label>
             <params>-acodec libmp3lame -vcodec msmpeg4 -b:a 192k -b:v 1000k -s 640x480 -ar 44100</params>
