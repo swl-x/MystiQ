@@ -16,6 +16,7 @@
  */
 
 #include "mainwindow.h"
+#include "version.h"
 #include "ui_mainwindow.h"
 #include "convertlist.h"
 #include "addtaskwizard.h"
@@ -840,7 +841,7 @@ void MainWindow::refresh_titlebar()
         setWindowTitle(tr("MystiQ is Converting %1/%2")
                        .arg(finished_task_count+1).arg(task_count));
     } else {
-        setWindowTitle(tr("MystiQ"));
+        setWindowTitle(tr("MystiQ ")+ tr("%1").arg(VERSION_STRING));
     }
 }
 

@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>990</width>
+    <width>980</width>
     <height>450</height>
    </rect>
   </property>
@@ -40,6 +40,15 @@
   </property>
   <property name="toolButtonStyle">
    <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_3">
@@ -87,12 +96,9 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>990</width>
+     <width>980</width>
      <height>29</height>
     </rect>
-   </property>
-   <property name="defaultUp">
-    <bool>true</bool>
    </property>
    <property name="nativeMenuBar">
     <bool>true</bool>
@@ -168,8 +174,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>32</width>
-     <height>32</height>
+     <width>22</width>
+     <height>22</height>
     </size>
    </property>
    <property name="toolButtonStyle">
