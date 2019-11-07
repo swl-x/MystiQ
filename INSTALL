@@ -9,6 +9,9 @@ BuildRequires:
   - alsa-devel
   - libX11-devel
   
+To build and run, on Ubuntu and derivated install:
+sudo apt install ffmpeg qt5-default qt5-qmake g++ make
+
 Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
   - run "qmake <option>"
