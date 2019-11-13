@@ -43,6 +43,7 @@
         <file>icons/translators.png</file>
         <file>icons/legal.png</file>
         <file>icons/changelog.png</file>
+        <file>icons/power-options.png</file>
     </qresource>
     <qresource prefix="/app">
         <file>icons/qt.png</file>

@@ -9,8 +9,13 @@ BuildRequires:
   - alsa-devel
   - libX11-devel
   
+depends=('ffmpeg' 'qt5-base')
+optdepends=('sox: audio speed adjusting support'
+				'libnotify: display desktop notifications'
+				'mplayer: video cutting preview')  
+  
 To build and run, on Ubuntu and derivated install:
-sudo apt install ffmpeg qt5-default qt5-qmake g++ make
+sudo apt install ffmpeg sox mplayer libnotify qt5-default qt5-qmake g++ make
 
 Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
@@ -21,8 +26,6 @@ Compile:
 qmake options:
 DEFINES+=NO_NEW_VERSION_CHECK
   
-openSUSE:
-Install Schemata: QT 5-Development
   
 Hint:
 To check that all external programs are installed,
