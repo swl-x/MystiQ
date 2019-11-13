@@ -9,22 +9,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="43"/>
+        <location filename="../ui/aboutdialog.ui" line="44"/>
         <source>Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="56"/>
+        <location filename="../ui/aboutdialog.ui" line="58"/>
         <source>Translators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="69"/>
+        <location filename="../ui/aboutdialog.ui" line="72"/>
         <source>License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="81"/>
+        <location filename="../ui/aboutdialog.ui" line="84"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -117,11 +117,17 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="196"/>
+        <location filename="../ui/aboutdialog.ui" line="200"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Modified toolbar style&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Fixed application update notification system&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - New ffmpeg presets for compression with H265 codec added&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.1.1 (2019-10-31)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Cleaning UI&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -133,15 +139,11 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Spanish language&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-size:large; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="184"/>
+        <location filename="../ui/aboutdialog.ui" line="188"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -202,6 +204,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../ui/aboutdialog.cpp" line="122"/>
+        <source>English (USA)</source>
+        <extracomment>English Language (USA)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/aboutdialog.cpp" line="125"/>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
         <translation type="unfinished"></translation>
@@ -254,83 +262,83 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="79"/>
+        <location filename="../ui/addtaskwizard.ui" line="95"/>
         <source>Add files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="102"/>
+        <location filename="../ui/addtaskwizard.ui" line="118"/>
         <source>Remove selected files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="82"/>
+        <location filename="../ui/addtaskwizard.ui" line="98"/>
         <source>Add Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="105"/>
+        <location filename="../ui/addtaskwizard.ui" line="121"/>
         <source>Remove Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="145"/>
+        <location filename="../ui/addtaskwizard.ui" line="162"/>
         <source>Output Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="154"/>
+        <location filename="../ui/addtaskwizard.ui" line="171"/>
         <source>Convert to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="161"/>
+        <location filename="../ui/addtaskwizard.ui" line="178"/>
         <source>Preset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="168"/>
+        <location filename="../ui/addtaskwizard.ui" line="185"/>
         <source>Auto adjust output bitrate to reduce output file size.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="171"/>
+        <location filename="../ui/addtaskwizard.ui" line="188"/>
         <source>Auto Adjust Audio Bitrate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="204"/>
+        <location filename="../ui/addtaskwizard.ui" line="221"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="219"/>
+        <location filename="../ui/addtaskwizard.ui" line="237"/>
         <source>Output Path</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="225"/>
+        <location filename="../ui/addtaskwizard.ui" line="243"/>
         <source>Select &amp;folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="260"/>
+        <location filename="../ui/addtaskwizard.ui" line="278"/>
         <source>Browse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="273"/>
+        <location filename="../ui/addtaskwizard.ui" line="291"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="298"/>
+        <location filename="../ui/addtaskwizard.ui" line="316"/>
         <source>Folder Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="330"/>
+        <location filename="../ui/addtaskwizard.ui" line="348"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
         <translation type="unfinished"></translation>
@@ -401,176 +409,176 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="35"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="36"/>
         <source>Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="43"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="44"/>
         <source>Disable Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="53"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="54"/>
         <source>Copy Audio (Do not re-encode)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="62"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="63"/>
         <source>Audio Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="70"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="71"/>
         <source>Sample Rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="84"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="85"/>
         <source>Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="95"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="316"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="96"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="318"/>
         <source>Bitrate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="105"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="136"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="326"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="106"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="137"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="328"/>
         <source>(auto)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="118"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="336"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="119"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="338"/>
         <source>kb/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="129"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="130"/>
         <source>Channels</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="163"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="164"/>
         <source>Volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="183"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="184"/>
         <source>%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="199"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="201"/>
         <source>Video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="207"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="209"/>
         <source>Insert Subtitle if Available (Experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="214"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="216"/>
         <source>Disable Video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="221"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="223"/>
         <source>Copy Video (Do not re-encode)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="230"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="232"/>
         <source>Video Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="240"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="242"/>
         <source>Width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="250"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="287"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="363"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="376"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="399"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="412"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="252"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="289"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="365"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="378"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="401"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="414"/>
         <source> px</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="277"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="279"/>
         <source>Height</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="386"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="388"/>
         <source>Crop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="424"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="427"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="426"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="429"/>
         <source>Same Quantizer as Source</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="434"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="436"/>
         <source>Deinterlace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="448"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="451"/>
         <source>Time</source>
         <extracomment>time-related options (speed, length)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="454"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="457"/>
         <source>Cutting</source>
         <extracomment>video time cutting: options for begin time and end time</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="478"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="481"/>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="488"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="492"/>
         <source>&amp;Preview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="503"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="508"/>
         <source>Scaling</source>
         <extracomment>time scaling, changing the speed of the output file</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="511"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="516"/>
         <source>Speed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="540"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="546"/>
         <source>Advanced</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="546"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="552"/>
         <source>FFmpeg</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="554"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="560"/>
         <source>Additional FFmpeg Options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -805,8 +813,39 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>HelpMystiQDialog</name>
     <message>
-        <location filename="../ui/helpmystiqdialog.ui" line="17"/>
+        <location filename="../ui/helpmystiqdialog.ui" line="35"/>
         <source>User Manual</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/helpmystiqdialog.ui" line="69"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -824,22 +863,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="60"/>
+        <location filename="../ui/interactivecuttingdialog.ui" line="59"/>
         <source>Seek to Begin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="79"/>
+        <location filename="../ui/interactivecuttingdialog.ui" line="77"/>
         <source>Play Selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="92"/>
+        <location filename="../ui/interactivecuttingdialog.ui" line="89"/>
         <source>Mark as End</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="103"/>
+        <location filename="../ui/interactivecuttingdialog.ui" line="99"/>
         <source>Seek to End</source>
         <translation type="unfinished"></translation>
     </message>
@@ -857,347 +896,379 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="122"/>
+        <location filename="../ui/mainwindow.ui" line="128"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="233"/>
+        <location filename="../ui/mainwindow.ui" line="244"/>
         <source>Start conversion process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="230"/>
+        <location filename="../ui/mainwindow.ui" line="241"/>
         <source>&amp;Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="102"/>
+        <location filename="../ui/mainwindow.ui" line="108"/>
         <source>&amp;File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="111"/>
+        <location filename="../ui/mainwindow.ui" line="117"/>
         <source>&amp;Convert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="134"/>
+        <location filename="../ui/mainwindow.ui" line="142"/>
         <source>&amp;Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="194"/>
+        <location filename="../ui/mainwindow.ui" line="205"/>
         <source>&amp;Add Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="197"/>
+        <location filename="../ui/mainwindow.ui" line="208"/>
         <source>Add files for conversion.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="200"/>
+        <location filename="../ui/mainwindow.ui" line="211"/>
         <source>Ctrl+N</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="218"/>
+        <location filename="../ui/mainwindow.ui" line="229"/>
         <source>E&amp;xit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="221"/>
+        <location filename="../ui/mainwindow.ui" line="232"/>
         <source>Exit the program.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="236"/>
+        <location filename="../ui/mainwindow.ui" line="247"/>
         <source>F9</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="245"/>
+        <location filename="../ui/mainwindow.ui" line="256"/>
         <source>S&amp;top</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="248"/>
+        <location filename="../ui/mainwindow.ui" line="259"/>
         <source>Stop conversion process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="257"/>
+        <location filename="../ui/mainwindow.ui" line="268"/>
         <source>Set &amp;Parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="260"/>
+        <location filename="../ui/mainwindow.ui" line="271"/>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="263"/>
+        <location filename="../ui/mainwindow.ui" line="274"/>
         <source>Edit conversion parameters of selected files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="272"/>
+        <location filename="../ui/mainwindow.ui" line="283"/>
         <source>About &amp;Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="275"/>
+        <location filename="../ui/mainwindow.ui" line="286"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="284"/>
+        <location filename="../ui/mainwindow.ui" line="295"/>
         <source>&amp;Open Output Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="287"/>
+        <location filename="../ui/mainwindow.ui" line="298"/>
         <source>Open output folder of the selected file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="296"/>
+        <location filename="../ui/mainwindow.ui" line="307"/>
         <source>About &amp;FFmpeg</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="299"/>
+        <location filename="../ui/mainwindow.ui" line="310"/>
         <source>About FFmpeg</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="308"/>
+        <location filename="../ui/mainwindow.ui" line="319"/>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="311"/>
+        <location filename="../ui/mainwindow.ui" line="322"/>
         <source>Remove all selected items in the list.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="320"/>
+        <location filename="../ui/mainwindow.ui" line="331"/>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="323"/>
+        <location filename="../ui/mainwindow.ui" line="334"/>
         <source>Remove Completed Items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="326"/>
+        <location filename="../ui/mainwindow.ui" line="337"/>
         <source>Remove all completed items in the list.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="335"/>
+        <location filename="../ui/mainwindow.ui" line="346"/>
         <source>Clear &amp;List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="338"/>
+        <location filename="../ui/mainwindow.ui" line="349"/>
         <source>Clear List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="341"/>
+        <location filename="../ui/mainwindow.ui" line="352"/>
         <source>Remove all items in the list.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="350"/>
+        <location filename="../ui/mainwindow.ui" line="361"/>
         <source>&amp;Retry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="353"/>
+        <location filename="../ui/mainwindow.ui" line="364"/>
         <source>Retry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="356"/>
+        <location filename="../ui/mainwindow.ui" line="367"/>
         <source>Retry selected tasks.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="365"/>
+        <location filename="../ui/mainwindow.ui" line="376"/>
         <source>Retry &amp;All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="368"/>
+        <location filename="../ui/mainwindow.ui" line="379"/>
         <source>Retry all tasks.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="380"/>
+        <location filename="../ui/mainwindow.ui" line="391"/>
         <source>&amp;Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="383"/>
+        <location filename="../ui/mainwindow.ui" line="394"/>
         <source>Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="392"/>
+        <location filename="../ui/mainwindow.ui" line="403"/>
         <source>About MystiQ</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="395"/>
+        <location filename="../ui/mainwindow.ui" line="406"/>
         <source>About This Program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="404"/>
+        <location filename="../ui/mainwindow.ui" line="415"/>
         <source>Change Output &amp;Filename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="407"/>
+        <location filename="../ui/mainwindow.ui" line="418"/>
         <source>Change the output filename of the selected item.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="416"/>
+        <location filename="../ui/mainwindow.ui" line="427"/>
         <source>Change Output &amp;Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="419"/>
+        <location filename="../ui/mainwindow.ui" line="430"/>
         <source>Change the output directory of the selected items.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="428"/>
+        <location filename="../ui/mainwindow.ui" line="439"/>
         <source>Poweroff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="440"/>
+        <location filename="../ui/mainwindow.ui" line="451"/>
         <source>Show Error &amp;Message</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="449"/>
+        <location filename="../ui/mainwindow.ui" line="460"/>
         <source>Check For &amp;Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="458"/>
+        <location filename="../ui/mainwindow.ui" line="469"/>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="467"/>
-        <location filename="../ui/mainwindow.ui" line="470"/>
-        <location filename="../ui/mainwindow.ui" line="473"/>
-        <location filename="../ui/mainwindow.ui" line="476"/>
+        <location filename="../ui/mainwindow.ui" line="478"/>
+        <location filename="../ui/mainwindow.ui" line="481"/>
+        <location filename="../ui/mainwindow.ui" line="484"/>
+        <location filename="../ui/mainwindow.ui" line="487"/>
         <source>User Manual</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="479"/>
+        <location filename="../ui/mainwindow.ui" line="490"/>
         <source>F1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="126"/>
+        <location filename="../ui/mainwindow.ui" line="502"/>
+        <source>&amp;Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="505"/>
+        <location filename="../ui/mainwindow.ui" line="508"/>
+        <source>Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="127"/>
         <source>Conversion finished successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="130"/>
+        <location filename="../ui/mainwindow.cpp" line="131"/>
         <source>Conversion failed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="138"/>
+        <location filename="../ui/mainwindow.cpp" line="139"/>
         <source>All tasks have finished.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="178"/>
+        <location filename="../ui/mainwindow.cpp" line="179"/>
         <source>Nothing to convert.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="267"/>
+        <location filename="../ui/mainwindow.cpp" line="242"/>
+        <source>Reporting bugs from MystiQ </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="245"/>
+        <source>Your comment:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="249"/>
+        <source>Report:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="298"/>
         <source>Conversion is still in progress. Abort?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="310"/>
-        <location filename="../ui/mainwindow.cpp" line="595"/>
+        <location filename="../ui/mainwindow.cpp" line="341"/>
+        <location filename="../ui/mainwindow.cpp" line="628"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="311"/>
+        <location filename="../ui/mainwindow.cpp" line="342"/>
         <source>Shutdown when all tasks are done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="316"/>
-        <location filename="../ui/mainwindow.cpp" line="601"/>
+        <location filename="../ui/mainwindow.cpp" line="347"/>
+        <location filename="../ui/mainwindow.cpp" line="634"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="317"/>
+        <location filename="../ui/mainwindow.cpp" line="348"/>
         <source>Suspend when all tasks are done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="322"/>
-        <location filename="../ui/mainwindow.cpp" line="607"/>
+        <location filename="../ui/mainwindow.cpp" line="353"/>
+        <location filename="../ui/mainwindow.cpp" line="640"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="323"/>
+        <location filename="../ui/mainwindow.cpp" line="354"/>
         <source>Hibernate when all tasks are done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="407"/>
+        <location filename="../ui/mainwindow.cpp" line="438"/>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="735"/>
+        <location filename="../ui/mainwindow.cpp" line="768"/>
         <source>Failed to load preset file. The application will quit now.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="824"/>
+        <location filename="../ui/mainwindow.cpp" line="857"/>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="840"/>
+        <location filename="../ui/mainwindow.cpp" line="873"/>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="843"/>
-        <source>MystiQ</source>
+        <location filename="../ui/mainwindow.cpp" line="876"/>
+        <source>MystiQ </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="242"/>
+        <location filename="../ui/mainwindow.cpp" line="876"/>
+        <source>%1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1412,7 +1483,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.ui" line="73"/>
+        <location filename="../ui/updatedialog.ui" line="76"/>
         <source>Check for updates on program startup</source>
         <translation type="unfinished"></translation>
     </message>
