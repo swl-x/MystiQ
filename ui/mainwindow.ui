@@ -62,10 +62,10 @@
      <number>1</number>
     </property>
     <property name="bottomMargin">
-     <number>1</number>
+     <number>0</number>
     </property>
     <property name="spacing">
-     <number>1</number>
+     <number>0</number>
     </property>
     <item row="0" column="0" colspan="2">
      <layout class="QVBoxLayout" name="layoutListPlaceholder">
@@ -129,10 +129,12 @@
     </property>
     <addaction name="actionHelpMystiQDialog"/>
     <addaction name="separator"/>
+    <addaction name="actionReport"/>
+    <addaction name="actionCheckUpdate"/>
+    <addaction name="separator"/>
     <addaction name="actionAboutQt"/>
     <addaction name="actionAboutFFmpeg"/>
     <addaction name="actionAbout"/>
-    <addaction name="actionCheckUpdate"/>
     <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
@@ -163,6 +165,9 @@
    <property name="windowTitle">
     <string notr="true">MystiQ</string>
    </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
    <property name="inputMethodHints">
     <set>Qt::ImhNone</set>
    </property>
@@ -174,8 +179,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>22</width>
-     <height>22</height>
+     <width>25</width>
+     <height>25</height>
     </size>
    </property>
    <property name="toolButtonStyle">
@@ -239,7 +244,7 @@
     <string>Start conversion process.</string>
    </property>
    <property name="shortcut">
-    <string>F9</string>
+    <string>F5</string>
    </property>
   </action>
   <action name="actionStopConversion">
@@ -466,7 +471,7 @@
   </action>
   <action name="actionHelpMystiQDialog">
    <property name="icon">
-    <iconset theme="help">
+    <iconset theme="system-help">
      <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
@@ -486,6 +491,24 @@
    </property>
    <property name="iconVisibleInMenu">
     <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionReport">
+   <property name="icon">
+    <iconset resource="../images.qrc">
+     <normaloff>:/actions/icons/error.png</normaloff>:/actions/icons/error.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Report Error</string>
+   </property>
+   <property name="toolTip">
+    <string>Report Error</string>
+   </property>
+   <property name="statusTip">
+    <string>Report Error</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
    </property>
   </action>
  </widget>

@@ -225,6 +225,42 @@ void MainWindow::slotHelpMystiQDialog()
 {
     HelpMystiQDialog(this).exec();
 }
+
+void MainWindow::slotReport()
+{
+#ifdef Q_OS_WIN
+    QString eol = "\r\n";
+#endif
+#ifdef Q_OS_LINUX
+    QString eol = "\n";
+#endif
+    QStringList stringList;
+    stringList << "mailto:";
+    stringList << "llamaret@webmisolutions.com";
+    stringList << "?";
+    stringList << "subject=";
+    stringList << QString( tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING) );
+    stringList << "&";
+    stringList << "body=";
+    stringList << tr("Your comment:");
+    stringList << eol;
+    stringList << eol;
+    stringList << eol;
+    stringList << eol;
+    stringList << "--------------------------------";
+    stringList << eol;
+    stringList << tr("Report:");
+    stringList << eol;
+    stringList << eol;
+    stringList << eol;
+    stringList << eol;
+    stringList << "--------------------------------";
+
+    QString string = stringList.join( "" );
+    bool b = QDesktopServices::openUrl( QUrl( string, QUrl::TolerantMode ) );
+    Q_UNUSED(b);
+}
+
 void MainWindow::slotShowUpdateDialog()
 {
     if (ask_for_update_permission()) {
@@ -517,6 +553,8 @@ void MainWindow::setup_menus()
             this, SLOT(slotAboutFFmpeg()));
     connect(ui->actionAbout, SIGNAL(triggered()),
             this, SLOT(slotAbout()));
+    connect(ui->actionReport, SIGNAL(triggered()),
+            this, SLOT(slotReport()));
     connect(ui->actionCheckUpdate, SIGNAL(triggered()),
             this, SLOT(slotShowUpdateDialog()));
 }
@@ -856,6 +894,11 @@ void MainWindow::on_actionHelpMystiQDialog_triggered()
 }
 
 void MainWindow::on_actionAbout_triggered()
+{
+
+}
+
+void MainWindow::on_actionReport_triggered()
 {
 
 }

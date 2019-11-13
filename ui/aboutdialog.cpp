@@ -118,6 +118,9 @@ AboutDialog::~AboutDialog()
 QString AboutDialog::getTranslators()
 {
     struct {QString locale; QString translator;} table[] = {
+        //: English Language (USA)
+        {"en_US", trad(tr("English (USA)")
+                    , "Maikel Llamaret <llamaret@webmisolutions.com>")},
         //: Spanish Language (Spain)
         {"es_ES", trad(tr("Spanish (Spain)")
                     , "Maikel Llamaret <llamaret@webmisolutions.com>")},

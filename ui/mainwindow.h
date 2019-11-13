@@ -66,6 +66,7 @@ private slots:
     void slotAboutFFmpeg();
     void slotAbout();
     void slotHelpMystiQDialog();
+    void slotReport();
     void slotShowUpdateDialog();
     void slotCut();
 
@@ -84,6 +85,8 @@ private slots:
     void on_actionHelpMystiQDialog_triggered();
 
     void on_actionAbout_triggered();
+
+    void on_actionReport_triggered();
 
 protected:
     void closeEvent(QCloseEvent *);
