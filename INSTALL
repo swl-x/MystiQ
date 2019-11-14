@@ -15,7 +15,7 @@ optdepends=('sox: audio speed adjusting support'
 				'mplayer: video cutting preview')  
   
 To build and run, on Ubuntu and derivated install:
-sudo apt install ffmpeg sox mplayer libnotify qt5-default qt5-qmake g++ make
+sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
 
 Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
