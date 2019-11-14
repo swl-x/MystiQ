@@ -31,7 +31,6 @@ jobs:
           prerelease: false
     - name: Upload a Release Asset
       uses: actions/upload-release-asset@v1.0.1
-      steps:
     - name: Checkout code
       uses: actions/checkout@master
     - name: Build project # This would actually build your project, using zip for an example artifact
