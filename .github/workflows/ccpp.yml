@@ -26,3 +26,5 @@ jobs:
       uses: yakuhzi/action-release@v1
       with:
        file: ./mystiq
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
