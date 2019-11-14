@@ -20,6 +20,8 @@ jobs:
       run: qmake mystiq.pro
     - name: make
       run: make
+    - name: strip
+      run: strip mystiq  
     - name: Create a Release
       uses: actions/create-release@v1
       env:
