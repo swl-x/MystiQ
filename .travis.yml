@@ -24,7 +24,6 @@ install:
 
 # build & test scripts
 script:
-  - make clean
   - qmake mystiq.pro
   - make
 
