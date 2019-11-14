@@ -1,6 +1,10 @@
 name: QT5/C++ CI
 
-on: [push]
+on: 
+     push:
+    # Sequence of patterns matched against refs/tags
+       tags:
+        - 'v0.2.1'
 
 jobs:
   build:
