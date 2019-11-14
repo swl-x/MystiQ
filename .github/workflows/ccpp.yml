@@ -16,9 +16,11 @@ jobs:
     - name: Install Qt5Gui
       run: sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make  
     - name: qmake
-      run: make clean && qmake mystiq.pro
+      run: qmake mystiq.pro
     - name: make
       run: make
     - name: strip
-      run: strip mystiq  
+      run: strip mystiq 
+    - name: Make Clean
+      run: make clean 
 
