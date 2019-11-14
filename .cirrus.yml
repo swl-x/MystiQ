@@ -1,4 +1,0 @@
-container:
-  image: gcc:latest
-task:
-  tests_script: make tests
