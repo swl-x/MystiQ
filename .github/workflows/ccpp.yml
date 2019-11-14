@@ -22,22 +22,6 @@ jobs:
       run: make
     - name: strip
       run: strip mystiq  
-    - name: Create a Release
-      uses: actions/create-release@v1
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
-    - name: Upload a Release Asset
-      uses: actions/upload-release-asset@v1.0.1
-    - name: Checkout code
-      uses: actions/checkout@master
-    - name: Build project # This would actually build your project, using zip for an example artifact
-      run: |
-          zip --junk-paths my-artifact README.md
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1.0.0
