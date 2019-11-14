@@ -24,6 +24,7 @@ jobs:
     - name: Upload release
       uses: yakuhzi/action-release@v1
       with:
+       tags: v0.2.1
        file: ./mystiq
        tag_name: ${{ github.ref }}
        release_name: Release ${{ github.ref }}
