@@ -5,12 +5,6 @@ compiler: gcc
 # main build matrix
 matrix:
   include:
-    - name: "Xenial Ubuntu Linux"
-      os: linux
-      dist: xenial
-      sudo: required
-      env: TARGETOS=xenial-linux
-
     - name: "Bionic Ubuntu Linux"
       os: linux
       dist: bionic

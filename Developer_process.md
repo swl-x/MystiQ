@@ -38,7 +38,6 @@ Travis is configured to use your email for notifications of success/fail on the 
 
 Automatic deploys to github are in the plan for tomorrow (aka ASAP) and will cover at least builds for the following distros:
 
-- Ubuntu Xenial (works on Debian 8)
 - Ubuntu Bionic (works on Debian 9/10)
 - Windows
 
