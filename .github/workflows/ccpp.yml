@@ -21,6 +21,8 @@ jobs:
       run: make
     - name: strip
       run: strip mystiq 
+    - name: cat Makefile
+      run: cat ./Makefile
     - name: Make Clean
       run: make clean 
 
