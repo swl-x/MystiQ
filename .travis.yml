@@ -1,0 +1,36 @@
+# main build matrix
+matrix:
+  include:
+    - name: "Xenial Ubuntu Linux"
+      os: linux
+      dist: xenial
+      sudo: required
+      env: TARGETOS=ubuntu-linux
+
+    - name: "Debian Stretch Linux"
+      os: linux
+      dist: stretch
+      sudo: required
+      env: TARGETOS=stretch-linux
+
+    - name: "Debian Buster Linux"
+      os: linux
+      dist: buster
+      sudo: required
+      env: TARGETOS=buster-linux
+
+# install dependencies (for now ubuntu only)
+install:
+  - sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
+
+# build & test scripts
+script:
+  - qmake mystiq.pro
+  - make
+
+# notifications (only via telegram)
+notifications:
+  email: true
+  #webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+
+# no deploy section for now.
