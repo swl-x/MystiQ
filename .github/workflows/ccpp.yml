@@ -1,0 +1,19 @@
+name: QT5/C++ CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Setup C++ environment
+      uses: kurocha/setup-cpp@v1
+    - name: Install Qt Dev Action
+      uses: Mercotui/install-qt-dev-action@v0.1.1
+    - uses: actions/checkout@v1
+    - name: qmake
+      run: qmake mystiq.pro
+    - name: make
+      run: make
