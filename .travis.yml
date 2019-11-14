@@ -18,7 +18,9 @@ install:
 
 # build & test scripts
 script:
+  - make clean
   - qmake mystiq.pro
+  - cat Makefile
   - make
 
 # notifications (only via telegram)
