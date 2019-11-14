@@ -26,7 +26,7 @@ jobs:
       id: create_release
       uses: actions/create-release@v1.0.0
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: cee658a1e643922f7ca8aa8843b138098cfb75ae
       with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
