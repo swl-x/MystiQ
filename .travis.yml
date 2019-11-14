@@ -17,6 +17,8 @@ install:
   - sudo apt update
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev
   - sudo apt install qt-latest
+  - echo "/opt/qt512/bin"  > /etc/xdg/qtchooser/default.conf
+  - echo "/opt/qt512/lib" >> /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
 
