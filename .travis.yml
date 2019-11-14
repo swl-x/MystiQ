@@ -11,16 +11,23 @@ matrix:
       sudo: required
       env: TARGETOS=bionic-linux
 
+# before install, install QT5.10+
+before_install:
+  - wget http://download.qt.io/official_releases/qt/5.13/5.13.2/qt-opensource-linux-x64-5.13.2.run
+  - chmod +x qt-opensource-linux-x64-5.13.2.run
+  - sudo ./qt-opensource-linux-x64-5.13.2.run
+  - cat /usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf
+  - qtchooser -print-env
+  - qmake -v
+
 # install dependencies (for now ubuntu only)
 install:
-  - sudo apt update
-  - sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
+  - sudo apt install ffmpeg sox mplayer libnotify-dev g++ make
 
 # build & test scripts
 script:
   - make clean
   - qmake mystiq.pro
-  - cat Makefile
   - make
 
 # notifications (only via telegram)
