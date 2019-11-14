@@ -5,19 +5,13 @@ matrix:
       os: linux
       dist: xenial
       sudo: required
-      env: TARGETOS=ubuntu-linux
+      env: TARGETOS=xenial-linux
 
-    - name: "Debian Stretch Linux"
+    - name: "Bionic Ubuntu Linux"
       os: linux
-      dist: stretch
+      dist: bionic
       sudo: required
-      env: TARGETOS=stretch-linux
-
-    - name: "Debian Buster Linux"
-      os: linux
-      dist: buster
-      sudo: required
-      env: TARGETOS=buster-linux
+      env: TARGETOS=bionic-linux
 
 # install dependencies (for now ubuntu only)
 install:
