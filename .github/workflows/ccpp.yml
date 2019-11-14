@@ -20,15 +20,4 @@ jobs:
     - name: make
       run: make
     - name: strip
-      run: strip mystiq  
-    - name: Upload release
-      uses: yakuhzi/action-release@v1
-      with:
-       tags: v0.2.1
-       file: ./mystiq
-       tag_name: v0.2.1
-       release_name: MystiQ 0.2.1
-       draft: false
-       prerelease: false
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: strip mystiq 
