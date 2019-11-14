@@ -22,4 +22,7 @@ jobs:
       run: make
     - name: Create a Release
       uses: actions/create-release@v1
+    - name: Upload a Release Asset
+      uses: actions/upload-release-asset@v1.0.1
+
 
