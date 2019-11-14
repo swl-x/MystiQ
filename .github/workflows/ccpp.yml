@@ -22,4 +22,7 @@ jobs:
       run: make
     - name: strip
       run: strip mystiq  
-    
+    - name: Upload release
+      uses: yakuhzi/action-release@v1
+      with:
+       file: ./mystiq
