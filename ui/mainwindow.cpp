@@ -226,6 +226,22 @@ void MainWindow::slotHelpMystiQDialog()
     HelpMystiQDialog(this).exec();
 }
 
+void MainWindow::slotDonate()
+{
+    QMessageBox d(this);
+        d.setWindowTitle(tr("Support MystiQ"));
+        QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
+        d.addButton(tr("Close"), QMessageBox::NoRole);
+        d.setDefaultButton(ok_button);
+        d.setText("<h1>" + tr("MystiQ needs you") + "</h1><p>" +
+            tr("MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. <b>Even the smallest amount will help a lot.</b>")
+        );
+        d.exec();
+        if (d.clickedButton() == ok_button) {
+            QDesktopServices::openUrl(QUrl("http://paypal.me/webmisolutions"));
+        }
+}
+
 void MainWindow::slotReport()
 {
 #ifdef Q_OS_WIN
@@ -555,6 +571,8 @@ void MainWindow::setup_menus()
             this, SLOT(slotAbout()));
     connect(ui->actionReport, SIGNAL(triggered()),
             this, SLOT(slotReport()));
+    connect(ui->actionDonate, SIGNAL(triggered()),
+            this, SLOT(slotDonate()));
     connect(ui->actionCheckUpdate, SIGNAL(triggered()),
             this, SLOT(slotShowUpdateDialog()));
 }
@@ -588,6 +606,9 @@ void MainWindow::setup_toolbar(const QStringList &entries)
     ADD_ACTION(AboutFFmpeg);
     ADD_ACTION(About);
     ADD_ACTION(CheckUpdate);
+    ADD_ACTION(Report);
+    ADD_ACTION(Donate);
+    ADD_ACTION(HelpMystiQDialog);
 
     for (int i=0; i<entries.size(); i++) {
         QString entry = entries[i].toUpper(); // case-insensitive compare
@@ -899,6 +920,11 @@ void MainWindow::on_actionAbout_triggered()
 }
 
 void MainWindow::on_actionReport_triggered()
+{
+
+}
+
+void MainWindow::on_actionDonate_triggered()
 {
 
 }

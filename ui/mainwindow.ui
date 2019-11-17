@@ -132,10 +132,11 @@
     <addaction name="actionReport"/>
     <addaction name="actionCheckUpdate"/>
     <addaction name="separator"/>
-    <addaction name="actionAboutQt"/>
-    <addaction name="actionAboutFFmpeg"/>
     <addaction name="actionAbout"/>
+    <addaction name="actionAboutFFmpeg"/>
+    <addaction name="actionAboutQt"/>
     <addaction name="separator"/>
+    <addaction name="actionDonate"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -509,6 +510,15 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionDonate">
+   <property name="icon">
+    <iconset theme="help-donate">
+     <normaloff>.</normaloff>.</iconset>
+   </property>
+   <property name="text">
+    <string>Donate</string>
    </property>
   </action>
  </widget>
