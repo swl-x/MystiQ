@@ -152,6 +152,13 @@ unix {
     QT += dbus
     SOURCES -= services/powermanagement-dummy.cpp
     SOURCES += services/powermanagement-linux.cpp
+    # Install
+    target.path = /usr/local/bin
+    desktop.path = /usr/local/share/applications
+    desktop.files += mystiq.desktop
+    desktop.extra += cd icons && cp mystiq_96x96.png /usr/share/icons/mystiq.png
+    INSTALLS += target desktop
+
 }
 
 win32 {
