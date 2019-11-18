@@ -1,6 +1,8 @@
 MystiQ, FFmpeg GUI front-end based on Qt5
 =========================================
 
+[![Build Status](https://travis-ci.org/llamaret/MystiQ.svg?branch=develop)](https://travis-ci.org/llamaret/MystiQ)
+
 Introduction
 ------------
 
