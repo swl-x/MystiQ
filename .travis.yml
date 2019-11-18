@@ -43,7 +43,7 @@ after_script:
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir
   # create the AppImage file
   - ./appimagetool-x86_64.AppImage AppDir
-  # list the contents 
+  # list the contents
   - ls -lh
 
 # notifications (only via telegram)

@@ -158,8 +158,7 @@ unix {
     desktop.files += mystiq.desktop
     desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/mystiq.png
     desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons && \
-                     cd icons && \
-                     cp mystiq_96x96.png ${INSTALL_ROOT}/usr/share/icons/mystiq.png
+                     cp icons/mystiq_96x96.png ${INSTALL_ROOT}/usr/share/icons/mystiq.png
     INSTALLS += target desktop
 
 }
