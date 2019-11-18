@@ -7,13 +7,13 @@ matrix:
   include:
     - name: "Ubuntu Linux"
       os: linux
-      dist: trusty
+      dist: xenial
       sudo: required
       env: TARGETOS=linux
 
 # install, install QT5.12.3 from ppa
 install:
-  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.10.1-trusty
+  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-xenial
   - sudo apt update
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev
   - sudo apt install qt-latest
