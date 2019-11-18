@@ -1,10 +1,10 @@
 #!/bin/bash 
 
 # ffmpeg bins
-cp -v /usr/bin/ffmpeg AppDir/usr/local/bin
+cp -v /usr/bin/ffmpeg AppDir/usr/bin
 
 # sox
-cp -v /usr/bin/sox AppDir/usr/local/bin
+cp -v /usr/bin/sox AppDir/usr/bin
 mkdir -pv AppDir/usr/lib/mime/packages
 cp -v /usr/lib/mime/packages/sox AppDir/usr/lib/mime/packages/sox
 
