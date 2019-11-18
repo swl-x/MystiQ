@@ -15,10 +15,11 @@ matrix:
 install:
   - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-xenial
   - sudo apt update
-  - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev
+  - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev tree
   - sudo apt install qt-latest
   - echo "/opt/qt510/bin" | sudo tee /etc/xdg/qtchooser/default.conf
   - echo "/opt/qt510/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
+  - tree /opt/
   - qtchooser -print-env
   - qmake -v
 
