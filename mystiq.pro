@@ -153,9 +153,10 @@ unix {
     SOURCES -= services/powermanagement-dummy.cpp
     SOURCES += services/powermanagement-linux.cpp
     # Install
-    target.path = /usr/local/bin
-    desktop.path = /usr/local/share/applications
+    target.path = /usr/local/bin/
+    desktop.path = /usr/local/share/applications/
     desktop.files += mystiq.desktop
+    desktop.uninstall += rm /usr/share/icons/mystiq.png
     desktop.extra += cd icons && cp mystiq_96x96.png /usr/share/icons/mystiq.png
     INSTALLS += target desktop
 

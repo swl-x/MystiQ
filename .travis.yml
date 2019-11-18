@@ -27,7 +27,6 @@ script:
   - qmake mystiq.pro
   - make
   - sudo make install
-  
 
 # notifications (only via telegram)
 notifications:
