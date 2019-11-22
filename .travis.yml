@@ -52,9 +52,8 @@ before_deploy:
 # deploy to Github
 deploy:
   # deploy on linux
-  - provider: releases
-    user: llamaret
-    password: *Biotecnologia1819%
+    provider: releases
+    api_key: $OAUTHTOKEN
     file_glob: true
     draft: true
     overwrite: true
