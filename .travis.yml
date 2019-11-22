@@ -53,7 +53,8 @@ before_deploy:
 deploy:
   # deploy on linux
   - provider: releases
-    api_key: $OAUTHTOKEN
+    user: llamaret
+    password: *Biotecnologia1819%
     file_glob: true
     draft: true
     overwrite: true
