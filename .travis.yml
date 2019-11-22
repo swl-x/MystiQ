@@ -53,12 +53,14 @@ before_deploy:
 deploy:
   # deploy on linux
   - provider: releases
-    api_key: $OAUTH
+    api_key:
+      secure: m0Lu9rtvCJVvOSmgOIWoQlHlduXV1hKjfgDxdDshbggXJDHuuSdFBO2cwHQ6605MlEEAcC9bnqAl8DqW0/VB/y7zCLWr6MaN0urueMPSc0vz/7LlLWNvHXUMJ6TcX1rBiCGkC1+EG2t3qzA7la/0n3pBfWiLAC+kCW7ViKpHPGWdOaS7qq1jLTa8VjHLDtS2g1k1RiDEfmiv80cAHzjXm3BBA56qB9qRUiRE9iBQB6UDL24+QT8le3hRnwKXGmTqrYIWNHRXUvhY7sGzuhVIhs3VwIr4rBVaWtAp9L9PlPO/3QEa8nByZ9Gm1P5fH8dUZwhkRIe/yeJzTpmta2uGPlmyTn0ZeNNmhQsMQ0iVKkok4jbqDwS/QMuIrWyGLFJysQETkKH3RXduaBj3jNXLbPdyGskbMMx22voCpZ9WOQejp+HP+q5y5ORgbTzw0t5YiiIzi2S85/iWFmQ+2hoyH7863S6zb2keym7hiTnJ0sJbgByKKsBnONWKiTjbHc9kUIc1IOm4SxadkpZv+PplcFqoSJl9HFUbRFSIwEcqUQlXgJfDJZfwr36Uk+ylJTqE3t6IhEUI3r1fBzWhaIMJB/04e8NDjk/eY0Nyj47WMv5tyLrcgMuOl7DVQX17Ug3zZOR+KM/EDehNE10H+y0mX0M9QJix3E+ftbdEpLCLEj0=
     file_glob: true
     draft: true
     overwrite: true
     skip_cleanup: true
     on:
+      repo: llamaret/MystiQ
       tags: true
     file:
       - "Mystiq*AppImage"
