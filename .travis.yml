@@ -63,5 +63,5 @@ deploy:
     skip_cleanup: true
     on:
       tags: true
-    file: "Mystiq*AppImage"
-
+    file:
+      - "Mystiq*AppImage"
