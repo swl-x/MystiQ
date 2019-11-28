@@ -515,11 +515,17 @@ General de GNU para Bibliotecas en lugar de esta Licencia.&lt;/div&gt;
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="200"/>
+        <location filename="../ui/aboutdialog.ui" line="206"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.3 (2019-11-20)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Donate Option&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Continuous Integration with TravisCI &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added &amp;quot;make install&amp;quot; way to install after build&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - New option to users, now it&apos;s possible report bugs into app&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Modified toolbar style&lt;/span&gt;&lt;/p&gt;
@@ -538,7 +544,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1566,7 +1572,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/conversionparameterdialog.ui" line="426"/>
         <location filename="../ui/conversionparameterdialog.ui" line="429"/>
         <source>Same Quantizer as Source</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/conversionparameterdialog.ui" line="436"/>
@@ -1707,12 +1713,12 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/convertlist.cpp" line="875"/>
         <source>Sample Rate</source>
         <extracomment>Audio</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/convertlist.cpp" line="876"/>
         <source>Audio Bitrate</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/convertlist.cpp" line="877"/>
@@ -1733,13 +1739,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../ui/convertlist.cpp" line="882"/>
         <source>Video Bitrate</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/convertlist.cpp" line="883"/>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/convertlist.cpp" line="884"/>
@@ -1888,7 +1894,7 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1907,7 +1913,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../ui/interactivecuttingdialog.ui" line="59"/>
         <source>Seek to Begin</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/interactivecuttingdialog.ui" line="77"/>
@@ -1922,7 +1928,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../ui/interactivecuttingdialog.ui" line="99"/>
         <source>Seek to End</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/interactivecuttingdialog.cpp" line="112"/>
@@ -1948,9 +1954,8 @@ p, li { white-space: pre-wrap; }
         <translation>Iniciar Proceso de Conversión.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="242"/>
         <source>&amp;Start</source>
-        <translation>&amp;Iniciar</translation>
+        <translation type="vanished">&amp;Iniciar</translation>
     </message>
     <message>
         <source>Exit MystiQ</source>
@@ -1968,6 +1973,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="117"/>
+        <location filename="../ui/mainwindow.ui" line="242"/>
         <source>&amp;Convert</source>
         <translation>&amp;Convertir</translation>
     </message>
@@ -2301,70 +2307,73 @@ p, li { white-space: pre-wrap; }
         <translation>Conversión aún en progreso. ¿Abortar?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="363"/>
-        <location filename="../ui/mainwindow.cpp" line="655"/>
+        <location filename="../ui/mainwindow.cpp" line="361"/>
+        <location filename="../ui/mainwindow.cpp" line="645"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
         <translation>Apagar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="364"/>
+        <location filename="../ui/mainwindow.cpp" line="362"/>
         <source>Shutdown when all tasks are done.</source>
         <translation>Apagar cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="369"/>
-        <location filename="../ui/mainwindow.cpp" line="661"/>
+        <location filename="../ui/mainwindow.cpp" line="366"/>
+        <location filename="../ui/mainwindow.cpp" line="650"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
         <translation>Suspender</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="370"/>
+        <location filename="../ui/mainwindow.cpp" line="367"/>
         <source>Suspend when all tasks are done.</source>
         <translation>Suspender cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="375"/>
-        <location filename="../ui/mainwindow.cpp" line="667"/>
+        <location filename="../ui/mainwindow.cpp" line="371"/>
+        <location filename="../ui/mainwindow.cpp" line="655"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
         <translation>Hibernar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="376"/>
+        <location filename="../ui/mainwindow.cpp" line="372"/>
         <source>Hibernate when all tasks are done.</source>
         <translation>Hibernar cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="460"/>
+        <location filename="../ui/mainwindow.cpp" line="451"/>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
         <translation>Este programa va a comprobar si hay actualizaciones en línea. ¿Quieres permitir que este programa se conecte a Internet para buscar actualizaciones?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="795"/>
+        <location filename="../ui/mainwindow.cpp" line="778"/>
         <source>Failed to load preset file. The application will quit now.</source>
         <translation>Falló al cargar la preconfiguración. La aplicación se cerrará ahora.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="884"/>
+        <location filename="../ui/mainwindow.cpp" line="867"/>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
         <translation>Tiempo estimado: %1 h %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="900"/>
+        <location filename="../ui/mainwindow.cpp" line="883"/>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
         <translation>MystiQ está Convirtiendo %1/%2</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="903"/>
+        <location filename="../ui/mainwindow.cpp" line="886"/>
+        <source>MystiQ Video Converter</source>
+        <translation>MystiQ Video Converter</translation>
+    </message>
+    <message>
         <source>MystiQ </source>
-        <translation>MystiQ </translation>
+        <translation type="vanished">MystiQ </translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="258"/>
-        <location filename="../ui/mainwindow.cpp" line="903"/>
         <source>%1</source>
         <translation>%1</translation>
     </message>
@@ -2589,7 +2598,7 @@ p, li { white-space: pre-wrap; }
         <translation>Mostrar &amp;Notas de Liberación</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.ui" line="76"/>
+        <location filename="../ui/updatedialog.ui" line="77"/>
         <source>Check for updates on program startup</source>
         <translation>Chequear actualizaciones al iniciar la aplicación</translation>
     </message>

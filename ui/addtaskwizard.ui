@@ -59,8 +59,71 @@
       </property>
      </widget>
     </item>
+    <item row="1" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btnAdd">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string>Add files.</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/add.svg</normaloff>:/actions/icons/add.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnRemove">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string>Remove selected files.</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/remove.svg</normaloff>:/actions/icons/remove.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
     <item row="1" column="0">
      <layout class="QVBoxLayout" name="verticalLayout_6">
+      <property name="spacing">
+       <number>2</number>
+      </property>
       <item>
        <widget class="QListWidget" name="lstFiles">
         <property name="alternatingRowColors">
@@ -70,76 +133,6 @@
          <enum>QAbstractItemView::ExtendedSelection</enum>
         </property>
        </widget>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <item>
-         <spacer name="horizontalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="btnAdd">
-          <property name="focusPolicy">
-           <enum>Qt::NoFocus</enum>
-          </property>
-          <property name="toolTip">
-           <string>Add files.</string>
-          </property>
-          <property name="text">
-           <string>Add Files</string>
-          </property>
-          <property name="icon">
-           <iconset theme="archive-insert">
-            <normaloff>.</normaloff>.</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>16</width>
-            <height>16</height>
-           </size>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="btnRemove">
-          <property name="focusPolicy">
-           <enum>Qt::NoFocus</enum>
-          </property>
-          <property name="toolTip">
-           <string>Remove selected files.</string>
-          </property>
-          <property name="text">
-           <string>Remove Files</string>
-          </property>
-          <property name="icon">
-           <iconset theme="delete">
-            <normaloff>.</normaloff>.</iconset>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_5">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
       </item>
      </layout>
     </item>
@@ -221,8 +214,8 @@
             <string>Edit</string>
            </property>
            <property name="icon">
-            <iconset theme="settings-configure">
-             <normaloff>.</normaloff>.</iconset>
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/settings.svg</normaloff>:/actions/icons/settings.svg</iconset>
            </property>
           </widget>
          </item>
@@ -278,8 +271,8 @@
             <string>Browse</string>
            </property>
            <property name="icon">
-            <iconset theme="search">
-             <normaloff>.</normaloff>.</iconset>
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/search.svg</normaloff>:/actions/icons/search.svg</iconset>
            </property>
           </widget>
          </item>
