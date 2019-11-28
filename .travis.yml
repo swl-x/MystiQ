@@ -52,7 +52,7 @@ before_deploy:
 # deploy to Github
 deploy:
   # deploy on linux
-    provider: releases
+  - provider: releases
     api_key: $OAUTHTOKEN
     file_glob: true
     draft: true
@@ -62,3 +62,4 @@ deploy:
       repo: llamaret/MystiQ
       tags: true
     file: "Mystiq*AppImage"
+
