@@ -67,11 +67,11 @@
   <!-- progressbar of the conversion list -->
   <ProgressBar>
     <Colors>
-      <Margin type="color">#83b0ef</Margin>
-      <Center type="color">#2c72c7</Center>
-      <Border type="color">#2a2f3b11</Border>
+      <Margin type="color">#556180</Margin>
+      <Center type="color">#55618f</Center>
+      <Border type="color">#fefefe</Border>
       <Text type="color">#000000</Text>
-      <Background type="color">##4b536801</Background>
+      <Background type="color">#fafafa</Background>
     </Colors>
   </ProgressBar>
 
@@ -87,10 +87,10 @@
         <InnerBorder type="color">#FAFAFA</InnerBorder>
       </Container>
       <Range>
-        <BackgroundGradient1 type="color">#8ebbff</BackgroundGradient1>
-        <BackgroundGradient2 type="color">#019aed</BackgroundGradient2>
-        <OuterBorder type="color">#3983ed</OuterBorder>
-        <InnerBorder type="color">#3c8dfd</InnerBorder>
+        <BackgroundGradient1 type="color">#55618f</BackgroundGradient1>
+        <BackgroundGradient2 type="color">#556180</BackgroundGradient2>
+        <OuterBorder type="color">#556180</OuterBorder>
+        <InnerBorder type="color">#55618f</InnerBorder>
       </Range>
     </Colors>
   </RangeSelector>
