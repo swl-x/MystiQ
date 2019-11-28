@@ -64,5 +64,4 @@ deploy:
     on:
       tags: true
     file:
-- "MystiQ_*.AppImage"
-
+      - "MystiQ_*.AppImage"
