@@ -215,10 +215,10 @@ void MediaPlayerWidget::refreshTimeDisplay()
 
 void MediaPlayerWidget::refreshButtonState()
 {
-    QString button_icon = ":/actions/icons/media-playback-start";
+    QString button_icon = ":/actions/icons/play.svg";
     switch (mplayer->state()) {
     case MyQMPwidget::PlayingState:
-        button_icon = ":/actions/icons/media-playback-pause"; break;
+        button_icon = ":/actions/icons/pause.svg"; break;
     default:
         break;
     }

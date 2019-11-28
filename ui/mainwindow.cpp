@@ -226,6 +226,22 @@ void MainWindow::slotHelpMystiQDialog()
     HelpMystiQDialog(this).exec();
 }
 
+void MainWindow::slotDonate()
+{
+    QMessageBox d(this);
+        d.setWindowTitle(tr("Support MystiQ"));
+        QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
+        d.addButton(tr("Close"), QMessageBox::NoRole);
+        d.setDefaultButton(ok_button);
+        d.setText("<h1>" + tr("MystiQ needs you") + "</h1><p>" +
+            tr("MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. <b>Even the smallest amount will help a lot.</b>")
+        );
+        d.exec();
+        if (d.clickedButton() == ok_button) {
+            QDesktopServices::openUrl(QUrl("http://paypal.me/webmisolutions"));
+        }
+}
+
 void MainWindow::slotReport()
 {
 #ifdef Q_OS_WIN
@@ -337,25 +353,21 @@ void MainWindow::conversion_stopped()
 void MainWindow::update_poweroff_button(int id)
 {
     const char *icon_id = "";
-    const char *icon_theme = "";
     QString title = "Shutdown Options";
     QString status_tip = "Shutdown Options";
     switch (id) {
     case PowerManagement::SHUTDOWN:
-        icon_id = ":/actions/icons/system_shutdown.png";
-        icon_theme = "system-shutdown";
+        icon_id = ":/actions/icons/system_shutdown.svg";
         title = tr("Shutdown");
         status_tip = tr("Shutdown when all tasks are done.");
         break;
     case PowerManagement::SUSPEND:
-        icon_id = ":/actions/icons/system_suspend.png";
-        icon_theme = "system-suspend";
+        icon_id = ":/actions/icons/system_suspend.svg";
         title = tr("Suspend");
         status_tip = tr("Suspend when all tasks are done.");
         break;
     case PowerManagement::HIBERNATE:
-        icon_id = ":/actions/icons/system_hibernate.png";
-        icon_theme = "system-suspend-hibernate";
+        icon_id = ":/actions/icons/system_hibernate.svg";
         title = tr("Hibernate");
         status_tip = tr("Hibernate when all tasks are done.");
         break;
@@ -368,14 +380,9 @@ void MainWindow::update_poweroff_button(int id)
     ui->actionPoweroff->setIcon(QIcon(icon_id));
     ui->actionPoweroff->setText(title);
     ui->actionPoweroff->setStatusTip(status_tip);
-
-#ifdef Q_OS_LINUX
-    m_poweroff_button->setIcon(QIcon::fromTheme(icon_theme));
-    ui->actionPoweroff->setIcon(QIcon::fromTheme(icon_theme));
-#else
     m_poweroff_button->setIcon(QIcon(icon_id));
     ui->actionPoweroff->setIcon(QIcon(icon_id));
-#endif
+
 
 }
 
@@ -555,6 +562,8 @@ void MainWindow::setup_menus()
             this, SLOT(slotAbout()));
     connect(ui->actionReport, SIGNAL(triggered()),
             this, SLOT(slotReport()));
+    connect(ui->actionDonate, SIGNAL(triggered()),
+            this, SLOT(slotDonate()));
     connect(ui->actionCheckUpdate, SIGNAL(triggered()),
             this, SLOT(slotShowUpdateDialog()));
 }
@@ -588,6 +597,9 @@ void MainWindow::setup_toolbar(const QStringList &entries)
     ADD_ACTION(AboutFFmpeg);
     ADD_ACTION(About);
     ADD_ACTION(CheckUpdate);
+    ADD_ACTION(Report);
+    ADD_ACTION(Donate);
+    ADD_ACTION(HelpMystiQDialog);
 
     for (int i=0; i<entries.size(); i++) {
         QString entry = entries[i].toUpper(); // case-insensitive compare
@@ -626,36 +638,28 @@ void MainWindow::setup_poweroff_button()
     // Insert all actions into the list.
     for (int i=0; i<PowerManagement::ACTION_COUNT; i++) {
         const char *icon_id = "";
-        const char *icon_theme = "";
         QString text = "Shutdown Options";
         switch (i) {
         case PowerManagement::SHUTDOWN:
             //: Shutdown the computer (completely poweroff)
             text = tr("Shutdown");
-            icon_id = ":/actions/icons/system_shutdown.png";
-            icon_theme = "system-shutdown";
+            icon_id = ":/actions/icons/system_shutdown.svg";
             break;
         case PowerManagement::SUSPEND:
             //: Suspend the computer (sleep to ram, standby)
             text = tr("Suspend");
-            icon_id = ":/actions/icons/system_suspend.png";
-            icon_theme = "system-suspend";
+            icon_id = ":/actions/icons/system_suspend.svg";
             break;
         case PowerManagement::HIBERNATE:
             //: Hibernate the computer (sleep to disk, completely poweroff)
             text = tr("Hibernate");
-            icon_id = ":/actions/icons/system_hibernate.png";
-            icon_theme = "system-suspend-hibernate";
+            icon_id = ":/actions/icons/system_hibernate.svg";
             break;
         default:
             Q_ASSERT(!"Incorrect id! Be sure to implement every power action in switch().");
         }
 
-#ifdef Q_OS_LINUX
-        QIcon icon = QIcon::fromTheme(icon_theme);
-#else
         QIcon icon(icon_id);
-#endif
 
         actionList.append(new QAction(QIcon(icon)
                                       , text, this));
@@ -879,7 +883,7 @@ void MainWindow::refresh_titlebar()
         setWindowTitle(tr("MystiQ is Converting %1/%2")
                        .arg(finished_task_count+1).arg(task_count));
     } else {
-        setWindowTitle(tr("MystiQ ")+ tr("%1").arg(VERSION_STRING));
+        setWindowTitle(tr("MystiQ Video Converter"));
     }
 }
 
@@ -899,6 +903,11 @@ void MainWindow::on_actionAbout_triggered()
 }
 
 void MainWindow::on_actionReport_triggered()
+{
+
+}
+
+void MainWindow::on_actionDonate_triggered()
 {
 
 }

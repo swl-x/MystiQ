@@ -67,7 +67,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("MystiQ is a GUI frontend for FFmpeg.")
          + "<br><br>"
          //: %1 is the name and email of the programmer
-         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com<br><b>Gabriel A. López López</b>: glpz@daxslab.com") + "<br><br>"
+         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com<br><b>Gabriel A. López López</b>: glpz@daxslab.com<br><b>Pavel Milanés Costa</b>: pavelmc@gmail.com<br><b>Carlos Cesar Caballero</b>: ccesar@daxslab.com") + "<br><br>"
          //: %1 is the name and email of the logo designer
          + tr("Aplication Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "

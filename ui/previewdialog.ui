@@ -35,7 +35,8 @@
         <string>Play Selected Range</string>
        </property>
        <property name="icon">
-        <iconset theme="media-playback-start"/>
+        <iconset resource="../images.qrc">
+         <normaloff>:/actions/icons/play.svg</normaloff>:/actions/icons/play.svg</iconset>
        </property>
       </widget>
      </item>
@@ -53,7 +54,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

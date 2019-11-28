@@ -152,6 +152,15 @@ unix {
     QT += dbus
     SOURCES -= services/powermanagement-dummy.cpp
     SOURCES += services/powermanagement-linux.cpp
+    # Install
+    target.path = /usr/bin/
+    desktop.path = /usr/share/applications/
+    desktop.files += mystiq.desktop
+    desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/mystiq.png
+    desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons && \
+                     cp icons/mystiq_96x96.png ${INSTALL_ROOT}/usr/share/icons/mystiq.png
+    INSTALLS += target desktop
+
 }
 
 win32 {

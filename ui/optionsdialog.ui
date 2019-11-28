@@ -27,7 +27,8 @@
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="icon">
-       <iconset theme="settings"/>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/settings2.svg</normaloff>:/actions/icons/settings2.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>General</string>
@@ -109,7 +110,8 @@
      </widget>
      <widget class="QWidget" name="tabTools">
       <attribute name="icon">
-       <iconset theme="tools"/>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/tools.svg</normaloff>:/actions/icons/tools.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>Tools</string>

@@ -1,5 +1,5 @@
 Requires:
-  - Qt5 >= 5.9
+  - Qt5 >= 5.10
   - ffmpeg >= 1.1.0
   
 BuildRequires:
