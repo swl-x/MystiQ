@@ -34,14 +34,16 @@
        <item>
         <widget class="QPushButton" name="btnPlayPause">
          <property name="icon">
-          <iconset theme="media-playback-start"/>
+          <iconset resource="../images.qrc">
+           <normaloff>:/actions/icons/play.svg</normaloff>:/actions/icons/play.svg</iconset>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="btnReset">
          <property name="icon">
-          <iconset theme="media-skip-backward"/>
+          <iconset resource="../images.qrc">
+           <normaloff>:/actions/icons/skip-backward.svg</normaloff>:/actions/icons/skip-backward.svg</iconset>
          </property>
         </widget>
        </item>
@@ -51,14 +53,16 @@
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset theme="media-seek-backward"/>
+          <iconset resource="../images.qrc">
+           <normaloff>:/actions/icons/seek_to_begin.svg</normaloff>:/actions/icons/seek_to_begin.svg</iconset>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="btnForward">
          <property name="icon">
-          <iconset theme="media-seek-forward"/>
+          <iconset resource="../images.qrc">
+           <normaloff>:/actions/icons/seek_to_end.svg</normaloff>:/actions/icons/seek_to_end.svg</iconset>
          </property>
         </widget>
        </item>
@@ -88,7 +92,8 @@
           <string>...</string>
          </property>
          <property name="icon">
-          <iconset theme="audio"/>
+          <iconset resource="../images.qrc">
+           <normaloff>:/actions/icons/volume.svg</normaloff>:/actions/icons/volume.svg</iconset>
          </property>
          <property name="autoRaise">
           <bool>true</bool>
@@ -160,6 +165,8 @@
   <tabstop>slideVolume</tabstop>
   <tabstop>btnPlayPause</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections/>
 </ui>

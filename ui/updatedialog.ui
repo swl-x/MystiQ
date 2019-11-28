@@ -17,7 +17,11 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string notr="true"/>
+   <string notr="true">MystiQ Updates</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../images.qrc">
+    <normaloff>:/actions/icons/check_update.svg</normaloff>:/actions/icons/check_update.svg</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -51,7 +55,8 @@
         <string>Show &amp;Release Notes</string>
        </property>
        <property name="icon">
-        <iconset theme="view-visible"/>
+        <iconset resource="../images.qrc">
+         <normaloff>:/actions/icons/preview.svg</normaloff>:/actions/icons/preview.svg</iconset>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -95,7 +100,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

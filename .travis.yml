@@ -64,3 +64,4 @@ deploy:
     on:
       tags: true
     file: "Mystiq*AppImage"
+

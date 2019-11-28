@@ -37,8 +37,8 @@
      </property>
      <widget class="QWidget" name="tabInfo">
       <attribute name="icon">
-       <iconset theme="system-users">
-        <normaloff>.</normaloff>.</iconset>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/info.svg</normaloff>:/actions/icons/info.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>Information</string>
@@ -51,8 +51,8 @@
      </widget>
      <widget class="QWidget" name="tabTranslators">
       <attribute name="icon">
-       <iconset theme="language">
-        <normaloff>.</normaloff>.</iconset>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/translators.svg</normaloff>:/actions/icons/translators.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>Translators</string>
@@ -65,8 +65,8 @@
      </widget>
      <widget class="QWidget" name="tab">
       <attribute name="icon">
-       <iconset theme="license">
-        <normaloff>.</normaloff>.</iconset>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/legal.svg</normaloff>:/actions/icons/legal.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>License</string>
@@ -181,8 +181,8 @@ p, li { white-space: pre-wrap; }
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="icon">
-       <iconset theme="view-list">
-        <normaloff>.</normaloff>.</iconset>
+       <iconset resource="../images.qrc">
+        <normaloff>:/actions/icons/changelog.svg</normaloff>:/actions/icons/changelog.svg</iconset>
       </attribute>
       <attribute name="title">
        <string>Changelog</string>
@@ -196,11 +196,26 @@ p, li { white-space: pre-wrap; }
          <height>205</height>
         </rect>
        </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt;Version 0.3 (2019-11-28)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added Donate Option&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added Continuous Integration with TravisCI &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added &amp;quot;make install&amp;quot; way to install after build&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - New option to users, now it's possible report bugs into app&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Changed internal app icons theme&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Explained how to compile the application in Ubuntu 18.04 or earlier, due to the incompatibility of MystiQ with Qt5 &amp;lt;= 5.9&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added from the help menu, a link to send donations to the project&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-weight:600;&quot;&gt; - Modified toolbar style&lt;/span&gt;&lt;/p&gt;

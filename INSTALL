@@ -1,5 +1,5 @@
 Requires:
-  - Qt5 >= 5.9
+  - Qt5 >= 5.10
   - ffmpeg >= 1.1.0
   
 BuildRequires:
@@ -17,21 +17,12 @@ optdepends=('sox: audio speed adjusting support'
 To build and run, on Ubuntu and derivated install:
 sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
 
-Warning! you need Ubuntu 19.04 or greater is you are using bionic 18.04 then you
-need a most up to date QT, as this project needs QT5.10.1 or greater, google is
-your friend about how to upgrade the Qt version, hint: "install qt5.12 ppa bionic"
-
 Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
   - run "qmake <option>"
   - run "make"
-
-Test it locally:
-  - run "./mystiq"
-
-Install (system wide for all users):
-  - run "sudo make install"
-
+  - run ./mystiq
+  
 qmake options:
 DEFINES+=NO_NEW_VERSION_CHECK
   

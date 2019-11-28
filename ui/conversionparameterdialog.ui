@@ -29,8 +29,8 @@
        </property>
        <widget class="QWidget" name="tab_audio">
         <attribute name="icon">
-         <iconset theme="headphones">
-          <normaloff>.</normaloff>.</iconset>
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/audio.svg</normaloff>:/actions/icons/audio.svg</iconset>
         </attribute>
         <attribute name="title">
          <string>Audio</string>
@@ -194,8 +194,8 @@
        </widget>
        <widget class="QWidget" name="tab_video">
         <attribute name="icon">
-         <iconset theme="video">
-          <normaloff>.</normaloff>.</iconset>
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/video.svg</normaloff>:/actions/icons/video.svg</iconset>
         </attribute>
         <attribute name="title">
          <string>Video</string>
@@ -444,8 +444,8 @@
        </widget>
        <widget class="QWidget" name="tab_time">
         <attribute name="icon">
-         <iconset theme="player-time">
-          <normaloff>.</normaloff>.</iconset>
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/time.svg</normaloff>:/actions/icons/time.svg</iconset>
         </attribute>
         <attribute name="title">
          <string extracomment="time-related options (speed, length)">Time</string>
@@ -481,8 +481,8 @@
                  <string comment="Cut video; select a range to convert">Cut</string>
                 </property>
                 <property name="icon">
-                 <iconset theme="edit-cut">
-                  <normaloff>.</normaloff>.</iconset>
+                 <iconset resource="../images.qrc">
+                  <normaloff>:/actions/icons/cut.svg</normaloff>:/actions/icons/cut.svg</iconset>
                 </property>
                </widget>
               </item>
@@ -492,8 +492,8 @@
                  <string>&amp;Preview</string>
                 </property>
                 <property name="icon">
-                 <iconset theme="quickview">
-                  <normaloff>.</normaloff>.</iconset>
+                 <iconset resource="../images.qrc">
+                  <normaloff>:/actions/icons/preview.svg</normaloff>:/actions/icons/preview.svg</iconset>
                 </property>
                </widget>
               </item>
@@ -539,8 +539,8 @@
        </widget>
        <widget class="QWidget" name="tab_advanced">
         <attribute name="icon">
-         <iconset theme="settings">
-          <normaloff>.</normaloff>.</iconset>
+         <iconset resource="../images.qrc">
+          <normaloff>:/actions/icons/edit_preset.svg</normaloff>:/actions/icons/edit_preset.svg</iconset>
         </attribute>
         <attribute name="title">
          <string>Advanced</string>
@@ -601,7 +601,9 @@
   <tabstop>txtFFmpegOptions</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>
