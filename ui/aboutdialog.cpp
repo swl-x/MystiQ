@@ -42,6 +42,8 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     QTextBrowser *info = ui->txtInfo;
     QTextBrowser *translators = ui->txtTranslators;
+    QTextBrowser *license = ui->txtLicense;
+    QTextBrowser *changelog = ui->txtChangelog;
 
     info->setOpenExternalLinks(true);
 
@@ -98,6 +100,12 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     translators->setPalette(p);
     translators->setFrameShape(QTextBrowser::NoFrame);
+
+    license->setPalette(p);
+    license->setFrameShape(QTextBrowser::NoFrame);
+
+    changelog->setPalette(p);
+    changelog->setFrameShape(QTextBrowser::NoFrame);
 
     // Make the window size fixed.
     this->adjustSize();

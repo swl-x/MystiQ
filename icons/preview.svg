@@ -34,16 +34,17 @@
    inkscape:window-height="480"
    id="namedview39"
    showgrid="false"
-   inkscape:zoom="9.121425"
-   inkscape:cx="20.798429"
+   inkscape:zoom="11.681573"
+   inkscape:cx="29.078142"
    inkscape:cy="28.186001"
    inkscape:current-layer="Capa_1" />
 <path
-   style="fill:#E7ECED;stroke:#095886;stroke-opacity:1"
-   d="M56.372,28.284l-7.234,7.234c-11.517,11.517-30.19,11.517-41.707,0L0,28.087l7.234-7.234  c11.517-11.517,30.19-11.517,41.707,0L56.372,28.284z"
-   id="path2" />
+   style="fill:#e7eced;stroke:#095886;stroke-width:1.57689798;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   d="m 55.308434,28.284074 -6.956194,7.239201 c -11.074709,11.525285 -29.030609,11.525285 -40.10532,0 L 1.1012935,28.086926 8.0574852,20.847725 c 11.0747128,-11.5252861 29.0306108,-11.5252861 40.1053258,0 z"
+   id="path2"
+   inkscape:connector-curvature="0" />
 <circle
-   style="fill:#3083C9;"
+   style="fill:#1f5583;fill-opacity:1"
    cx="28.158"
    cy="28.156"
    r="12"
