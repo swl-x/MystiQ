@@ -50,7 +50,7 @@ before_deploy:
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
-  export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
+  - export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
   # set the version on the filename
   - mv MystiQ*AppImage MystiQ_$VERSION.AppImage
 
