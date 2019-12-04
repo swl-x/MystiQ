@@ -63,5 +63,5 @@ deploy:
       repo: llamaret/MystiQ
       tags: true
     file: 
-      - ./*.AppImage
+      - ./MystiQ*.AppImage
 
