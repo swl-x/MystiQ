@@ -40,10 +40,11 @@ before_deploy:
   - wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
   - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
   - chmod +x *.AppImage
+  - chmod +x comple*.sh
   # build the AppDir
   - make install INSTALL_ROOT=AppDir
   # add extra tools
-  - sudo ./complete_appdir.sh
+  - ./complete_appdir.sh
   # run the linuxdeploy script
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
