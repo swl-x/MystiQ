@@ -1,4 +1,4 @@
-name: QT5/C++ CI
+name: Building Packages
 
 on: [push] 
 jobs:
