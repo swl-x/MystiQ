@@ -43,7 +43,7 @@ before_deploy:
   # build the AppDir
   - make install INSTALL_ROOT=AppDir
   # add extra tools
-  - ./complete_appdir.sh
+  - sudo ./complete_appdir.sh
   # run the linuxdeploy script
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
@@ -61,5 +61,6 @@ deploy:
     on:
       repo: llamaret/MystiQ
       tags: true
-    file: "Mystiq*AppImage"
+    file: 
+      - ./*.AppImage
 
