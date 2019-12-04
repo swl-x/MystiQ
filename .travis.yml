@@ -66,4 +66,4 @@ deploy:
      file:
        - ./*.AppImage
     on:
-      all_branches: true  
+all_branches: true 
