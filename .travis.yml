@@ -63,7 +63,7 @@ deploy:
     skip_cleanup: true
     on:
       tags: true
-     file:
-       - ./*.AppImage
+    file:
+      - ./*.AppImage
     on:
 all_branches: true 
