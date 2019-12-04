@@ -65,5 +65,3 @@ deploy:
       tags: true
     file:
       - ./*.AppImage
-    on:
-all_branches: true 
