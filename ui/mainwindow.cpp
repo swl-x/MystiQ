@@ -45,7 +45,6 @@
 #include <QSettings>
 #include <QCloseEvent>
 #include <QTimer>
-#include <QSignalMapper>
 #include <QPushButton>
 #include <QDebug>
 #include <QUrl>
@@ -274,7 +273,7 @@ void MainWindow::slotReport()
 
     QString string = stringList.join( "" );
     bool b = QDesktopServices::openUrl( QUrl( string, QUrl::TolerantMode ) );
-    Q_UNUSED(b);
+    Q_UNUSED(b)
 }
 
 void MainWindow::slotShowUpdateDialog()
@@ -351,7 +350,7 @@ void MainWindow::conversion_stopped()
 }
 
 void MainWindow::update_poweroff_button(int id)
-{
+{    
     const char *icon_id = "";
     QString title = "Shutdown Options";
     QString status_tip = "Shutdown Options";
@@ -372,7 +371,7 @@ void MainWindow::update_poweroff_button(int id)
         status_tip = tr("Hibernate when all tasks are done.");
         break;
     default:
-        Q_ASSERT(!"Incorrect id! Be sure to handle every power action in switch().");
+        Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to handle every power action in switch().");
     }
     m_poweroff_button->setIcon(QIcon(icon_id));
     m_poweroff_button->setToolTip(status_tip);
@@ -629,7 +628,6 @@ void MainWindow::setup_poweroff_button()
     QToolButton *button = new QToolButton(this);
     QMenu *menu = new QMenu(this);
     QList<QAction*> actionList;
-    QSignalMapper *signalMapper = new QSignalMapper(this);
     QActionGroup *checkGroup = new QActionGroup(this);
 
     m_poweroff_button = button;
@@ -656,7 +654,7 @@ void MainWindow::setup_poweroff_button()
             icon_id = ":/actions/icons/system_hibernate.svg";
             break;
         default:
-            Q_ASSERT(!"Incorrect id! Be sure to implement every power action in switch().");
+            Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to implement every power action in switch().");
         }
 
         QIcon icon(icon_id);
@@ -692,11 +690,10 @@ void MainWindow::setup_poweroff_button()
     // update the poweroff button when the action changes
     for (int i=0; i<actionList.size(); i++) {
         QAction *action = actionList.at(i);
-        signalMapper->setMapping(action, i);
-        connect(action, SIGNAL(triggered())
-                , signalMapper, SLOT(map()));
-        connect(signalMapper, SIGNAL(mapped(int))
-                , this, SLOT(update_poweroff_button(int)));
+
+        connect (action, &QAction::triggered, [this, i] {
+            update_poweroff_button(i);
+        });
     }
 
     actionList.at(0)->trigger();

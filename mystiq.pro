@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui network opengl
+QT       += core gui network opengl multimedia qml widgets quick quickwidgets
 #DEFINES += QT_DEPRECATED_WARNINGS
 
 QMAKE_CFLAGS_RELEASE += -flto
@@ -125,6 +125,7 @@ FORMS    += \
 
 RESOURCES += \
     images.qrc \
+    qml.qrc \
     translator.qrc
 
 TRANSLATIONS += \

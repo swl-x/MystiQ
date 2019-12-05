@@ -287,6 +287,7 @@ struct FFmpegInterface::Private
     QRegExp duration_pattern;
 
     bool encoders_read;
+    bool __dummy_padding[7]; // Avoid internally padding of struct on RAM
     QList<QString> audio_encoders;
     QList<QString> video_encoders;
     QList<QString> subtitle_encoders;
@@ -480,7 +481,6 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         list.append("copy");
     } else { // video enabled
 
-
         // same video quality as source
         if (o.video_same_quality) {
             list.append("-sameq");
@@ -503,25 +503,15 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list.append(QString("%1x%2").arg(o.video_width).arg(o.video_height));
         }
 
-        if (o.video_crop_top > 0) {
-            list.append("-croptop");
-            list.append(QString("%1").arg(o.video_crop_top));
-        }
+        // crop video
+        list.append("-filter:v");
 
-        if (o.video_crop_bottom > 0) {
-            list.append("-cropbottom");
-            list.append(QString("%1").arg(o.video_crop_bottom));
-        }
-
-        if (o.video_crop_left > 0) {
-            list.append("-cropleft");
-            list.append(QString("%1").arg(o.video_crop_left));
-        }
-
-        if (o.video_crop_right > 0) {
-            list.append("-cropright");
-            list.append(QString("%1").arg(o.video_crop_right));
-        }
+        QString crop = QString("crop=%1:%2:%3:%4")
+                .arg(o.video_crop_right - o.video_crop_left)
+                .arg(o.video_crop_bottom - o.video_crop_top)
+                .arg(o.video_crop_left)
+                .arg(o.video_crop_top);
+        list.append(crop);
 
         /* -vf "setpts=<1/rate>*PTS": video filter to change video speed
             <1/rate> is the reciprocal of the scaling factor (1.0 is original speed) */

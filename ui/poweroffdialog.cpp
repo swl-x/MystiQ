@@ -18,7 +18,7 @@
 #include <QMessageBox>
 #include <QTimer>
 #include <QApplication>
-#include <QDesktopWidget>
+#include <QScreen>
 #include "poweroffdialog.h"
 #include "ui_poweroffdialog.h"
 #include "services/powermanagement.h"
@@ -80,7 +80,7 @@ int PoweroffDialog::exec(int action)
         icon_id = ":/actions/icons/system_hibernate";
         break;
     default:
-        Q_ASSERT(!"Incorrect id! Be sure to handle every power action in switch().");
+        Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to handle every power action in switch().");
     }
 
     ui->btnExecute->setIcon(QIcon(icon_id));
@@ -93,7 +93,8 @@ int PoweroffDialog::exec(int action)
     adjustSize();
 
     // center window in screen
-    const QRect screen = QApplication::desktop()->screenGeometry();
+    QGuiApplication::screens();
+    const QRect screen = QGuiApplication::primaryScreen()->virtualGeometry();
     move(screen.center() - this->rect().center());
 
     return QDialog::exec();
@@ -139,7 +140,7 @@ void PoweroffDialog::dialog_accepted()
             action_str = tr("Hibernate");
             break;
         default:
-            Q_ASSERT(!"Incorrect id! Be sure to handle every power action in switch().");
+            Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to handle every power action in switch().");
         }
         QMessageBox::critical(this, windowTitle(), tr("Operation Failed: %1").arg(action_str));
     }
@@ -174,7 +175,7 @@ void PoweroffDialog::refresh_message()
         msg = tr("Hibernating in <b>%1</b> seconds").arg(m_time);
         break;
     default:
-        Q_ASSERT(!"Incorrect id! Be sure to handle every power action in switch().");
+        Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to handle every power action in switch().");
     }
 
     ui->lblMessage->setText(msg);

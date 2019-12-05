@@ -28,6 +28,7 @@
 #include "ui_conversionparameterdialog.h"
 #include <QLayout>
 #include <cmath>
+#include <QQuickItem>
 
 #define TO_BYTEPERCENT(percent) ((percent) * 256 / 100)
 #define TO_PERCENT(bytepercent) ((bytepercent) * 100 / 256)
@@ -71,6 +72,13 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
         ui->groupScaling->setVisible(false);
 
     m_previewer = create_previewer();
+
+    connect(ui->cropWidget->rootObject(), SIGNAL(cut_up_changed(double)), this, SLOT(onCutUpChanged(double)));
+    connect(ui->cropWidget->rootObject(), SIGNAL(cut_bottom_changed(double)), this, SLOT(onCutBottomChanged(double)));
+    connect(ui->cropWidget->rootObject(), SIGNAL(cut_left_changed(double)), this, SLOT(onCutLeftChanged(double)));
+    connect(ui->cropWidget->rootObject(), SIGNAL(cut_right_changed(double)), this, SLOT(onCutRightChanged(double)));
+
+    connect(ui->cropWidget->rootObject(), SIGNAL(video_loaded(int,int)), this, SLOT(onVideoLoaded(int,int)));
 }
 
 ConversionParameterDialog::~ConversionParameterDialog()
@@ -83,6 +91,12 @@ bool ConversionParameterDialog::exec(ConversionParameters& param, bool single_fi
     m_singleFile = single_file;
     m_param = &param;
     read_fields(param);
+
+    if (!param.source.isEmpty()) {
+        qDebug() << "Passing file source to QML component";
+        ui->cropWidget->rootObject()->setProperty("file_source", QString("file://%1").arg(param.source));
+    }
+
     bool accepted = (QDialog::exec() == QDialog::Accepted);
     if (accepted) {
         write_fields(param);
@@ -187,14 +201,14 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
     ui->btnInteractiveCutting->setVisible(show_cutting_button);
 
     if (param.time_begin > 0) {
-        m_timeEdit->setBeginTime(param.time_begin);
+        m_timeEdit->setBeginTime(static_cast<int>(param.time_begin));
         m_timeEdit->setFromBegin(false);
     } else {
         m_timeEdit->setBeginTime(0);
         m_timeEdit->setFromBegin(true);
     }
     if (param.time_end > 0) {
-        m_timeEdit->setEndTime(param.time_end);
+        m_timeEdit->setEndTime(static_cast<int>(param.time_end));
         m_timeEdit->setToEnd(false);
     } else {
         m_timeEdit->setEndTime(0);
@@ -242,11 +256,11 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
     if (m_timeEdit->fromBegin())
         param.time_begin = 0;
     else
-        param.time_begin = m_timeEdit->beginTime();
+        param.time_begin = static_cast<unsigned int>(m_timeEdit->beginTime());
     if (m_timeEdit->toEnd())
         param.time_end = 0;
     else // ffmpeg accepts duration, not end time
-        param.time_end = m_timeEdit->endTime();
+        param.time_end = static_cast<unsigned int>(m_timeEdit->endTime());
     double speed_ratio = ui->spinSpeedFactor->value();
     if (!m_enableAudioProcessing || std::abs(speed_ratio - 100.0) <= 0.01) {
         param.speed_scaling = false;
@@ -280,4 +294,58 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     ui->chkInsertSubtitle->setWindowModified(!insert_subtitle);
     ui->chkInsertSubtitle->setDisabled(disable_video || copy_video);
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
+}
+
+void ConversionParameterDialog::onCutUpChanged(double value)
+{
+    ui->spinCropTop->setValue(static_cast<int> (round(value)));
+}
+
+void ConversionParameterDialog::onCutBottomChanged(double value)
+{
+    qDebug() << "WHOOOT NOTIFY" << value;
+    ui->spinCropBottom->setValue(static_cast<int> (round(value)));
+}
+
+void ConversionParameterDialog::onCutLeftChanged(double value)
+{
+    ui->spinCropLeft->setValue(static_cast<int> (round(value)));
+}
+
+void ConversionParameterDialog::onCutRightChanged(double value)
+{
+    ui->spinCropRight->setValue(static_cast<int> (round(value)));
+}
+
+void ConversionParameterDialog::onVideoLoaded(const int w, const int h)
+{
+    ui->spinCropTop->setValue(0);
+    ui->spinCropLeft->setValue(0);
+
+    ui->spinCropRight->setValue(w);
+    ui->spinCropBottom->setValue(h);
+}
+
+void ConversionParameterDialog::on_spinCropTop_valueChanged(int arg1)
+{
+    QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "top_cut_change",
+                              Q_ARG(QVariant, static_cast<double>(arg1)));
+}
+
+void ConversionParameterDialog::on_spinCropLeft_valueChanged(int arg1)
+{
+    QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "left_cut_change",
+                              Q_ARG(QVariant, static_cast<double>(arg1)));
+}
+
+void ConversionParameterDialog::on_spinCropBottom_valueChanged(int arg1)
+{
+    QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "bottom_cut_change",
+                              Q_ARG(QVariant, static_cast<double>(arg1)));
+}
+
+void ConversionParameterDialog::on_spinCropRight_valueChanged(int arg1)
+{
+    QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "right_cut_change",
+                              Q_ARG(QVariant, static_cast<double>(arg1)));
 }

@@ -85,6 +85,7 @@ struct MetaInformation
     double duration; ///< duration in seconds
     double start; ///< start time in seconds
     int bitrate; ///< bitrate in kb/s
+    bool __dummy_padding[4];
     QRegExp pattern;
 
     MetaInformation() : pattern(patterns::meta) { clear(); }
@@ -111,6 +112,7 @@ struct MetaInformation
 struct AudioInformation
 {
     bool has_audio;
+    bool __dummy_padding[3];
     int sample_rate; ///< sample rate in kb/s
     int bitrate; ///< bitrate in kb/s
     int channels; ///< number of channels
@@ -165,10 +167,12 @@ struct AudioInformation
 struct VideoInformation
 {
     bool has_video;
+    bool __dummy_padding[3];
     int stream_index;
     int width;
     int height;
     int bitrate; ///< bitrate in kb/s
+    bool __dummy_padding2[4];
     double frame_rate; ///< frame rate in fps
     QString codec;
     QString format;
@@ -215,6 +219,7 @@ struct VideoInformation
 struct SubtitleInformation
 {
     bool has_subtitle;
+    bool __dummy_padding[7];
     QRegExp pattern;
 
     SubtitleInformation() : pattern(patterns::subtitle) { }
@@ -240,6 +245,8 @@ struct MediaProbe::Private
     SubtitleInformation subtitleinfo;
     QProcess ffprobe_proc;
     int exitcode;
+
+    bool __dummy_padding[4];
 
     void clear();
     void parse_line(const QString& line);

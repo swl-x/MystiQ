@@ -31,6 +31,7 @@
 #include <QDesktopServices>
 #include <QTextDocument>
 #include <QMimeData>
+#include <QtMath>
 #include <cassert>
 
 #include "convertlist.h"
@@ -61,7 +62,7 @@ class Task : public QObject
 {
 public:
     explicit Task(QObject *parent = nullptr) : QObject(parent) { }
-    virtual ~Task() { }
+    virtual ~Task();
     enum TaskStatus { QUEUED, RUNNING, FINISHED, FAILED };
     int id;
     TaskStatus status;
@@ -69,6 +70,8 @@ public:
     QTreeWidgetItem *listitem;
     QString errmsg;
 };
+
+Task::~Task() {}
 
 /* This enum defines the columns of the list.
    The last item is always NUM_COLUMNS, which is used to identify
@@ -113,6 +116,7 @@ class ConvertList::ListEventFilter : public QObject
 {
 public:
     ListEventFilter(ConvertList *parent) : QObject(parent), m_parent(parent) { }
+    virtual ~ListEventFilter();
 
     // Propagate events from the list to its parent.
     bool eventFilter(QObject */*object*/, QEvent *event)
@@ -147,6 +151,8 @@ public:
 private:
     ConvertList *m_parent;
 };
+
+ConvertList::ListEventFilter::~ListEventFilter() {}
 
 ConvertList::ConvertList(Presets *presets, QWidget *parent) :
     QWidget(parent),
@@ -601,7 +607,7 @@ void ConvertList::progress_refreshed(int percentage)
 {
     if (m_current_task) {
         qDebug() << "Progress Refreshed: " << percentage << "%";
-        progressBar(m_current_task)->setValue(percentage);
+        progressBar(m_current_task)->setValue(static_cast<unsigned int> (percentage));
     }
 }
 
@@ -886,8 +892,11 @@ void ConvertList::init_treewidget_fill_column_titles(QStringList &columnTitle)
     columnTitle[COL_PROGRESS] = tr("Progress");
 
     // Check if all columns have titles
-    for (int i=0; i<NUM_COLUMNS; i++)
-        Q_ASSERT(!columnTitle[i].isEmpty() && "every column must have a title");
+    // RIP: The asserts need to be for something that break the system
+//    for (int i=0; i<NUM_COLUMNS; i++) {
+//        qDebug() << "Column" << i << "Title" << columnTitle[i];
+//        Q_ASSERT_X(!columnTitle[i].isEmpty(), __FUNCTION__, "every column must have a title");
+//    }
 }
 
 /* Set the default visibility of each field.
@@ -1159,7 +1168,7 @@ void ConvertList::refresh_progressbar(Task *task)
         prog->setActive(false);
         break;
     case Task::RUNNING:
-        prog->setValue(m_converter->progress());
+        prog->setValue(static_cast<unsigned>(floor(m_converter->progress())));
         prog->setToolTip("");
         prog->setStatusTip("");
         prog->setActive(true);
@@ -1180,9 +1189,6 @@ void ConvertList::refresh_progressbar(Task *task)
         prog->setToolTip(tr("Error: %1").arg(task->errmsg));
         prog->setStatusTip(prog->toolTip()); // show error message in statusbar
         prog->setActive(false);
-        break;
-    default:
-        qDebug() << "Error: incorrect task status";
         break;
     }
 }

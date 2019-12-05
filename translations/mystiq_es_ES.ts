@@ -286,6 +286,44 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="../ui/aboutdialog.ui" line="254"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.3.1 (2019-12-04)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed UI for better result in dark desktop themes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.3 (2019-11-28)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Donate Option&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Continuous Integration with TravisCI &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added &amp;quot;make install&amp;quot; way to install after build&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - New option to users, now it&apos;s possible report bugs into app&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed internal app icons theme&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Explained how to compile the application in Ubuntu 18.04 or earlier, due to the incompatibility of MystiQ with Qt5 &amp;lt;= 5.9&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added from the help menu, a link to send donations to the project&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Modified toolbar style&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed application update notification system&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - New ffmpeg presets for compression with H265 codec added&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.1.1 (2019-10-31)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Cleaning UI&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.1 (2019-10-11)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed notifications to end a conversion task from a conversion list&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Completed Spanish translation&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.0.2 (2019-08-23)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Spanish language&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -774,41 +812,6 @@ General de GNU para Bibliotecas en lugar de esta Licencia.&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.ui" line="254"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.3 (2019-11-28)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Donate Option&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Continuous Integration with TravisCI &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added &amp;quot;make install&amp;quot; way to install after build&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - New option to users, now it&apos;s possible report bugs into app&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Changed internal app icons theme&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Explained how to compile the application in Ubuntu 18.04 or earlier, due to the incompatibility of MystiQ with Qt5 &amp;lt;= 5.9&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added from the help menu, a link to send donations to the project&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.2 (2019-11-05)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added User Manual&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Modified toolbar style&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Fixed application update notification system&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - New ffmpeg presets for compression with H265 codec added&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.1.1 (2019-10-31)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Cleaning UI&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.1 (2019-10-11)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Fixed notifications to end a conversion task from a conversion list&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Completed Spanish translation&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.0.2 (2019-08-23)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; - Added Spanish language&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1815,8 +1818,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/conversionparameterdialog.ui" line="289"/>
         <location filename="../ui/conversionparameterdialog.ui" line="365"/>
         <location filename="../ui/conversionparameterdialog.ui" line="378"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="401"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="414"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="391"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="404"/>
         <source> px</source>
         <translation> px</translation>
     </message>
@@ -1826,7 +1829,7 @@ p, li { white-space: pre-wrap; }
         <translation>Altura</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="388"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="414"/>
         <source>Crop</source>
         <translation>Recortar</translation>
     </message>
@@ -1842,51 +1845,56 @@ p, li { white-space: pre-wrap; }
         <translation>Desentrelazar</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="451"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="459"/>
+        <source>qrc:/qml/main.qml</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/conversionparameterdialog.ui" line="475"/>
         <source>Time</source>
         <extracomment>time-related options (speed, length)</extracomment>
         <translation>Tiempo</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="457"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="481"/>
         <source>Cutting</source>
         <extracomment>video time cutting: options for begin time and end time</extracomment>
         <translation>Cortando</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="481"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="505"/>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
         <translation>Cortar</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="492"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="516"/>
         <source>&amp;Preview</source>
         <translation>&amp;Previsualizar</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="508"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="532"/>
         <source>Scaling</source>
         <extracomment>time scaling, changing the speed of the output file</extracomment>
         <translation>Escalado</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="516"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="540"/>
         <source>Speed</source>
         <translation>Velocidad</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="546"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="570"/>
         <source>Advanced</source>
         <translation>Avanzado</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="552"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="576"/>
         <source>FFmpeg</source>
         <translation>FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="560"/>
+        <location filename="../ui/conversionparameterdialog.ui" line="584"/>
         <source>Additional FFmpeg Options</source>
         <translation>Opciones Adicionales de FFmpeg</translation>
     </message>
@@ -1894,40 +1902,40 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ConvertList</name>
     <message>
-        <location filename="../ui/convertlist.cpp" line="293"/>
-        <location filename="../ui/convertlist.cpp" line="997"/>
+        <location filename="../ui/convertlist.cpp" line="299"/>
+        <location filename="../ui/convertlist.cpp" line="1006"/>
         <source>Cancel</source>
         <extracomment>Cancel the operation of adding new tasks</extracomment>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="307"/>
+        <location filename="../ui/convertlist.cpp" line="313"/>
         <source>Adding files (%1/%2)</source>
         <extracomment>This text is the progress indicator of adding multiple tasks. %1 is the number of files that are already added. %2 is the total number of files.</extracomment>
         <translation>Añadiendo archivos (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="331"/>
+        <location filename="../ui/convertlist.cpp" line="337"/>
         <source>Some files are not recognized by the converter.</source>
         <translation>Algunos archivos no son reconocidos por el convertidor.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="479"/>
+        <location filename="../ui/convertlist.cpp" line="485"/>
         <source>New File Name</source>
         <translation>Nuevo Nombre de Archivo</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="480"/>
+        <location filename="../ui/convertlist.cpp" line="486"/>
         <source>Please input the new name for the output file.</source>
         <translation>Por favor ingrese el nuevo nombre para el archivo de salida.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="505"/>
+        <location filename="../ui/convertlist.cpp" line="511"/>
         <source>Output Directory</source>
         <translation>Directorio de Salida</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="560"/>
+        <location filename="../ui/convertlist.cpp" line="566"/>
         <source>Error Message from FFmpeg:
 
 </source>
@@ -1936,172 +1944,172 @@ p, li { white-space: pre-wrap; }
 </translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="614"/>
+        <location filename="../ui/convertlist.cpp" line="620"/>
         <source>Drag and drop files here to add tasks.</source>
         <translation>Arrastre y suelte los archivos aquí para añadir tareas.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="649"/>
+        <location filename="../ui/convertlist.cpp" line="655"/>
         <source>Hide &quot;%1&quot;</source>
         <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Ocultar &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="658"/>
+        <location filename="../ui/convertlist.cpp" line="664"/>
         <source>Restore All Columns</source>
         <translation>Restaurar todas las columnas</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="869"/>
+        <location filename="../ui/convertlist.cpp" line="875"/>
         <source>Source</source>
         <translation>Fuente</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="870"/>
+        <location filename="../ui/convertlist.cpp" line="876"/>
         <source>Destination</source>
         <translation>Destino</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="871"/>
+        <location filename="../ui/convertlist.cpp" line="877"/>
         <source>Duration</source>
         <translation>Duración</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="872"/>
+        <location filename="../ui/convertlist.cpp" line="878"/>
         <source>File Size</source>
         <translation>Tamaño del archivo</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="875"/>
+        <location filename="../ui/convertlist.cpp" line="881"/>
         <source>Sample Rate</source>
         <extracomment>Audio</extracomment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="876"/>
+        <location filename="../ui/convertlist.cpp" line="882"/>
         <source>Audio Bitrate</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="877"/>
+        <location filename="../ui/convertlist.cpp" line="883"/>
         <source>Channels</source>
         <extracomment>Audio</extracomment>
         <translation>Canales</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="878"/>
+        <location filename="../ui/convertlist.cpp" line="884"/>
         <source>Audio Codec</source>
         <translation>Códec de Audio</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="881"/>
+        <location filename="../ui/convertlist.cpp" line="887"/>
         <source>Dimensions</source>
         <translation>Dimensiones</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="882"/>
+        <location filename="../ui/convertlist.cpp" line="888"/>
         <source>Video Bitrate</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="883"/>
+        <location filename="../ui/convertlist.cpp" line="889"/>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="884"/>
+        <location filename="../ui/convertlist.cpp" line="890"/>
         <source>Video Codec</source>
         <translation>Códec de Video</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="886"/>
+        <location filename="../ui/convertlist.cpp" line="892"/>
         <source>Progress</source>
         <translation>Progreso</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="966"/>
+        <location filename="../ui/convertlist.cpp" line="975"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="967"/>
         <location filename="../ui/convertlist.cpp" line="976"/>
+        <location filename="../ui/convertlist.cpp" line="985"/>
         <source>%1 kb/s</source>
         <translation>%1 kb/s</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="977"/>
+        <location filename="../ui/convertlist.cpp" line="986"/>
         <source>%1 fps</source>
         <translation>%1 fps</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="996"/>
+        <location filename="../ui/convertlist.cpp" line="1005"/>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
         <translation>Removiendo tareas...</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1039"/>
+        <location filename="../ui/convertlist.cpp" line="1048"/>
         <source>KiB</source>
         <translation>KiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1039"/>
+        <location filename="../ui/convertlist.cpp" line="1048"/>
         <source>MiB</source>
         <translation>MiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1039"/>
+        <location filename="../ui/convertlist.cpp" line="1048"/>
         <source>GiB</source>
         <translation>GiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1039"/>
+        <location filename="../ui/convertlist.cpp" line="1048"/>
         <source>TiB</source>
         <translation>TiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1042"/>
+        <location filename="../ui/convertlist.cpp" line="1051"/>
         <source>B</source>
         <extracomment>Bytes</extracomment>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1077"/>
+        <location filename="../ui/convertlist.cpp" line="1086"/>
         <source>File Exists</source>
         <translation>El archivo existe</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1078"/>
+        <location filename="../ui/convertlist.cpp" line="1087"/>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
         <translation>%1 ya existe en el disco o en la lista de tareas. ¿Aún así utilizará este nombre como nombre de archivo de salida?</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1123"/>
+        <location filename="../ui/convertlist.cpp" line="1132"/>
         <source>Remove Task</source>
         <translation>Remover Tarea</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1124"/>
+        <location filename="../ui/convertlist.cpp" line="1133"/>
         <source>Cannot remove a task while it is in progress.</source>
         <translation>No puede remover un tarea mientras está en progreso.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1170"/>
-        <location filename="../ui/convertlist.cpp" line="1171"/>
+        <location filename="../ui/convertlist.cpp" line="1179"/>
+        <location filename="../ui/convertlist.cpp" line="1180"/>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
         <translation>Terminado</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1178"/>
+        <location filename="../ui/convertlist.cpp" line="1187"/>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
         <translation>Falló</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1180"/>
+        <location filename="../ui/convertlist.cpp" line="1189"/>
         <source>Error: %1</source>
         <extracomment>%1 is the error message</extracomment>
         <translation>Error: %1</translation>
@@ -2404,7 +2412,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="521"/>
-        <location filename="../ui/mainwindow.cpp" line="233"/>
+        <location filename="../ui/mainwindow.cpp" line="232"/>
         <source>Donate</source>
         <translation>Donar</translation>
     </message>
@@ -2509,124 +2517,124 @@ p, li { white-space: pre-wrap; }
         <translation>Cortar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="127"/>
+        <location filename="../ui/mainwindow.cpp" line="126"/>
         <source>Conversion finished successfully.</source>
         <translation>Conversión finalizada exitosamente.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="131"/>
+        <location filename="../ui/mainwindow.cpp" line="130"/>
         <source>Conversion failed.</source>
         <translation>Conversión fallida.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="139"/>
+        <location filename="../ui/mainwindow.cpp" line="138"/>
         <source>All tasks have finished.</source>
         <translation>Todas las tareas han sido finalizadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="179"/>
+        <location filename="../ui/mainwindow.cpp" line="178"/>
         <source>Nothing to convert.</source>
         <translation>Nada que convertir.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="232"/>
+        <location filename="../ui/mainwindow.cpp" line="231"/>
         <source>Support MystiQ</source>
         <translation>Ayuda a mantener MystiQ</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="234"/>
+        <location filename="../ui/mainwindow.cpp" line="233"/>
         <source>Close</source>
         <translation>Cerrar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="236"/>
+        <location filename="../ui/mainwindow.cpp" line="235"/>
         <source>MystiQ needs you</source>
         <translation>MystiQ te necesita</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="237"/>
+        <location filename="../ui/mainwindow.cpp" line="236"/>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
         <translation>MystiQ es software libre. Sin embargo, el desarrollo requiere mucho tiempo y mucho trabajo. Para seguir desarrollando MystiQ con nuevas características, necesitamos su ayuda. Por favor considere apoyar el proyecto MystiQ enviando una donación. &lt;b&gt; Incluso la cantidad más pequeña ayudará mucho. &lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="258"/>
+        <location filename="../ui/mainwindow.cpp" line="257"/>
         <source>Reporting bugs from MystiQ </source>
         <translation>Reportando fallos desde MystiQ </translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="261"/>
+        <location filename="../ui/mainwindow.cpp" line="260"/>
         <source>Your comment:</source>
         <translation>Un comentario:</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="268"/>
+        <location filename="../ui/mainwindow.cpp" line="267"/>
         <source>Report:</source>
         <translation>Reportar el error:</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="320"/>
+        <location filename="../ui/mainwindow.cpp" line="319"/>
         <source>Conversion is still in progress. Abort?</source>
         <translation>Conversión aún en progreso. ¿Abortar?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="361"/>
-        <location filename="../ui/mainwindow.cpp" line="645"/>
+        <location filename="../ui/mainwindow.cpp" line="360"/>
+        <location filename="../ui/mainwindow.cpp" line="643"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
         <translation>Apagar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="362"/>
+        <location filename="../ui/mainwindow.cpp" line="361"/>
         <source>Shutdown when all tasks are done.</source>
         <translation>Apagar cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="366"/>
-        <location filename="../ui/mainwindow.cpp" line="650"/>
+        <location filename="../ui/mainwindow.cpp" line="365"/>
+        <location filename="../ui/mainwindow.cpp" line="648"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
         <translation>Suspender</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="367"/>
+        <location filename="../ui/mainwindow.cpp" line="366"/>
         <source>Suspend when all tasks are done.</source>
         <translation>Suspender cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="371"/>
-        <location filename="../ui/mainwindow.cpp" line="655"/>
+        <location filename="../ui/mainwindow.cpp" line="370"/>
+        <location filename="../ui/mainwindow.cpp" line="653"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
         <translation>Hibernar</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="372"/>
+        <location filename="../ui/mainwindow.cpp" line="371"/>
         <source>Hibernate when all tasks are done.</source>
         <translation>Hibernar cuando todas las tareas sean terminadas.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="451"/>
+        <location filename="../ui/mainwindow.cpp" line="450"/>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
         <translation>Este programa va a comprobar si hay actualizaciones en línea. ¿Quieres permitir que este programa se conecte a Internet para buscar actualizaciones?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="778"/>
+        <location filename="../ui/mainwindow.cpp" line="775"/>
         <source>Failed to load preset file. The application will quit now.</source>
         <translation>Falló al cargar la preconfiguración. La aplicación se cerrará ahora.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="867"/>
+        <location filename="../ui/mainwindow.cpp" line="864"/>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
         <translation>Tiempo estimado: %1 h %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="883"/>
+        <location filename="../ui/mainwindow.cpp" line="880"/>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
         <translation>MystiQ está Convirtiendo %1/%2</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="886"/>
+        <location filename="../ui/mainwindow.cpp" line="883"/>
         <source>MystiQ Video Converter</source>
         <translation>MystiQ Video Converter</translation>
     </message>
@@ -2635,7 +2643,7 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">MystiQ </translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="258"/>
+        <location filename="../ui/mainwindow.cpp" line="257"/>
         <source>%1</source>
         <translation>%1</translation>
     </message>
@@ -2765,40 +2773,40 @@ p, li { white-space: pre-wrap; }
         <translation>Hibernar inmediatamente</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="131"/>
+        <location filename="../ui/poweroffdialog.cpp" line="132"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer</extracomment>
         <translation>Apagar</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="135"/>
+        <location filename="../ui/poweroffdialog.cpp" line="136"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
         <translation>Suspender</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="139"/>
+        <location filename="../ui/poweroffdialog.cpp" line="140"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
         <translation>Hibernar</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="144"/>
+        <location filename="../ui/poweroffdialog.cpp" line="145"/>
         <source>Operation Failed: %1</source>
         <translation>Operación fallida: %1</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="168"/>
+        <location filename="../ui/poweroffdialog.cpp" line="169"/>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
         <translation>Apagar en &lt;b&gt;%1&lt;/b&gt; segundos</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="171"/>
+        <location filename="../ui/poweroffdialog.cpp" line="172"/>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
         <translation>Suspender en &lt;b&gt;%1&lt;/b&gt; segundos</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="174"/>
+        <location filename="../ui/poweroffdialog.cpp" line="175"/>
         <source>Hibernating in &lt;b&gt;%1&lt;/b&gt; seconds</source>
         <translation>Hibernar en &lt;b&gt;%1&lt;/b&gt; segundos</translation>
     </message>
