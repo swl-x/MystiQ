@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-19.10
     
     steps:
     - name: Checkout
@@ -16,12 +16,6 @@ jobs:
       run: sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
     - name: Qt5 Version info
       run: dpkg -l | grep qt5-default    
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
     - name: qmake
       run: qmake mystiq.pro
     - name: make
