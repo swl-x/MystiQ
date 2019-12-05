@@ -1,4 +1,4 @@
-name: Building Packages for any distros
+name: Packages
 
 on: [push]
 
