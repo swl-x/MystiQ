@@ -1,0 +1,35 @@
+name: Building Packages
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup C++ environment
+      uses: kurocha/setup-cpp@v1
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v1.0.0
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Install Qt5Gui
+      run: sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
+    - name: Qt5 Version info
+      run: dpkg -l | grep qt5-default    
+    - name: make
+      run: make
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
+    - name: qmake
+      run: qmake mystiq.pro
+    - name: make
+      run: make
+    - name: strip
+      run: strip mystiq 
+    - name: installing
+      run: sudo make install
