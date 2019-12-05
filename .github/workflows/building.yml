@@ -10,14 +10,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - name: Updating OS
-      run: sudo apt update
-    - name: Qt5 Version info
-      run: dpkg -l | grep qt5-default    
     - name: PPA Kubuntu
       run: sudo add-apt-repository ppa:kubuntu-ppa/backport && sudo apt update && upgrade && sudo apt-get install plasma-desktop
     - name: Install Qt5Gui
-      run: sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make  
+      run: sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qt5-qmake g++ make
+    - name: Qt5 Version info
+      run: dpkg -l | grep qt5-default  
     - name: qmake
       run: qmake mystiq.pro
     - name: make
