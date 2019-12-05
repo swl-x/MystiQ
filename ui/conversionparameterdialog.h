@@ -54,6 +54,21 @@ private slots:
     void audio_tab_update_enabled_widgets();
     void video_tab_update_enabled_widgets();
 
+    void onCutUpChanged(double value);
+    void onCutBottomChanged(double value);
+    void onCutLeftChanged(double value);
+    void onCutRightChanged(double value);
+
+    void onVideoLoaded(const int w, const int h);
+
+    void on_spinCropTop_valueChanged(int arg1);
+
+    void on_spinCropLeft_valueChanged(int arg1);
+
+    void on_spinCropBottom_valueChanged(int arg1);
+
+    void on_spinCropRight_valueChanged(int arg1);
+
 private:
     Ui::ConversionParameterDialog *ui;
     void read_fields(const ConversionParameters& param);

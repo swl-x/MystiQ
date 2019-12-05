@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>translations/mystiq_es_ES.qm</file>
         <file>translations/mystiq_es.qm</file>
+        <file>translations/mystiq_de.qm</file>
     </qresource>
 </RCC>

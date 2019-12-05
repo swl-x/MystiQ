@@ -126,15 +126,15 @@ AboutDialog::~AboutDialog()
 QString AboutDialog::getTranslators()
 {
     struct {QString locale; QString translator;} table[] = {
-        //: English Language (USA)
-        {"en_US", trad(tr("English (USA)")
-                    , "Maikel Llamaret <llamaret@webmisolutions.com>")},
-        //: Spanish Language (Spain)
-        {"es_ES", trad(tr("Spanish (Spain)")
-                    , "Maikel Llamaret <llamaret@webmisolutions.com>")},
         //: German Language (Germany)
         {"de_DE", trad(tr("German (Germany)")
                     , "Leslie León Sinclair <koratsuki.nijuusan@gmail.com>")},
+        //: English Language (USA)
+        {"en_US", trad(tr("English (USA)")
+                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
+        //: Spanish Language (Spain)
+        {"es_ES", trad(tr("Spanish (Spain)")
+                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 

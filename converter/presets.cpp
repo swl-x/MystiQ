@@ -35,6 +35,8 @@ struct Presets::Private
      */
     unsigned int m_prev_id;
 
+    bool __dummy_padding[4];
+
     Private() : m_prev_id(0) { }
 
     bool parseXmlFile(QFile& file, bool removeUnavailableCodecs);
@@ -238,7 +240,7 @@ bool Presets::readFromFile(const char *filename, bool removeUnavailableCodecs)
 bool Presets::getExtensions(QList<QString> &target) const
 {
     QList<Preset> presetList = p->presets.values();
-    qSort(presetList); // sort presets by id
+    std::sort(presetList.begin(), presetList.end()); // sort presets by id
 
     target.clear();
     QString extension("");
@@ -251,7 +253,7 @@ bool Presets::getExtensions(QList<QString> &target) const
     // remove duplicate entries
     target = target.toSet().toList();
     // sort target
-    qSort(target);
+    std::sort(target.begin(), target.end());
     return true;
 }
 
