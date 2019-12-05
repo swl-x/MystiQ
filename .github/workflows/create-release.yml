@@ -1,0 +1,21 @@
+name: Releases
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "mystiq"
+        bodyFile: "body.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
