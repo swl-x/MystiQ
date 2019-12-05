@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
     - name: Updating OS
       run: sudo apt update && sudo apt dist-upgrade
     - name: Install Qt5Gui
