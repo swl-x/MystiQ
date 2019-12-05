@@ -8,11 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
-    - name: Setup C++ environment
-      uses: kurocha/setup-cpp@v1
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v1.0.0
     - name: Checkout
       uses: actions/checkout@v1
     - name: Install Qt5Gui
