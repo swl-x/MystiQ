@@ -21,7 +21,7 @@ Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
   - run "qmake <option>"
   - run "make"
-  - run ./mystiq
+  - run "sudo make install"
   
 qmake options:
 DEFINES+=NO_NEW_VERSION_CHECK
