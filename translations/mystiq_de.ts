@@ -6,7 +6,7 @@
     <message>
         <location filename="../ui/aboutdialog.ui" line="14"/>
         <source>About MystiQ</source>
-        <translation>Über MistiQ</translation>
+        <translation>Über MystiQ</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="44"/>
