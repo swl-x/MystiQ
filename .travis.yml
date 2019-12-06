@@ -21,6 +21,7 @@ install:
   - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
+  - sudo apt install qtdeclarative5-dev qtmultimedia5-dev
 
 # build & test scripts
 script:
