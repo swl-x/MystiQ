@@ -10,7 +10,7 @@ other formats. MystiQ features an intuitive graphical interface and a rich set
 of presets to help you convert media files within a few clicks. Advanced users
 can also adjust conversion parameters in detail.
 
-For compiling and installing MystiQ, please refer to [INSTALL.txt](INSTALL.txt).
+For compiling and installing MystiQ, please refer to [INSTALL](INSTALL).
 
 If you want to contribute as a developer please see the file [Developer_process.md](Developer_process.md).
 
