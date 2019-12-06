@@ -504,14 +504,17 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         }
 
         // crop video
-        list.append("-filter:v");
+        if (o.toCrop)
+        {
+            list.append("-filter:v");
 
-        QString crop = QString("crop=%1:%2:%3:%4")
-                .arg(o.video_crop_right - o.video_crop_left)
-                .arg(o.video_crop_bottom - o.video_crop_top)
-                .arg(o.video_crop_left)
-                .arg(o.video_crop_top);
-        list.append(crop);
+            QString crop = QString("crop=%1:%2:%3:%4")
+                    .arg(o.video_crop_right - o.video_crop_left)
+                    .arg(o.video_crop_bottom - o.video_crop_top)
+                    .arg(o.video_crop_left)
+                    .arg(o.video_crop_top);
+            list.append(crop);
+        }
 
         /* -vf "setpts=<1/rate>*PTS": video filter to change video speed
             <1/rate> is the reciprocal of the scaling factor (1.0 is original speed) */

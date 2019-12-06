@@ -45,6 +45,8 @@ public:
     int video_bitrate;
     int video_width;
     int video_height;
+
+    bool toCrop;
     int video_crop_top, video_crop_bottom, video_crop_left, video_crop_right;
 
     unsigned int time_begin, time_end;
@@ -97,6 +99,7 @@ public:
           video_deinterlace(false),
           video_bitrate(0),
           video_width(0), video_height(0),
+          toCrop(false),
           video_crop_top(0), video_crop_bottom(0),
           video_crop_left(0), video_crop_right(0),
           time_begin(0), time_end(0),

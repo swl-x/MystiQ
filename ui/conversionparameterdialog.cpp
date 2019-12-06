@@ -298,22 +298,25 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
 
 void ConversionParameterDialog::onCutUpChanged(double value)
 {
+    m_param->toCrop = true;
     ui->spinCropTop->setValue(static_cast<int> (round(value)));
 }
 
 void ConversionParameterDialog::onCutBottomChanged(double value)
 {
-    qDebug() << "WHOOOT NOTIFY" << value;
+    m_param->toCrop = true;
     ui->spinCropBottom->setValue(static_cast<int> (round(value)));
 }
 
 void ConversionParameterDialog::onCutLeftChanged(double value)
 {
+    m_param->toCrop = true;
     ui->spinCropLeft->setValue(static_cast<int> (round(value)));
 }
 
 void ConversionParameterDialog::onCutRightChanged(double value)
 {
+    m_param->toCrop = true;
     ui->spinCropRight->setValue(static_cast<int> (round(value)));
 }
 
@@ -328,24 +331,28 @@ void ConversionParameterDialog::onVideoLoaded(const int w, const int h)
 
 void ConversionParameterDialog::on_spinCropTop_valueChanged(int arg1)
 {
+    m_param->toCrop = true;
     QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "top_cut_change",
                               Q_ARG(QVariant, static_cast<double>(arg1)));
 }
 
 void ConversionParameterDialog::on_spinCropLeft_valueChanged(int arg1)
 {
+    m_param->toCrop = true;
     QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "left_cut_change",
                               Q_ARG(QVariant, static_cast<double>(arg1)));
 }
 
 void ConversionParameterDialog::on_spinCropBottom_valueChanged(int arg1)
 {
+    m_param->toCrop = true;
     QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "bottom_cut_change",
                               Q_ARG(QVariant, static_cast<double>(arg1)));
 }
 
 void ConversionParameterDialog::on_spinCropRight_valueChanged(int arg1)
 {
+    m_param->toCrop = true;
     QMetaObject::invokeMethod(ui->cropWidget->rootObject(), "right_cut_change",
                               Q_ARG(QVariant, static_cast<double>(arg1)));
 }
