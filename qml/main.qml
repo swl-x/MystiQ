@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import QtMultimedia 5.12
+import QtMultimedia 5.10
 
 Rectangle {
     id: root
@@ -60,48 +60,34 @@ Rectangle {
         right_cut.x = value / w - right_cut.width - __free_space_w;
     }
 
-    function calculateRatios(initial) {
+    function calculateRatios() {
         if (video.metaData.resolution === undefined) return;
 
         let ratio = video.metaData.resolution.width / video.metaData.resolution.height
 
-        let width_calc = root.width - video.metaData.resolution.width;
-        let height_calc = root.height - video.metaData.resolution.height;
-
-        let direction = true; //TRUE -> Width : FALSE -> Height
-
-        if (!initial) return
-
-        if ( // With same math number sign
-            (width_calc < 0 && height_calc < 0) ||
-            (width_calc >= 0 && height_calc >= 0))
-        {
-            direction = (width_calc <= height_calc);
-        }
-        else
-        {
-            direction = (height > 0);
-        }
+        let direction = (root.height * ratio <= root.width); //TRUE -> Width : FALSE -> Height
 
         if (direction)
         {
             __free_space_w = (root.width - (root.height * ratio)) / 2.0
             __free_space_h = 0.0
 
-            left_cut.x = __free_space_w + left_cut.width - 3
+            left_cut.x = __free_space_w + left_cut.width
             right_cut.x = root.width - right_cut.width - __free_space_w
 
             down_cut.y = root.height - down_cut.height
+            up_cut.y = 0.0
         }
         else
         {
-            __free_space_h = (root.height - (root.width * ratio)) / 2.0
+            __free_space_h = (root.height - (root.width / ratio)) / 2.0
             __free_space_w = 0.0
 
             up_cut.y = __free_space_h - up_cut.height
             down_cut.y = root.height - down_cut.height - __free_space_h
 
             right_cut.x = root.width - right_cut.width
+            left_cut.x = 0.0
         }
     }
 
@@ -135,7 +121,7 @@ Rectangle {
                 play();
                 pause();
 
-                calculateRatios(true);
+                calculateRatios();
 
                 root.video_loaded(metaData.resolution.width, metaData.resolution.height)
             }
@@ -259,8 +245,6 @@ Rectangle {
         onYChanged: {
             down.height = root.height - y
 
-            console.log("MODIFY BOTTOM", __free_space_h);
-
             if (!__from_external && video.metaData.resolution !== undefined)
             {
                 var h = video.metaData.resolution.height / root.height
@@ -351,18 +335,20 @@ Rectangle {
     }
 
     onWidthChanged: {
-        if (oldW > 0.0) {
-            calculateRatios(false);
-        }
+        calculateRatios();
 
-        oldW = width
+        if (video.metaData.resolution !== undefined)
+        {
+            root.video_loaded(video.metaData.resolution.width, video.metaData.resolution.height)
+        }
     }
 
     onHeightChanged: {
-        if (oldH > 0.0) {
-           calculateRatios(false);
-        }
+        calculateRatios();
 
-        oldH = height
+        if (video.metaData.resolution !== undefined)
+        {
+            root.video_loaded(video.metaData.resolution.width, video.metaData.resolution.height)
+        }
     }
 }
