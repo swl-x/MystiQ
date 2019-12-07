@@ -135,6 +135,9 @@ QString AboutDialog::getTranslators()
         //: Spanish Language (Spain)
         {"es_ES", trad(tr("Spanish (Spain)")
                     , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
+        //: French Language (France)
+        {"fr_FR", trad(tr("French (France)")
+                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 
