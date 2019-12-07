@@ -24,7 +24,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="../images.qrc">
-    <normaloff>:/app/icons/mystiq_96x96.png</normaloff>:/app/icons/mystiq_96x96.png</iconset>
+    <normaloff>:/app/icons/mystiq.svg</normaloff>:/app/icons/mystiq.svg</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
