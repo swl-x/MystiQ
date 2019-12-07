@@ -18,8 +18,6 @@
 #include "conversionparameterdialog.h"
 #include "converter/audiofilter.h"
 #include "converter/mediaprobe.h"
-#include "services/ffplaypreviewer.h"
-#include "services/mplayerpreviewer.h"
 #include "rangewidgetbinder.h"
 #include "rangeselector.h"
 #include "timerangeedit.h"
@@ -41,8 +39,7 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ConversionParameterDialog),
     m_timeEdit(new TimeRangeEdit(this)),
-    m_rangeSel(new RangeSelector(this)),
-    m_previewer(nullptr)
+    m_rangeSel(new RangeSelector(this))
 {
     ui->setupUi(this);
 
@@ -71,8 +68,6 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     if (!m_enableAudioProcessing)
         ui->groupScaling->setVisible(false);
 
-    m_previewer = create_previewer();
-
     connect(ui->cropWidget->rootObject(), SIGNAL(cut_up_changed(double)), this, SLOT(onCutUpChanged(double)));
     connect(ui->cropWidget->rootObject(), SIGNAL(cut_bottom_changed(double)), this, SLOT(onCutBottomChanged(double)));
     connect(ui->cropWidget->rootObject(), SIGNAL(cut_left_changed(double)), this, SLOT(onCutLeftChanged(double)));
@@ -86,7 +81,7 @@ ConversionParameterDialog::~ConversionParameterDialog()
     delete ui;
 }
 
-bool ConversionParameterDialog::exec(ConversionParameters& param, bool single_file)
+bool ConversionParameterDialog::execCustom(ConversionParameters& param, bool single_file)
 {
     m_singleFile = single_file;
     m_param = &param;
@@ -106,20 +101,11 @@ bool ConversionParameterDialog::exec(ConversionParameters& param, bool single_fi
 
 void ConversionParameterDialog::preview_time_selection()
 {
-    if (PreviewDialog::available()) {
-        PreviewDialog(this).exec(m_param->source,
-                                 m_timeEdit->fromBegin(),
-                                 m_timeEdit->beginTime(),
-                                 m_timeEdit->toEnd(),
-                                 m_timeEdit->endTime());
-    } else {
-        int timeBegin = -1, timeEnd = -1;
-        if (!m_timeEdit->fromBegin())
-            timeBegin = m_timeEdit->beginTime();
-        if (!m_timeEdit->toEnd())
-            timeEnd = m_timeEdit->endTime();
-        m_previewer->play(m_param->source, timeBegin, timeEnd);
-    }
+    PreviewDialog(this).exec(m_param->source,
+                             m_timeEdit->fromBegin(),
+                             m_timeEdit->beginTime(),
+                             m_timeEdit->toEnd(),
+                             m_timeEdit->endTime());
 }
 
 void ConversionParameterDialog::interactive_cutting()
@@ -127,18 +113,6 @@ void ConversionParameterDialog::interactive_cutting()
     if (m_singleFile) {
         InteractiveCuttingDialog(this).exec(m_param->source, m_timeEdit);
     }
-}
-
-AbstractPreviewer *ConversionParameterDialog::create_previewer()
-{
-    //AbstractPreviewer *previewer;
-    // Use mplayer by default.
-    //previewer = new MPlayerPreviewer(this);
-    //if (previewer->available())
-    //    return previewer;
-    // mplayer not available, use ffplay as fallback
-    //delete previewer;
-    return new FFplayPreviewer(this);
 }
 
 // read the fields from the ConversionParameters
@@ -183,19 +157,24 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
     // Time Options
     bool show_slider = false;
     m_rangeSel->setVisible(false); // hide slider if this dialog is reused
+
     if (m_singleFile) {
         // time slider: only show in single file mode
         MediaProbe probe;
+
         if (probe.run(param.source)) { // probe the source file, blocking call
             // success, set the duration and show the range slider
             int duration = static_cast<int>(probe.mediaDuration());
+
             m_timeEdit->setMaxTime(duration);
             m_rangeSel->setMaxValue(duration);
             m_rangeSel->setVisible(true);
+
             show_slider = true;
         }
     }
-    bool show_preview_button = show_slider && m_previewer->available();
+
+    bool show_preview_button = show_slider;
     bool show_cutting_button = show_slider && InteractiveCuttingDialog::available();
     ui->btnPreview->setVisible(show_preview_button);
     ui->btnInteractiveCutting->setVisible(show_cutting_button);

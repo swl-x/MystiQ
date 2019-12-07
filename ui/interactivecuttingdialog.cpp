@@ -106,7 +106,7 @@ void InteractiveCuttingDialog::setEndTime(int sec)
 int InteractiveCuttingDialog::exec(const QString &filename)
 {
     if (available()) {
-        player->load(filename);
+        player->load(filename, m_rangeEdit->beginTime(), m_rangeEdit->endTime());
         return exec();
     } else {
         QMessageBox::critical(this, windowTitle(), tr("%1 not found").arg("mplayer"));
@@ -134,10 +134,10 @@ int InteractiveCuttingDialog::exec(ConversionParameters *param)
 {
     // TODO: extract the conversion logic to getter and setter in ConversionParameters
     // convert begin and duration to begin and end time
-    setBeginTime(param->time_begin);
+    setBeginTime(static_cast<int>(param->time_begin));
     setFromBegin(param->time_begin == 0);
     if (param->time_end > 0) { // time_end == 0 means "to end"
-        setEndTime(param->time_end);
+        setEndTime(static_cast<int>(param->time_end));
         setToEnd(false);
     } else {
         setToEnd(true);
@@ -145,8 +145,8 @@ int InteractiveCuttingDialog::exec(ConversionParameters *param)
     int status = exec(param->source);
     // convert from begin and end time back to begin and duration
     if (status == QDialog::Accepted) {
-        param->time_begin = fromBegin() ? 0 : beginTime();
-        param->time_end = toEnd() ? 0 : endTime();
+        param->time_begin = static_cast<unsigned int>(fromBegin() ? 0 : beginTime());
+        param->time_end = static_cast<unsigned int>(toEnd() ? 0 : endTime());
     }
     return status;
 }
@@ -161,7 +161,7 @@ int InteractiveCuttingDialog::exec()
 
 void InteractiveCuttingDialog::playerStateChanged()
 {
-    int duration = ceil(player->duration());
+    int duration = static_cast<int>(ceil(player->duration()));
     if (player->ok() && duration != m_rangeEdit->maxTime()) {
         // get media duration and set limits
         // change range edit after visual selection
@@ -172,12 +172,12 @@ void InteractiveCuttingDialog::playerStateChanged()
 
 void InteractiveCuttingDialog::set_as_begin()
 {
-    m_rangeEdit->setBeginTime(floor(player->position()));
+    m_rangeEdit->setBeginTime(static_cast<int>(floor(player->position())));
 }
 
 void InteractiveCuttingDialog::set_as_end()
 {
-    m_rangeEdit->setEndTime(ceil(player->position()));
+    m_rangeEdit->setEndTime(static_cast<int>(ceil(player->position())));
 }
 
 void InteractiveCuttingDialog::seek_to_selection_begin()

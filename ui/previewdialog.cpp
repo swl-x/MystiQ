@@ -51,24 +51,22 @@ PreviewDialog::~PreviewDialog()
 
 bool PreviewDialog::available()
 {
-    return ExePath::checkProgramAvailability("mplayer");
+    return true;
 }
 
 int PreviewDialog::exec(const QString &filename,
                                bool from_begin, int begin_sec,
                                bool to_end, int end_sec)
 {
-    if (available()) {
-        m_beginTime = from_begin ? -1 : begin_sec;
-        m_endTime = to_end ? -1 : end_sec;
-        m_player->load(filename);
-        playSelectedRange();
-        refreshRange();
-        return exec();
-    } else {
-        QMessageBox::critical(this, windowTitle(), tr("%1 not found").arg("mplayer"));
-        return QDialog::Rejected;
-    }
+    m_beginTime = from_begin ? -1 : begin_sec;
+    m_endTime = to_end ? -1 : end_sec;
+
+    m_player->load(filename, m_beginTime, m_endTime);
+
+    playSelectedRange();
+    refreshRange();
+
+    return exec();
 }
 
 int PreviewDialog::exec()
@@ -76,6 +74,7 @@ int PreviewDialog::exec()
     load_settings();
     int status = QDialog::exec();
     save_settings();
+
     return status;
 }
 
@@ -90,10 +89,12 @@ void PreviewDialog::refreshRange()
     QString begin_time = tr("Begin");
     //: noun, the end of the video
     QString end_time = tr("End");
+
     if (m_beginTime >= 0)
         begin_time = sec2hms(m_beginTime);
     if (m_endTime >= 0)
         end_time = sec2hms(m_endTime);
+
     //: play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.
     ui->btnPlayRange->setText(tr("Play %1~%2").arg(begin_time).arg(end_time));
 }

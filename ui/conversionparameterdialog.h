@@ -45,12 +45,11 @@ public:
      *  @return If the user presses OK, the function returns true.
      *  Otherwise, it returns false.
      */
-    bool exec(ConversionParameters& param, bool single_file=false);
+    bool execCustom(ConversionParameters& param, bool single_file=false);
 
 private slots:
     void preview_time_selection();
     void interactive_cutting();
-    AbstractPreviewer *create_previewer();
     void audio_tab_update_enabled_widgets();
     void video_tab_update_enabled_widgets();
 
@@ -78,7 +77,6 @@ private:
     TimeRangeEdit *m_timeEdit;
     RangeSelector *m_rangeSel;
     ConversionParameters *m_param;
-    AbstractPreviewer *m_previewer;
 };
 
 #endif // CONVERSIONPARAMETERDIALOG_H
