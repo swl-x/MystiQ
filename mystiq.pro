@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui network opengl multimedia qml widgets quick quickwidgets
+QT       += core gui network opengl multimedia qml widgets quick quickwidgets multimediawidgets
 #DEFINES += QT_DEPRECATED_WARNINGS
 
 QMAKE_CFLAGS_RELEASE += -flto
@@ -52,12 +52,9 @@ SOURCES += main.cpp \
     services/xmllookuptable.cpp \
     ui/updatedialog.cpp \
     services/settingtimer.cpp \
-    services/ffplaypreviewer.cpp \
     services/abstractpreviewer.cpp \
-    services/mplayerpreviewer.cpp \
     ui/previewdialog.cpp \
     ui/interactivecuttingdialog.cpp \
-    ui/myqmpwidget.cpp \
     ui/mediaplayerwidget.cpp \
     ui/rangewidgetbinder.cpp
 
@@ -100,13 +97,10 @@ HEADERS  += \
     services/xmllookuptable.h \
     ui/updatedialog.h \
     services/settingtimer.h \
-    services/ffplaypreviewer.h \
     services/abstractpreviewer.h \
-    services/mplayerpreviewer.h \
     ui/previewdialog.h \
     ui/interactivecuttingdialog.h \
     ui/mediaplayerwidget.h \
-    ui/myqmpwidget.h \
     ui/rangewidgetbinder.h
 
 FORMS    += \
@@ -193,16 +187,6 @@ DEFINES += VERSION_ID_STRING=$(VERSION_ID_STRING)
 # External Short Blocking Operation Timeout
 DEFINES += OPERATION_TIMEOUT=30000
 DEFINES += DEFAULT_THREAD_COUNT=1
-
-# QMPwidget (embedded mplayer)
-SOURCES += qmpwidget/qmpwidget.cpp
-HEADERS += qmpwidget/qmpwidget.h
-INCLUDEPATH += qmpwidget
-#CONFIG += qmpwidget_pipemode
-!win32:qmpwidget_pipemode: {
-    HEADERS += qmpwidget/qmpyuvreader.h
-    DEFINES += QMP_USE_YUVPIPE
-}
 
 OTHER_FILES +=
 

@@ -455,7 +455,7 @@ void ConvertList::editSelectedParameters()
 
     ConversionParameterDialog dialog(this->parentWidget());
 
-    if (dialog.exec(param, singleItem)) {
+    if (dialog.execCustom(param, singleItem)) {
         foreach (QTreeWidgetItem* item, itemList) {
             Task *task = get_task(item);
             // copy conversion parameters

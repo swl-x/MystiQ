@@ -20,6 +20,9 @@
 
 #include <QWidget>
 
+class QVideoWidget;
+class QMediaPlayer;
+
 namespace Ui {
 class MediaPlayerWidget;
 }
@@ -48,7 +51,7 @@ public slots:
      *
      * @param url path of the file
      */
-    void load(const QString& url);
+    void load(const QString& url, qint64 begin, qint64 end);
 
     /**
      * @brief Reload previously loaded file.
@@ -75,13 +78,13 @@ public slots:
      *
      * @param sec position in seconds
      */
-    void seek(int sec);
+    void seek(qint64 sec);
 
     /**
      * @brief Seek to @a sec and pause.
      * @param sec
      */
-    void seek_and_pause(int sec);
+    void seek_and_pause(qint64 sec);
 
     /**
      * @brief Pause the media playback.
@@ -100,24 +103,30 @@ protected:
 private slots:
     void refreshTimeDisplay();
     void refreshButtonState();
-    void playerStateChanged();
     void seekSliderChanged();
     void seekBackward();
     void seekForward();
     void resetPosition();
     
+    void on_slideVolume_valueChanged(int value);
+
 private:
     Ui::MediaPlayerWidget *ui;
-    MyQMPwidget *mplayer;
+
+    QMediaPlayer *m_mediaPlayer;
+    QVideoWidget *m_videoView;
+
     QString m_file;
 
     // media playback will stop when position() reaches m_playUntil
-    int m_playUntil;
+    qint64 m_beginSec;
+    qint64 m_playUntil;
     int m_volume;
 
     Q_DISABLE_COPY(MediaPlayerWidget)
     void load_volume();
     void save_volume();
+    void update_limits();
 };
 
 #endif // MEDIAPLAYERWIDGET_H

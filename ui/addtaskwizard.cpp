@@ -204,7 +204,7 @@ void AddTaskWizard::slotEditPresetButton()
         param.source = ui->lstFiles->item(0)->text();
     }
 
-    if (dialog.exec(param, singleFile)) {
+    if (dialog.execCustom(param, singleFile)) {
         m_current_param->copyConfigurationFrom(param);
         m_cbpreset_index = ui->cbPreset->currentIndex();
         ui->cbPreset->setCurrentIndex(-1); // select no item

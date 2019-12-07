@@ -1,4 +1,4 @@
-/*  MystiQ - a C++/Qt5 gui frontend for ffmpeg
+﻿/*  MystiQ - a C++/Qt5 gui frontend for ffmpeg
  *  Copyright (C) 2011-2019 Maikel Llamaret Heredia <llamaret@webmisolutions.com>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -17,9 +17,11 @@
 
 #include <QSettings>
 #include <QWheelEvent>
+#include <QMediaPlayer>
+#include <QVideoWidget>
+
 #include "mediaplayerwidget.h"
 #include "ui_mediaplayerwidget.h"
-#include "myqmpwidget.h"
 #include "services/constants.h"
 
 #define DEFAULT_VOLUME Constants::getInteger("MediaPlayer/DefaultVolume")
@@ -30,11 +32,14 @@
 #define VOLUME_SETTING_KEY "mediaplayer/volume"
 
 namespace {
-QString sec2hms(int seconds)
+QString sec2hms(qint64 miliseconds)
 {
-    int h = seconds / 3600;
+    qint64 seconds = miliseconds / 1000;
+
+    int h = static_cast<int> (seconds / 3600);
     int m = (seconds % 3600) / 60;
     int s = (seconds % 60);
+
     QString result;
     result.sprintf("%02d:%02d:%02d", h, m, s);
     return result;
@@ -44,22 +49,73 @@ QString sec2hms(int seconds)
 MediaPlayerWidget::MediaPlayerWidget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::MediaPlayerWidget),
+    m_beginSec(0),
     m_playUntil(-1)
 {
     ui->setupUi(this);
     ui->slideVolume->setRange(0, MAX_VOLUME);
-    mplayer = new MyQMPwidget(this);
-    mplayer->start();
-    mplayer->setAcceptDrops(false);
-    mplayer->setSeekSlider(ui->slideSeek);
-    mplayer->setVolumeSlider(ui->slideVolume);
-    ui->layoutPlayer->addWidget(mplayer);
+
+    m_mediaPlayer = new QMediaPlayer(this);
+    m_videoView = new QVideoWidget(this);
+
+    ui->layoutPlayer->addWidget(m_videoView);
+
+    m_mediaPlayer->setVideoOutput(m_videoView);
+
     ui->slideSeek->setStyleSheet(SLIDER_STYLESHEET);
 
-    connect(mplayer, SIGNAL(stateChanged(int)), SLOT(playerStateChanged()));
+    connect(m_mediaPlayer, &QMediaPlayer::stateChanged, [this] {
+        refreshTimeDisplay();
+        refreshButtonState();
+        emit stateChanged();
+    });
+
+    connect(m_mediaPlayer, &QMediaPlayer::positionChanged, [this] {
+        if (m_playUntil > 0
+            && m_mediaPlayer->position() >= m_playUntil * 1000
+            && m_mediaPlayer->state() != QMediaPlayer::PausedState)
+        {
+            pause();
+
+            if (m_mediaPlayer->position() > m_playUntil * 1000)
+            {
+                m_mediaPlayer->setPosition(m_playUntil * 1000);
+                return;
+            }
+        }
+
+        refreshTimeDisplay();
+        refreshButtonState();
+        emit stateChanged();
+
+        double end = m_mediaPlayer->duration();
+        double ratio = 1000000;
+
+        if (m_playUntil > 0 && m_mediaPlayer->duration() > 0)
+        {
+            ratio = m_playUntil * 1000 * 1000000 / m_mediaPlayer->duration();
+            end = m_playUntil * 1000.0;
+        }
+
+        double endValue =  m_mediaPlayer->position() * 1.0 / end;
+
+        ui->slideSeek->blockSignals(true);
+        ui->slideSeek->setValue(qRound(endValue * ratio));
+        ui->slideSeek->blockSignals(false);
+    });
+
+    connect(m_mediaPlayer, &QMediaPlayer::mediaStatusChanged, [this] (QMediaPlayer::MediaStatus status) {
+        if (status != QMediaPlayer::InvalidMedia && status != QMediaPlayer::LoadingMedia && status != QMediaPlayer::UnknownMediaStatus )
+        {
+            m_mediaPlayer->setPosition(m_beginSec * 1000);
+
+            update_limits();
+        }
+    });
+
     connect(ui->slideSeek, SIGNAL(valueChanged(int)), SLOT(seekSliderChanged()));
     connect(ui->btnPlayPause, SIGNAL(clicked()), SLOT(togglePlayPause()));
-    connect(ui->btnBack, SIGNAL(clicked()), SLOT(seekBack()));
+    connect(ui->btnBack, SIGNAL(clicked()), SLOT(seekBackward()));
     connect(ui->btnForward, SIGNAL(clicked()), SLOT(seekForward()));
     connect(ui->btnReset, SIGNAL(clicked()), SLOT(resetPosition()));
 
@@ -76,100 +132,113 @@ MediaPlayerWidget::~MediaPlayerWidget()
 
 bool MediaPlayerWidget::ok() const
 {
-    MyQMPwidget::MediaInfo info = mplayer->mediaInfo();
-    return info.ok;
+
+    return true;
 }
 
 double MediaPlayerWidget::duration() const
 {
-    MyQMPwidget::MediaInfo info = mplayer->mediaInfo();
-    if (info.ok)
-        return info.length;
-    else
-        return 0;
+    return m_mediaPlayer->duration();
 }
 
 double MediaPlayerWidget::position() const
 {
-    return mplayer->tell();
+    return m_mediaPlayer->position();
 }
 
 // public slots
 
-void MediaPlayerWidget::load(const QString &url)
+void MediaPlayerWidget::load(const QString &url, qint64 begin, qint64 end)
 {
     m_file = url;
-    mplayer->load(url);
+
+    m_beginSec = begin;
+    m_playUntil = end;
+
+    update_limits();
+
+    m_mediaPlayer->setMedia(QUrl(QString("file://%1").arg(url)));
+
     ui->slideVolume->setValue(m_volume);
-    mplayer->pause();
+    m_mediaPlayer->setVolume(m_volume);
 }
 
 void MediaPlayerWidget::reload()
 {
-    load(m_file);
+    load(m_file, m_beginSec, m_playUntil);
 }
 
 void MediaPlayerWidget::play()
 {
-    mplayer->play();
+    m_mediaPlayer->play();
     ui->btnPlayPause->setFocus();
     refreshButtonState();
 }
 
 void MediaPlayerWidget::playRange(int begin_sec, int end_sec)
 {
-    if (mplayer->state() == MyQMPwidget::IdleState)
+    if (m_mediaPlayer->state() != QMediaPlayer::PlayingState)
+    {
         reload();
-    if (begin_sec >= 0)
-        seek(begin_sec);
-    else
-        seek(0);
-    if (end_sec >= 0)
+    }
+
+    m_beginSec = begin_sec;
+
+    if (end_sec > 0)
+    {
         m_playUntil = end_sec;
+    }
     else
+    {
         m_playUntil = -1;
+    }
+
+    m_mediaPlayer->setPosition(m_beginSec * 1000);
+
+    //update_limits();
     play();
 }
 
 void MediaPlayerWidget::pause()
 {
-    mplayer->pause();
+    m_mediaPlayer->pause();
     ui->btnPlayPause->setFocus();
     refreshButtonState();
 }
 
-void MediaPlayerWidget::seek(int sec)
+void MediaPlayerWidget::seek(qint64 sec)
 {
-    mplayer->seek(sec);
+    m_mediaPlayer->setPosition(sec);
 }
 
-void MediaPlayerWidget::seek_and_pause(int sec)
+void MediaPlayerWidget::seek_and_pause(qint64 sec)
 {
-    // seek() is asynchrous. If call mplayer->seek(); mplayer->pause(); in a row,
+    // setPosition() is asynchrous. If call m_mediaPlayer->setPosition(); m_mediaPlayer->pause(); in a row,
     // the latter command will be ignored because seek() is not done yet.
-    mplayer->seek(sec);
-    m_playUntil = sec; // seek() is asynchrouse
+
+    m_mediaPlayer->setPosition(sec);
+    m_playUntil = sec;
 }
 
 void MediaPlayerWidget::togglePlayPause()
 {
-    switch (mplayer->state()) {
-    case MyQMPwidget::IdleState:
+    switch (m_mediaPlayer->state()) {
+    case QMediaPlayer::StoppedState:
         reload();
+
         if (ui->slideSeek->value() < ui->slideSeek->maximum()) { // user seeks
-            mplayer->seek(ui->slideSeek->value());
+            m_mediaPlayer->setPosition(ui->slideSeek->value());
         } else { // otherwise rewind to begin
             ui->slideSeek->setValue(0);
         }
+
+        m_mediaPlayer->pause();
+        break;
+    case QMediaPlayer::PlayingState:
         pause();
         break;
-    case MyQMPwidget::PlayingState:
-        pause();
-        break;
-    case MyQMPwidget::PausedState:
+    case QMediaPlayer::PausedState:
         play();
-        break;
-    default:
         break;
     }
 }
@@ -197,64 +266,76 @@ void MediaPlayerWidget::mousePressEvent(QMouseEvent */*event*/)
 
 void MediaPlayerWidget::refreshTimeDisplay()
 {
-    MyQMPwidget::MediaInfo info = mplayer->mediaInfo();
-    int duration, position, remaining;
-    if (info.ok) {
-        duration = info.length;
-        position = mplayer->tell();
-        if (position < 0) position = 0;
-        remaining = duration - position;
-    } else {
-        duration = position = remaining = 0;
+    qint64 duration, position, remaining;
+
+    duration = m_playUntil == -1 ?
+                m_mediaPlayer->duration() - (m_beginSec * 1000)
+              : (m_playUntil - m_beginSec) * 1000;
+    position = m_mediaPlayer->position() - (m_beginSec * 1000);
+
+    if (position < 0)
+    {
+        position = 0;
     }
+
+    remaining = duration - position;
+
     ui->lblPosition->setText(QString("%1 / %2")
                              .arg(sec2hms(position))
                              .arg(sec2hms(duration)));
+
     ui->lblRemaining->setText(QString("-%1").arg(sec2hms(remaining)));
 }
 
 void MediaPlayerWidget::refreshButtonState()
 {
-    QString button_icon = ":/actions/icons/play.svg";
-    switch (mplayer->state()) {
-    case MyQMPwidget::PlayingState:
-        button_icon = ":/actions/icons/pause.svg"; break;
-    default:
-        break;
-    }
-    ui->btnPlayPause->setIcon(QIcon(button_icon));
-}
+    QString button_icon =
+            m_mediaPlayer->state() == QMediaPlayer::PlayingState ?
+                ":/actions/icons/pause.svg" :
+                ":/actions/icons/play.svg";
 
-void MediaPlayerWidget::playerStateChanged()
-{
-    refreshTimeDisplay();
-    refreshButtonState();
-    emit stateChanged();
+    ui->btnPlayPause->setIcon(QIcon(button_icon));
 }
 
 void MediaPlayerWidget::seekSliderChanged()
 {
     refreshTimeDisplay();
-    if (m_playUntil >= 0 && position() >= m_playUntil) {
-        // reaches temporary pause position
-        m_playUntil = -1;
-        pause();
+    refreshButtonState();
+    emit stateChanged();
+
+    double ratio = 1000000;
+
+    if (m_playUntil > 0 && m_mediaPlayer->duration() > 0)
+    {
+        ratio = m_playUntil * 1000 * 1000000 / m_mediaPlayer->duration();
     }
+
+    double end = m_mediaPlayer->duration();
+    double endValue = ui->slideSeek->value() / ratio;
+
+    if (m_playUntil > 0)
+    {
+        end = m_playUntil * 1000.0;
+    }
+
+    m_mediaPlayer->blockSignals(true);
+    m_mediaPlayer->setPosition(qRound(endValue * end));
+    m_mediaPlayer->blockSignals(false);
 }
 
 void MediaPlayerWidget::seekBackward()
 {
-    mplayer->seek(-3, MyQMPwidget::RelativeSeek);
+    m_mediaPlayer->setPosition(m_mediaPlayer->position() - 3000);
 }
 
 void MediaPlayerWidget::seekForward()
 {
-    mplayer->seek(3, MyQMPwidget::RelativeSeek);
+    m_mediaPlayer->setPosition(m_mediaPlayer->position() + 3000);
 }
 
 void MediaPlayerWidget::resetPosition()
 {
-    mplayer->seek(0);
+    m_mediaPlayer->setPosition(m_beginSec);
 }
 
 void MediaPlayerWidget::load_volume()
@@ -273,4 +354,36 @@ void MediaPlayerWidget::save_volume()
 {
     m_volume = ui->slideVolume->value();
     QSettings().setValue(VOLUME_SETTING_KEY, m_volume);
+}
+
+void MediaPlayerWidget::update_limits()
+{
+    if (m_mediaPlayer->duration() > 0)
+    {
+        ui->slideSeek->setMinimum(static_cast<int> (m_beginSec * 1000 * 1.0 / m_mediaPlayer->duration() * 1000000));
+
+        if (m_playUntil > 0)
+        {
+            ui->slideSeek->setMaximum(static_cast<int> (m_playUntil * 1000 * 1.0 / m_mediaPlayer->duration() * 1000000));
+        }
+        else
+        {
+            ui->slideSeek->setMaximum(1000000);
+        }
+
+        refreshTimeDisplay();
+        refreshButtonState();
+        emit stateChanged();
+    }
+}
+
+void MediaPlayerWidget::on_slideVolume_valueChanged(int value)
+{
+    m_volume = value;
+
+    qreal linearVolume = QAudio::convertVolume(value / qreal(100.0),
+                                               QAudio::LogarithmicVolumeScale,
+                                               QAudio::LinearVolumeScale);
+
+    m_mediaPlayer->setVolume(qRound(linearVolume * 100));
 }
