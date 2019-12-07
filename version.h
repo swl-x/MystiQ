@@ -23,6 +23,6 @@
 
 // machine-readable version id (VersionId)
 // the update-checker compares versions using this integer
-#define VERSION_INTEGER 044
+#define VERSION_INTEGER 040
 
 #endif // VERSION_H
