@@ -60,7 +60,7 @@ InteractiveCuttingDialog::~InteractiveCuttingDialog()
 
 bool InteractiveCuttingDialog::available()
 {
-    return ExePath::checkProgramAvailability("mplayer");
+    return true;
 }
 
 bool InteractiveCuttingDialog::fromBegin() const
@@ -105,13 +105,8 @@ void InteractiveCuttingDialog::setEndTime(int sec)
 
 int InteractiveCuttingDialog::exec(const QString &filename)
 {
-    if (available()) {
-        player->load(filename, m_rangeEdit->beginTime(), m_rangeEdit->endTime());
-        return exec();
-    } else {
-        QMessageBox::critical(this, windowTitle(), tr("%1 not found").arg("mplayer"));
-        return QDialog::Rejected;
-    }
+    player->load(filename, m_rangeEdit->beginTime(), m_rangeEdit->endTime());
+    return exec();
 }
 
 int InteractiveCuttingDialog::exec(const QString &filename, TimeRangeEdit *range)
