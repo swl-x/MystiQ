@@ -158,7 +158,7 @@ unix {
     target.path = /usr/bin/
     desktop.path = /usr/share/applications/
     desktop.files += mystiq.desktop
-    desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/mystiq.png
+    desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/mystiq.svg
     desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons && \
                      cp icons/mystiq.svg ${INSTALL_ROOT}/usr/share/icons/mystiq.svg
     INSTALLS += target desktop
