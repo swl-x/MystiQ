@@ -1,6 +1,8 @@
 MystiQ, FFmpeg GUI front-end based on Qt5
 =========================================
 
+![MystiQ Video Converter](http://mystiq.swlx.info/mystiq.png)
+
 Introduction
 ------------
 
