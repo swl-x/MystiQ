@@ -77,6 +77,9 @@ private:
     TimeRangeEdit *m_timeEdit;
     RangeSelector *m_rangeSel;
     ConversionParameters *m_param;
+
+    int m_singleVideoWidth;
+    int m_singleVideoHeight;
 };
 
 #endif // CONVERSIONPARAMETERDIALOG_H

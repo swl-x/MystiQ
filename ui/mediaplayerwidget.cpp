@@ -138,12 +138,12 @@ bool MediaPlayerWidget::ok() const
 
 double MediaPlayerWidget::duration() const
 {
-    return m_mediaPlayer->duration();
+    return m_mediaPlayer->duration() / 1000;
 }
 
 double MediaPlayerWidget::position() const
 {
-    return m_mediaPlayer->position();
+    return m_mediaPlayer->position() / 1000;
 }
 
 // public slots
@@ -208,15 +208,14 @@ void MediaPlayerWidget::pause()
 
 void MediaPlayerWidget::seek(qint64 sec)
 {
-    m_mediaPlayer->setPosition(sec);
+    m_mediaPlayer->setPosition(sec * 1000);
 }
 
 void MediaPlayerWidget::seek_and_pause(qint64 sec)
 {
-    // setPosition() is asynchrous. If call m_mediaPlayer->setPosition(); m_mediaPlayer->pause(); in a row,
-    // the latter command will be ignored because seek() is not done yet.
+    qDebug() << "Using seek and pause";
 
-    m_mediaPlayer->setPosition(sec);
+    m_mediaPlayer->setPosition(sec * 1000);
     m_playUntil = sec;
 }
 

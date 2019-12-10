@@ -19,6 +19,7 @@
 #include "mediaprobe.h"
 #include <QStringList>
 #include <QDebug>
+#include <QRegularExpression>
 #include <cassert>
 
 #define TIMEOUT 3000
@@ -101,6 +102,27 @@ int parseFFmpegArguments(QStringList& args, int index, ConversionParameters& res
                 if (pattern.indexIn(args[index+1]) != -1) {
                     result.video_width = pattern.cap(1).toInt();
                     result.video_height = pattern.cap(2).toInt();
+                    used_arg_count = 2;
+                }
+            }
+
+            CHECK_OPTION("-filter:v")
+            {
+                QRegularExpression pattern("crop=(\\d+):(\\d+):(\\d+):(\\d+)");
+                QRegularExpressionMatch match = pattern.match(args[index + 1]);
+
+                if (match.hasMatch())
+                {
+                    int out_w = match.captured(1).toInt();
+                    int out_h = match.captured(2).toInt();
+                    int x = match.captured(3).toInt();
+                    int y = match.captured(4).toInt();
+
+                    result.video_crop_top = y;
+                    result.video_crop_left = x;
+                    result.video_crop_right = out_w + x;
+                    result.video_crop_bottom = out_h + y;
+
                     used_arg_count = 2;
                 }
             }

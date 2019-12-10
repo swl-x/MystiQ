@@ -503,6 +503,8 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list.append(QString("%1x%2").arg(o.video_width).arg(o.video_height));
         }
 
+        qDebug() << "CHECKING IF CROP IS ACTIVATED" << o.toCrop << o.video_crop_top;
+
         // crop video
         if (o.toCrop)
         {

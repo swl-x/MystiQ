@@ -39,7 +39,9 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ConversionParameterDialog),
     m_timeEdit(new TimeRangeEdit(this)),
-    m_rangeSel(new RangeSelector(this))
+    m_rangeSel(new RangeSelector(this)),
+    m_singleVideoWidth(0),
+    m_singleVideoHeight(0)
 {
     ui->setupUi(this);
 
@@ -88,11 +90,11 @@ bool ConversionParameterDialog::execCustom(ConversionParameters& param, bool sin
     read_fields(param);
 
     if (!param.source.isEmpty()) {
-        qDebug() << "Passing file source to QML component";
         ui->cropWidget->rootObject()->setProperty("file_source", QString("file://%1").arg(param.source));
     }
 
     bool accepted = (QDialog::exec() == QDialog::Accepted);
+
     if (accepted) {
         write_fields(param);
     }
@@ -226,6 +228,12 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
     param.video_width = ui->spinWidth->value();
     param.video_height = ui->spinHeight->value();
 
+    param.toCrop =
+            ui->spinCropTop->value() != 0 ||
+            ui->spinCropLeft->value() != 0 ||
+            ui->spinCropRight->value() != m_singleVideoWidth ||
+            ui->spinCropBottom->value() != m_singleVideoHeight;
+
     param.video_crop_top = ui->spinCropTop->value();
     param.video_crop_bottom = ui->spinCropBottom->value();
     param.video_crop_left = ui->spinCropLeft->value();
@@ -306,6 +314,9 @@ void ConversionParameterDialog::onVideoLoaded(const int w, const int h)
 
     ui->spinCropRight->setValue(w);
     ui->spinCropBottom->setValue(h);
+
+    m_singleVideoWidth = w;
+    m_singleVideoHeight = h;
 }
 
 void ConversionParameterDialog::on_spinCropTop_valueChanged(int arg1)
