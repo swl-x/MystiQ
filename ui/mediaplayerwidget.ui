@@ -6,14 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
-    <height>300</height>
+    <width>619</width>
+    <height>379</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="maximumSize">
    <size>
-    <width>700</width>
-    <height>500</height>
+    <width>10000000</width>
+    <height>10000000</height>
    </size>
   </property>
   <property name="windowTitle">

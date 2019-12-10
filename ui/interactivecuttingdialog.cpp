@@ -35,9 +35,11 @@ InteractiveCuttingDialog::InteractiveCuttingDialog(QWidget *parent) :
     m_rangeEdit(new TimeRangeEdit(this))
 {
     ui->setupUi(this);
-    ui->layoutPlayer->addWidget(player);
-    ui->layoutRangeSelector->addWidget(m_rangeSel);
+    ui->frmPlay->layout()->addWidget(player);
+    ui->frmPlay->layout()->addWidget(m_rangeSel);
     ui->layoutRangeEdit->addWidget(m_rangeEdit);
+
+    player->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
     // automatically sync between m_rangeSel and m_rangeEdit
     new RangeWidgetBinder(m_rangeSel, m_rangeEdit, this);
@@ -105,7 +107,7 @@ void InteractiveCuttingDialog::setEndTime(int sec)
 
 int InteractiveCuttingDialog::exec(const QString &filename)
 {
-    player->load(filename, m_rangeEdit->beginTime(), m_rangeEdit->endTime());
+    player->load(filename, m_rangeEdit->beginTime(), toEnd() ? -1 : m_rangeEdit->endTime());
     return exec();
 }
 
@@ -115,6 +117,7 @@ int InteractiveCuttingDialog::exec(const QString &filename, TimeRangeEdit *range
     setEndTime(range->endTime());
     setFromBegin(range->fromBegin());
     setToEnd(range->toEnd());
+
     int status = exec(filename);
     if (status == QDialog::Accepted) {
         range->setBeginTime(beginTime());
@@ -131,6 +134,7 @@ int InteractiveCuttingDialog::exec(ConversionParameters *param)
     // convert begin and duration to begin and end time
     setBeginTime(static_cast<int>(param->time_begin));
     setFromBegin(param->time_begin == 0);
+
     if (param->time_end > 0) { // time_end == 0 means "to end"
         setEndTime(static_cast<int>(param->time_end));
         setToEnd(false);
@@ -138,6 +142,7 @@ int InteractiveCuttingDialog::exec(ConversionParameters *param)
         setToEnd(true);
     }
     int status = exec(param->source);
+
     // convert from begin and end time back to begin and duration
     if (status == QDialog::Accepted) {
         param->time_begin = static_cast<unsigned int>(fromBegin() ? 0 : beginTime());
@@ -156,7 +161,8 @@ int InteractiveCuttingDialog::exec()
 
 void InteractiveCuttingDialog::playerStateChanged()
 {
-    int duration = static_cast<int>(ceil(player->duration()));
+    int duration = qRound(player->duration());
+
     if (player->ok() && duration != m_rangeEdit->maxTime()) {
         // get media duration and set limits
         // change range edit after visual selection
