@@ -401,14 +401,24 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         }
     }
     // begining insert subtitle
-       if (subtitulo_srt.exists() && o.insert_subtitle) {
-           //TODO make insert subtitle happends
-           list << "-vf subtitles='"+subtitulosrt+"':force_style='Fontsize=24':charenc=cp1256";
-       }
-       else if (!subtitulo_srt.exists() && subtitulo_ssa.exists() && o.insert_subtitle) {
-           //TODO make insert subtitle happends
-           list << "-vf subtitles='"+subtitulossa+"':force_style='Fontsize=24':charenc=cp1256";
-       }
+    if (o.insert_subtitle)
+    {
+      QString command;
+
+      if (subtitulo_srt.exists())
+      {
+        command = QString("-vf subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulosrt);
+      }
+      else if (subtitulo_ssa.exists())
+      {
+        command = QString("-vf subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulossa);
+      }
+
+      if (!command.isEmpty())
+      {
+        list << command;
+      }
+    }
      // finishing insert subtitle
 
     // enable experimental codecs by default
@@ -607,6 +617,7 @@ void FFmpegInterface::fillParameterList(const ConversionParameters &param, QStri
 
 void FFmpegInterface::parseProcessOutput(const QString &data)
 {
+    //Show qDebug Message
     //qDebug() << data;
 
     // split incoming data by [end of line] or [carriage return]

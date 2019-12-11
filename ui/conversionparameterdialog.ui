@@ -206,7 +206,7 @@
            <item>
             <widget class="QCheckBox" name="chkInsertSubtitle">
              <property name="text">
-              <string>Insert Subtitle if Available (Experimental)</string>
+              <string>Insert Subtitle if Available</string>
              </property>
             </widget>
            </item>

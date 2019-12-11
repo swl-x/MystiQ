@@ -315,13 +315,15 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.4.0 (2019-12-15)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.4.0 (2019-12-10)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added French language Pack&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed the application icon&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed: Adding Debian based distros build deps&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed: Avoid pass crop parameters to ffmpeg when not changed the crop on configuration&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed logo to SVG format&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Feature: Replace the preview system with qtmultimedia&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed: Remove more mplayer references.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed: some bugs on cut &amp;amp; crop dialogs.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.3.2 (2019-12-06)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;- Added new Video Cut Editor&lt;/span&gt;&lt;/p&gt;
@@ -641,11 +643,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Insert Subtitle if Available (Experimental)</source>
-        <translation>Insérer un sous-titre si disponible (expérimental)</translation>
+        <translation type="vanished">Insérer un sous-titre si disponible (expérimental)</translation>
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
         <translation>qrc:/qml/main.qml</translation>
+    </message>
+    <message>
+        <source>Insert Subtitle if Available</source>
+        <translation>Insérer un sous-titre si disponible</translation>
     </message>
 </context>
 <context>

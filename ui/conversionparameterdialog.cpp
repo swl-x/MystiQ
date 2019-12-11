@@ -272,14 +272,12 @@ void ConversionParameterDialog::audio_tab_update_enabled_widgets()
 void ConversionParameterDialog::video_tab_update_enabled_widgets()
 {
     bool disable_video= ui->chkDisableVideo->isChecked();
-    bool insert_subtitle= ui->chkInsertSubtitle->isChecked();
     bool copy_video = ui->chkCopyVideo->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
-    //ui->chkInsertSubtitle->setEnabled(true); // always enabled
+    ui->chkInsertSubtitle->setEnabled(true); // always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
-    ui->chkInsertSubtitle->setWindowModified(!insert_subtitle);
-    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video);
+    ui->chkInsertSubtitle->setDisabled(disable_video);
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
 }
 
