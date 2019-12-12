@@ -369,123 +369,128 @@ p, li { white-space: pre-wrap; }
         <translation>Ausgewählte Dateien entfernen.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="155"/>
+        <location filename="../ui/addtaskwizard.ui" line="113"/>
+        <source>Clear List</source>
+        <translation>Liste leeren</translation>
+    </message>
+    <message>
+        <location filename="../ui/addtaskwizard.ui" line="181"/>
         <source>Output Settings</source>
         <translation>Ausgabeeinstellungen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="164"/>
+        <location filename="../ui/addtaskwizard.ui" line="190"/>
         <source>Convert to</source>
         <translation>Konvertieren zu</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="171"/>
+        <location filename="../ui/addtaskwizard.ui" line="197"/>
         <source>Preset</source>
         <translation>Voreinstellung</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="178"/>
+        <location filename="../ui/addtaskwizard.ui" line="204"/>
         <source>Auto adjust output bitrate to reduce output file size.</source>
         <translation>Automatische Anpassung der Ausgabebitrate zur Reduzierung der Ausgabedateigröße.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="181"/>
+        <location filename="../ui/addtaskwizard.ui" line="207"/>
         <source>Auto Adjust Audio Bitrate</source>
         <translation>Audio-Bitrate automatisch anpassen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="214"/>
+        <location filename="../ui/addtaskwizard.ui" line="240"/>
         <source>Edit</source>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="230"/>
+        <location filename="../ui/addtaskwizard.ui" line="256"/>
         <source>Output Path</source>
         <translation>Ausgabepfad</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="236"/>
+        <location filename="../ui/addtaskwizard.ui" line="262"/>
         <source>Select &amp;folder</source>
         <translation>Auswählen &amp;Ordner</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="271"/>
+        <location filename="../ui/addtaskwizard.ui" line="297"/>
         <source>Browse</source>
         <translation>Durchsuche</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="284"/>
+        <location filename="../ui/addtaskwizard.ui" line="310"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
         <translation>&amp;Neuen Ordner im Quellordner erstellen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="309"/>
+        <location filename="../ui/addtaskwizard.ui" line="335"/>
         <source>Folder Name</source>
         <translation>Ordnernamen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="341"/>
+        <location filename="../ui/addtaskwizard.ui" line="367"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
         <translation>Ausgabe in &amp;Ordner quelle</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="143"/>
+        <location filename="../ui/addtaskwizard.cpp" line="145"/>
         <source>Please select at least one file.</source>
         <translation>Bitte wählen Sie mindestens eine Datei aus.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="168"/>
+        <location filename="../ui/addtaskwizard.cpp" line="170"/>
         <source>Select Files</source>
         <extracomment>This text is the title of an openfile dialog.</extracomment>
         <translatorcomment>Dieser Text ist der Titel eines OpenFile-Dialogs.</translatorcomment>
         <translation>Dateien auswählen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="170"/>
+        <location filename="../ui/addtaskwizard.cpp" line="172"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="171"/>
+        <location filename="../ui/addtaskwizard.cpp" line="173"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="172"/>
+        <location filename="../ui/addtaskwizard.cpp" line="174"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="173"/>
+        <location filename="../ui/addtaskwizard.cpp" line="175"/>
         <source>All files</source>
         <translation>Alle Dateien</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="217"/>
+        <location filename="../ui/addtaskwizard.cpp" line="224"/>
         <source>Select Directory</source>
         <extracomment>This text is the title of an open directory dialog.</extracomment>
         <translatorcomment>Dieser Text ist der Titel eines Dialogfelds für geöffnete Ordner.</translatorcomment>
         <translation>Ordner auswählen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="299"/>
+        <location filename="../ui/addtaskwizard.cpp" line="306"/>
         <source>Searching for files...</source>
         <translation>Nach Dateien suchen...</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="312"/>
+        <location filename="../ui/addtaskwizard.cpp" line="319"/>
         <source>Some files could not be found.</source>
         <translation>Einige Dateien konnten nicht gefunden werden.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="474"/>
+        <location filename="../ui/addtaskwizard.cpp" line="481"/>
         <source>Folder does not exist. Create a new folder?</source>
         <translation>Ordner existiert nicht. Einen neuen Ordner erstellen?</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="485"/>
+        <location filename="../ui/addtaskwizard.cpp" line="492"/>
         <source>Failed to create folder. Please select another output folder.</source>
         <translation>Ordner konnte nicht erstellt werden. Bitte wählen Sie einen anderen Ausgabeordner.</translation>
     </message>
@@ -689,7 +694,7 @@ p, li { white-space: pre-wrap; }
     <name>ConvertList</name>
     <message>
         <location filename="../ui/convertlist.cpp" line="299"/>
-        <location filename="../ui/convertlist.cpp" line="1006"/>
+        <location filename="../ui/convertlist.cpp" line="1005"/>
         <source>Cancel</source>
         <extracomment>Cancel the operation of adding new tasks</extracomment>
         <translatorcomment>Brechen Sie den Vorgang zum Hinzufügen neuer Aufgaben ab</translatorcomment>
@@ -753,163 +758,163 @@ p, li { white-space: pre-wrap; }
         <translation>Alle Spalten wiederherstellen</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="875"/>
+        <location filename="../ui/convertlist.cpp" line="874"/>
         <source>Source</source>
         <translation>Quelle</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="876"/>
+        <location filename="../ui/convertlist.cpp" line="875"/>
         <source>Destination</source>
         <translation>Ziel</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="877"/>
+        <location filename="../ui/convertlist.cpp" line="876"/>
         <source>Duration</source>
         <translation>Dauer</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="878"/>
+        <location filename="../ui/convertlist.cpp" line="877"/>
         <source>File Size</source>
         <translation>Dateigröße</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="881"/>
+        <location filename="../ui/convertlist.cpp" line="880"/>
         <source>Sample Rate</source>
         <extracomment>Audio</extracomment>
         <translatorcomment>Audio</translatorcomment>
         <translation>Beispielrate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="882"/>
+        <location filename="../ui/convertlist.cpp" line="881"/>
         <source>Audio Bitrate</source>
         <translation>Audio Bitrate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="883"/>
+        <location filename="../ui/convertlist.cpp" line="882"/>
         <source>Channels</source>
         <extracomment>Audio</extracomment>
         <translatorcomment>Audio</translatorcomment>
         <translation>Kanäle</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="884"/>
+        <location filename="../ui/convertlist.cpp" line="883"/>
         <source>Audio Codec</source>
         <translation>Audio-Codec</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="887"/>
+        <location filename="../ui/convertlist.cpp" line="886"/>
         <source>Dimensions</source>
         <translation>Maße</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="888"/>
+        <location filename="../ui/convertlist.cpp" line="887"/>
         <source>Video Bitrate</source>
         <translation>Video-Bitrate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="889"/>
+        <location filename="../ui/convertlist.cpp" line="888"/>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
         <translatorcomment>Video</translatorcomment>
         <translation>Framerate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="890"/>
+        <location filename="../ui/convertlist.cpp" line="889"/>
         <source>Video Codec</source>
         <translation>Video-Codec</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="892"/>
+        <location filename="../ui/convertlist.cpp" line="891"/>
         <source>Progress</source>
         <translation>Fortschritt</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="975"/>
+        <location filename="../ui/convertlist.cpp" line="974"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="976"/>
-        <location filename="../ui/convertlist.cpp" line="985"/>
+        <location filename="../ui/convertlist.cpp" line="975"/>
+        <location filename="../ui/convertlist.cpp" line="984"/>
         <source>%1 kb/s</source>
         <translation>%1 kb/s</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="986"/>
+        <location filename="../ui/convertlist.cpp" line="985"/>
         <source>%1 fps</source>
         <translation>%1 fps</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1005"/>
+        <location filename="../ui/convertlist.cpp" line="1004"/>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
         <translatorcomment>Entfernen Sie Dateien aus der Jobliste</translatorcomment>
         <translation>Aufgaben werden entfernt...</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1048"/>
+        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>KiB</source>
         <translation>KiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1048"/>
+        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>MiB</source>
         <translation>MiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1048"/>
+        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>GiB</source>
         <translation>GiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1048"/>
+        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>TiB</source>
         <translation>TiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1051"/>
+        <location filename="../ui/convertlist.cpp" line="1050"/>
         <source>B</source>
         <extracomment>Bytes</extracomment>
         <translatorcomment>Bytes</translatorcomment>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1086"/>
+        <location filename="../ui/convertlist.cpp" line="1085"/>
         <source>File Exists</source>
         <translation>Datei existiert</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1087"/>
+        <location filename="../ui/convertlist.cpp" line="1086"/>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
         <translation>%1 ist bereits auf dem Datenträger oder in der Aufgabenliste vorhanden. Verwenden Sie diesen Namen immer noch als Ausgabedateinamen?</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1132"/>
+        <location filename="../ui/convertlist.cpp" line="1131"/>
         <source>Remove Task</source>
         <translation>Aufgabe entfernen</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1133"/>
+        <location filename="../ui/convertlist.cpp" line="1132"/>
         <source>Cannot remove a task while it is in progress.</source>
         <translation>Eine laufende Aufgabe kann nicht entfernt werden.</translation>
     </message>
     <message>
+        <location filename="../ui/convertlist.cpp" line="1178"/>
         <location filename="../ui/convertlist.cpp" line="1179"/>
-        <location filename="../ui/convertlist.cpp" line="1180"/>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
         <translatorcomment>Der Text, der nach Abschluss einer Konvertierung in der Fortschrittsleiste angezeigt werden soll</translatorcomment>
         <translation>Fertig</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1187"/>
+        <location filename="../ui/convertlist.cpp" line="1186"/>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
         <translatorcomment>Der Text, der in der Fortschrittsleiste angezeigt wird, wenn eine Konvertierung fehlschlägt</translatorcomment>
         <translation>Gescheitert</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1189"/>
+        <location filename="../ui/convertlist.cpp" line="1188"/>
         <source>Error: %1</source>
         <extracomment>%1 is the error message</extracomment>
         <translatorcomment>%1 ist die Fehlermeldung</translatorcomment>

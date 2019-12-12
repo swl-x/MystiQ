@@ -506,6 +506,10 @@ p, li { white-space: pre-wrap; }
         <source>Failed to create folder. Please select another output folder.</source>
         <translation>Impossible de créer le dossier. Sélectionnez-en un autre.</translation>
     </message>
+    <message>
+        <source>Clear List</source>
+        <translation>Effacer la liste</translation>
+    </message>
 </context>
 <context>
     <name>ConversionParameterDialog</name>

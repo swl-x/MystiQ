@@ -59,6 +59,8 @@ AddTaskWizard::AddTaskWizard(Presets *presets, QWidget *parent) :
             , this, SLOT(slotAddFilesToList()));
     connect(ui->btnRemove, SIGNAL(clicked())
             , this, SLOT(slotRemoveFilesFromList()));
+    connect(ui->btnClearList, SIGNAL(clicked())
+            , this, SLOT(slotClearList()));
     connect(ui->cbExtension, SIGNAL(currentIndexChanged(int))
             , this, SLOT(slotExtensionSelected(int)));
     connect(ui->cbPreset, SIGNAL(currentIndexChanged(int))
@@ -191,6 +193,11 @@ void AddTaskWizard::slotRemoveFilesFromList()
     foreach (QListWidgetItem *item, itemList) {
         ui->lstFiles->takeItem(ui->lstFiles->row(item));
     }
+}
+
+void AddTaskWizard::slotClearList()
+{
+    ui->lstFiles->clear();
 }
 
 void AddTaskWizard::slotEditPresetButton()
