@@ -858,10 +858,9 @@ void ConvertList::init_treewidget(QTreeWidget *w)
     init_treewidget_fill_column_titles(columnTitle);
 
     w->setHeaderLabels(columnTitle);
-    //w->header()->setMovable(false); // disable title drag-drop reordering
-
     w->setRootIsDecorated(false);
     w->setUniformRowHeights(true);
+    w->setAlternatingRowColors(true);
 
     init_treewidget_columns_visibility(w);
 }
