@@ -359,78 +359,89 @@ p, li { white-space: pre-wrap; }
         <translation>Zu konvertierende Dateien</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="73"/>
+        <location filename="../ui/addtaskwizard.ui" line="97"/>
         <source>Add files.</source>
         <translation>Dateien hinzufügen.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="96"/>
+        <location filename="../ui/addtaskwizard.ui" line="100"/>
+        <source>Add Files</source>
+        <translation>Dateien hinzufügen</translation>
+    </message>
+    <message>
+        <location filename="../ui/addtaskwizard.ui" line="129"/>
         <source>Remove selected files.</source>
         <translation>Ausgewählte Dateien entfernen.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="113"/>
+        <location filename="../ui/addtaskwizard.ui" line="132"/>
+        <source>Remove Selected</source>
+        <translation>Auswahl entfernen</translation>
+    </message>
+    <message>
+        <location filename="../ui/addtaskwizard.ui" line="146"/>
+        <location filename="../ui/addtaskwizard.ui" line="149"/>
         <source>Clear List</source>
         <translation>Liste leeren</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="181"/>
+        <location filename="../ui/addtaskwizard.ui" line="177"/>
         <source>Output Settings</source>
         <translation>Ausgabeeinstellungen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="190"/>
+        <location filename="../ui/addtaskwizard.ui" line="186"/>
         <source>Convert to</source>
         <translation>Konvertieren zu</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="197"/>
+        <location filename="../ui/addtaskwizard.ui" line="193"/>
         <source>Preset</source>
         <translation>Voreinstellung</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="204"/>
+        <location filename="../ui/addtaskwizard.ui" line="200"/>
         <source>Auto adjust output bitrate to reduce output file size.</source>
         <translation>Automatische Anpassung der Ausgabebitrate zur Reduzierung der Ausgabedateigröße.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="207"/>
+        <location filename="../ui/addtaskwizard.ui" line="203"/>
         <source>Auto Adjust Audio Bitrate</source>
         <translation>Audio-Bitrate automatisch anpassen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="240"/>
+        <location filename="../ui/addtaskwizard.ui" line="236"/>
         <source>Edit</source>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="256"/>
+        <location filename="../ui/addtaskwizard.ui" line="252"/>
         <source>Output Path</source>
         <translation>Ausgabepfad</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="262"/>
+        <location filename="../ui/addtaskwizard.ui" line="258"/>
         <source>Select &amp;folder</source>
         <translation>Auswählen &amp;Ordner</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="297"/>
+        <location filename="../ui/addtaskwizard.ui" line="293"/>
         <source>Browse</source>
         <translation>Durchsuche</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="310"/>
+        <location filename="../ui/addtaskwizard.ui" line="306"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
         <translation>&amp;Neuen Ordner im Quellordner erstellen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="335"/>
+        <location filename="../ui/addtaskwizard.ui" line="331"/>
         <source>Folder Name</source>
         <translation>Ordnernamen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="367"/>
+        <location filename="../ui/addtaskwizard.ui" line="363"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
         <translation>Ausgabe in &amp;Ordner quelle</translation>

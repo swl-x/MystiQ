@@ -510,6 +510,14 @@ p, li { white-space: pre-wrap; }
         <source>Clear List</source>
         <translation>Effacer la liste</translation>
     </message>
+    <message>
+        <source>Add Files</source>
+        <translation>Ajouter des fichiers</translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation>Enlever la sélection</translation>
+    </message>
 </context>
 <context>
     <name>ConversionParameterDialog</name>
