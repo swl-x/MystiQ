@@ -84,77 +84,91 @@
        </widget>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <property name="spacing">
-         <number>15</number>
+       <widget class="QFrame" name="Buttons_bar">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
         </property>
-        <item>
-         <widget class="QPushButton" name="btnAdd">
-          <property name="focusPolicy">
-           <enum>Qt::NoFocus</enum>
-          </property>
-          <property name="toolTip">
-           <string>Add files.</string>
-          </property>
-          <property name="text">
-           <string>Add Files</string>
-          </property>
-          <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/add.svg</normaloff>:/actions/icons/add.svg</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>16</width>
-            <height>16</height>
-           </size>
-          </property>
-          <property name="autoDefault">
-           <bool>true</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="btnRemove">
-          <property name="focusPolicy">
-           <enum>Qt::NoFocus</enum>
-          </property>
-          <property name="toolTip">
-           <string>Remove selected files.</string>
-          </property>
-          <property name="text">
-           <string>Remove Selected</string>
-          </property>
-          <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/remove.svg</normaloff>:/actions/icons/remove.svg</iconset>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="btnClearList">
-          <property name="focusPolicy">
-           <enum>Qt::NoFocus</enum>
-          </property>
-          <property name="toolTip">
-           <string>Clear List</string>
-          </property>
-          <property name="text">
-           <string>Clear List</string>
-          </property>
-          <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/actions/icons/clear.svg</normaloff>:/actions/icons/clear.svg</iconset>
-          </property>
-         </widget>
-        </item>
-       </layout>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnAdd">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>Add files.</string>
+           </property>
+           <property name="text">
+            <string>Add Files</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/add.svg</normaloff>:/actions/icons/add.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="autoDefault">
+            <bool>true</bool>
+           </property>
+           <property name="default">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnRemove">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>Remove selected files.</string>
+           </property>
+           <property name="text">
+            <string>Remove Selected</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/remove.svg</normaloff>:/actions/icons/remove.svg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnClearList">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>Clear List</string>
+           </property>
+           <property name="text">
+            <string>Clear List</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../images.qrc">
+             <normaloff>:/actions/icons/clear.svg</normaloff>:/actions/icons/clear.svg</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
       </item>
      </layout>
     </item>

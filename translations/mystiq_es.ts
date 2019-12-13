@@ -1750,17 +1750,17 @@ p, li { white-space: pre-wrap; }
         <translation>Archivos a ser convertidos</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="97"/>
+        <location filename="../ui/addtaskwizard.ui" line="110"/>
         <source>Add files.</source>
         <translation>Agregar Archivos.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="129"/>
+        <location filename="../ui/addtaskwizard.ui" line="142"/>
         <source>Remove selected files.</source>
         <translation>Remover archivos seleccionados.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="100"/>
+        <location filename="../ui/addtaskwizard.ui" line="113"/>
         <source>Add Files</source>
         <translation>Añadir archivos</translation>
     </message>
@@ -1769,74 +1769,74 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">Eliminar archivos</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="132"/>
+        <location filename="../ui/addtaskwizard.ui" line="145"/>
         <source>Remove Selected</source>
         <translation>Eliminar Seleccionados</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="146"/>
-        <location filename="../ui/addtaskwizard.ui" line="149"/>
+        <location filename="../ui/addtaskwizard.ui" line="159"/>
+        <location filename="../ui/addtaskwizard.ui" line="162"/>
         <source>Clear List</source>
         <translation>Limpiar Lista</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="177"/>
+        <location filename="../ui/addtaskwizard.ui" line="191"/>
         <source>Output Settings</source>
         <translation>Configuración de salida</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="186"/>
+        <location filename="../ui/addtaskwizard.ui" line="200"/>
         <source>Convert to</source>
         <translation>Convertir a</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="193"/>
+        <location filename="../ui/addtaskwizard.ui" line="207"/>
         <source>Preset</source>
         <translation>Preconfiguración</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="200"/>
+        <location filename="../ui/addtaskwizard.ui" line="214"/>
         <source>Auto adjust output bitrate to reduce output file size.</source>
         <translation>Auto ajustar el bitrate de salida para reducir el tamaño de archivo de salida.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="203"/>
+        <location filename="../ui/addtaskwizard.ui" line="217"/>
         <source>Auto Adjust Audio Bitrate</source>
         <translation>Auto ajustar el bitrate del audio</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="236"/>
+        <location filename="../ui/addtaskwizard.ui" line="250"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="252"/>
+        <location filename="../ui/addtaskwizard.ui" line="266"/>
         <source>Output Path</source>
         <translation>Directorio de salida</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="258"/>
+        <location filename="../ui/addtaskwizard.ui" line="272"/>
         <source>Select &amp;folder</source>
         <translation>Seleccionar &amp;Carpeta</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="293"/>
+        <location filename="../ui/addtaskwizard.ui" line="307"/>
         <source>Browse</source>
         <translation>Explorar</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="306"/>
+        <location filename="../ui/addtaskwizard.ui" line="320"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
         <translation>Crear una nueva Carpe&amp;ta en la Carpeta de Origen</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="331"/>
+        <location filename="../ui/addtaskwizard.ui" line="345"/>
         <source>Folder Name</source>
         <translation>Nombre de la carpeta</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="363"/>
+        <location filename="../ui/addtaskwizard.ui" line="377"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
         <translation>Salida a la &amp;carpeta de origen</translation>

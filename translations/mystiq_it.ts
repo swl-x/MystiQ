@@ -1,30 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="it_IT">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="14"/>
         <source>About MystiQ</source>
-        <translation>Über MystiQ</translation>
+        <translation>Info su MystiQ</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="44"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="58"/>
         <source>Translators</source>
-        <translation>Übersetzerinnen</translation>
+        <translation>Traduttori</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="72"/>
+        <source>Version: %1</source>
+        <translation type="vanished">Versione: %1</translation>
+    </message>
+    <message>
+        <source>Portable</source>
+        <translation>Portatile</translation>
+    </message>
+    <message>
+        <source>Compiled with Qt %1</source>
+        <translation>Compilato con Qt %1</translation>
+    </message>
+    <message>
+        <source>Compiled with libnotify %1</source>
+        <translation>Compilato con libnotify %1</translation>
+    </message>
+    <message>
+        <source>MystiQ is a gui frontend for FFmpeg.</source>
+        <translation type="vanished">MystiQ è una gui per FFmpeg.</translation>
+    </message>
+    <message>
+        <source>Programming: %1</source>
+        <translation type="vanished">Programming: %1</translation>
+    </message>
+    <message>
+        <source>Logo Design: %1</source>
+        <translation type="vanished">Logo Design: %1</translation>
+    </message>
+    <message>
+        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 or 3.</source>
+        <translation>Questo programma è software libero; sei libero di ridistribuirlo e/o modificarlo nei termini della GNU General Public License versione 2 o 3.</translation>
+    </message>
+    <message>
+        <source>MystiQ Homepage: %1</source>
+        <translation>Homepage di MystiQ: %1</translation>
+    </message>
+    <message>
+        <source>Some audio-processing functionalities are provided by SoX.</source>
+        <translation>Alcune funzionalità di elaborazione audio sono fornite da SoX.</translation>
+    </message>
+    <message>
+        <source>FFmpeg presets were taken from WinFF.</source>
+        <translation type="vanished">I preset FFmpeg sono stati presi da WinFF.</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <extracomment>Japanese Language</extracomment>
+        <translation type="vanished">Giapponese</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <extracomment>Italian Language</extracomment>
+        <translation type="vanished">Italiano</translation>
+    </message>
+    <message>
+        <source>Czech</source>
+        <extracomment>Czech Language</extracomment>
+        <translation type="vanished">Ceco</translation>
+    </message>
+    <message>
+        <source>Simplified Chinese</source>
+        <extracomment>Chinese character set used in China</extracomment>
+        <translation type="vanished">Cinese semplificato</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <extracomment>Russian Language</extracomment>
+        <translation type="vanished">Russo</translation>
+    </message>
+    <message>
+        <source>Spanish (Spain)</source>
+        <extracomment>Spanish Language (Spain)</extracomment>
+        <translation>Spagnolo (Spagna) </translation>
+    </message>
+    <message>
+        <source>Spanish (Guatemala)</source>
+        <extracomment>Spanish Language (Guatemala)</extracomment>
+        <translation type="vanished">Spagnolo (Guatemala) </translation>
+    </message>
+    <message>
+        <source>Romanian</source>
+        <extracomment>Romanian Language</extracomment>
+        <translation type="vanished">Rumeno </translation>
+    </message>
+    <message>
+        <source>Turkish</source>
+        <extracomment>Turkish Language</extracomment>
+        <translation type="vanished">Turco</translation>
+    </message>
+    <message>
+        <source>Arabic</source>
+        <extracomment>Arabic Language</extracomment>
+        <translation type="vanished">Arabo</translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <extracomment>Hungarian Langauge</extracomment>
+        <translation type="vanished">Ungherese</translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <extracomment>Polish Language</extracomment>
+        <translation type="vanished">Polacco</translation>
+    </message>
+    <message>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="84"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -167,10 +266,13 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate parts of the General Public License. Of course, your program&apos;s commands might be different; for a GUI interface, you would use an “about box”. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; text-decoration: underline; color:#0057ae;&quot;&gt;https://www.gnu.org/licenses/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;&amp;gt;. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/why-not-lgpl.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; text-decoration: underline; color:#0057ae;&quot;&gt;https://www.gnu.org/licenses/why-not-lgpl.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="259"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -221,739 +323,534 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="241"/>
-        <source>Changelog</source>
-        <translation>Änderungsliste</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="51"/>
         <source>%1</source>
-        <translation>%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="58"/>
-        <source>Portable</source>
-        <translation>Tragbar</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="61"/>
-        <source>Compiled with Qt %1</source>
-        <translation>Kompiliert mit QT %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="63"/>
-        <source>Compiled with libnotify %1</source>
-        <translation>Kompiliert mit libnotify %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="67"/>
-        <source>MystiQ Homepage: %1</source>
-        <translation>MystiQ Website: %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="69"/>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ ist ein GUI-Frontend für FFmpeg.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="72"/>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation>Entwicklerliste:&lt;br&gt; %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="74"/>
         <source>Aplication Name:&lt;br&gt; %1</source>
-        <translation>Anwendungsname:&lt;br&gt; %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="75"/>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 or 3.</source>
-        <translation>Dieses Programm ist freie Software; Sie können es unter den Bedingungen der GNU General Public License Version 2 oder 3 weitergeben und/oder modifizieren.</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="78"/>
-        <source>Some audio-processing functionalities are provided by SoX.</source>
-        <translation>Einige Audioverarbeitungsfunktionen werden von bereitgestellt mit SoX.</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="80"/>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
-        <translation>FFmpeg-Voreinstellungen wurden übernommen von &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="133"/>
-        <source>English (USA)</source>
-        <extracomment>English Language (USA)</extracomment>
-        <translatorcomment>Englische Sprache (USA)</translatorcomment>
-        <translation>Englisch (USA)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="136"/>
-        <source>Spanish (Spain)</source>
-        <extracomment>Spanish Language (Spain)</extracomment>
-        <translatorcomment>Spanische Sprasche (Spanien)</translatorcomment>
-        <translation>Spanisch (Spanien)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="139"/>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="130"/>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translatorcomment>Deutsche Sprache (Deutschland)</translatorcomment>
-        <translation>Deutsches (Deutschland)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>English (USA)</source>
+        <extracomment>English Language (USA)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>French (France)</source>
+        <extracomment>French Language (France)</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="17"/>
         <source>About FFmpeg</source>
-        <translation>Über FFmpeg</translation>
+        <translation>Info su FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="31"/>
         <source>FFmpeg</source>
         <translation>FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="90"/>
         <source>Available Codecs</source>
-        <translation>Verfügbare Codecs</translation>
+        <translation>Codec disponibili</translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="33"/>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translatorcomment>FFmpeg Beschreibung</translatorcomment>
-        <translation>FFmpeg ist eine vollständige plattformübergreifende Lösung zum Aufzeichnen, Konvertieren und Streamen von Audio und Video. Es enthält libavcodec - die führende Audio / Video-Codec-Bibliothek.</translation>
+        <translation>FFmpeg è una soluzione completa e cross-platform per registrare, convertire e condividere audio e video. Include libavcodec - la libreria audio/video principale.</translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="37"/>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>FFmpeg ist freie Software, die unter der LGPL oder GPL lizenziert ist.</translation>
+        <translation>FFmpeg è software libero, concesso in licenza sotto i termini della LGPL o GPL.</translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="40"/>
         <source>Please visit %1 for more information.</source>
-        <translation>Bitte besuchen Sie %1 für weitere Informationen.</translation>
+        <translation>Visita %1 per maggiori informazioni.</translation>
     </message>
 </context>
 <context>
     <name>AddTaskWizard</name>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="20"/>
         <source>Add Tasks</source>
-        <translation>Aufgaben hinzufügen</translation>
+        <translation>Aggiungi lavoro</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="58"/>
         <source>Files to be converted</source>
-        <translation>Zu konvertierende Dateien</translation>
+        <translation>Files da convertire</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="110"/>
         <source>Add files.</source>
-        <translation>Dateien hinzufügen.</translation>
+        <translation>Aggiungi file.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="113"/>
-        <source>Add Files</source>
-        <translation>Dateien hinzufügen</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="142"/>
         <source>Remove selected files.</source>
-        <translation>Ausgewählte Dateien entfernen.</translation>
+        <translation>Rimuovi i file selezionati.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="145"/>
-        <source>Remove Selected</source>
-        <translation>Auswahl entfernen</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="159"/>
-        <location filename="../ui/addtaskwizard.ui" line="162"/>
-        <source>Clear List</source>
-        <translation>Liste leeren</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="191"/>
         <source>Output Settings</source>
-        <translation>Ausgabeeinstellungen</translation>
+        <translation>Impostazioni Output</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="200"/>
-        <source>Convert to</source>
-        <translation>Konvertieren zu</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="207"/>
-        <source>Preset</source>
-        <translation>Voreinstellung</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="214"/>
-        <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Automatische Anpassung der Ausgabebitrate zur Reduzierung der Ausgabedateigröße.</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="217"/>
-        <source>Auto Adjust Audio Bitrate</source>
-        <translation>Audio-Bitrate automatisch anpassen</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="250"/>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>Modifica</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="266"/>
+        <source>Auto adjust output bitrate to reduce output file size.</source>
+        <translation>Regola automaticamente il bitrate per ridurre le dimensioni finali.</translation>
+    </message>
+    <message>
+        <source>Auto Adjust Audio Bitrate</source>
+        <translation>Regola automaticamente il Bitrate</translation>
+    </message>
+    <message>
+        <source>Preset</source>
+        <translation>Preimpostazioni</translation>
+    </message>
+    <message>
+        <source>Convert to</source>
+        <translation>Converti in</translation>
+    </message>
+    <message>
         <source>Output Path</source>
-        <translation>Ausgabepfad</translation>
+        <translation>Path di Output</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="272"/>
         <source>Select &amp;folder</source>
-        <translation>Auswählen &amp;Ordner</translation>
+        <translation>Seleziona &amp;cartella</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="307"/>
         <source>Browse</source>
-        <translation>Durchsuche</translation>
+        <translation>Sfoglia</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="320"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>&amp;Neuen Ordner im Quellordner erstellen</translation>
+        <translation>Crea una &amp;nuova cartella nella cartella di origine</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="345"/>
         <source>Folder Name</source>
-        <translation>Ordnernamen</translation>
+        <translation>Nome cartella</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="377"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Ausgabe in &amp;Ordner quelle</translation>
+        <translation>Salva nella cartella di &amp;origine</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="145"/>
         <source>Please select at least one file.</source>
-        <translation>Bitte wählen Sie mindestens eine Datei aus.</translation>
+        <translation>Seleziona almeno un file.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="170"/>
         <source>Select Files</source>
         <extracomment>This text is the title of an openfile dialog.</extracomment>
-        <translatorcomment>Dieser Text ist der Titel eines OpenFile-Dialogs.</translatorcomment>
-        <translation>Dateien auswählen</translation>
+        <translation>Seleziona i File</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="172"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="173"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="174"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="175"/>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tutti i file</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="224"/>
         <source>Select Directory</source>
         <extracomment>This text is the title of an open directory dialog.</extracomment>
-        <translatorcomment>Dieser Text ist der Titel eines Dialogfelds für geöffnete Ordner.</translatorcomment>
-        <translation>Ordner auswählen</translation>
+        <translation>Seleziona Directory</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="306"/>
         <source>Searching for files...</source>
-        <translation>Nach Dateien suchen...</translation>
+        <translation>Ricerca dei file...</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="319"/>
         <source>Some files could not be found.</source>
-        <translation>Einige Dateien konnten nicht gefunden werden.</translation>
+        <translation>Alcuni file non possono essere trovati.</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="481"/>
         <source>Folder does not exist. Create a new folder?</source>
-        <translation>Ordner existiert nicht. Einen neuen Ordner erstellen?</translation>
+        <translation>La cartella non esiste. Vuoi crearne una nuova?</translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="492"/>
         <source>Failed to create folder. Please select another output folder.</source>
-        <translation>Ordner konnte nicht erstellt werden. Bitte wählen Sie einen anderen Ausgabeordner.</translation>
+        <translation>Errore creazione cartella. Seleziona un&apos;altra cartella di destinazione.</translation>
+    </message>
+    <message>
+        <source>Add Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear List</source>
+        <translation type="unfinished">Pulisci lista</translation>
     </message>
 </context>
 <context>
     <name>ConversionParameterDialog</name>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="20"/>
         <source>Conversion Parameters</source>
-        <translation>Konvertierungsparameter</translation>
+        <translation>Parametri di conversione</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="36"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="44"/>
         <source>Disable Audio</source>
-        <translation>Deaktiviere Audio</translation>
+        <translation>Disabilita Audio</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="54"/>
-        <source>Copy Audio (Do not re-encode)</source>
-        <translation>Audio kopieren (nicht neu codieren)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="63"/>
         <source>Audio Options</source>
-        <translation>Audiooptionen</translation>
+        <translation>Opzioni Audio</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="71"/>
         <source>Sample Rate</source>
-        <translation>Beispielrate</translation>
+        <translation>Sample Rate</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="85"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="96"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="328"/>
         <source>Bitrate</source>
         <translation>Bitrate</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="106"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="137"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="344"/>
         <source>(auto)</source>
         <translation>(auto)</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="119"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="354"/>
         <source>kb/s</source>
         <translation>kb/s</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="130"/>
         <source>Channels</source>
-        <translation>Kanäle</translation>
+        <translation>Canali</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="164"/>
         <source>Volume</source>
-        <translation>Volumen</translation>
+        <translation>Volume</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="184"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="201"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <source>Insert Subtitle if Available (Experimental)</source>
-        <translation type="vanished">Untertitel einfügen, falls verfügbar (Experimentell)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="216"/>
         <source>Disable Video</source>
-        <translation>Video deaktivieren</translation>
+        <translation>Disabilita Video</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="223"/>
-        <source>Copy Video (Do not re-encode)</source>
-        <translation>Video kopieren (nicht neu codieren)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="238"/>
         <source>Video Options</source>
-        <translation>Videooptionen</translation>
+        <translation>Opzioni Video</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="254"/>
+        <source>Same Quantizer as Source</source>
+        <translation>Stesso Quantizzatore della Sorgente</translation>
+    </message>
+    <message>
+        <source>Deinterlace</source>
+        <translation>Deinterlaccia</translation>
+    </message>
+    <message>
         <source>Width</source>
-        <translation>Breite</translation>
+        <translation>Larghezza</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="264"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="301"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="394"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="407"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="420"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="438"/>
         <source> px</source>
         <translation> px</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="291"/>
         <source>Height</source>
-        <translation>Höhe</translation>
+        <translation>Altezza</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="381"/>
-        <source>qrc:/qml/main.qml</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="448"/>
         <source>Crop</source>
-        <translation>Schnitt</translation>
+        <translation>Taglia</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="467"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="470"/>
-        <source>Same Quantizer as Source</source>
-        <translation>Gleicher Quantisierer wie Quelle</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="460"/>
-        <source>Deinterlace</source>
-        <translation>Deinterlace</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="209"/>
-        <source>Insert Subtitle if Available</source>
-        <translation>Untertitel einfügen, falls verfügbar</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="485"/>
         <source>Time</source>
         <extracomment>time-related options (speed, length)</extracomment>
-        <translatorcomment>Zeitbezogene Optionen (Geschwindigkeit, Länge)</translatorcomment>
-        <translation>Zeit</translation>
+        <translation>Tempo</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="491"/>
         <source>Cutting</source>
         <extracomment>video time cutting: options for begin time and end time</extracomment>
-        <translatorcomment>Optionen für Start und Endzeit</translatorcomment>
-        <translation>Schneiden</translation>
+        <translation>Taglio</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="515"/>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translatorcomment>Video schneiden; Wählen Sie einen zu konvertierenden Bereich</translatorcomment>
-        <translation>Schneiden</translation>
+        <translation>Taglia</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="526"/>
         <source>&amp;Preview</source>
-        <translation>&amp;Vorschau</translation>
+        <translation>&amp;Anteprima</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="542"/>
         <source>Scaling</source>
         <extracomment>time scaling, changing the speed of the output file</extracomment>
-        <translatorcomment>Zeitskalierung, Ändern der Geschwindigkeit der Ausgabedatei</translatorcomment>
-        <translation>Skalierung</translation>
+        <translation>Modifica velocità</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="550"/>
         <source>Speed</source>
-        <translation>Geschwindigkeit</translation>
+        <translation>Velocità</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="580"/>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Avanzato</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="586"/>
         <source>FFmpeg</source>
         <translation>FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="594"/>
         <source>Additional FFmpeg Options</source>
-        <translation>Zusätzliche FFmpeg Optionen</translation>
+        <translation>Opzioni FFmpeg Addizionali</translation>
+    </message>
+    <message>
+        <source>Copy Audio (Do not re-encode)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy Video (Do not re-encode)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Insert Subtitle if Available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>qrc:/qml/main.qml</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ConvertList</name>
     <message>
-        <location filename="../ui/convertlist.cpp" line="299"/>
-        <location filename="../ui/convertlist.cpp" line="1005"/>
         <source>Cancel</source>
         <extracomment>Cancel the operation of adding new tasks</extracomment>
-        <translatorcomment>Brechen Sie den Vorgang zum Hinzufügen neuer Aufgaben ab</translatorcomment>
-        <translation>Stornieren</translation>
+        <translation>Cancella</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="313"/>
         <source>Adding files (%1/%2)</source>
         <extracomment>This text is the progress indicator of adding multiple tasks. %1 is the number of files that are already added. %2 is the total number of files.</extracomment>
-        <translatorcomment>Dieser Text ist der Fortschrittsindikator für das Hinzufügen mehrerer Aufgaben. % 1 ist die Anzahl der Dateien, die bereits hinzugefügt wurden. % 2 ist die Gesamtzahl der Dateien.</translatorcomment>
-        <translation>Dateien hinzufügen (%1/%2)</translation>
+        <translation>Aggiungi i file (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="337"/>
         <source>Some files are not recognized by the converter.</source>
-        <translation>Einige Dateien werden vom Konverter nicht erkannt.</translation>
+        <translation>Alcuni file non sono stati riconosciuti dal convertitore.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="485"/>
         <source>New File Name</source>
-        <translation>Neuer Dateiname</translation>
+        <translation>Nuovo Nome</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="486"/>
         <source>Please input the new name for the output file.</source>
-        <translation>Bitte geben Sie den neuen Namen für die Ausgabedatei ein.</translation>
+        <translation>Inserisci il nome del file di output.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="511"/>
         <source>Output Directory</source>
-        <translation>Ausgabeordner</translation>
+        <translation>Directory di Output</translation>
     </message>
     <message>
-        <source>Error Message from FFmpeg:</source>
-        <translation type="vanished">Fehlermeldung von FFmpeg:</translation>
-    </message>
-    <message>
-        <location filename="../ui/convertlist.cpp" line="566"/>
         <source>Error Message from FFmpeg:
 
 </source>
-        <translation>Fehlermeldung von FFmpeg:
+        <translation>Messaggio di errore da FFmpeg:
 
 </translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="620"/>
         <source>Drag and drop files here to add tasks.</source>
-        <translation>Ziehen Sie Dateien hierher, um Aufgaben hinzuzufügen.</translation>
+        <translation>Trascina qui i file per aggiungere operazioni.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="655"/>
         <source>Hide &quot;%1&quot;</source>
         <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
-        <translatorcomment>Eine Spalte in der Liste ausblenden. Zum Beispiel kann der Text &apos;Hide &quot;Duration&quot;&apos;. Die beiden &quot;sind Anführungszeichen in Englisch. Sie können sie durch lokale Anführungszeichen ersetzen.</translatorcomment>
-        <translation>Verbergen &quot;%1&quot;</translation>
+        <translation>Nascondi &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="664"/>
         <source>Restore All Columns</source>
-        <translation>Alle Spalten wiederherstellen</translation>
+        <translation>Ripristina tutte le colonne</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="874"/>
         <source>Source</source>
-        <translation>Quelle</translation>
+        <translation>Sorgente</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="875"/>
         <source>Destination</source>
-        <translation>Ziel</translation>
+        <translation>Destinazione</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="876"/>
         <source>Duration</source>
-        <translation>Dauer</translation>
+        <translation>Durata</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="877"/>
         <source>File Size</source>
-        <translation>Dateigröße</translation>
+        <translation>Dimensione File</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="880"/>
         <source>Sample Rate</source>
         <extracomment>Audio</extracomment>
-        <translatorcomment>Audio</translatorcomment>
-        <translation>Beispielrate</translation>
+        <translation>Sample Rate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="881"/>
         <source>Audio Bitrate</source>
         <translation>Audio Bitrate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="882"/>
         <source>Channels</source>
         <extracomment>Audio</extracomment>
-        <translatorcomment>Audio</translatorcomment>
-        <translation>Kanäle</translation>
+        <translation>Canali</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="883"/>
         <source>Audio Codec</source>
-        <translation>Audio-Codec</translation>
+        <translation>Codec Audio</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="886"/>
         <source>Dimensions</source>
-        <translation>Maße</translation>
+        <translation>Dimensioni</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="887"/>
         <source>Video Bitrate</source>
-        <translation>Video-Bitrate</translation>
+        <translation>Video Bitrate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="888"/>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
-        <translatorcomment>Video</translatorcomment>
         <translation>Framerate</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="889"/>
         <source>Video Codec</source>
-        <translation>Video-Codec</translation>
+        <translation>Video Codec</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="891"/>
         <source>Progress</source>
-        <translation>Fortschritt</translation>
+        <translation>Progressione</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="974"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="975"/>
-        <location filename="../ui/convertlist.cpp" line="984"/>
         <source>%1 kb/s</source>
         <translation>%1 kb/s</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="985"/>
         <source>%1 fps</source>
         <translation>%1 fps</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1004"/>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
-        <translatorcomment>Entfernen Sie Dateien aus der Jobliste</translatorcomment>
-        <translation>Aufgaben werden entfernt...</translation>
+        <translation>Rimuovo i lavori...</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>KiB</source>
         <translation>KiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>MiB</source>
         <translation>MiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>GiB</source>
         <translation>GiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>TiB</source>
         <translation>TiB</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1050"/>
         <source>B</source>
         <extracomment>Bytes</extracomment>
-        <translatorcomment>Bytes</translatorcomment>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1085"/>
         <source>File Exists</source>
-        <translation>Datei existiert</translation>
+        <translation>Il file esiste</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1086"/>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
-        <translation>%1 ist bereits auf dem Datenträger oder in der Aufgabenliste vorhanden. Verwenden Sie diesen Namen immer noch als Ausgabedateinamen?</translation>
+        <translation>%1 esiste già sul disco o nella lista dei lavori. Vuoi usare lo stesso nome anche per l&apos;output (il file verrà sovrascritto)?</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1131"/>
         <source>Remove Task</source>
-        <translation>Aufgabe entfernen</translation>
+        <translation>Rimuovi lavoro</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1132"/>
         <source>Cannot remove a task while it is in progress.</source>
-        <translation>Eine laufende Aufgabe kann nicht entfernt werden.</translation>
+        <translation>Non posso rimuovere un lavoro in corso.</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1178"/>
-        <location filename="../ui/convertlist.cpp" line="1179"/>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
-        <translatorcomment>Der Text, der nach Abschluss einer Konvertierung in der Fortschrittsleiste angezeigt werden soll</translatorcomment>
-        <translation>Fertig</translation>
+        <translation>Finito</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1186"/>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
-        <translatorcomment>Der Text, der in der Fortschrittsleiste angezeigt wird, wenn eine Konvertierung fehlschlägt</translatorcomment>
-        <translation>Gescheitert</translation>
+        <translation>Fallito</translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1188"/>
         <source>Error: %1</source>
         <extracomment>%1 is the error message</extracomment>
-        <translatorcomment>%1 ist die Fehlermeldung</translatorcomment>
-        <translation>Error: %1</translation>
+        <translation>%1 è il messaggio di errore</translation>
     </message>
 </context>
 <context>
     <name>ExtraTranslations</name>
     <message>
-        <location filename="../extra-translations.h" line="40"/>
         <source>Convert between media file formats</source>
-        <translation>Konvertieren Sie zwischen Mediendateiformaten</translation>
+        <translation>Converte file multimediali in vari formati</translation>
     </message>
     <message>
-        <location filename="../extra-translations.h" line="41"/>
         <source>Media Converter</source>
-        <translation>Medienkonverter</translation>
+        <translation>Convertitore di file multimediali</translation>
     </message>
 </context>
 <context>
     <name>HelpMystiQDialog</name>
     <message>
-        <location filename="../ui/helpmystiqdialog.ui" line="35"/>
         <source>User Manual</source>
-        <translation>Benutzerhandbuch</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/helpmystiqdialog.ui" line="69"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -981,731 +878,603 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InteractiveCuttingDialog</name>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="14"/>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
-        <translatorcomment>Schneiden wie in &quot;Video schneiden&quot;</translatorcomment>
-        <translation>Schneiden</translation>
+        <translation>Taglio</translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="49"/>
         <source>Mark as Begin</source>
-        <translation>Als Beginnen markieren</translation>
+        <translation>Marca come inizio</translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="60"/>
         <source>Seek to Begin</source>
-        <translation>Versuchen Sie zu starten</translation>
+        <translation>Cerca l&apos;inizio</translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="79"/>
         <source>Play Selection</source>
-        <translation>Auswahl abspielen</translation>
+        <translation>Riproduci selezione</translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="92"/>
         <source>Mark as End</source>
-        <translation>Als Ende markieren</translation>
+        <translation>Marca come fine</translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="103"/>
         <source>Seek to End</source>
-        <translation>Suche bis zum Ende</translation>
+        <translation>Cerca la fine</translation>
     </message>
     <message>
         <source>%1 not found</source>
-        <translation type="vanished">%1 nicht gefunden</translation>
+        <translation type="vanished">%1 non trovato</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow.ui" line="23"/>
-        <source>MystiQ Media Converter</source>
-        <translation>MystiQ Media Converter</translation>
+        <source>MystiQ</source>
+        <translation type="vanished">MystiQ</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="128"/>
-        <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="245"/>
         <source>Start conversion process.</source>
-        <translation>Konvertierungsprozess starten.</translation>
+        <translation>Inizia la conversione.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="108"/>
+        <source>&amp;Start</source>
+        <translation type="vanished">&amp;Start</translation>
+    </message>
+    <message>
         <source>&amp;File</source>
-        <translation>&amp;Datei</translation>
+        <translation>&amp;File</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="117"/>
-        <location filename="../ui/mainwindow.ui" line="242"/>
         <source>&amp;Convert</source>
-        <translation>&amp;Konvertieren</translation>
+        <translation>&amp;Converti</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="143"/>
+        <source>&amp;About</source>
+        <translation type="vanished">&amp;Info</translation>
+    </message>
+    <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Bearbeiten</translation>
+        <translation>&amp;Modifica</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="206"/>
         <source>&amp;Add Files</source>
-        <translation>&amp;Dateien hinzufügen</translation>
+        <translation>&amp;Aggiungi file</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="209"/>
         <source>Add files for conversion.</source>
-        <translation>Dateien zur Konvertierung hinzufügen.</translation>
+        <translation>Aggiungi file da convertire.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="212"/>
         <source>Ctrl+N</source>
         <translation>Ctrl+N</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="230"/>
         <source>E&amp;xit</source>
-        <translation>S&amp;chließen</translation>
+        <translation>E&amp;sci</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="233"/>
         <source>Exit the program.</source>
-        <translation>Beenden Sie das Programm.</translation>
+        <translation>Esci dal programma.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="248"/>
-        <source>F5</source>
-        <translation>F5</translation>
+        <source>F9</source>
+        <translation type="vanished">F9</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="257"/>
         <source>S&amp;top</source>
-        <translation>&amp;Halt</translation>
+        <translation>S&amp;top</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="260"/>
         <source>Stop conversion process.</source>
-        <translation>Beenden Sie die Konvertierungprozess.</translation>
+        <translation>Ferma la conversione.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="269"/>
         <source>Set &amp;Parameters</source>
-        <translation>&amp;Parameter einstellen</translation>
+        <translation>Imposta &amp;Parametri</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="272"/>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
-        <translatorcomment>Ausgabedateiparameter bearbeiten.</translatorcomment>
-        <translation>Parameter einstellen</translation>
+        <translation>Imposta parametri</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="275"/>
         <source>Edit conversion parameters of selected files.</source>
-        <translation>Bearbeiten Sie die Konvertierungsparameter der ausgewählten Dateien.</translation>
+        <translation>Modifica i parametri per i file selezionati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="284"/>
         <source>About &amp;Qt</source>
-        <translation>Über &amp;Qt</translation>
+        <translation>Info su &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="287"/>
         <source>About Qt</source>
-        <translation>Über Qt</translation>
+        <translation>Info su Qt</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="296"/>
         <source>&amp;Open Output Folder</source>
-        <translation>Au&amp;sgabeordner öffnen</translation>
+        <translation>&amp;Apri Cartella di Destinazione</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="299"/>
         <source>Open output folder of the selected file.</source>
-        <translation>Öffnen Sie den Ausgabeordner der ausgewählten Datei.</translation>
+        <translation>Apri la cartella di destinazione del file selezionato.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="308"/>
         <source>About &amp;FFmpeg</source>
-        <translation>Über &amp;FFmpeg</translation>
+        <translation>Info su &amp;FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="311"/>
         <source>About FFmpeg</source>
-        <translation>Über FFmpeg</translation>
+        <translation>Info su FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="320"/>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
-        <translatorcomment>Ausgewählte entfernen (Aufgaben, Elemente)</translatorcomment>
-        <translation>Aus&amp;wahl entfernen</translation>
+        <translation>&amp;Rimuovi gli oggetti selezionati</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="323"/>
         <source>Remove all selected items in the list.</source>
-        <translation>Entfernen Sie alle ausgewählten Elemente aus der Liste.</translation>
+        <translation>Rimuove gli oggetti selezionati dalla lista.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="332"/>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translatorcomment>Erledigt entfernen (Aufgabe, Gegenstände)</translatorcomment>
-        <translation>R&amp;emove abgeschlossen</translation>
+        <translation>R&amp;imuovi completati</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="335"/>
         <source>Remove Completed Items</source>
-        <translation>Abgeschlossene Elemente entfernen</translation>
+        <translation>Rimuove i lavori completati</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="338"/>
         <source>Remove all completed items in the list.</source>
-        <translation>Entfernen Sie alle abgeschlossenen Elemente aus der Liste.</translation>
+        <translation>Rimuove tutti i lavori completati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="347"/>
-        <source>Clear &amp;List</source>
-        <translation>Liste &amp;leeren</translation>
+        <source>&amp;Clear List</source>
+        <translation type="vanished">&amp;Pulisci Lista</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="350"/>
         <source>Clear List</source>
-        <translation>Liste leeren</translation>
+        <translation>Pulisci lista</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="353"/>
         <source>Remove all items in the list.</source>
-        <translation>Entfernen Sie alle Elemente in der Liste.</translation>
+        <translation>Rimuove tutti i lavori dalla lista.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="362"/>
         <source>&amp;Retry</source>
-        <translation>&amp;Wiederholen</translation>
+        <translation>&amp;Riprova</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="365"/>
         <source>Retry</source>
-        <translation>Wiederholen</translation>
+        <translation>Riprova</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="368"/>
         <source>Retry selected tasks.</source>
-        <translation>Wiederholen Sie die ausgewählten Aufgaben.</translation>
+        <translation>Riprova i lavori selezionati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="377"/>
         <source>Retry &amp;All</source>
-        <translation>&amp;Alle wiederholen</translation>
+        <translation>Riprova &amp;Tutti</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="380"/>
         <source>Retry all tasks.</source>
-        <translation>Wiederholen Sie alle Aufgaben.</translation>
+        <translation>Riprova tutti i lavori.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="392"/>
         <source>&amp;Options</source>
-        <translation>&amp;Optionen</translation>
+        <translation>&amp;Opzioni</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="395"/>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>Opzioni</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="404"/>
-        <source>About MystiQ</source>
-        <translation>Über MistiQ</translation>
+        <source>About Q&amp;WinFF</source>
+        <translation type="vanished">Info su Q&amp;WinFF</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="407"/>
         <source>About This Program</source>
-        <translation>Über dieses Programm</translation>
+        <translation>Info sul programma</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="416"/>
         <source>Change Output &amp;Filename</source>
-        <translation>Aus&amp;gabedateiname ändern</translation>
+        <translation>Cambia il &amp;Nome file di output</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="419"/>
         <source>Change the output filename of the selected item.</source>
-        <translation>Ändern Sie den Ausgabedateinamen des ausgewählten Elements.</translation>
+        <translation>Cambia il nome del file di output.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="428"/>
         <source>Change Output &amp;Directory</source>
-        <translation>Ausgabe O&amp;rdner ändern</translation>
+        <translation>Cambia la &amp;Cartella di output</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="431"/>
         <source>Change the output directory of the selected items.</source>
-        <translation>Ändern Sie das Ausgabeverzeichnis der ausgewählten Elemente.</translation>
+        <translation>Cambia la cartella di output dei lavori selezionati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="440"/>
-        <source>Poweroff</source>
-        <translation>Ausschalten</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="452"/>
         <source>Show Error &amp;Message</source>
-        <translation>Zeige Fehler Na&amp;chricht</translation>
+        <translation>Mostra &amp;messaggio di errore</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="461"/>
         <source>Check For &amp;Updates</source>
-        <translation>Auf U&amp;pdates prüfen</translation>
+        <translation>Controlla  gli &amp;aggiornamenti</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="470"/>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translatorcomment>Videodatei schneiden (Wählen Sie einen Zeitbereich zum Konvertieren aus)</translatorcomment>
-        <translation>Schneiden</translation>
+        <translation>Taglia</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="479"/>
-        <location filename="../ui/mainwindow.ui" line="482"/>
-        <location filename="../ui/mainwindow.ui" line="485"/>
-        <location filename="../ui/mainwindow.ui" line="488"/>
-        <source>User Manual</source>
-        <translation>Benutzerhandbuch</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="491"/>
-        <source>F1</source>
-        <translation>F1</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="503"/>
-        <source>&amp;Report Error</source>
-        <translation>Fe&amp;hler melden</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="506"/>
-        <location filename="../ui/mainwindow.ui" line="509"/>
-        <source>Report Error</source>
-        <translation>Fehler melden</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="512"/>
-        <source>Ctrl+E</source>
-        <translation>Ctrl+E</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="521"/>
-        <location filename="../ui/mainwindow.cpp" line="232"/>
-        <source>Donate</source>
-        <translation>Spenden</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="126"/>
-        <source>Conversion finished successfully.</source>
-        <translation>Die Konvertierung wurde erfolgreich abgeschlossen.</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="130"/>
-        <source>Conversion failed.</source>
-        <translation>Konvertierung fehlgeschlagen.</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="138"/>
         <source>All tasks have finished.</source>
-        <translation>Alle Aufgaben sind erledigt.</translation>
+        <translation>Tutti i processi sono completati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="178"/>
         <source>Nothing to convert.</source>
-        <translation>Nichts zu konvertieren.</translation>
+        <translation>Niente da convertire.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="231"/>
-        <source>Support MystiQ</source>
-        <translation>Unterstütze MystiQ</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="233"/>
-        <source>Close</source>
-        <translation>Schließen</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="235"/>
-        <source>MystiQ needs you</source>
-        <translation>MystiQ braucht dich</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="236"/>
-        <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation>MystiQ ist freie Software. Die Entwicklung erfordert jedoch viel Zeit und Arbeit. Um MystiQ weiterhin mit neuen Funktionen entwickeln zu können, benötigen wir Ihre Hilfe. Bitte unterstützen Sie das MystiQ-Projekt mit einer Spende. &lt;b&gt;Selbst die kleinste Menge wird viel helfen.&lt;/ b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="257"/>
-        <source>Reporting bugs from MystiQ </source>
-        <translation>Fehler aus MystiQ melden </translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="260"/>
-        <source>Your comment:</source>
-        <translation>Ihr Kommentar:</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="267"/>
-        <source>Report:</source>
-        <translation>Report:</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="319"/>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Die Konvertierung ist noch nicht abgeschlossen. Abbrechen?</translation>
+        <translation>La conversione è ancora in corso. Arresto la conversione?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="360"/>
-        <location filename="../ui/mainwindow.cpp" line="643"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
-        <translatorcomment>Den Computer herunterfahren</translatorcomment>
-        <translation>Herunterfahren</translation>
+        <translation>Spegni</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="361"/>
         <source>Shutdown when all tasks are done.</source>
-        <translation>Herunterfahren, wenn alle Aufgaben erledigt sind.</translation>
+        <translation>Spegni quando tutti i lavori sono completati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="365"/>
-        <location filename="../ui/mainwindow.cpp" line="648"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translatorcomment>Computer anhalten (Ruhezustand, Standby)</translatorcomment>
-        <translation>Aussetzen</translation>
+        <translation>Sospendi</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="366"/>
         <source>Suspend when all tasks are done.</source>
-        <translation>Unterbrechen Sie, wenn alle Aufgaben erledigt sind.</translation>
+        <translation>Sospendi quando tutti i lavori sono completati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="370"/>
-        <location filename="../ui/mainwindow.cpp" line="653"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translatorcomment>Computer in den Ruhezustand versetzen (auf Festplatte schalten, vollständig aus)</translatorcomment>
-        <translation>Ruhezustand</translation>
+        <translation>Iberna</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="371"/>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Ruhezustand, wenn alle Aufgaben erledigt sind.</translation>
+        <translation>Iberna quando tutti i lavori sono completati.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="450"/>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Dieses Programm sucht online nach Updates. Erlauben Sie diesem Programm, das Internet zu verwenden, um nach Updates zu suchen?</translation>
+        <translation>Questo programma controllerà gli aggiornamenti online. Consentire al programma di accedere ad Internet per controllare gli aggiornamenti?</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="775"/>
         <source>Failed to load preset file. The application will quit now.</source>
-        <translation>Fehler beim Laden der voreingestellten Datei. Die Anwendung wird jetzt beendet.</translation>
+        <translation>Caricamento file predefinito fallito. L&apos;applicazione ora si chiuderà.</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="864"/>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
-        <translation>Verstrichene Zeit: %1 h %2 m %3 s</translation>
+        <translation>Tempo stimato: %1 h %2 m %3 s</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="880"/>
+        <source>Converting %1/%2</source>
+        <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
+        <translation type="vanished">Conversione %1/%2</translation>
+    </message>
+    <message>
+        <source>MystiQ Media Converter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation type="unfinished">F5</translation>
+    </message>
+    <message>
+        <source>Clear &amp;List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About MystiQ</source>
+        <translation type="unfinished">Info su MystiQ</translation>
+    </message>
+    <message>
+        <source>Poweroff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User Manual</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F1</source>
+        <translation type="unfinished">F1</translation>
+    </message>
+    <message>
+        <source>&amp;Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+E</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conversion failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Support MystiQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ needs you</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reporting bugs from MystiQ </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your comment:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translatorcomment>Konvertieren der%1-ten Datei in %2-Dateien. %2 ist die Anzahl der Dateien.</translatorcomment>
-        <translation>MystiQ konvertiert %1/%2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="883"/>
         <source>MystiQ Video Converter</source>
-        <translation>MystiQ Video Converter</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="257"/>
-        <source>%1</source>
-        <translation>%1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MediaConverter</name>
     <message>
-        <location filename="../converter/mediaconverter.cpp" line="111"/>
         <source>%1 not found.</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translatorcomment>%1 ist ein Computerprogramm</translatorcomment>
-        <translation>%1 nicht gefunden.</translation>
+        <translation>%1 non trovato. </translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
-        <location filename="../ui/mediaplayerwidget.ui" line="98"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="14"/>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>Opzioni</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="34"/>
         <source>General</source>
-        <translation>Allgemeines</translation>
+        <translation>Generale</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="40"/>
         <source>Check for updates on program startup</source>
-        <translation>Suchen Sie nach Updates beim Programmstart</translation>
+        <translation>Controlla gli aggiornamenti all&apos;avvio del programma</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="47"/>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Starten Sie die Konvertierung automatisch, nachdem Sie der Liste Dateien hinzugefügt haben.</translation>
+        <translation>Avvia automaticamente la conversione dopo aver aggiunto i file all&apos;elenco.</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="50"/>
         <source>Start conversion automatically</source>
-        <translation>Konvertierung automatisch starten</translation>
+        <translation>Inizia la conversione automaticamente.</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="75"/>
         <source>FFmpeg</source>
         <translation>FFmpeg</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="86"/>
         <source>Number of threads to use in conversion</source>
-        <translation>Anzahl der bei der Konvertierung zu verwendenden Threads</translation>
+        <translation>Numero di impostazioni da usare per la conversione</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="100"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ausgabeformate ausblenden, die in der aktuellen ffmpeg-Installation nicht verfügbar sind. Es wird empfohlen, diese Option zu aktivieren, sofern Sie nicht sicher sind, dass MystiQ die verfügbaren Formate nicht erkennt. (Neustart von MystiQ erforderlich, um wirksam zu werden)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nascondi i formati di output non disponibili nell&apos;attuale installazione di ffmpeg. Si consiglia di attivare questa opzione a meno che non si sia certi che MystiQ abbia fallito nel rilevare i formati disponibili. (richiede il riavvio di MystiQ)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="103"/>
         <source>Hide unavailable formats (requires restarting)</source>
-        <translation>Nicht verfügbare Formate ausblenden (Neustart erforderlich)</translation>
+        <translation>Nascondi formati non disponibili (richiede riavvio)</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="117"/>
         <source>Tools</source>
-        <translation>Werkzeuge</translation>
+        <translation>Strumenti </translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="125"/>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation>Sie müssen MystiQ neu starten, damit die Änderungen wirksam werden.</translation>
+        <translation>È necessario riavviare MystiQ affinché le modifiche abbiano effetto. </translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="145"/>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="150"/>
         <source>Command</source>
-        <translation>Befehl</translation>
+        <translation>Comando </translation>
     </message>
 </context>
 <context>
     <name>PoweroffDialog</name>
     <message>
-        <location filename="../ui/poweroffdialog.ui" line="17"/>
         <source>MystiQ</source>
         <translation>MystiQ</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.ui" line="68"/>
         <source>Cancel</source>
-        <translation>Stornieren</translation>
+        <translation>Annulla</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="69"/>
         <source>Shutdown immediately</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translatorcomment>Den Computer herunterfahren</translatorcomment>
-        <translation>Sofort herunterfahren</translation>
+        <translation>Spegni immediatamente</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="74"/>
         <source>Suspend immediately</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translatorcomment>Computer anhalten (Ruhezustand, Standby)</translatorcomment>
-        <translation>Sofort aussetzen</translation>
+        <translation>Sospendi immediatamente</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="79"/>
         <source>Hibernate immediately</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translatorcomment>Computer in den Ruhezustand versetzen (auf Festplatte schalten, vollständig aus)</translatorcomment>
-        <translation>Sofort in den Ruhezustand versetzen</translation>
+        <translation>Iberna immediatamente</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="132"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translatorcomment>Den Computer herunterfahren</translatorcomment>
-        <translation>Herunterfahren</translation>
+        <translation>Spegni</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="136"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translatorcomment>Computer anhalten (Ruhezustand, Standby)</translatorcomment>
-        <translation>Aussetzen</translation>
+        <translation>Sospendi</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="140"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translatorcomment>Computer in den Ruhezustand versetzen (auf Festplatte schalten, vollständig aus)</translatorcomment>
-        <translation>Computer in den Ruhezustand versetzen</translation>
+        <translation>Iberna</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="145"/>
         <source>Operation Failed: %1</source>
-        <translation>Vorgang fehlgeschlagen:%1</translation>
+        <translation>Operazione fallita: %1</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="169"/>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Herunterfahren in &lt;b&gt;%1 &lt;/ b&gt; Sekunden</translation>
+        <translation>Spegnimento tra &lt;b&gt;%1&lt;/b&gt; secondi</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="172"/>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>In &lt;b&gt;%1 &lt;/ b&gt; Sekunden angehalten</translation>
+        <translation>Sospensione tra &lt;b&gt;%1&lt;/b&gt; secondi</translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="175"/>
         <source>Hibernating in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Ruhezustand in &lt;b&gt;%1 &lt;/ b&gt; Sekunden</translation>
+        <translation>Ibernazione tra &lt;b&gt;%1&lt;/b&gt; secondi</translation>
     </message>
 </context>
 <context>
     <name>PreviewDialog</name>
     <message>
-        <location filename="../ui/previewdialog.ui" line="20"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>Finestra di dialogo</translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.ui" line="35"/>
         <source>Play Selected Range</source>
-        <translation>Ausgewählten Bereich abspielen</translation>
+        <translation>Riproduci lo spazio selezionato</translation>
     </message>
     <message>
         <source>%1 not found</source>
-        <translation type="vanished">%1 nicht gefunden</translation>
+        <translation type="vanished">%1 non trovato</translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.cpp" line="89"/>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translatorcomment>Nomen, der Anfang des Videos</translatorcomment>
-        <translation>Start</translation>
+        <translation>Inizio</translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.cpp" line="91"/>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translatorcomment>Nomen, das Ende des Videos</translatorcomment>
-        <translation>Ende</translation>
+        <translation>Fine</translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.cpp" line="99"/>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translatorcomment>Spielt das Video von Zeitpunkt %1 bis Zeitpunkt %2 ab. %1 und %2 sind Zeitangaben im Format hh: mm: ss.</translatorcomment>
-        <translation>Spielen Sie %1 ~%2</translation>
+        <translation>Riproduci %1~%2</translation>
     </message>
 </context>
 <context>
     <name>TimeRangeEdit</name>
     <message>
-        <location filename="../ui/timerangeedit.cpp" line="36"/>
         <source>From Begin</source>
-        <translation>Von Anfang an</translation>
+        <translation>Dall&apos;Inizio</translation>
     </message>
     <message>
-        <location filename="../ui/timerangeedit.cpp" line="37"/>
         <source>To End</source>
-        <translation>Beenden</translation>
+        <translation>Alla Fine</translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
-        <location filename="../ui/updatedialog.ui" line="55"/>
         <source>Show &amp;Release Notes</source>
-        <translation>&amp;Versionshinweise anzeigen</translation>
+        <translation>Mostra le note di &amp;rilascio</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.ui" line="81"/>
         <source>Check for updates on program startup</source>
-        <translation>Suchen Sie nach Updates beim Programmstart</translation>
+        <translation>Controlla gli aggiornamenti all&apos;avvio del programma</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="72"/>
         <source>Downloading update information...</source>
-        <translation>Update-Informationen werden heruntergeladen...</translation>
+        <translation>Download delle informazioni sull&apos;aggiornamento...</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="99"/>
         <source>Cannot connect to server.</source>
-        <translation>Kann nicht mit dem Server verbinden.</translation>
+        <translation>Impossibile contattare il server.</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="102"/>
         <source>Failed to parse the received data.</source>
-        <translation>Fehler beim Analysieren der empfangenen Daten.</translation>
+        <translation>Impossibile analizzare i dati ricevuti.</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="105"/>
         <source>You are already using the latest version of MystiQ.</source>
-        <translation>Sie verwenden bereits die neueste Version von MystiQ.</translation>
+        <translation>Stai già utilizzando la versione più recente di MystiQ.</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="108"/>
         <source>An unknown error has occurred.</source>
-        <translation>Ein unbekannter Fehler ist aufgetreten.</translation>
+        <translation>Si è verificato un errore sconosciuto.</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="136"/>
         <source>A new version of MystiQ has been released!</source>
-        <translation>Eine neue Version von MystiQ wurde veröffentlicht!</translation>
+        <translation>È stata rilasciata una nuova versione di MystiQ!</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="139"/>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translatorcomment>%1 ist die Versionsnummer,%2 ist die Projekthomepage</translatorcomment>
-        <translation>Version &lt;b&gt;%1 &lt;/ b&gt; ist bei %2 verfügbar.</translation>
+        <translation>È disponibile la versione &lt;b&gt;%1&lt;/b&gt; su %2.</translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="145"/>
         <source>You can download this version using the link:</source>
-        <translation>Sie können diese Version über den folgenden Link herunterladen:</translation>
+        <translation>Puoi scaricare questa versione usando il collegamento:</translation>
     </message>
 </context>
 </TS>

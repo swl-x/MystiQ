@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>translations/mystiq_es.qm</file>
         <file>translations/mystiq_de.qm</file>
+        <file>translations/mystiq_fr.qm</file>
+        <file>translations/mystiq_it.qm</file>
     </qresource>
 </RCC>
