@@ -175,12 +175,14 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 19.12.28 (2019-12-28)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.07 (2020-01-07)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;- Changed version numbering system. Now we use the exact release date as version number.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Available an installer for Microsoft Windows systems&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added updated packages of FFmpeg, FFprobe and FFplay (only for Microsoft Windows)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Partially added Italian language pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Cleaned task wizard UI&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - It is now possible to reorder items in the initial list of items in taskwizard&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Swedish language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 0.4.0 (2019-12-10)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added French language Pack&lt;/span&gt;&lt;/p&gt;
@@ -1659,18 +1661,24 @@ p, li { white-space: pre-wrap; }
         <translation>Nombre de la Aplicación:&lt;br&gt; %1</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="130"/>
+        <location filename="../ui/aboutdialog.cpp" line="133"/>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
         <translatorcomment>Idioma Alemán (Alemania)</translatorcomment>
         <translation>Alemán (Alemania)</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="139"/>
+        <location filename="../ui/aboutdialog.cpp" line="142"/>
         <source>French (France)</source>
         <extracomment>French Language (France)</extracomment>
         <translatorcomment>Idioma Francés (Francia)</translatorcomment>
         <translation>Francés (Francia)</translation>
+    </message>
+    <message>
+        <location filename="../ui/aboutdialog.cpp" line="130"/>
+        <source>Swedish (Sweden)</source>
+        <extracomment>Swedish Language (Sweden)</extracomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Developers: %1</source>
@@ -1696,14 +1704,14 @@ p, li { white-space: pre-wrap; }
         <translation>Las preconfiguraciones de FFmpeg han sido tomadas de &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="133"/>
+        <location filename="../ui/aboutdialog.cpp" line="136"/>
         <source>English (USA)</source>
         <extracomment>English Language (USA)</extracomment>
         <translatorcomment>Lenguaje Inglés (USA)</translatorcomment>
         <translation>Inglés (USA)</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="136"/>
+        <location filename="../ui/aboutdialog.cpp" line="139"/>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
         <translatorcomment>Lenguaje Español (España)</translatorcomment>

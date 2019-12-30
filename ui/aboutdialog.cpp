@@ -126,6 +126,9 @@ AboutDialog::~AboutDialog()
 QString AboutDialog::getTranslators()
 {
     struct {QString locale; QString translator;} table[] = {
+        //: Swedish Language (Sweden)
+        {"sv_SV", trad(tr("Swedish (Sweden)")
+                    , "Åke Engelbrektson <https://svenskasprakfiler.se>")},
         //: German Language (Germany)
         {"de_DE", trad(tr("German (Germany)")
                     , "Leslie León Sinclair <koratsuki.nijuusan@gmail.com>")},
