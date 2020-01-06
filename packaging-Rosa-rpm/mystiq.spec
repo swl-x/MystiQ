@@ -8,7 +8,7 @@ Summary:	Audio/Video converter
 Name:		mystiq
 Version:	0.4.0
 Release:	1
-License:	LGPLv3
+License:	GPLv3
 Group:		Video
 Url:		https://github.com/llamaret/MystiQ
 Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}.tar.gz
