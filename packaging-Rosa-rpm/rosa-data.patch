@@ -1,0 +1,15 @@
+--- mystiq.pro	2020-01-05 00:46:57.482150534 +0100
++++ patched-mystiq.pro	2020-01-06 09:30:52.769281003 +0100
+@@ -154,9 +154,9 @@ unix {
+     target.path = /usr/bin/
+     desktop.path = /usr/share/applications/
+     desktop.files += mystiq.desktop
+-    desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/mystiq.svg
+-    desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons && \
+-                     cp icons/mystiq.svg ${INSTALL_ROOT}/usr/share/icons/mystiq.svg
++    desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps/mystiq.svg
++    desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps && \
++                     cp icons/mystiq.svg ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps/mystiq.svg
+     INSTALLS += target desktop
+ 
+ }
