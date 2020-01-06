@@ -10,7 +10,7 @@ Version:	0.4.0
 Release:	1
 License:	GPLv3
 Group:		Video
-Url:		https://github.com/llamaret/MystiQ
+Url:		https://mystiq.swlx.info/
 Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}.tar.gz
 Patch0:		rosa-data.patch
 BuildRequires:	qt5-devel
