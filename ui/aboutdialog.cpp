@@ -132,9 +132,9 @@ QString AboutDialog::getTranslators()
         //: German Language (Germany)
         {"de_DE", trad(tr("German (Germany)")
                     , "Leslie León Sinclair <koratsuki.nijuusan@gmail.com>")},
-        //: English Language (USA)
-        {"en_US", trad(tr("English (USA)")
-                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
+        //: Italian Language (Italy)
+        {"it_IT", trad(tr("Italian (Italy)")
+                    , "SymbianFlo <symbianflo@mandrivausers.ro>")},
         //: Spanish Language (Spain)
         {"es_ES", trad(tr("Spanish (Spain)")
                     , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},

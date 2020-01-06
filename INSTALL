@@ -9,7 +9,7 @@ BuildRequires:
   - alsa-devel
   - libX11-devel
   
-depends=('ffmpeg' 'qt5-base' 'qtdeclarative5-dev' 'qtmultimedia5-dev')
+depends=('ffmpeg' 'qt5-base' 'qtdeclarative5' 'qtmultimedia5')
 optdepends=('sox: audio speed adjusting support'
 				'libnotify: display desktop notifications'
 				'mplayer: video cutting preview')  
