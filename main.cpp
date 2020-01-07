@@ -140,7 +140,7 @@ static void register_external_tools()
             || register_tool("ffplay", "avplay");
     // these tools have no alternative names
     register_tool("sox");
-    register_tool("mplayer");
+    // register_tool("mplayer");
 }
 
 int main(int argc, char *argv[])
