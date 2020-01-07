@@ -316,7 +316,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/aboutdialog.cpp" line="130"/>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Svenska (Sverige)</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.cpp" line="133"/>
