@@ -775,6 +775,12 @@ bool FFmpegInterface::getSubtitleEncoders(QSet<QString> &target)
     QList<QString> encoder_list;
     if (!getSubtitleEncoders(encoder_list))
         return false;
+
+#if QT_VERSION >= QT_VERSION_CHECK(5,14,0)
     target = QSet<QString>(encoder_list.begin(), encoder_list.end());
+#else
+    target = QSet<QString>::fromList(encoder_list);
+#endif
+
     return true;
 }
