@@ -157,7 +157,7 @@ void MediaPlayerWidget::load(const QString &url, qint64 begin, qint64 end)
 
     update_limits();
 
-    m_mediaPlayer->setMedia(QUrl(QString("file://%1").arg(url)));
+    m_mediaPlayer->setMedia(QUrl::fromLocalFile(url));
 
     ui->slideVolume->setValue(m_volume);
     m_mediaPlayer->setVolume(m_volume);
