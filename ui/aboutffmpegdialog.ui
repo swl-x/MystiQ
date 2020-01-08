@@ -18,7 +18,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="../images.qrc">
-    <normaloff>:/app/icons/ffmpeg.png</normaloff>:/app/icons/ffmpeg.png</iconset>
+    <normaloff>:/actions/icons/FFmpeg_icon.svg</normaloff>:/actions/icons/FFmpeg_icon.svg</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -51,7 +51,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="../images.qrc">:/app/icons/ffmpeg_large.png</pixmap>
+            <pixmap resource="../images.qrc">:/actions/icons/FFmpeg_icon.svg</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>

@@ -302,7 +302,7 @@
   <action name="actionAboutFFmpeg">
    <property name="icon">
     <iconset resource="../images.qrc">
-     <normaloff>:/app/icons/ffmpeg.png</normaloff>:/app/icons/ffmpeg.png</iconset>
+     <normaloff>:/actions/icons/FFmpeg_icon.svg</normaloff>:/actions/icons/FFmpeg_icon.svg</iconset>
    </property>
    <property name="text">
     <string>About &amp;FFmpeg</string>

@@ -47,8 +47,6 @@
         <file>icons/system_poweroff.svg</file>
     </qresource>
     <qresource prefix="/app">
-        <file>icons/ffmpeg.png</file>
-        <file>icons/ffmpeg_large.png</file>
         <file>icons/banner.png</file>
         <file>icons/mystiq_16x16.png</file>
         <file>icons/mystiq_22x22.png</file>
