@@ -41,7 +41,7 @@ QString sec2hms(qint64 miliseconds)
     int s = (seconds % 60);
 
     QString result;
-    result.sprintf("%02d:%02d:%02d", h, m, s);
+    result.asprintf("%02d:%02d:%02d", h, m, s);
     return result;
 }
 }
@@ -157,7 +157,7 @@ void MediaPlayerWidget::load(const QString &url, qint64 begin, qint64 end)
 
     update_limits();
 
-    m_mediaPlayer->setMedia(QUrl(QString("file://%1").arg(url)));
+    m_mediaPlayer->setMedia(QUrl::fromLocalFile(url));
 
     ui->slideVolume->setValue(m_volume);
     m_mediaPlayer->setVolume(m_volume);

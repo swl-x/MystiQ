@@ -251,7 +251,7 @@ bool Presets::getExtensions(QList<QString> &target) const
         }
     }
     // remove duplicate entries
-    target = target.toSet().toList();
+    target = QSet<QString>(target.begin(), target.end()).values();
     // sort target
     std::sort(target.begin(), target.end());
     return true;
