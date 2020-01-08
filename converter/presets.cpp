@@ -250,8 +250,14 @@ bool Presets::getExtensions(QList<QString> &target) const
             target.push_back(extension);
         }
     }
+
     // remove duplicate entries
+#if QT_VERSION >= QT_VERSION_CHECK(5,14,0)
     target = QSet<QString>(target.begin(), target.end()).values();
+#else
+    target = target.toSet().toList();
+#endif
+
     // sort target
     std::sort(target.begin(), target.end());
     return true;
