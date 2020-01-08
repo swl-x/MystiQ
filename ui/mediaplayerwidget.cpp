@@ -41,7 +41,7 @@ QString sec2hms(qint64 miliseconds)
     int s = (seconds % 60);
 
     QString result;
-    result.sprintf("%02d:%02d:%02d", h, m, s);
+    result.asprintf("%02d:%02d:%02d", h, m, s);
     return result;
 }
 }
