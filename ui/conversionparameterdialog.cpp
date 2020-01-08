@@ -90,7 +90,7 @@ bool ConversionParameterDialog::execCustom(ConversionParameters& param, bool sin
     read_fields(param);
 
     if (!param.source.isEmpty()) {
-        ui->cropWidget->rootObject()->setProperty("file_source", QString("file://%1").arg(param.source));
+        ui->cropWidget->rootObject()->setProperty("file_source", QString("file:///%1").arg(param.source));
     }
 
     bool accepted = (QDialog::exec() == QDialog::Accepted);
