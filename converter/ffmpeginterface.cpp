@@ -752,7 +752,7 @@ bool FFmpegInterface::getSupportedDemuxingFormats(QSet<QString> &target)
 #if QT_VERSION >= QT_VERSION_CHECK(5,14,0)
     target = QSet<QString>(info::demuxing_formats.begin(), info::demuxing_formats.end());
 #else
-    target = QSet<QString>::fromList(demuxing_formats);
+    target = QSet<QString>::fromList(info::demuxing_formats);
 #endif
 
     return true;
