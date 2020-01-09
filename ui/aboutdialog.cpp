@@ -129,6 +129,9 @@ QString AboutDialog::getTranslators()
         //: Swedish Language (Sweden)
         {"sv_SV", trad(tr("Swedish (Sweden)")
                     , "Åke Engelbrektson <https://svenskasprakfiler.se>")},
+        //: Japanese Language (Japan)
+        {"jp_JP", trad(tr("Japanese (Japan)")
+                    , "Tilt <tiltstr@gmail.com>")},
         //: German Language (Germany)
         {"de_DE", trad(tr("German (Germany)")
                     , "Leslie León Sinclair <koratsuki.nijuusan@gmail.com>")},
