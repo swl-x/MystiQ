@@ -13,9 +13,8 @@ matrix:
 
 # install, install QT5.12.3 from ppa
 install:
-  - sudo touch /etc/apt/sources.list.d/kde_neon.list
-  - sudo echo "deb http://archive.neon.kde.org/user/ bionic main" > /etc/apt/sources.list.d/kde_neon.list
-  - sudo echo "deb-src http://archive.neon.kde.org/user/ bionic main" > /etc/apt/sources.list.d/kde_neon.list
+  - echo "deb http://archive.neon.kde.org/user/ bionic main" > ./kde_neon.list
+  - sudo mv ./kde_neon.list /etc/apt/sources.list.d/kde_neon.list
   - sudo apt-get update
   - sudo apt-get upgrade
   - sudo apt-get dist-upgrade -o dpkg::options::="--force-overwrite"
