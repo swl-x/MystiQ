@@ -11,7 +11,7 @@ matrix:
       sudo: required
       env: TARGETOS=bionic-linux
 
-# install, install QT5.12.3 from ppa
+# install, install QT5.13 from KDE Neon
 install:
   - echo "deb [trusted=yes] http://archive.neon.kde.org/user/ bionic main" > ./kde_neon.list
   - sudo mv ./kde_neon.list /etc/apt/sources.list.d/kde_neon.list
