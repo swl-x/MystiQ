@@ -13,12 +13,12 @@ matrix:
 
 # install, install QT5.12.3 from ppa
 install:
-  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-bionic
-  - sudo apt update
+  - sudo apt-add-repository http://archive.neon.kde.org/user_lts/
+  - wget -q -O - http://archive.neon.kde.org/public.key | sudo apt-key add -
+  - sudo apt-get update
+  - sudo apt-get upgrade
+  - sudo apt-get dist-upgrade -o dpkg::options::="--force-overwrite"
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
-  - sudo apt install qt512-meta-full tree
-  - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
-  - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
   - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev qt5-qmake
