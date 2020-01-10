@@ -175,6 +175,13 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.20 (2020-01-20)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Japanese language Pack&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed Media Preview in Windows systems&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed to QUrl::fromLocalFile to generate the correct file:// url&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed all Warnings of Qt 5.14&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added missing namespace to demuxing_formats&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.09 (2020-01-09)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;- Changed version numbering system. Now we use the exact release date as version number.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Available an installer for Microsoft Windows systems&lt;/span&gt;&lt;/p&gt;
@@ -231,7 +238,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1663,19 +1670,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../ui/aboutdialog.cpp" line="133"/>
+        <source>Japanese (Japan)</source>
+        <extracomment>Japanese Language (Japan)</extracomment>
+        <translatorcomment>Idioma Japonés (Japón)</translatorcomment>
+        <translation>Japonés (Japón)</translation>
+    </message>
+    <message>
+        <location filename="../ui/aboutdialog.cpp" line="136"/>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
         <translatorcomment>Idioma Alemán (Alemania)</translatorcomment>
         <translation>Alemán (Alemania)</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="136"/>
+        <location filename="../ui/aboutdialog.cpp" line="139"/>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Idioma Italiano (Italia)</translatorcomment>
+        <translation>Italiano (Italia)</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="142"/>
+        <location filename="../ui/aboutdialog.cpp" line="145"/>
         <source>French (France)</source>
         <extracomment>French Language (France)</extracomment>
         <translatorcomment>Idioma Francés (Francia)</translatorcomment>
@@ -1685,7 +1700,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/aboutdialog.cpp" line="130"/>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Idioma Sueco (Suecia)</translatorcomment>
+        <translation>Sueco (Suecia)</translation>
     </message>
     <message>
         <source>Developers: %1</source>
@@ -1717,7 +1733,7 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">Inglés (USA)</translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="139"/>
+        <location filename="../ui/aboutdialog.cpp" line="142"/>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
         <translatorcomment>Lenguaje Español (España)</translatorcomment>
@@ -3025,9 +3041,13 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PreviewDialog</name>
     <message>
-        <location filename="../ui/previewdialog.ui" line="20"/>
         <source>Dialog</source>
-        <translation>Diálogo</translation>
+        <translation type="vanished">Diálogo</translation>
+    </message>
+    <message>
+        <location filename="../ui/previewdialog.ui" line="20"/>
+        <source>Video Preview</source>
+        <translation>Vista Previa del Vídeo</translation>
     </message>
     <message>
         <location filename="../ui/previewdialog.ui" line="35"/>
