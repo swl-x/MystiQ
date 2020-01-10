@@ -13,12 +13,12 @@ matrix:
 
 # install, install QT5.12.3 from ppa
 install:
-  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.14.0-bionic
+  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-bionic
   - sudo apt update
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
-  - sudo apt install qt514-meta-full qt5-qmake tree
-  - echo "/opt/qt514/bin" | sudo tee /etc/xdg/qtchooser/default.conf
-  - echo "/opt/qt514/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
+  - sudo apt install qt512-meta-full qt5-qmake tree
+  - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
+  - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
 
