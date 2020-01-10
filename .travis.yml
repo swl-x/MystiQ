@@ -16,11 +16,12 @@ install:
   - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-bionic
   - sudo apt update
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
-  - sudo apt install qt512-meta-full qt5-qmake tree
+  - sudo apt install qt512-meta-full tree
   - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
   - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
+  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev qt5-qmake
 
 # build & test scripts
 script:
