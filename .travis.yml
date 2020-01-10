@@ -21,7 +21,7 @@ install:
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
   - qtchooser -print-env
   - qmake -v
-  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake
+  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake neon-desktop
 
 # build & test scripts
 script:
