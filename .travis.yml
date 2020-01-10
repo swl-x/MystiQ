@@ -25,7 +25,7 @@ install:
 
 # build & test scripts
 script:
-  - qmake mystiq.pro
+  - qt5-qmake mystiq.pro
   - make
   - sudo make install
 
