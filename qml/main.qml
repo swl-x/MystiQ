@@ -31,33 +31,35 @@ Rectangle {
     function top_cut_change(value) {
         __from_external = true;
 
-        var h = video.metaData.resolution.height / root.height;
+        var H = video.metaData.resolution.height;
 
-        up_cut.y = value / h + __free_space_h;
+        up_cut.y = value * (video.height - (__free_space_h * 2)) / H + __free_space_h;
     }
 
     function left_cut_change(value) {
         __from_external = true;
 
-        var w = video.metaData.resolution.width / root.width;
+        var w = video.metaData.resolution.width;
 
-        left_cut.x = value / w + __free_space_w;
+        left_cut.x = value * (video.width - (__free_space_w * 2)) / w + __free_space_w;
     }
 
     function bottom_cut_change(value) {
         __from_external = true;
 
-        var h = video.metaData.resolution.height / root.height;
+        var H = video.metaData.resolution.height;
 
-        down_cut.y = value / h - down_cut.height - __free_space_h;
+        //down_cut.y = (value * (video.height - (__free_space_h * 2)) / H + __free_space_h) - cut_line_width;
+        down_cut.y = ((value * (video.height - (__free_space_h * 2)))/H) - (cut_line_width) - __free_space_h;
     }
 
     function right_cut_change(value) {
         __from_external = true;
 
-        var w = video.metaData.resolution.width / root.width;
+        var w = video.metaData.resolution.width;
 
-        right_cut.x = value / w - right_cut.width - __free_space_w;
+        //right_cut.x = value * (video.width - (__free_space_w * 2)) / w + __free_space_w - right_cut.width;
+        right_cut.x = ((value * (video.width - (__free_space_w * 2))) / w) - cut_line_width + __free_space_w;
     }
 
     function calculateRatios() {
@@ -211,9 +213,8 @@ Rectangle {
 
             if (!__from_external && video.metaData.resolution !== undefined)
             {
-                var h = video.metaData.resolution.height / root.height
-
-                root.cut_up_changed((y - __free_space_h) * h);
+                var H = video.metaData.resolution.height;
+                root.cut_up_changed((H * (y - __free_space_h)) / (video.height - __free_space_h * 2));
             }
 
             __from_external = false
@@ -246,10 +247,9 @@ Rectangle {
             down.height = root.height - y
 
             if (!__from_external && video.metaData.resolution !== undefined)
-            {
-                var h = video.metaData.resolution.height / root.height
-
-                root.cut_bottom_changed((y + height + __free_space_h) * h);
+            {                
+                var H = video.metaData.resolution.height;
+                root.cut_bottom_changed((H * (y + height + __free_space_h)) / (video.height - __free_space_h * 2));
             }
 
             __from_external = false
@@ -283,9 +283,8 @@ Rectangle {
 
             if (!__from_external && video.metaData.resolution !== undefined)
             {
-                var w = video.metaData.resolution.width / root.width
-
-                root.cut_left_changed((x - __free_space_w) * w);
+                var W = video.metaData.resolution.width
+                root.cut_left_changed((W * (x - __free_space_w)) / (video.width - __free_space_w * 2));
             }
 
             __from_external = false
@@ -321,9 +320,8 @@ Rectangle {
 
             if (!__from_external && video.metaData.resolution !== undefined)
             {
-                var w = video.metaData.resolution.width / root.width
-
-                root.cut_right_changed((x + width + __free_space_w) * w);
+                var W = video.metaData.resolution.width;
+                root.cut_right_changed((W * (x + width - __free_space_w)) / (video.width - __free_space_w * 2));
             }
 
             __from_external = false
