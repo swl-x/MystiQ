@@ -129,6 +129,7 @@ TRANSLATIONS += \
     translations/mystiq_it.ts \
     translations/mystiq_pt.ts \
     translations/mystiq_ja.ts \
+    translations/mystiq_ru.ts \
     translations/mystiq_sv.ts
 
 INCLUDEPATH += .

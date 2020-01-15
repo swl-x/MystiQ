@@ -7,5 +7,6 @@
         <file>translations/mystiq_sv.qm</file>
         <file>translations/mystiq_ja.qm</file>
         <file>translations/mystiq_pt.qm</file>
+        <file>translations/mystiq_ru.qm</file>
     </qresource>
 </RCC>
