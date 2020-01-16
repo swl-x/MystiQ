@@ -249,6 +249,9 @@ void MainWindow::slotReport()
 #ifdef Q_OS_LINUX
     QString eol = "\n";
 #endif
+#ifdef Q_OS_MACOS
+    QString eol = "\n";
+#endif
     QStringList stringList;
     stringList << "mailto:";
     stringList << "llamaret@webmisolutions.com";

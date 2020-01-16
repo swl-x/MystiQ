@@ -107,6 +107,9 @@ static bool register_tool(const char *id, const char *name)
 #else
     exefile = Paths::dataFileName("tools/%1").arg(name);
 #endif // Q_OS_WIN32
+#ifdef Q_OS_MACOS // executable files must end without extension on MacOS
+    exefile = Paths::dataFileName("tools/%1").arg(name);
+#endif // Q_OS_MACOS
 #endif // TOOLS_IN_DATA_PATH
     ExePath::setPath(id, exefile);
     if (ExePath::checkProgramAvailability(id))
