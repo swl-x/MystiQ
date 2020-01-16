@@ -246,10 +246,7 @@ void MainWindow::slotReport()
 #ifdef Q_OS_WIN
     QString eol = "\r\n";
 #endif
-#ifdef Q_OS_LINUX
-    QString eol = "\n";
-#endif
-#ifdef Q_OS_MACOS
+#if defined(Q_OS_LINUX) || defined(Q_OS_MACOS)
     QString eol = "\n";
 #endif
     QStringList stringList;

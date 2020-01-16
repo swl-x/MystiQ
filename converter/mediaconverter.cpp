@@ -108,7 +108,7 @@ double MediaConverter::progress()
 bool MediaConverter::checkExternalPrograms(QString &msg)
 {
     //: %1 is a computer program
-    QString errmsg = tr("%1 not found.");
+    QString errmsg = tr(" FFmpeg, FFPlay o FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ");
     // check ffmpeg
     if (!FFmpegInterface::hasFFmpeg()) {
         msg = errmsg.arg(ExePath::getPath("ffmpeg"));
