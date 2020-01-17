@@ -131,7 +131,8 @@ TRANSLATIONS += \
     translations/mystiq_ja.ts \
     translations/mystiq_ru.ts \
     translations/mystiq_pl.ts \
-    translations/mystiq_sv.ts
+    translations/mystiq_sv.ts \
+    translations/mystiq_new.ts
 
 INCLUDEPATH += .
 
@@ -182,6 +183,7 @@ win32 {
 
 os2 {
     # Application Icon
+    DEFINES += TOOLS_IN_DATA_PATH
     RC_FILE = appicon_os2.rc
     # Shutdown not yet implemented on OS/2 Warp
     # When it is done, uncomment following lines and do proper modifications

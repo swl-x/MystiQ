@@ -1,30 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="14"/>
         <source>About MystiQ</source>
-        <translation>Om MystiQ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="44"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="58"/>
         <source>Translators</source>
-        <translation>Översättare</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="72"/>
+        <source>Portable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiled with Qt %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compiled with libnotify %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 or 3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ Homepage: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some audio-processing functionalities are provided by SoX.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spanish (Spain)</source>
+        <extracomment>Spanish Language (Spain)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>License</source>
-        <translation>Licens</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="84"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -167,10 +191,13 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate parts of the General Public License. Of course, your program&apos;s commands might be different; for a GUI interface, you would use an “about box”. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; text-decoration: underline; color:#0057ae;&quot;&gt;https://www.gnu.org/licenses/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;&amp;gt;. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/why-not-lgpl.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; text-decoration: underline; color:#0057ae;&quot;&gt;https://www.gnu.org/licenses/why-not-lgpl.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="259"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -247,738 +274,539 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.ui" line="241"/>
-        <source>Changelog</source>
-        <translation>Ändringslogg</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="51"/>
         <source>%1</source>
-        <translation>%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="58"/>
-        <source>Portable</source>
-        <translation>Portabel</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="61"/>
-        <source>Compiled with Qt %1</source>
-        <translation>Kompilerad med Qt %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="63"/>
-        <source>Compiled with libnotify %1</source>
-        <translation>Kompilerad med libnotify %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="67"/>
-        <source>MystiQ Homepage: %1</source>
-        <translation>MystiQ hemsida: %1</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="69"/>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ är ett användargränssnitt för FFmpeg.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="72"/>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation>Utvecklare:&lt;br&gt; %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="74"/>
         <source>Aplication Name:&lt;br&gt; %1</source>
-        <translation>Programnamn:&lt;br&gt; %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="75"/>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 or 3.</source>
-        <translation>Detta program är fri mjukvara! Du kan återdistribuera och/eller modifiera det, under villkoren för GNU General Public License 2 eller 3.</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="78"/>
-        <source>Some audio-processing functionalities are provided by SoX.</source>
-        <translation>Vissa ljudbearbetningsfunktioner tillhandahålles av SoX.</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="80"/>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
-        <translation>FFmpeg har hämtats från &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; och &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="133"/>
+        <source>Swedish (Sweden)</source>
+        <extracomment>Swedish Language (Sweden)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutdialog.cpp" line="139"/>
-        <source>Italian (Italy)</source>
-        <extracomment>Italian Language (Italy)</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>English (USA)</source>
-        <extracomment>English Language (USA)</extracomment>
-        <translation type="vanished">Engelska (USA)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="142"/>
-        <source>Spanish (Spain)</source>
-        <extracomment>Spanish Language (Spain)</extracomment>
-        <translatorcomment>Spanische Sprasche (Spanien)</translatorcomment>
-        <translation>Spanska (Spanien)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="145"/>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation>Franska (Frankrike)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="130"/>
-        <source>Swedish (Sweden)</source>
-        <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation>Svenska (Sverige)</translation>
-    </message>
-    <message>
-        <location filename="../ui/aboutdialog.cpp" line="136"/>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translatorcomment>Deutsche Sprache (Deutschland)</translatorcomment>
-        <translation>Tyska (Tyskland)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Italian (Italy)</source>
+        <extracomment>Italian Language (Italy)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>French (France)</source>
+        <extracomment>French Language (France)</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="17"/>
         <source>About FFmpeg</source>
-        <translation>Om FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="31"/>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.ui" line="90"/>
         <source>Available Codecs</source>
-        <translation>Tillgängliga kodekar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="33"/>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translatorcomment>FFmpeg Beschreibung</translatorcomment>
-        <translation>FFmpeg är en komplett, plattformsöverskridande lösning för att spela in, konvertera och strömma ljud och film. Den inkluderar libavcodec - Det ledande biblioteket för ljud-/videokodekar.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="37"/>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>FFmpeg är fri mjukvara licensierad under LGPL eller GPL.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/aboutffmpegdialog.cpp" line="40"/>
         <source>Please visit %1 for more information.</source>
-        <translation>Besök %1 för mer information.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AddTaskWizard</name>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="20"/>
         <source>Add Tasks</source>
-        <translation>Lägg till arbetsuppgifter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="58"/>
         <source>Files to be converted</source>
-        <translation>Filer att konvertera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="110"/>
         <source>Add files.</source>
-        <translation>Lägg till filer.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="113"/>
-        <source>Add Files</source>
-        <translation>Lägg till filer</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="142"/>
         <source>Remove selected files.</source>
-        <translation>Ta bort markerade filer.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="145"/>
-        <source>Remove Selected</source>
-        <translation>Ta bort markerat</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="159"/>
-        <location filename="../ui/addtaskwizard.ui" line="162"/>
-        <source>Clear List</source>
-        <translation>Rensa listan</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="191"/>
         <source>Output Settings</source>
-        <translation>Utdatainställningar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="200"/>
-        <source>Convert to</source>
-        <translation>Konvertera till</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="207"/>
-        <source>Preset</source>
-        <translation>Förinställning</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="214"/>
-        <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Justera utdatans bithastighet automatiskt, för att reducera filstorleken.</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="217"/>
-        <source>Auto Adjust Audio Bitrate</source>
-        <translation>Autojustera ljudets bithastighet</translation>
-    </message>
-    <message>
-        <location filename="../ui/addtaskwizard.ui" line="250"/>
         <source>Edit</source>
-        <translation>Redigera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="266"/>
+        <source>Auto adjust output bitrate to reduce output file size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Auto Adjust Audio Bitrate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Convert to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Output Path</source>
-        <translation>Utdatasökväg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="272"/>
         <source>Select &amp;folder</source>
-        <translation>Välj &amp;mapp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="307"/>
         <source>Browse</source>
-        <translation>Bläddra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="320"/>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Skapa en &amp;ny mapp i källmappen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="345"/>
         <source>Folder Name</source>
-        <translation>Mappnamn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.ui" line="377"/>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Utdata till &amp;källmappen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="145"/>
         <source>Please select at least one file.</source>
-        <translation>Välj minst en fil.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="170"/>
         <source>Select Files</source>
         <extracomment>This text is the title of an openfile dialog.</extracomment>
-        <translation>Välj filer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="172"/>
         <source>Multimedia</source>
-        <translation>Multimedia</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="173"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="174"/>
         <source>Audio</source>
-        <translation>Ljud</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="175"/>
         <source>All files</source>
-        <translation>Alla filer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="224"/>
         <source>Select Directory</source>
         <extracomment>This text is the title of an open directory dialog.</extracomment>
-        <translatorcomment>Dieser Text ist der Titel eines Dialogfelds für geöffnete Ordner.</translatorcomment>
-        <translation>Välj mapp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="306"/>
         <source>Searching for files...</source>
-        <translation>Söker efter filer...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="319"/>
         <source>Some files could not be found.</source>
-        <translation>Vissa filer kunde inte hittas.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="481"/>
         <source>Folder does not exist. Create a new folder?</source>
-        <translation>Mappen finns inte. Vill du skapa en ny mapp?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/addtaskwizard.cpp" line="492"/>
         <source>Failed to create folder. Please select another output folder.</source>
-        <translation>Kunde inte skapa mappen. Välj en annan utdatamapp.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear List</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ConversionParameterDialog</name>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="20"/>
         <source>Conversion Parameters</source>
-        <translation>Konverteringsparametrar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="36"/>
         <source>Audio</source>
-        <translation>Ljud</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="44"/>
         <source>Disable Audio</source>
-        <translation>Inaktivera ljud</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="54"/>
-        <source>Copy Audio (Do not re-encode)</source>
-        <translation>Kopiera ljud (koda inte om)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="63"/>
         <source>Audio Options</source>
-        <translation>Ljudalternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="71"/>
         <source>Sample Rate</source>
-        <translation>Samplingsfrekvens</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="85"/>
         <source>Hz</source>
-        <translation>Hz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="96"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="328"/>
         <source>Bitrate</source>
-        <translation>Bithastighet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="106"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="137"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="344"/>
         <source>(auto)</source>
-        <translation>(auto)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="119"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="354"/>
         <source>kb/s</source>
-        <translation>kb/s</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="130"/>
         <source>Channels</source>
-        <translation>Kanaler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="164"/>
         <source>Volume</source>
-        <translation>Volym</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="184"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="201"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Insert Subtitle if Available (Experimental)</source>
-        <translation type="vanished">Untertitel einfügen, falls verfügbar (Experimentell)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="216"/>
         <source>Disable Video</source>
-        <translation>Inaktivera video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="223"/>
-        <source>Copy Video (Do not re-encode)</source>
-        <translation>Kopiera video (koda inte om)</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="238"/>
         <source>Video Options</source>
-        <translation>Videoalternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="254"/>
-        <source>Width</source>
-        <translation>Bredd</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="264"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="301"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="394"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="407"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="420"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="438"/>
-        <source> px</source>
-        <translation> px</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="291"/>
-        <source>Height</source>
-        <translation>Höjd</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="381"/>
-        <source>qrc:/qml/main.qml</source>
-        <translation>qrc:/qml/main.qml</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="448"/>
-        <source>Crop</source>
-        <translation>Beskär</translation>
-    </message>
-    <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="467"/>
-        <location filename="../ui/conversionparameterdialog.ui" line="470"/>
         <source>Same Quantizer as Source</source>
-        <translation>Samma kvantiserare som källan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="460"/>
         <source>Deinterlace</source>
-        <translation>Avfläta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="209"/>
-        <source>Insert Subtitle if Available</source>
-        <translation>Infoga undertext om tillgänglig</translation>
+        <source>Width</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="485"/>
+        <source> px</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Time</source>
         <extracomment>time-related options (speed, length)</extracomment>
-        <translation>Tid</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="491"/>
         <source>Cutting</source>
         <extracomment>video time cutting: options for begin time and end time</extracomment>
-        <translation>Klippning</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="515"/>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translation>Klipp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="526"/>
         <source>&amp;Preview</source>
-        <translation>&amp;Förhandsgranska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="542"/>
         <source>Scaling</source>
         <extracomment>time scaling, changing the speed of the output file</extracomment>
-        <translation>Skalning</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="550"/>
         <source>Speed</source>
-        <translation>Hastighet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="580"/>
         <source>Advanced</source>
-        <translation>Avancerat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="586"/>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/conversionparameterdialog.ui" line="594"/>
         <source>Additional FFmpeg Options</source>
-        <translation>Fler FFmpeg-alternativ</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy Audio (Do not re-encode)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Insert Subtitle if Available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy Video (Do not re-encode)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>qrc:/qml/main.qml</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ConvertList</name>
     <message>
-        <location filename="../ui/convertlist.cpp" line="299"/>
-        <location filename="../ui/convertlist.cpp" line="1005"/>
         <source>Cancel</source>
         <extracomment>Cancel the operation of adding new tasks</extracomment>
-        <translation>Avbryt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="313"/>
         <source>Adding files (%1/%2)</source>
         <extracomment>This text is the progress indicator of adding multiple tasks. %1 is the number of files that are already added. %2 is the total number of files.</extracomment>
-        <translation>Lägger till filer (%1/%2)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="337"/>
         <source>Some files are not recognized by the converter.</source>
-        <translation>Vissa filer känns inte igen av konverteraren.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="485"/>
         <source>New File Name</source>
-        <translation>Nytt filnamn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="486"/>
         <source>Please input the new name for the output file.</source>
-        <translation>Ange nytt namn på utdatafilen.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="511"/>
         <source>Output Directory</source>
-        <translation>Utdatamapp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Error Message from FFmpeg:</source>
-        <translation type="vanished">Fehlermeldung von FFmpeg:</translation>
-    </message>
-    <message>
-        <location filename="../ui/convertlist.cpp" line="566"/>
         <source>Error Message from FFmpeg:
 
 </source>
-        <translation>Felmeddelande från FFmpeg:
-
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="620"/>
         <source>Drag and drop files here to add tasks.</source>
-        <translation>Dra och släpp filer här, för att lägga till arbetsuppgifter.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="655"/>
         <source>Hide &quot;%1&quot;</source>
         <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
-        <translation>Dölj &quot;%1&quot;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="664"/>
         <source>Restore All Columns</source>
-        <translation>Återställ alla kolumner</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="874"/>
         <source>Source</source>
-        <translation>Källa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="875"/>
         <source>Destination</source>
-        <translation>Mål</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="876"/>
         <source>Duration</source>
-        <translation>Varaktighet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="877"/>
         <source>File Size</source>
-        <translation>Filstorlek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="880"/>
         <source>Sample Rate</source>
         <extracomment>Audio</extracomment>
-        <translation>Samplingsfrekvens</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="881"/>
         <source>Audio Bitrate</source>
-        <translation>Bithastighet ljud</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="882"/>
         <source>Channels</source>
         <extracomment>Audio</extracomment>
-        <translatorcomment>Audio</translatorcomment>
-        <translation>Kanaler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="883"/>
         <source>Audio Codec</source>
-        <translation>Ljudkodek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="886"/>
         <source>Dimensions</source>
-        <translation>Dimensioner</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="887"/>
         <source>Video Bitrate</source>
-        <translation>Bithastighet video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="888"/>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
-        <translation>Bildfrekvens</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="889"/>
         <source>Video Codec</source>
-        <translation>Videokodek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="891"/>
         <source>Progress</source>
-        <translation>Förlopp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="974"/>
         <source>%1 Hz</source>
-        <translation>%1 Hz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="975"/>
-        <location filename="../ui/convertlist.cpp" line="984"/>
         <source>%1 kb/s</source>
-        <translation>%1 kb/s</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="985"/>
         <source>%1 fps</source>
-        <translation>%1 fps</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1004"/>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
-        <translation>Tar bort arbetsuppgifter...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>KiB</source>
-        <translation>KiB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>MiB</source>
-        <translation>MiB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>GiB</source>
-        <translation>GiB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1047"/>
         <source>TiB</source>
-        <translation>TiB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1050"/>
         <source>B</source>
         <extracomment>Bytes</extracomment>
-        <translatorcomment>Bytes</translatorcomment>
-        <translation>B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1085"/>
         <source>File Exists</source>
-        <translation>Filen finns redan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1086"/>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
-        <translation>%1 finns redan på disken eller i arbetslistan. Vill du fortfarande använda detta filnamn på utdatafilen?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1131"/>
         <source>Remove Task</source>
-        <translation>Ta bort arbetsuppgift</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1132"/>
         <source>Cannot remove a task while it is in progress.</source>
-        <translation>Kan inte ta bort en arbetsuppgift som pågår.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1178"/>
-        <location filename="../ui/convertlist.cpp" line="1179"/>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
-        <translation>Slutförd</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1186"/>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
-        <translation>Misslyckad</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/convertlist.cpp" line="1188"/>
         <source>Error: %1</source>
         <extracomment>%1 is the error message</extracomment>
-        <translation>Fel: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ExtraTranslations</name>
     <message>
-        <location filename="../extra-translations.h" line="40"/>
         <source>Convert between media file formats</source>
-        <translation>Konvertera mellan mediafilsformat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../extra-translations.h" line="41"/>
         <source>Media Converter</source>
-        <translation>Mediakonverterare</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>HelpMystiQDialog</name>
     <message>
-        <location filename="../ui/helpmystiqdialog.ui" line="35"/>
         <source>User Manual</source>
-        <translation>Användarmanual</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/helpmystiqdialog.ui" line="69"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -1006,492 +834,363 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ Användarmanual&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter är ett plattformsöverskridande program. Detta program har som enda syfte att omvandla ljud- och videofiler till flera olika format. Som utmärkande drag är MystiQ ett öppen-källkods-projekt, vilket innebär att källkoden alltid kommer att finnas tillgänglig och att alla som vill bidra till utvecklingen är välkomna.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Den grundläggande idén med utvecklingen är att erbjuda ett användarvänligt och enkelt användargränssnitt. Det enkla är essensen av MystiQ, vilket innebär att det inte är vårt mål att lägga till funktioner som komplicerar användningen av programmet.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;För närvarande är MystiQ främst utvecklad i C++ som drar fördel av qt5-grafikbibliotek. I FFmpeg ansvarar det för att konvertera mellan olika format, så vi kan säga att MystiQ helt enkelt är ett grafiskt gränssnitt för FFmpeg.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ låter dig för närvarande konvertera till de flesta befintliga videoformat, samt gör det möjligt att extrahera ljud och konvertera mellan ljudformat. Det innehåller också ett litet verktyg för att trimma videor baserat på dess varaktighet.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Verktygsfält&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;I den övre delen av programmets huvudfönster hittar vi verktygsfältet med följande knappar:&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Lägg till filer:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Öppnar en dialogruta för att välja de videofiler du vill konvertera. När de har valts, placeras de i listan över arbetsuppgifter.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Starta: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Startar konverteringsprocessen från listan över inlästa objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stoppa: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stoppar konverteringsprocessen för ett objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Försök igen:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Försöker igen, att konvertera ett objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Försök alla igen:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Försöker igen, att konvertera alla objekt i listan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Ta bort markerad:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort ett markerat objekt från listan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Ta bort slutförda:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort alla objekt från listan, som har slutfört konverteringsprocessen.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Rensa listan:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort alla objekt från konverteringslistan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Öppna utdatamappen: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Öppnar mappen som innehåller de konverterade filerna, med systemets filhanterare.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Energialternativ:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Välj om du vill stänga av, eller försätta datorn i viloläge/vänteläge när du slutfört konverteringsprocessen av alla objekt i listan.&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InteractiveCuttingDialog</name>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="14"/>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
-        <translation>Klippning</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="49"/>
         <source>Mark as Begin</source>
-        <translation>Markera som början</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="60"/>
         <source>Seek to Begin</source>
-        <translation>Gå till början</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="79"/>
         <source>Play Selection</source>
-        <translation>Spela upp markerat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="92"/>
         <source>Mark as End</source>
-        <translation>Markera som slut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/interactivecuttingdialog.ui" line="103"/>
         <source>Seek to End</source>
-        <translation>Gå till slutet</translation>
-    </message>
-    <message>
-        <source>%1 not found</source>
-        <translation type="vanished">%1 nicht gefunden</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow.ui" line="23"/>
-        <source>MystiQ Media Converter</source>
-        <translation>MystiQ Media Converter</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="128"/>
-        <source>&amp;Help</source>
-        <translation>&amp;Hjälp</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="245"/>
         <source>Start conversion process.</source>
-        <translation>Starta konverteringsprocessen.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="108"/>
         <source>&amp;File</source>
-        <translation>&amp;Arkiv</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="117"/>
-        <location filename="../ui/mainwindow.ui" line="242"/>
         <source>&amp;Convert</source>
-        <translation>&amp;Konvertera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="143"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Redigera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="206"/>
         <source>&amp;Add Files</source>
-        <translation>&amp;Lägg till filer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="209"/>
         <source>Add files for conversion.</source>
-        <translation>Lägg till filer för konvertering.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="212"/>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="230"/>
         <source>E&amp;xit</source>
-        <translation>A&amp;vsluta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="233"/>
         <source>Exit the program.</source>
-        <translation>Avsluta programmet.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="248"/>
-        <source>F5</source>
-        <translation>F5</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="257"/>
         <source>S&amp;top</source>
-        <translation>&amp;Stoppa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="260"/>
         <source>Stop conversion process.</source>
-        <translation>Stoppa konverteringsprocessen.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="269"/>
         <source>Set &amp;Parameters</source>
-        <translation>Ange &amp;parametrar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="272"/>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
-        <translation>Ange parametrar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="275"/>
         <source>Edit conversion parameters of selected files.</source>
-        <translation>Redigera konverteringsparametrar för markerad fil.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="284"/>
         <source>About &amp;Qt</source>
-        <translation>Om&amp;Qt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="287"/>
         <source>About Qt</source>
-        <translation>Om Qt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="296"/>
         <source>&amp;Open Output Folder</source>
-        <translation>&amp;Öppna utdatamappen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="299"/>
         <source>Open output folder of the selected file.</source>
-        <translation>Öppna utdatamappen för markerad fil.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="308"/>
         <source>About &amp;FFmpeg</source>
-        <translation>Om &amp;FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="311"/>
         <source>About FFmpeg</source>
-        <translation>Om FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="320"/>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
-        <translation>&amp;Ta bort markerat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="323"/>
         <source>Remove all selected items in the list.</source>
-        <translation>Ta bort alla markerade objekt från listan.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="332"/>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>Ta bort &amp;slutförda</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="335"/>
         <source>Remove Completed Items</source>
-        <translation>Ta bort slutförda objekt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="338"/>
         <source>Remove all completed items in the list.</source>
-        <translation>Ta bort alla slutförda objekt från listan.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="347"/>
-        <source>Clear &amp;List</source>
-        <translation>&amp;Rensa listan</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="350"/>
         <source>Clear List</source>
-        <translation>Rensa listan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="353"/>
         <source>Remove all items in the list.</source>
-        <translation>Ta bort alla objekt från listan.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="362"/>
         <source>&amp;Retry</source>
-        <translation>&amp;Försök igen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="365"/>
         <source>Retry</source>
-        <translation>Försök igen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="368"/>
         <source>Retry selected tasks.</source>
-        <translation>Försök igen med markerade objekt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="377"/>
         <source>Retry &amp;All</source>
-        <translation>Försök &amp;alla igen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="380"/>
         <source>Retry all tasks.</source>
-        <translation>Försök igen med alla objekt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="392"/>
         <source>&amp;Options</source>
-        <translation>&amp;Alternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="395"/>
         <source>Options</source>
-        <translation>Alternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="404"/>
-        <source>About MystiQ</source>
-        <translation>Om MystiQ</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="407"/>
         <source>About This Program</source>
-        <translation>Om detta program</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="416"/>
         <source>Change Output &amp;Filename</source>
-        <translation>Byt namn på &amp;utdatafil</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="419"/>
         <source>Change the output filename of the selected item.</source>
-        <translation>Ändra utdatafilnamn på markerat objekt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="428"/>
         <source>Change Output &amp;Directory</source>
-        <translation>Byt utdata&amp;mapp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="431"/>
         <source>Change the output directory of the selected items.</source>
-        <translation>Ändra utdatamapp för markerade objekt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="440"/>
-        <source>Poweroff</source>
-        <translation>Stäng av</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="452"/>
         <source>Show Error &amp;Message</source>
-        <translation>Visa fel&amp;meddelanden</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="461"/>
         <source>Check For &amp;Updates</source>
-        <translation>Sök efter &amp;uppdateringar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="470"/>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translation>Klipp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="479"/>
-        <location filename="../ui/mainwindow.ui" line="482"/>
-        <location filename="../ui/mainwindow.ui" line="485"/>
-        <location filename="../ui/mainwindow.ui" line="488"/>
-        <source>User Manual</source>
-        <translation>Användarmanual</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="491"/>
-        <source>F1</source>
-        <translation>F1</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="503"/>
-        <source>&amp;Report Error</source>
-        <translation>&amp;Rapportera fel</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="506"/>
-        <location filename="../ui/mainwindow.ui" line="509"/>
-        <source>Report Error</source>
-        <translation>Rapportera fel</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="512"/>
-        <source>Ctrl+E</source>
-        <translation>Ctrl+E</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.ui" line="521"/>
-        <location filename="../ui/mainwindow.cpp" line="232"/>
-        <source>Donate</source>
-        <translation>Donera</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="126"/>
-        <source>Conversion finished successfully.</source>
-        <translation>Konvertering slutförd utan fel.</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="130"/>
-        <source>Conversion failed.</source>
-        <translation>Konvertering misslyckades.</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="138"/>
         <source>All tasks have finished.</source>
-        <translation>Alla arbetsuppgifter slutförda.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="178"/>
         <source>Nothing to convert.</source>
-        <translation>Inget att konvertera.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="231"/>
-        <source>Support MystiQ</source>
-        <translation>Stöd MystiQ</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="233"/>
-        <source>Close</source>
-        <translation>Stäng</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="235"/>
-        <source>MystiQ needs you</source>
-        <translation>MystiQ behöver dig</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="236"/>
-        <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation>MystiQ är fri programvara. Utvecklingen kräver dock mycket tid och mycket arbete. Vi behöver din hjälp för att kunna utveckla MystiQ med nya funktioner. Överväg gärna att stödja projektet genom att skicka en donation. &lt;b&gt;Även den minsta summa, hjälper mycket.&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="257"/>
-        <source>Reporting bugs from MystiQ </source>
-        <translation>Rapportera fel i MystiQ </translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="260"/>
-        <source>Your comment:</source>
-        <translation>Din kommentar:</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="267"/>
-        <source>Report:</source>
-        <translation>Rapport:</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="319"/>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Konvertering pågår fortfarande. Vill du avbryta?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="360"/>
-        <location filename="../ui/mainwindow.cpp" line="643"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
-        <translation>Stäng av</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="361"/>
         <source>Shutdown when all tasks are done.</source>
-        <translation>Stäng av datorn när alla arbetsuppgifter är slutförda.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="365"/>
-        <location filename="../ui/mainwindow.cpp" line="648"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Vänteläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="366"/>
         <source>Suspend when all tasks are done.</source>
-        <translation>Försätt datorn i vänteläge när alla arbetsuppgifter är slutförda.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="370"/>
-        <location filename="../ui/mainwindow.cpp" line="653"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Viloläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="371"/>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Försätt datorn i viloläge när alla arbetsuppgifter är slutförda.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="450"/>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Detta program kommer att söka efter uppdateringar online. Tillåter du programmet att att använda internet för att söka efter uppdateringar?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="775"/>
         <source>Failed to load preset file. The application will quit now.</source>
-        <translation>Kunde inte läsa in förinställningsfil. Programmet kommer att avslutas nu.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="864"/>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
-        <translation>Förfluten tid: %1 t %2 m %3 s</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="880"/>
+        <source>MystiQ Media Converter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear &amp;List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About MystiQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Poweroff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User Manual</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+E</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conversion failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Support MystiQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ needs you</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reporting bugs from MystiQ </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your comment:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation>MystiQ konverterar %1/%2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="883"/>
         <source>MystiQ Video Converter</source>
-        <translation>MystiQ Video Converter</translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="257"/>
-        <source>%1</source>
-        <translation>%1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MediaConverter</name>
     <message>
-        <source>%1 not found.</source>
-        <extracomment>%1 is a computer program</extracomment>
-        <translation type="vanished">%1 hittades inte.</translation>
-    </message>
-    <message>
-        <location filename="../converter/mediaconverter.cpp" line="111"/>
         <source> FFmpeg, FFPlay o FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
         <translation type="unfinished"></translation>
@@ -1500,252 +1199,201 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MediaPlayerWidget</name>
     <message>
-        <location filename="../ui/mediaplayerwidget.ui" line="98"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="14"/>
         <source>Options</source>
-        <translation>Alternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="34"/>
         <source>General</source>
-        <translation>Allmänt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="40"/>
         <source>Check for updates on program startup</source>
-        <translation>Sök efter uppdateringar vid programstart</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="47"/>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Starta konvertering automatiskt när filer läggs till i listan.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="50"/>
         <source>Start conversion automatically</source>
-        <translation>Starta konvertering automatiskt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="75"/>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="86"/>
         <source>Number of threads to use in conversion</source>
-        <translation>Antal trådar att använda vid konvertering</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="100"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dölj utdataformat som inte finns tillgängliga i aktuell ffmpeg-installation. Det rekommenderas att detta alternativ aktiveras, om du inte är säker på att MystiQ har misslyckats med att upptäcka tillgängliga format (kräver omstart av MystiQ för att få effekt).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="103"/>
         <source>Hide unavailable formats (requires restarting)</source>
-        <translation>Dölj icke tillgängliga format (kräver omstart)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="117"/>
         <source>Tools</source>
-        <translation>Verktyg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="125"/>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation>Du måste starta om MystiQ för att ändringarna skall tillämpas.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="145"/>
         <source>Name</source>
-        <translation>Namn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/optionsdialog.ui" line="150"/>
         <source>Command</source>
-        <translation>Kommando</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PoweroffDialog</name>
     <message>
-        <location filename="../ui/poweroffdialog.ui" line="17"/>
         <source>MystiQ</source>
-        <translation>MystiQ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.ui" line="68"/>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="69"/>
         <source>Shutdown immediately</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Stäng av datorn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="74"/>
         <source>Suspend immediately</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Försätt datorn i vänteläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="79"/>
         <source>Hibernate immediately</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Försätt datorn i viloläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="132"/>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Stäng av</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="136"/>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Vänteläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="140"/>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Viloläge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="145"/>
         <source>Operation Failed: %1</source>
-        <translation>Åtgärden misslyckades: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="169"/>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Stänger av om &lt;b&gt;%1&lt;/b&gt; sekunder</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="172"/>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Vänteläge om &lt;b&gt;%1&lt;/b&gt; sekunder</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/poweroffdialog.cpp" line="175"/>
         <source>Hibernating in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Viloläge om &lt;b&gt;%1&lt;/b&gt; sekunder</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PreviewDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation type="vanished">Dialog</translation>
-    </message>
-    <message>
-        <location filename="../ui/previewdialog.ui" line="20"/>
-        <source>Video Preview</source>
-        <translation>Förhandsvisning av video</translation>
-    </message>
-    <message>
-        <location filename="../ui/previewdialog.ui" line="35"/>
         <source>Play Selected Range</source>
-        <translation>Spela up det markerade intervallet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 not found</source>
-        <translation type="vanished">%1 nicht gefunden</translation>
-    </message>
-    <message>
-        <location filename="../ui/previewdialog.cpp" line="89"/>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation>Början</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.cpp" line="91"/>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation>Slut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/previewdialog.cpp" line="99"/>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translation>Spela upp %1~%2</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Video Preview</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TimeRangeEdit</name>
     <message>
-        <location filename="../ui/timerangeedit.cpp" line="36"/>
         <source>From Begin</source>
-        <translation>Från början</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/timerangeedit.cpp" line="37"/>
         <source>To End</source>
-        <translation>Till slutet</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
-        <location filename="../ui/updatedialog.ui" line="55"/>
         <source>Show &amp;Release Notes</source>
-        <translation>Visa &amp;versionsnotiser</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.ui" line="81"/>
         <source>Check for updates on program startup</source>
-        <translation>Sök efter uppdateringar vid programstart</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="72"/>
         <source>Downloading update information...</source>
-        <translation>Laddar ner uppdateringsinformation...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="99"/>
         <source>Cannot connect to server.</source>
-        <translation>Kan inte ansluta till servern.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="102"/>
         <source>Failed to parse the received data.</source>
-        <translation>Kunde inte tolka mottagen data.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="105"/>
         <source>You are already using the latest version of MystiQ.</source>
-        <translation>Du använder redan den senaste versionen av MystiQ.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="108"/>
         <source>An unknown error has occurred.</source>
-        <translation>Ett okänt fel har inträffat.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="136"/>
         <source>A new version of MystiQ has been released!</source>
-        <translation>En ny version av MystiQ har släppts!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="139"/>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translation>Version &lt;b&gt;%1&lt;/b&gt; finns tillgänglig på %2.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/updatedialog.cpp" line="145"/>
         <source>You can download this version using the link:</source>
-        <translation>Du kan ladda ner den här versionen via länken:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
