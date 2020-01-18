@@ -407,15 +407,16 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
       if (subtitulo_srt.exists())
       {
-        command = QString("-vf subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulosrt);
+        command = QString("subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulosrt);
       }
       else if (subtitulo_ssa.exists())
       {
-        command = QString("-vf subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulossa);
+        command = QString("subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulossa);
       }
 
       if (!command.isEmpty())
       {
+        list << QString("-vf");
         list << command;
       }
     }
