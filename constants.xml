@@ -105,34 +105,33 @@
     QSlider::groove:horizontal {
         border: 0px solid #999999;
         height: 8px;
-        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
         margin: -1px;
-        padding:0 6px; 
+        padding:0 6px;
     }
     QSlider::handle:horizontal {
-        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff stop:1 #aaaaaa);
-        border: 1px solid #939393;
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #eeeeee stop:1 #eeeeee);
+        border: 1px solid #999999;
         width: 16px;
         margin: -5px;
+        box-shadow:0px 0px 3px #eeeeee;
         border-radius: 8px;
     }
 
     QSlider::handle:horizontal:hover {
-        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff stop:1 #cccccc);
-        border: 1px solid #aaaaaa;
-        box-shadow:0px 0px 3px #ffffff;
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #556180 stop:1 #556180);
+        border: 1px solid #55618f;
     }
 
     QSlider::add-page:horizontal {
-        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d2d2d2, stop:1 #ebebeb);
-        border: 1px solid #939393;
-        border-radius: 2px;
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #b2b3b4, stop:1 #b2b3b4);
+        border: 1px solid #b2b3b4;
+        border-radius: 3px;
         margin: 0px;
     }
     QSlider::sub-page:horizontal {
-        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #54aae8, stop:1#b6d3e8 );
-        border: 1px solid #2f82be;
-        border-radius: 2px;
+        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #55618f, stop:1 #556180 );
+        border: 1px solid #556180;
+        border-radius: 3px;
         margin: 0px;
     }
     </SliderStyle>

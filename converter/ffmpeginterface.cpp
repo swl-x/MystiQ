@@ -362,18 +362,18 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     QString source = o.source;
     int last_point_source = source.lastIndexOf(".");
     //Begins Subtitle files declaration
-    QString subtitulosrt, subtitulossa;
+    QString subtitlesrt, subtitlessa;
     if (last_point_source==-1){
-        subtitulosrt = source+".srt";
-        subtitulossa = source+".ssa";
+        subtitlesrt = source+".srt";
+        subtitlessa = source+".ssa";
     }
     else{
-        subtitulosrt = source.replace(last_point_source, 5, ".srt");
-        subtitulossa = source.replace(last_point_source, 5, ".ssa");
+        subtitlesrt = source.replace(last_point_source, 5, ".srt");
+        subtitlessa = source.replace(last_point_source, 5, ".ssa");
     }
-    QFile subtitulo_srt, subtitulo_ssa;
-    subtitulo_srt.setFileName(subtitulosrt);
-    subtitulo_ssa.setFileName(subtitulossa);
+    QFile subtitle_srt, subtitle_ssa;
+    subtitle_srt.setFileName(subtitlesrt);
+    subtitle_ssa.setFileName(subtitlessa);
     //Finishing Subtitle files declaration
 
     // overwrite if file exists
@@ -405,13 +405,13 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     {
       QString command;
 
-      if (subtitulo_srt.exists())
+      if (subtitle_srt.exists())
       {
-        command = QString("subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulosrt);
+        command = QString("subtitles='%1':force_style='Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
       }
-      else if (subtitulo_ssa.exists())
+      else if (subtitle_ssa.exists())
       {
-        command = QString("subtitles='%1':force_style='Fontsize=24':charenc=cp1256").arg(subtitulossa);
+        command = QString("subtitles='%1':force_style='Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
       }
 
       if (!command.isEmpty())
