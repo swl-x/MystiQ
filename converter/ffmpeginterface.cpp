@@ -362,18 +362,21 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     QString source = o.source;
     int last_point_source = source.lastIndexOf(".");
     //Begins Subtitle files declaration
-    QString subtitlesrt, subtitlessa;
+    QString subtitlesrt, subtitlessa, subtitlesub;
     if (last_point_source==-1){
         subtitlesrt = source+".srt";
         subtitlessa = source+".ssa";
+        subtitlesub = source+".sub";
     }
     else{
         subtitlesrt = source.replace(last_point_source, 5, ".srt");
         subtitlessa = source.replace(last_point_source, 5, ".ssa");
+        subtitlesub = source.replace(last_point_source, 5, ".sub");
     }
-    QFile subtitle_srt, subtitle_ssa;
+    QFile subtitle_srt, subtitle_ssa, subtitle_sub;
     subtitle_srt.setFileName(subtitlesrt);
     subtitle_ssa.setFileName(subtitlessa);
+    subtitle_sub.setFileName(subtitlesub);
     //Finishing Subtitle files declaration
 
     // overwrite if file exists
@@ -407,11 +410,15 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
       if (subtitle_srt.exists())
       {
-        command = QString("subtitles='%1':force_style='Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
+        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
       }
       else if (subtitle_ssa.exists())
       {
-        command = QString("subtitles='%1':force_style='Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
+        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
+      }
+      else if (subtitle_sub.exists())
+      {
+        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
       }
 
       if (!command.isEmpty())
