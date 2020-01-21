@@ -1,0 +1,122 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The versioning system is based on the release date [year.month.day] always padded
+to be two digits long
+
+## [20.01.22] - 2020-01-22
+### Added
+ - Japanese language Pack
+ - Portuguese language Pack
+ - Russian language Pack
+ - Partially added Polish language Pack
+ - MystiQ's manpage (only GNU/Linux)
+ - 32-bit Windows installer (temporarily)
+ - Missing namespace to demuxing_formats
+
+### Fixed
+ - Media Preview in Windows systems
+ - Warnings of Qt 5.14
+ - Crop math scalar functions
+ - Minimum width in mainwindow affecting small screens or tiling window managers
+ - Subtitles burning
+
+### Changed
+ - Changed to QUrl::fromLocalFile to generate the correct file:// url
+ - Changed background for mystiq logo to dark and light themes
+
+
+## [20.01.09] - 2020-01-09
+### Added
+ - Swedish language Pack
+ - Italian language Pack
+ - Updated packages of FFmpeg, FFprobe and FFplay (only for Microsoft Windows)
+ - Available an installer for Microsoft Windows systems
+
+### Changed
+ - Changed version numbering system. Now we use the exact release date as version number.
+ - Using Qt 5.14 (only Microsoft Windows)
+ - Cleaned task wizard UI
+ - It is now possible to reorder items in the initial list of items in taskwizard
+ - Changed the version number from semantic to date numbers, see top of changelog
+
+
+## [0.4.0] - 2019-12-10
+### Added
+ - French language Pack
+
+### Changed
+ - Changed the application icon
+ - Changed logo to SVG format
+ - Feature: Replace the preview system with qtmultimedia
+
+### Fixed
+ - Adding Debian based distros build deps
+ - Avoid pass crop parameters to ffmpeg when not changed the crop on configuration
+ - Remove more mplayer references.
+ - Some bugs on cut & crop dialogs.
+
+
+## [0.3.2] - 2019-12-06
+### Added
+ - New Video Cut Editor
+ - German language pack
+
+### Fixed
+ - Improved area for video parameter options
+ - Continuous integration with TravisCI to generate AppImages packages with each release
+
+
+## [0.3.1] - 2019-12-04
+### Fixed
+ - UI for better result in dark desktop themes
+
+
+## [0.3] - 2019-11-28
+### Added
+ - Donate Option
+ - Continuous Integration with TravisCI 
+ - Install target on make, a way to install after build
+ - New option to users, now it's possible report bugs into app
+ - Explained how to compile the application in Ubuntu 18.04 or earlier, due to the incompatibility of MystiQ with Qt5 <= 5.9
+ - Donation in the help menu, a link to send donations to the project
+
+### changed
+ - Internal app icons theme
+
+
+## [0.2] - 2019-11-05
+### Added
+ - User Manual
+ - New ffmpeg presets for compression with H265 codec added
+
+### Fixed
+ - Application update notification system
+
+### Changed
+ - Modified toolbar style
+
+
+## [0.1.1] - 2019-10-31
+### Fixed
+ - Cleaning UI
+
+
+## [0.1] - 2019-10-11
+### Fixed
+ - Fixed notifications to end a conversion task from a conversion list
+
+### Added
+ - Completed Spanish translation
+
+
+## [0.0.2] - 2019-08-23
+### Added
+ - Spanish language
+
+
+## [0.0.1] - 2019-08-12
+### Added
+ - First stable release.
+
