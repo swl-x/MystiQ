@@ -31,7 +31,7 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
     ui->setupUi(this);
     ui->spinThreads->setMinimum(1); // at least 1 thread
 
-#ifndef TOOLS_IN_DATA_PATH
+//#ifndef TOOLS_IN_DATA_PATH
     // initialize program list
     ui->toolTable->verticalHeader()->setVisible(false);
     ui->toolTable->horizontalHeader()->setStretchLastSection(true);
@@ -44,9 +44,9 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
         QTableWidgetItem *item = ui->toolTable->item(i, 0);
         item->setFlags(item->flags() ^ Qt::ItemIsEditable);
     }
-#else
-    ui->tabTools->setVisible(false);
-#endif
+//#else
+//    ui->tabTools->setVisible(false);
+//#endif
 }
 
 OptionsDialog::~OptionsDialog()
