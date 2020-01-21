@@ -1,0 +1,15 @@
+Source: mystiq
+Section: unknown
+Priority: optional
+Maintainer: Pavel Milanes Costa <pavelmc@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/mystiq.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/mystiq.git
+
+Package: mystiq
+Architecture: any
+Depends: ffmpeg, qt5-base, qt5-default, qtdeclarative5, qtmultimedia5, sox, mplayer
+Description: QT UI wrapper for ffmpeg converter from Cuba
+ This is the long description... bla, bla, bla...
