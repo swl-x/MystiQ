@@ -26,10 +26,14 @@ to be two digits long
  - Crop math scalar functions
  - Minimum width in mainwindow affecting small screens or tiling window managers
  - Subtitles burning
+ - Set Parameters window blank in Windows version
 
 ### Changed
  - Changed to QUrl::fromLocalFile to generate the correct file:// url
  - Changed background for mystiq logo to dark and light themes
+ 
+### Removed
+ - FFplay support
 
 
 ## [20.01.09] - 2020-01-09

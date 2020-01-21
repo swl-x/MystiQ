@@ -138,12 +138,8 @@ static void register_external_tools()
             || register_tool("ffprobe")
             || register_tool("ffprobe", "avprobe");
     // same as above
-    ExePath::checkProgramAvailability("ffplay")
-            || register_tool("ffplay")
-            || register_tool("ffplay", "avplay");
     // these tools have no alternative names
     register_tool("sox");
-    // register_tool("mplayer");
 }
 
 int main(int argc, char *argv[])
