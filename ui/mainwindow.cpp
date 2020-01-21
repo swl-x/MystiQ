@@ -122,9 +122,11 @@ void MainWindow::window_ready()
 void MainWindow::task_finished(int exitcode)
 {
     if (exitcode == 0) { // succeed
-//        Notification::send(this, "MystiQ"
-//                                 , tr("Conversion finished successfully.")
-//                                 , NotifyLevel::INFO);
+        #if defined(Q_OS_LINUX) || defined(Q_OS_MACOS)
+        Notification::send(this, "MystiQ"
+                                 , tr("Conversion finished successfully.")
+                                 , NotifyLevel::INFO);
+        #endif
     } else { // failed
         QMessageBox::critical(this, this->windowTitle()
                               , tr("Conversion failed.")
