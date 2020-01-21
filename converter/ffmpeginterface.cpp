@@ -362,72 +362,79 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     QString source = o.source;
     int last_point_source = source.lastIndexOf(".");
     //Begins Subtitle files declaration
-    QString subtitlesrt, subtitlessa, subtitlesub;
-    if (last_point_source==-1){
-        subtitlesrt = source+".srt";
-        subtitlessa = source+".ssa";
-        subtitlesub = source+".sub";
-    }
-    else{
-        subtitlesrt = source.replace(last_point_source, 5, ".srt");
-        subtitlessa = source.replace(last_point_source, 5, ".ssa");
-        subtitlesub = source.replace(last_point_source, 5, ".sub");
-    }
-    QFile subtitle_srt, subtitle_ssa, subtitle_sub;
-    subtitle_srt.setFileName(subtitlesrt);
-    subtitle_ssa.setFileName(subtitlessa);
-    subtitle_sub.setFileName(subtitlesub);
-    //Finishing Subtitle files declaration
-
-    // overwrite if file exists
-    list.append("-y");
-
-    if (!bNeedsAudioFilter) {
-        /* in this configuration, input is read from file
-           arguments: -i <infile>
-        */
-        list << "-i" << o.source;
-    } else {
-        /* In this configuration, video (if any) is read from file
-           and audio is read from stdin
-           if source file contains video:
-              arguments: -i <infile> -i - -map 0:<vstreamindex> -map 1
-           if source file has no video stream:
-              arguments: -i -
-        */
-        if (probe.hasVideo() && !o.disable_video)
-            list << "-i" << o.source << "-i" << "-"
-                 << "-map" << QString("0:%1").arg(probe.videoStreamIndex())
-                 << "-map" << "1";
-        else{
-            list << "-i" << "-";
+        QString subtitlesrt, subtitlessa, subtitlesub, subtitleass;
+        if (last_point_source==-1){
+            subtitlesrt = source+".srt";
+            subtitlessa = source+".ssa";
+            subtitlesub = source+".sub";
+            subtitleass = source+".ass";
         }
-    }
-    // begining insert subtitle
-    if (o.insert_subtitle)
-    {
-      QString command;
+        else{
+            subtitlesrt = source.replace(last_point_source, 5, ".srt");
+            subtitlessa = source.replace(last_point_source, 5, ".ssa");
+            subtitlesub = source.replace(last_point_source, 5, ".sub");
+            subtitleass = source.replace(last_point_source, 5, ".ass");
+        }
+        QFile subtitle_srt, subtitle_ssa, subtitle_sub, subtitle_ass;
+        subtitle_srt.setFileName(subtitlesrt);
+        subtitle_ssa.setFileName(subtitlessa);
+        subtitle_sub.setFileName(subtitlesub);
+        subtitle_ass.setFileName(subtitleass);
+        //Finishing Subtitle files declaration
 
-      if (subtitle_srt.exists())
-      {
-        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
-      }
-      else if (subtitle_ssa.exists())
-      {
-        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
-      }
-      else if (subtitle_sub.exists())
-      {
-        command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
-      }
+        // overwrite if file exists
+        list.append("-y");
 
-      if (!command.isEmpty())
-      {
-        list << QString("-vf");
-        list << command;
-      }
-    }
-     // finishing insert subtitle
+        if (!bNeedsAudioFilter) {
+            /* in this configuration, input is read from file
+               arguments: -i <infile>
+            */
+            list << "-i" << o.source;
+        } else {
+            /* In this configuration, video (if any) is read from file
+               and audio is read from stdin
+               if source file contains video:
+                  arguments: -i <infile> -i - -map 0:<vstreamindex> -map 1
+               if source file has no video stream:
+                  arguments: -i -
+            */
+            if (probe.hasVideo() && !o.disable_video)
+                list << "-i" << o.source << "-i" << "-"
+                     << "-map" << QString("0:%1").arg(probe.videoStreamIndex())
+                     << "-map" << "1";
+            else{
+                list << "-i" << "-";
+            }
+        }
+        // begining insert subtitle
+        if (o.insert_subtitle)
+        {
+          QString command;
+
+          if (subtitle_srt.exists())
+          {
+            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
+          }
+          else if (subtitle_ssa.exists())
+          {
+            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
+          }
+          else if (subtitle_sub.exists())
+          {
+            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
+          }
+          else if (subtitle_ass.exists())
+          {
+            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitleass);
+          }
+
+          if (!command.isEmpty())
+          {
+            list << QString("-vf");
+            list << command;
+          }
+        }
+         // finishing insert subtitle
 
     // enable experimental codecs by default
    // list << "-strict" << "experimental";

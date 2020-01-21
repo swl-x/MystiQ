@@ -65,7 +65,7 @@
            <layout class="QFormLayout" name="formLayout">
             <item row="0" column="0" colspan="2">
              <layout class="QHBoxLayout" name="horizontalLayout_4">
-              <item>
+              <item alignment="Qt::AlignRight">
                <widget class="QLabel" name="lblSampleRate">
                 <property name="text">
                  <string>Sample Rate</string>
@@ -90,7 +90,7 @@
             </item>
             <item row="1" column="0" colspan="2">
              <layout class="QHBoxLayout" name="horizontalLayout_5">
-              <item>
+              <item alignment="Qt::AlignRight">
                <widget class="QLabel" name="lblAudioBitrate">
                 <property name="text">
                  <string>Bitrate</string>
@@ -124,7 +124,7 @@
             </item>
             <item row="2" column="0" colspan="2">
              <layout class="QHBoxLayout" name="horizontalLayout_6">
-              <item>
+              <item alignment="Qt::AlignRight">
                <widget class="QLabel" name="label">
                 <property name="text">
                  <string>Channels</string>
@@ -158,7 +158,7 @@
             </item>
             <item row="3" column="0" colspan="2">
              <layout class="QHBoxLayout" name="horizontalLayout_12">
-              <item>
+              <item alignment="Qt::AlignRight">
                <widget class="QLabel" name="label_6">
                 <property name="text">
                  <string>Volume</string>
