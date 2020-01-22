@@ -38,10 +38,6 @@
         <translation>スペイン語 (Spanien)</translation>
     </message>
     <message>
-        <source>English (USA)</source>
-        <translation type="vanished">英語 (USA)</translation>
-    </message>
-    <message>
         <source>Portable</source>
         <translation>ポータブル</translation>
     </message>
@@ -68,10 +64,6 @@
     <message>
         <source>Compiled with Qt %1</source>
         <translation>Qt %1 によってコンパイル</translation>
-    </message>
-    <message>
-        <source>Aplication Name:&lt;br&gt; %1</source>
-        <translation type="vanished">アプリケーション名:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Compiled with libnotify %1</source>
@@ -247,16 +239,20 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.20 (2020-01-20)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.22 (2020-01-22)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Japanese language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Portuguese language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Russian language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Partially added Polish language Pack&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added MystiQ&apos;s manpage (only GNU/Linux)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added MystiQ&apos;s manpage (only for GNU/Linux)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added (temporarily) 32-bit Windows installer&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed Media Preview in Windows systems&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed to QUrl::fromLocalFile to generate the correct file:// url&lt;/span&gt;&lt;/p&gt;
@@ -266,6 +262,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed background for mystiq logo to dark and light themes&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed minimum width in mainwindow affecting small screens or tiling window managers&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed subtitles burning&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed Set Parameters window blank (only for Microsoft Windows)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Removed unnecessary support to FFplay&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.09 (2020-01-09)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;- Changed version numbering system. Now we use the exact release date as version number.&lt;/span&gt;&lt;/p&gt;
@@ -323,10 +321,6 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Application Name:&lt;br&gt; %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -498,10 +492,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> px</source>
         <translation> px</translation>
-    </message>
-    <message>
-        <source>Cut</source>
-        <translation type="vanished">切り取り</translation>
     </message>
     <message>
         <source>Crop</source>
@@ -908,10 +898,6 @@ p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;
     </message>
     <message>
         <source>Cutting</source>
-        <translation type="vanished">カッティング</translation>
-    </message>
-    <message>
-        <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
         <translation type="unfinished">カッティング</translation>
     </message>
@@ -1014,7 +1000,7 @@ p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;
     </message>
     <message>
         <source>Conversion finished successfully.</source>
-        <translation type="vanished">変換が正常に完了しました。</translation>
+        <translation>変換が正常に完了しました。</translation>
     </message>
     <message>
         <source>&amp;Retry</source>
@@ -1242,12 +1228,7 @@ p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;
 <context>
     <name>MediaConverter</name>
     <message>
-        <source>%1 not found.</source>
-        <extracomment>%1 is a computer program</extracomment>
-        <translation type="vanished">%1 が見つかりません。</translation>
-    </message>
-    <message>
-        <source> FFmpeg, FFPlay o FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
+        <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1382,10 +1363,6 @@ p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
         <translation>最初</translation>
-    </message>
-    <message>
-        <source>Dialog</source>
-        <translation type="vanished">Dialog</translation>
     </message>
     <message>
         <source>Play %1~%2</source>

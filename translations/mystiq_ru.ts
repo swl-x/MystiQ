@@ -16,10 +16,6 @@
         <translation>Переводчики</translation>
     </message>
     <message>
-        <source>Version: %1</source>
-        <translation type="vanished">Версия: %1</translation>
-    </message>
-    <message>
         <source>Portable</source>
         <translation>Переносная</translation>
     </message>
@@ -30,18 +26,6 @@
     <message>
         <source>Compiled with libnotify %1</source>
         <translation>Скомпилированно с libnotify %1</translation>
-    </message>
-    <message>
-        <source>MystiQ is a gui frontend for FFmpeg.</source>
-        <translation type="vanished">MystiQ — графический интерфейс для FFmpeg.</translation>
-    </message>
-    <message>
-        <source>Programming: %1</source>
-        <translation type="vanished">Программирование: %1</translation>
-    </message>
-    <message>
-        <source>Logo Design: %1</source>
-        <translation type="vanished">Дизайн логотипа: %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 or 3.</source>
@@ -56,73 +40,9 @@
         <translation>Некоторые функции обработки аудио предоставлены SoX.</translation>
     </message>
     <message>
-        <source>FFmpeg presets were taken from WinFF.</source>
-        <translation type="vanished">Предустановки FFmpeg были заимствованы из WinFF.</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <extracomment>Japanese Language</extracomment>
-        <translation type="vanished">Японский</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <extracomment>Italian Language</extracomment>
-        <translation type="vanished">Итальянский</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <extracomment>Czech Language</extracomment>
-        <translation type="vanished">Чешский</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <extracomment>Chinese character set used in China</extracomment>
-        <translation type="vanished">Упрощённый китайский</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <extracomment>Russian Language</extracomment>
-        <translation type="vanished">Русский</translation>
-    </message>
-    <message>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
         <translation>Испанский (Испания)</translation>
-    </message>
-    <message>
-        <source>Spanish (Guatemala)</source>
-        <extracomment>Spanish Language (Guatemala)</extracomment>
-        <translation type="vanished">Испанский (Гватемала)</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <extracomment>Romanian Language</extracomment>
-        <translation type="vanished">Румынский</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <extracomment>Turkish Language</extracomment>
-        <translation type="vanished">Турецкий</translation>
-    </message>
-    <message>
-        <source>Arabic</source>
-        <extracomment>Arabic Language</extracomment>
-        <translation type="vanished">Арабский</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <extracomment>Hungarian Langauge</extracomment>
-        <translation type="obsolete">Болгарский</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <extracomment>Polish Language</extracomment>
-        <translation type="obsolete">Польский</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <extracomment>French Language</extracomment>
-        <translation type="obsolete">Французский</translation>
     </message>
     <message>
         <source>License</source>
@@ -290,10 +210,6 @@ p, li { white-space: pre-wrap; }
         <translation>Разработчики: &lt;br&gt; %1</translation>
     </message>
     <message>
-        <source>Aplication Name:&lt;br&gt; %1</source>
-        <translation type="vanished">Имя приложения: &lt;br&gt; %1</translation>
-    </message>
-    <message>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
         <translation>Предустановки FFmpeg были взяты из &lt;b&gt; VideoMorph &lt;/b&gt;, &lt;b&gt; QWinff &lt;/b&gt;, &lt;b&gt; Curlew &lt;/b&gt;, &lt;b&gt; Ciano &lt;/b&gt; и &lt;b&gt; FF Multi Converter &lt;/b &gt;.</translation>
     </message>
@@ -323,16 +239,20 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.20 (2020-01-20)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.22 (2020-01-22)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Japanese language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Portuguese language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Russian language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Partially added Polish language Pack&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added MystiQ&apos;s manpage (only GNU/Linux)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added MystiQ&apos;s manpage (only for GNU/Linux)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added (temporarily) 32-bit Windows installer&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed Media Preview in Windows systems&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed to QUrl::fromLocalFile to generate the correct file:// url&lt;/span&gt;&lt;/p&gt;
@@ -342,6 +262,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Changed background for mystiq logo to dark and light themes&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed minimum width in mainwindow affecting small screens or tiling window managers&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed subtitles burning&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Fixed Set Parameters window blank (only for Microsoft Windows)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Removed unnecessary support to FFplay&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.09 (2020-01-09)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;- Changed version numbering system. Now we use the exact release date as version number.&lt;/span&gt;&lt;/p&gt;
@@ -399,10 +321,6 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Application Name:&lt;br&gt; %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -953,24 +871,12 @@ p, li { white-space: pre-wrap; }
         <source>Seek to End</source>
         <translation type="unfinished">Перейти в начало</translation>
     </message>
-    <message>
-        <source>%1 not found</source>
-        <translation type="obsolete">%1 не найден</translation>
-    </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <source>MystiQ</source>
-        <translation type="vanished">MystiQ</translation>
-    </message>
-    <message>
         <source>Start conversion process.</source>
         <translation>Запустить процесс преобразования.</translation>
-    </message>
-    <message>
-        <source>&amp;Start</source>
-        <translation type="vanished">&amp;Старт</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -979,10 +885,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&amp;Convert</source>
         <translation>П&amp;реобразовать</translation>
-    </message>
-    <message>
-        <source>&amp;About</source>
-        <translation type="vanished">&amp;О приложении</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -1007,10 +909,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Exit the program.</source>
         <translation>Выйти из приложения.</translation>
-    </message>
-    <message>
-        <source>F9</source>
-        <translation type="vanished">F9</translation>
     </message>
     <message>
         <source>S&amp;top</source>
@@ -1080,10 +978,6 @@ p, li { white-space: pre-wrap; }
         <translation>Удалить завершённые элементы из списка.</translation>
     </message>
     <message>
-        <source>&amp;Clear List</source>
-        <translation type="vanished">Оч&amp;истить список</translation>
-    </message>
-    <message>
         <source>Clear List</source>
         <translation>Очистить список</translation>
     </message>
@@ -1118,10 +1012,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Options</source>
         <translation>Настройки</translation>
-    </message>
-    <message>
-        <source>About Q&amp;WinFF</source>
-        <translation type="vanished">О Q&amp;WinFF</translation>
     </message>
     <message>
         <source>About This Program</source>
@@ -1209,11 +1099,6 @@ p, li { white-space: pre-wrap; }
         <translation>Оставшееся время: %1 ч %2 м %3 c</translation>
     </message>
     <message>
-        <source>Converting %1/%2</source>
-        <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation type="vanished">Преобразование %1/%2</translation>
-    </message>
-    <message>
         <source>MystiQ Media Converter</source>
         <translation></translation>
     </message>
@@ -1263,7 +1148,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Conversion finished successfully.</source>
-        <translation type="vanished">Преобразование завершено успешно.</translation>
+        <translation>Преобразование завершено успешно.</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
@@ -1315,12 +1200,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MediaConverter</name>
     <message>
-        <source>%1 not found.</source>
-        <extracomment>%1 is a computer program</extracomment>
-        <translation type="vanished">%1 не найден.</translation>
-    </message>
-    <message>
-        <source> FFmpeg, FFPlay o FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
+        <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1447,16 +1327,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PreviewDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation type="obsolete">Предпросмотр</translation>
-    </message>
-    <message>
         <source>Play Selected Range</source>
         <translation>Воспроизвести выбранный участок</translation>
-    </message>
-    <message>
-        <source>%1 not found</source>
-        <translation type="obsolete">%1 не найден</translation>
     </message>
     <message>
         <source>Begin</source>
