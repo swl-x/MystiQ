@@ -211,7 +211,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Japanska (Japan)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
@@ -236,7 +236,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Programnamn:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>German (Germany)</source>
@@ -1232,7 +1232,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation type="unfinished"></translation>
+        <translation> FFmpeg eller FFprobe %1 kan inte hittas i systemet. Överväg att installera dem innan du kör MystiQ.</translation>
     </message>
 </context>
 <context>
