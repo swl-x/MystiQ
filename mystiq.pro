@@ -124,14 +124,20 @@ RESOURCES += \
 
 TRANSLATIONS += \
     translations/mystiq_es.ts \
+    translations/mystiq_ar.ts \
+    translations/mystiq_cs_CZ.ts \
+    translations/mystiq_hu.ts \
     translations/mystiq_fr.ts \
     translations/mystiq_de.ts \
     translations/mystiq_it.ts \
     translations/mystiq_pt.ts \
     translations/mystiq_ja.ts \
     translations/mystiq_ru.ts \
+    translations/mystiq_ro.ts \
     translations/mystiq_pl.ts \
     translations/mystiq_sv.ts \
+    translations/mystiq_vi.ts \
+    translations/mystiq_zh_CN.ts \
     translations/mystiq_new.ts
 
 INCLUDEPATH += .

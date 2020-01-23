@@ -73,8 +73,11 @@ AboutDialog::AboutDialog(QWidget *parent) :
          //: %1 is the name and email of the logo designer
          + tr("Application Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "
-              "under the terms of the GNU General Public License version 2 or 3.")
+              "under the terms of the GNU General Public License version 3.")
          + "<br><br>"
+         + "Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit "
+         + url("https://www.transifex.com/swl-x-project/mystiq-video-converter/")
+         + " and join a translation team.<br><br>"
          + tr("Some audio-processing functionalities are provided by SoX.")
          + " (" + url("http://sox.sourceforge.net/") + ")<br><br>"
          + tr("FFmpeg presets were taken from <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b> and <b>FF Multi Converter</b>.")+"<br>"

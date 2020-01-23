@@ -9,5 +9,11 @@
         <file>translations/mystiq_pt.qm</file>
         <file>translations/mystiq_ru.qm</file>
         <file>translations/mystiq_pl.qm</file>
+        <file>translations/mystiq_ar.qm</file>
+        <file>translations/mystiq_cs_CZ.qm</file>
+        <file>translations/mystiq_hu.qm</file>
+        <file>translations/mystiq_ro.qm</file>
+        <file>translations/mystiq_zh_CN.qm</file>
+        <file>translations/mystiq_vi.qm</file>
     </qresource>
 </RCC>
