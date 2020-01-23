@@ -24,6 +24,12 @@
             <extension>mkv</extension>
             <category>MKV</category>
         </MKV_H265>
+        <MKV_Youtube>
+            <label>MKV for Youtube</label>
+            <params>-c:v libx264 -preset slow -profile:v high -crf 18 -coder 1 -pix_fmt yuv420p -movflags +faststart -g 30 -bf 2 -c:a aac -b:a 384k -profile:a aac_low</params>
+            <extension>mkv</extension>
+            <category>MKV</category>
+        </MKV_Youtube>
         <AVIMSCompatible640x480>
             <label>MS Compatible 640x480</label>
             <params>-acodec libmp3lame -vcodec msmpeg4 -b:a 192k -b:v 1000k -s 640x480 -ar 44100</params>
@@ -48,6 +54,12 @@
             <extension>avi</extension>
             <category>AVI</category>
         </AVIXVIDWidescreen>
+        <AVI_Youtube>
+            <label>AVI for Youtube</label>
+            <params>-c:v libx264 -preset slow -profile:v high -crf 18 -coder 1 -pix_fmt yuv420p -movflags +faststart -g 30 -bf 2 -c:a aac -b:a 384k -profile:a aac_low</params>
+            <extension>avi</extension>
+            <category>AVI</category>
+        </AVI_Youtube>
         <DVDFullscreen>
             <label>DVD Fullscreen 352x480 (4:3)</label>
             <params>-f dvd -target ntsc-dvd -vcodec mpeg2video -r 29.97 -s 352x480 -aspect 4:3 -b:v 4000k -mbd rd -cmp 2 -subcmp 2 -acodec mp2 -b:a 192k -ar 48000 -ac 2</params>
@@ -108,6 +120,12 @@
             <extension>mov</extension>
             <category>MOV</category>
         </QuickTimeHVeryHighQuality>
+        <MOV_Youtube>
+            <label>MOV for Youtube</label>
+            <params>-c:v libx264 -preset slow -profile:v high -crf 18 -coder 1 -pix_fmt yuv420p -movflags +faststart -g 30 -bf 2 -c:a aac -b:a 384k -profile:a aac_low</params>
+            <extension>mov</extension>
+            <category>MOV</category>
+        </MOV_Youtube>
         <MP4HighQuality>
             <label>MP4 High Quality</label>
             <params>-crf 35.0 -vcodec libx264 -acodec aac -ar 48000 -b:a 128k -coder 1 -flags +loop -cmp +chroma -partitions +parti4x4+partp8x8+partb8x8 -me_method hex -subq 6 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -b_strategy 1 -strict -2</params>
@@ -156,6 +174,12 @@
             <extension>mp4</extension>
             <category>MP4</category>
         </MP4_H265NoResizing>
+        <MP4_Youtube>
+            <label>MP4 for Youtube</label>
+            <params>-c:v libx264 -preset slow -profile:v high -crf 18 -coder 1 -pix_fmt yuv420p -movflags +faststart -g 30 -bf 2 -c:a aac -b:a 384k -profile:a aac_low</params>
+            <extension>mp4</extension>
+            <category>MP4</category>
+        </MP4_Youtube>
         <VCDHighQuality>
             <label>NTSC VCD High Quality</label>
             <params>-f vcd -target ntsc-vcd -mbd rd -cmp 0 -subcmp 2</params>

@@ -323,7 +323,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1232,7 +1232,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation> FFmpeg eller FFprobe %1 kan inte hittas i systemet. Överväg att installera dem innan du kör MystiQ.</translation>
+        <translation> FFmpeg eller FFprobe %1 kan inte hittas i systemet. Överväg att installera dem innan du kör MystiQ</translation>
     </message>
 </context>
 <context>
