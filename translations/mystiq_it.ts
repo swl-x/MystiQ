@@ -327,6 +327,11 @@ p, li { white-space: pre-wrap; }
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Turkish (Turkey)</source>
+        <extracomment>Turkish Language (Turkey)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

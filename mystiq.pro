@@ -135,6 +135,7 @@ TRANSLATIONS += \
     translations/mystiq_ru.ts \
     translations/mystiq_ro.ts \
     translations/mystiq_pl.ts \
+    translations/mystiq_tr.ts \
     translations/mystiq_sv.ts \
     translations/mystiq_vi.ts \
     translations/mystiq_zh_CN.ts \
