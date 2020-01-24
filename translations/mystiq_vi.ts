@@ -327,6 +327,11 @@ p, li { white-space: pre-wrap; }
         <extracomment>French Language (France)</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Turkish (Turkey)</source>
+        <extracomment>Turkish Language (Turkey)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
