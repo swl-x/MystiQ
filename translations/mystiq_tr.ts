@@ -194,7 +194,7 @@ p, li { white-space: pre-wrap; }
 &lt;h3 align=&quot;center&quot; style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:large; font-weight:600;&quot;&gt;GNU GENEL KAMU LİSANSI&lt;/span&gt;&lt;/h3&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;Sürüm 3, 29 Haziran 2007 &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;Telif Hakkı © 2007 Free Software Foundation, Inc. &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://fsf.org/&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; text-decoration: underline; color:#0057ae;&quot;&gt;https://fsf.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;Herkesin bu lisans belgesinin aynı kopyalarını kopyalayıp dağıtmasına izin verilir, ancak değiştirilmesine izin verilmez. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed. &lt;/span&gt;&lt;/p&gt;
 &lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;preamble&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:large; font-weight:600;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:large; font-weight:600;&quot;&gt;reamble &lt;/span&gt;&lt;/h3&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The GNU General Public License is a free, copyleft license for software and other kinds of works. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt;The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too. &lt;/span&gt;&lt;/p&gt;
@@ -348,7 +348,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
-        <translation>FFmpeg hazır ayarları &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; ve &lt;b&gt;FF Çoklu Dönüştürücü&lt;/b&gt;.</translation>
+        <translation>FFmpeg hazır ayarları &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; ve &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Swedish (Sweden)</source>
@@ -554,16 +554,6 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Sürüm 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - İlk kararlı sürüm.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation>Bu program özgür bir yazılımdır; GNU Genel Kamu Lisansı sürüm 3 şartları altında yeniden dağıtabilir veya değiştirebilirsiniz.</translation>
-    </message>
-    <message>
-        <source>Turkish (Turkey)</source>
-        <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation>Türkçe (Türkiye)</translation>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -896,7 +886,7 @@ p, li { white-space: pre-wrap; }
         <source>Error Message from FFmpeg:
 
 </source>
-        <translation>FFmpeg&apos;den Hata İletisi:
+        <translation>FFmpeg&apos;den Hata Mesajı:
 
 </translation>
     </message>
@@ -966,7 +956,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Progress</source>
-        <translation>İlerleyiş</translation>
+        <translation>İlerleme</translation>
     </message>
     <message>
         <source>%1 Hz</source>
@@ -1125,7 +1115,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Seek to Begin</source>
-        <translation>Başlangıç Noktasına Git</translation>
+        <translation>Başlamak İçin Ara</translation>
     </message>
     <message>
         <source>Play Selection</source>
@@ -1137,14 +1127,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Seek to End</source>
-        <translation>Bitiş Noktasına Git</translation>
+        <translation>Bitiş İçin Ara</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Dönüşüm işlemini başlat.</translation>
+        <translation>Dönüştürme işlemini başlat.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -1164,7 +1154,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Dönüştürmek için dosya ekle.</translation>
+        <translation>Dönüştürme için dosya ekleyin.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
@@ -1184,7 +1174,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Dönüşüm işlemini durdur.</translation>
+        <translation>Dönüştürme işlemini durdur.</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
@@ -1255,23 +1245,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>&amp;Tekrarla</translation>
+        <translation>&amp;Tekrar dene</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Tekrarla</translation>
+        <translation>Tekrar dene</translation>
     </message>
     <message>
         <source>Retry selected tasks.</source>
-        <translation>Seçili görevi tekrarla.</translation>
+        <translation>Seçili görevi tekrar dene.</translation>
     </message>
     <message>
         <source>Retry &amp;All</source>
-        <translation>&amp;Tümünü Tekrarla</translation>
+        <translation>&amp;Tümünü Tekrar Dene</translation>
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Tüm görevleri tekrarla.</translation>
+        <translation>Tüm görevleri tekrar dene.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
@@ -1291,7 +1281,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
-        <translation>Seçilen ögenin çıktı dosya adını değiştir.</translation>
+        <translation>Seçilen ögenin çıktı dosya adını değiştirin.</translation>
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
@@ -1494,11 +1484,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Listeye dosya eklediğinde otomatik olarak dönüşümü başlat.</translation>
+        <translation>Listeye dosya ekledikten sonra otomatik olarak dönüştürmeyi başlat.</translation>
     </message>
     <message>
         <source>Start conversion automatically</source>
-        <translation>Dönüşümü otomatik olarak başlat</translation>
+        <translation>Dönüştürmeyi otomatik olarak başlat</translation>
     </message>
     <message>
         <source>FFmpeg</source>
@@ -1510,7 +1500,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mevcut ffmpeg kurulumunda bulunmayan çıktı biçimlerini gizleyin. MystiQ&apos;nun kullanılabilir biçimlerini algılayamadığından emin değilseniz bu seçeneği açmanız önerilir. (etkin olması için MystiQ&apos;nun yeniden başlatılması gerekir)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geçerli ffmpeg kurulumunda bulunmayan çıktı biçimlerini gizleyin. MystiQ&apos;nun kullanılabilir biçimlerini algılayamadığından emin değilseniz bu seçeneği açmanız önerilir. (etkin olması için MystiQ&apos;nun yeniden başlatılması gerekir)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Hide unavailable formats (requires restarting)</source>
