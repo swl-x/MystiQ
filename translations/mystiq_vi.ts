@@ -194,12 +194,67 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ is a GUI frontend for FFmpeg.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Developers:&lt;br&gt; %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish (Sweden)</source>
+        <extracomment>Swedish Language (Sweden)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Japanese (Japan)</source>
+        <extracomment>Japanese Language (Japan)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>German (Germany)</source>
+        <extracomment>German Language (Germany)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Italian (Italy)</source>
+        <extracomment>Italian Language (Italy)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>French (France)</source>
+        <extracomment>French Language (France)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turkish (Turkey)</source>
+        <extracomment>Turkish Language (Turkey)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.02.15 (2020-02-15)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Chinese language Pack&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Turkish language Pack&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;;&quot;&gt; - Added Presets for Youtube&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-weight:600;&quot;&gt;Version 20.01.22 (2020-01-22)&lt;/span&gt;&lt;/p&gt;
@@ -276,60 +331,6 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium; font-weight:600;&quot;&gt;Version 0.0.1 (2019-08-12)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:medium;&quot;&gt; - First stable release.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Developers:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Swedish (Sweden)</source>
-        <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Japanese (Japan)</source>
-        <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>German (Germany)</source>
-        <extracomment>German Language (Germany)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Italian (Italy)</source>
-        <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Turkish (Turkey)</source>
-        <extracomment>Turkish Language (Turkey)</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
