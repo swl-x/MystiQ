@@ -1,5 +1,5 @@
-mystiq (20.01.20-1) unstable; urgency=medium
+_NAME_ (_VERSION_-1) unstable; urgency=medium
 
-  * Initial release (Closes: #34332)
+  * Maintenance release (Automated release from github release)
 
- -- Pavel Milanes Costa <pavelmc@gmail.com>  Tue, 21 Jan 2020 00:16:25 -0500
+ -- _MAINT_ <_EMAIL_>  _DATE_
