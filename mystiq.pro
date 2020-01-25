@@ -167,11 +167,14 @@ unix {
     desktop.path = /usr/share/applications/
     desktop.files += mystiq.desktop
     desktop.uninstall += rm ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps/mystiq.svg && \
-                         rm ${INSTALL_ROOT}/usr/share/man/man1/mystiq.1.gz
+                         rm ${INSTALL_ROOT}/usr/share/man/man1/mystiq.1.gz && \
+                         rm ${INSTALL_ROOT}/usr/share/metainfo/mystiq.appdata.xml
     desktop.extra += mkdir -p ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps && \
                   cp icons/mystiq.svg ${INSTALL_ROOT}/usr/share/icons/hicolor/scalable/apps/mystiq.svg && \
                   mkdir -p ${INSTALL_ROOT}/usr/share/man/man1 && \
-                  cp -R man/mystiq.1.gz ${INSTALL_ROOT}/usr/share/man/man1/mystiq.1.gz
+                  cp -R man/mystiq.1.gz ${INSTALL_ROOT}/usr/share/man/man1/mystiq.1.gz && \
+                  mkdir -p ${INSTALL_ROOT}/usr/share/metainfo && \
+                  cp -R metainfo/mystiq.appdata.xml ${INSTALL_ROOT}/usr/share/metainfo/mystiq.appdata.xml 
     INSTALLS += target desktop
 
 }

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016-2017 Jean-Baptiste Kempf CC-0 -->
+<component type="desktop">
+  <id>mystiq.desktop</id>
+  <launchable type="desktop-id">mystiq.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>MystiQ Video Converter</name>
+  <name xml:lang="zh_TW">MystiQ Video Converter</name>
+  <name xml:lang="zh_CN">MystiQ Video Converter</name>
+  <name xml:lang="wa">MystiQ Video Converter</name>
+  <name xml:lang="uz">MystiQ Video Converter</name>
+  <name xml:lang="uk">MystiQ Video Converter</name>
+  <name xml:lang="ug">MystiQ Video Converter</name>
+  <name xml:lang="tr">MystiQ Video Converter</name>
+  <name xml:lang="th">MystiQ Video Converter</name>
+  <name xml:lang="te">MystiQ Video Converter</name>
+  <name xml:lang="ta">MystiQ Video Converter</name>
+  <name xml:lang="sv">MystiQ Video Converter</name>
+  <name xml:lang="sr">MystiQ Video Converter</name>
+  <name xml:lang="sl">MystiQ Video Converter</name>
+  <name xml:lang="sk">MystiQ Video Converter</name>
+  <name xml:lang="si">MystiQ Video Converter</name>
+  <name xml:lang="ru">MystiQ Video Converter</name>
+  <name xml:lang="ro">MystiQ Video Converter</name>
+  <name xml:lang="pt_PT">MystiQ Video Converter</name>
+  <name xml:lang="pt_BR">MystiQ Video Converter</name>
+  <name xml:lang="pl">MystiQ Video Converter</name>
+  <name xml:lang="pa">MystiQ Video Converter</name>
+  <name xml:lang="oc">MystiQ Video Converter</name>
+  <name xml:lang="nn">MystiQ Video Converter</name>
+  <name xml:lang="nl">MystiQ Video Converter</name>
+  <name xml:lang="ne">MystiQ Video Converter</name>
+  <name xml:lang="nb">MystiQ Video Converter</name>
+  <name xml:lang="ms">MystiQ Video Converter</name>
+  <name xml:lang="mn">MystiQ Video Converter</name>
+  <name xml:lang="mai">MystiQ Video Converter</name>
+  <name xml:lang="lv">MystiQ Video Converter</name>
+  <name xml:lang="lt">MystiQ Video Converter</name>
+  <name xml:lang="ky">MystiQ Video Converter</name>
+  <name xml:lang="ks_IN">MystiQ Video Converter</name>
+  <name xml:lang="ko">MystiQ Video Converter</name>
+  <name xml:lang="kn">MystiQ Video Converter</name>
+  <name xml:lang="km">MystiQ Video Converter</name>
+  <name xml:lang="kk">MystiQ Video Converter</name>
+  <name xml:lang="kab">MystiQ Video Converter</name>
+  <name xml:lang="ja">MystiQ Video Converter</name>
+  <name xml:lang="it">MystiQ Video Converter</name>
+  <name xml:lang="is">MystiQ Video Converter</name>
+  <name xml:lang="id">MystiQ Video Converter</name>
+  <name xml:lang="hy">MystiQ Video Converter</name>
+  <name xml:lang="hu">MystiQ Video Converter</name>
+  <name xml:lang="hr">MystiQ Video Converter</name>
+  <name xml:lang="hi">MystiQ Video Converter</name>
+  <name xml:lang="he">MystiQ Video Converter</name>
+  <name xml:lang="gu">MystiQ Video Converter</name>
+  <name xml:lang="gl">MystiQ Video Converter</name>
+  <name xml:lang="gd">MystiQ Video Converter</name>
+  <name xml:lang="ga">MystiQ Video Converter</name>
+  <name xml:lang="fy">MystiQ Video Converter</name>
+  <name xml:lang="fr">MystiQ Video Converter</name>
+  <name xml:lang="fi">MystiQ Video Converter</name>
+  <name xml:lang="fa">MystiQ Video Converter</name>
+  <name xml:lang="eu">MystiQ Video Converter</name>
+  <name xml:lang="et">MystiQ Video Converter</name>
+  <name xml:lang="es_MX">MystiQ Video Converter</name>
+  <name xml:lang="es">MystiQ Video Converter</name>
+  <name xml:lang="el">MystiQ Video Converter</name>
+  <name xml:lang="de">MystiQ Video Converter</name>
+  <name xml:lang="da">MystiQ Video Converter</name>
+  <name xml:lang="cy">MystiQ Video Converter</name>
+  <name xml:lang="cs">MystiQ Video Converter</name>
+  <name xml:lang="co">MystiQ Video Converter</name>
+  <name xml:lang="ca@valencia">MystiQ Video Converter</name>
+  <name xml:lang="ca">MystiQ Video Converter</name>
+  <name xml:lang="bs">MystiQ Video Converter</name>
+  <name xml:lang="brx">MystiQ Video Converter</name>
+  <name xml:lang="br">MystiQ Video Converter</name>
+  <name xml:lang="bn">MystiQ Video Converter</name>
+  <name xml:lang="bn_IN">MystiQ Video Converter</name>
+  <name xml:lang="be">MystiQ Video Converter</name>
+  <name xml:lang="ast">MystiQ Video Converter</name>
+  <name xml:lang="as_IN">MystiQ Video Converter</name>
+  <name xml:lang="ar">MystiQ Video Converter</name>
+  <name xml:lang="an">MystiQ Video Converter</name>
+  <name xml:lang="af">MystiQ Video Converter</name>
+  <summary>MystiQ Video Converter, an open-source multimedia converter</summary>
+  <description>
+    <p>
+            MystiQ is a GUI for FFmpeg, a powerful media converter. FFmpeg can read audio and video files in various formats and convert them into other formats. MystiQ features an intuitive graphical interface and a rich set of presets to help you convert media files within a few clicks. Advanced users can also adjust conversion parameters in detail.
+        </p>
+  </description>
+  <url type="homepage">https://mystiq.swlx.info/</url>
+  <releases>
+    <release version="20.02.15"/>
+  </releases>
+  <project_group>SWL-X</project_group>
+  <project_license>GPL-3.0</project_license>
+  <developer_name>Maikel Llamaret Heredia</developer_name>
+  <update_contact>Maikel Llamaret Heredia -- llamaret@webmisolutions.com</update_contact>
+  <screenshots>
+    <screenshot type="default">https://mystiq.swlx.info/mystiq.png</screenshot>
+  </screenshots>
+</component>
