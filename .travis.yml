@@ -13,15 +13,23 @@ matrix:
 
 # install, install QT5.13 from KDE Neon
 install:
+  # add Qt5 version 5.10+ to repositories
   - echo "deb [trusted=yes] http://archive.neon.kde.org/user/ bionic main" > ./kde_neon.list
   - sudo mv ./kde_neon.list /etc/apt/sources.list.d/kde_neon.list
+  # update and upgrade
   - sudo apt-get update
   - sudo apt-get upgrade
+  # force upgrade (we are using a Qt5 files from a newer distro)
   - sudo apt-get dist-upgrade -o dpkg::options::="--force-overwrite"
+  # install basic deps and build deps
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
+  # install specific Qt5 deps
+  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake
+  # show the Qt5 versions for debug
   - qtchooser -print-env
   - qmake -v
-  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake
+  # install debian build deps for the .deb file generation
+  - sudo apt install devscripts dh-make
 
 # build & test scripts
 script:
@@ -54,6 +62,8 @@ before_deploy:
   - export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
   # set the version on the filename
   - mv MystiQ*AppImage MystiQ_$VERSION.AppImage
+  # create the .deb for ubuntu & debian distros
+  - ./makedeb.sh
 
 # deploy to Github
 deploy:
@@ -65,8 +75,7 @@ deploy:
     overwrite: true
     skip_cleanup: true
     on:
-      repo: llamaret/MystiQ
       tags: true
     file: 
       - ./MystiQ*.AppImage
-
+      - $HOME/mystiq*.deb
