@@ -14,7 +14,7 @@ EMAIL="pavelmc@gmail.com"
 LIC="gpl3"
 HOMEPAGE="https://mystiq.swl-x.info"
 VCS="https://github.com/llamaret/mystiq.git"
-DEPS="libc6, ffmpeg (>=3.0.0), qt5-default (>=5.12.0), libqt5multimedia5-plugins (>=5.12.0)"
+DEPS="libc6, ffmpeg (>=3.0.0), qt5-default (>=5.10.0), libqt5multimedia5-plugins (>=5.10.0)"
 RECOM="sox, libnotify-bin, mplayer"
 DATE=`date +"%a, %d %b 20%y %H:%M:%S %z"`
 
