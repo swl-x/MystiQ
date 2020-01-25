@@ -29,7 +29,7 @@ install:
   - qtchooser -print-env
   - qmake -v
   # install debian build deps for the .deb file generation
-  - sudo apt install devscripts dh-make
+  - sudo apt install devscripts dh-make fakeroot
 
 # build & test scripts
 script:
