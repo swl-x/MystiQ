@@ -9,7 +9,6 @@ Vcs-Git: _VCS_
 Vcs-Browser: _VCS_
 
 Package: _NAME_
-Version: _VERSION_-1
 Architecture: amd64
 Depends: _DEPS_
 Recommends: _RECOM_
