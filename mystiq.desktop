@@ -36,7 +36,6 @@ Name=MystiQ Video Converter
 Path=
 StartupNotify=false
 Terminal=false
-TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=

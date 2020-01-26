@@ -1,0 +1,20 @@
+Source: _NAME_
+Section: unknown
+Priority: optional
+Maintainer: _MAINT_ <_EMAIL_>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: _HOMEPAGE_
+Vcs-Git: _VCS_
+Vcs-Browser: _VCS_
+
+Package: _NAME_
+Architecture: amd64
+Depends: _DEPS_
+Recommends: _RECOM_
+Description: A FFmpeg GUI front-end based on Qt5 and writed in C++
+ MystiQ is a GUI for [FFmpeg](http://ffmpeg.org), a powerful media converter.
+ FFmpeg can read audio and video files in various formats and convert them into
+ other formats. MystiQ features an intuitive graphical interface and a rich set
+ of presets to help you convert media files within a few clicks. Advanced users
+ can also adjust conversion parameters in detail.
