@@ -242,12 +242,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta program är fri mjukvara! Du kan återdistribuera och/eller modifiera det, under villkoren för GNU General Public License version 3.</translation>
     </message>
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Turkiska (Turkiet)</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
