@@ -55,7 +55,7 @@ before_deploy:
   # add extra tools
   - ./complete_appdir.sh
   # adding qml packs
-  - cp /usr/lib/qt/qml/ ./AppDir/usr/
+  - cp /usr/lib/x86_64-linux-gnu ./AppDir/usr/lib/x86_64-linux-gnu
   # run the linuxdeploy script
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
