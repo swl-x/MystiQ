@@ -24,7 +24,7 @@ install:
   # install basic deps and build deps
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
   # install specific Qt5 deps
-  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake python3-setuptools
+  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake
   # show the Qt5 versions for debug
   - qtchooser -print-env
   - qmake -v
@@ -45,19 +45,17 @@ notifications:
 # make the AppImage bundle
 before_deploy:
     # install AppImage toolchain
-  - sudo apt install patchelf python3-pip
-  - sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
-  - sudo chmod +x /usr/local/bin/appimagetool
+  - wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+  - wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
+  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+  - chmod +x *.AppImage
   - chmod +x comple*.sh
-  - pip3 install appimage-builder
   # build the AppDir
   - make install INSTALL_ROOT=AppDir
   # add extra tools
   - ./complete_appdir.sh
-  # adding qml packs
-  - mkdir -p ./AppDir/usr/qml
-  # run the appimage-builder
-  - appimage-builder --log WARNING --skip-test
+  # run the linuxdeploy script
+  - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
