@@ -1,4 +1,4 @@
-.# language target
+# language target
 language: cpp
 compiler: gcc
 
