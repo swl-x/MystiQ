@@ -57,7 +57,7 @@ before_deploy:
   # adding qml packs
   - mkdir -p ./AppDir/usr/qml
   # run the appimage-builder
-  - appimage-builder --skip-test
+  - appimage-builder --log WARNING --skip-test
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
