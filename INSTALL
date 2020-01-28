@@ -11,11 +11,10 @@ BuildRequires:
   
 depends=('ffmpeg' 'qt5-base' 'qtdeclarative5' 'qtmultimedia5')
 optdepends=('sox: audio speed adjusting support'
-				'libnotify: display desktop notifications'
-				'mplayer: video cutting preview')  
+				'libnotify: display desktop notifications')  
   
 To build and run, on Ubuntu and derivated install:
-sudo apt install ffmpeg sox mplayer libnotify-dev qt5-default qtdeclarative5-dev qtmultimedia5-dev qt5-qmake g++ make
+sudo apt install ffmpeg sox libnotify-dev qt5-default qtdeclarative5-dev qtmultimedia5-dev qt5-qmake g++ make
 
 Compile:
   - clone git repository: "git clone https://github.com/llamaret/mystiq.git"

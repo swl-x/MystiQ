@@ -19,7 +19,7 @@ If you want to contribute as a developer please see the file [Developer_process.
 License
 -------
 
-Copyright (C) 2019 Maikel Llamaret Heredia <llamaret@webmisolutions.com>
+Copyright (C) 2020 Maikel Llamaret Heredia <llamaret@webmisolutions.com>
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
