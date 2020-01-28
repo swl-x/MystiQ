@@ -45,7 +45,7 @@ notifications:
 # make the AppImage bundle
 before_deploy:
     # install AppImage toolchain
-  - sudo apt install patchelf
+  - sudo apt install patchelf python3-pip
   - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
   - chmod +x /usr/local/bin/appimagetool
   - chmod +x comple*.sh
