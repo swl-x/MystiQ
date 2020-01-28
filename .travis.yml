@@ -55,7 +55,8 @@ before_deploy:
   # add extra tools
   - ./complete_appdir.sh
   # exporting QML files to AppDir
-  - export QML_SOURCES_PATHS='./qml'
+  - mkdir ./AppDir/usr/qml
+  - cp -r /usr/lib/x86_64-linux-gnu/qt5/qml ./AppDir/usr/qml
   # run the linuxdeploy script
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
@@ -63,7 +64,7 @@ before_deploy:
   # get the tag version
   - export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
   # set the version on the filename
-  - mv MystiQ*AppImage MystiQ_$VERSION.AppImage
+  - mv MystiQ*AppImage MystiQ_$VERSION_x86_64.AppImage
   # create the .deb for ubuntu & debian distros
   - ./makedeb.sh
 
