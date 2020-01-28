@@ -45,19 +45,19 @@ notifications:
 # make the AppImage bundle
 before_deploy:
     # install AppImage toolchain
-  - wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
-  - wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
-  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
-  - chmod +x *.AppImage
+  - sudo apt install patchelf python3-pip
+  - sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
+  - sudo chmod +x /usr/local/bin/appimagetool
   - chmod +x comple*.sh
+  - pip3 install appimage-builder
   # build the AppDir
   - make install INSTALL_ROOT=AppDir
   # add extra tools
   - ./complete_appdir.sh
   # adding qml packs
   - mkdir -p ./AppDir/usr/qml
-  # run the linuxdeploy script
-  - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
+  # run the appimage-builder
+  - appimage-builder --skip-test
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
