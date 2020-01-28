@@ -1,9 +1,5 @@
 version: 1
 
-script:
- - qmake .
- - make -j$(nproc)
- - make install INSTALL_ROOT=AppDir
 AppDir:
   path: ./AppDir
 
