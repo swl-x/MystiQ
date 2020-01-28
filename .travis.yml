@@ -54,6 +54,8 @@ before_deploy:
   - make install INSTALL_ROOT=AppDir
   # add extra tools
   - ./complete_appdir.sh
+  # exporting QML files to AppDir
+  - export QML_SOURCES_PATHS='./qml'
   # run the linuxdeploy script
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
