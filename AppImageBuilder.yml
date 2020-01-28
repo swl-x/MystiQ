@@ -37,7 +37,7 @@ AppDir:
   
   runtime:
     env:
-      PATH: "$APPDIR"/usr/bin:$PATH
+      PATH: '"$APPDIR"/usr/bin:"$PATH"'
   
   test:
     debian:
@@ -48,19 +48,19 @@ AppDir:
         - QT_DEBUG_PLUGINS=1
     arch:
       image: archlinux
-      command: "./AppRun --help"
+      command: "./AppRun"
       use_host_x: True
       env:
         - QT_DEBUG_PLUGINS=1
     fedora:
       image: fedora:26
-      command: "./AppRun --help"
+      command: "./AppRun"
       use_host_x: True
       env:
         - QT_DEBUG_PLUGINS=1
     ubuntu:
       image: ubuntu:xenial
-      command: "./AppRun --help"
+      command: "./AppRun"
       use_host_x: True
       env:
         - QT_DEBUG_PLUGINS=1
