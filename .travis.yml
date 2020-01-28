@@ -24,7 +24,7 @@ install:
   # install basic deps and build deps
   - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
   # install specific Qt5 deps
-  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake python-setuptools
+  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake python3-setuptools
   # show the Qt5 versions for debug
   - qtchooser -print-env
   - qmake -v
