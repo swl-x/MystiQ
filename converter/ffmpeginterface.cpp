@@ -361,7 +361,8 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
     QStringList list;
     QString source = o.source;
     int last_point_source = source.lastIndexOf(".");
-    //Begins Subtitle files declaration
+
+//Begins Subtitle files declaration
         QString subtitlesrt, subtitlessa, subtitlesub, subtitleass;
         if (last_point_source==-1){
             subtitlesrt = source+".srt";
@@ -380,7 +381,26 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         subtitle_ssa.setFileName(subtitlessa);
         subtitle_sub.setFileName(subtitlesub);
         subtitle_ass.setFileName(subtitleass);
-        //Finishing Subtitle files declaration
+
+        QString command;
+
+        if (subtitle_srt.exists())
+        {
+          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
+        }
+        else if (subtitle_ssa.exists())
+        {
+          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
+        }
+        else if (subtitle_sub.exists())
+        {
+          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
+        }
+        else if (subtitle_ass.exists())
+        {
+          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitleass);
+        }
+//Finishing Subtitle files declaration
 
         // overwrite if file exists
         list.append("-y");
@@ -406,35 +426,6 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
                 list << "-i" << "-";
             }
         }
-        // begining insert subtitle
-        if (o.insert_subtitle)
-        {
-          QString command;
-
-          if (subtitle_srt.exists())
-          {
-            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
-          }
-          else if (subtitle_ssa.exists())
-          {
-            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
-          }
-          else if (subtitle_sub.exists())
-          {
-            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
-          }
-          else if (subtitle_ass.exists())
-          {
-            command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitleass);
-          }
-
-          if (!command.isEmpty())
-          {
-            list << QString("-vf");
-            list << command;
-          }
-        }
-         // finishing insert subtitle
 
     // enable experimental codecs by default
    // list << "-strict" << "experimental";
@@ -515,6 +506,47 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         if (o.video_deinterlace) {
             list.append("-deinterlace");
         }
+
+        // begining insert subtitle or disable color
+        if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip)
+        {
+            list.append("-vf");
+        }
+        if (o.insert_subtitle && !o.disable_color)
+        {
+          if (!command.isEmpty())
+          {
+            list.append(command);
+          }
+        }
+        if (!o.insert_subtitle && o.disable_color)
+        {
+          list.append("hue=s=0");
+        }
+        if (o.insert_subtitle && o.disable_color)
+        {
+          if (!command.isEmpty())
+          {
+            list.append(command+",hue=s=0");
+          }
+          else
+          {
+            list.append("hue=s=0");
+          }
+        }
+        if (o.vertical_flip && !o.horizontal_flip)
+        {
+          list.append("vflip");
+        }
+        if (!o.vertical_flip && o.horizontal_flip)
+        {
+          list.append("hflip");
+        }
+        if (o.vertical_flip && o.horizontal_flip)
+        {
+          list.append("vflip,hflip");
+        }
+         // finishing insert subtitle or disable color
 
         // video bitrate
         if (o.video_bitrate > 0) {

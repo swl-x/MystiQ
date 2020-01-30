@@ -86,6 +86,9 @@ int parseFFmpegArguments(QStringList& args, int index, ConversionParameters& res
             // Video Options
             CHECK_OPTION_1("-vn", disable_video, true);
             CHECK_OPTION_1("-vf", insert_subtitle, true);
+            CHECK_OPTION_1("-vf", disable_color, true);
+            CHECK_OPTION_1("-vf", vertical_flip, true);
+            CHECK_OPTION_1("-vf", horizontal_flip, true);
             CHECK_OPTION_1("-sameq", video_same_quality, true);
             CHECK_OPTION_1("-deinterlace", video_deinterlace, true);
             CHECK_OPTION_2_METHOD("-b", video_bitrate, toInt);

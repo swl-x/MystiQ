@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>529</width>
-    <height>466</height>
+    <width>595</width>
+    <height>555</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -200,33 +200,77 @@
         <attribute name="title">
          <string>Video</string>
         </attribute>
-        <layout class="QVBoxLayout" name="verticalLayout_3">
-         <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_13">
-           <item>
-            <widget class="QCheckBox" name="chkInsertSubtitle">
-             <property name="text">
-              <string>Insert Subtitle if Available</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QCheckBox" name="chkDisableVideo">
-             <property name="text">
-              <string>Disable Video</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QCheckBox" name="chkCopyVideo">
-             <property name="text">
-              <string>Copy Video (Do not re-encode)</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QGroupBox" name="extra_options_video">
+           <property name="title">
+            <string>Video Extra Options</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="chkInsertSubtitle">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Insert Subtitle if Available</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QCheckBox" name="chkDisableVideo">
+              <property name="text">
+               <string>Disable Video</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QCheckBox" name="chkCopyVideo">
+              <property name="text">
+               <string>Copy Video (Do not re-encode)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QCheckBox" name="chkNonColor">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Video to Black and White</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QCheckBox" name="chkVFlip">
+              <property name="text">
+               <string>Vertical Flip</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QCheckBox" name="chkHFlip">
+              <property name="text">
+               <string>Horizontal Flip</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
-         <item>
+         <item row="1" column="0">
           <widget class="QGroupBox" name="groupVideoOptions">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -240,11 +284,11 @@
            <property name="flat">
             <bool>false</bool>
            </property>
-           <layout class="QVBoxLayout" name="verticalLayout_10">
+           <layout class="QGridLayout" name="gridLayout_3">
             <property name="sizeConstraint">
              <enum>QLayout::SetMaximumSize</enum>
             </property>
-            <item>
+            <item row="0" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_9">
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -359,7 +403,7 @@
               </item>
              </layout>
             </item>
-            <item>
+            <item row="1" column="0">
              <widget class="QQuickWidget" name="cropWidget">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -383,7 +427,7 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item row="2" column="0">
              <layout class="QGridLayout" name="gridLayout">
               <item row="0" column="1">
                <widget class="QSpinBox" name="spinCropTop">
@@ -454,22 +498,26 @@
               </item>
              </layout>
             </item>
-            <item>
-             <widget class="QCheckBox" name="chkDeinterlace">
-              <property name="text">
-               <string>Deinterlace</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="chkVideoSameQuality">
-              <property name="toolTip">
-               <string>Same Quantizer as Source</string>
-              </property>
-              <property name="text">
-               <string>Same Quantizer as Source</string>
-              </property>
-             </widget>
+            <item row="3" column="0">
+             <layout class="QGridLayout" name="gridLayout_5">
+              <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QCheckBox" name="chkDeinterlace">
+                <property name="text">
+                 <string>Deinterlace</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QCheckBox" name="chkVideoSameQuality">
+                <property name="toolTip">
+                 <string>Same Quantizer as Source</string>
+                </property>
+                <property name="text">
+                 <string>Same Quantizer as Source</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </item>
            </layout>
           </widget>

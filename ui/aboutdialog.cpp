@@ -48,7 +48,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
     info->setOpenExternalLinks(true);
 
     info->setText(
-         "<b>MystiQ </b>"+ tr("%1").arg(VERSION_STRING)
+         "<b>MystiQ Video Converter "+ QString("%1</b>").arg(VERSION_STRING)
 #ifdef VERSION_ID_STRING
          + QString(" %1").arg(QString(VERSION_ID_STRING))
 #endif
@@ -75,17 +75,17 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("This program is free software; you can redistribute it and/or modify it "
               "under the terms of the GNU General Public License version 3.")
          + "<br><br>"
-         + "Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit "
+         + tr("Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit ")
          + url("https://www.transifex.com/swl-x-project/mystiq-video-converter/")
-         + " and join a translation team.<br><br>"
+         + tr(" and join a translation team.")+"<br><br>"
          + tr("Some audio-processing functionalities are provided by SoX.")
          + " (" + url("http://sox.sourceforge.net/") + ")<br><br>"
          + tr("FFmpeg presets were taken from <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b> and <b>FF Multi Converter</b>.")+"<br>"
-         + " (" + url("https://videomorph.webmisolutions.com/") + ")<br>"
-         + " (" + url("http://qwinff.github.io") + ")<br>"
-         + " (" + url("http://sourceforge.net/projects/curlew") + ")<br>"
-         + " (" + url("https://robertsanseries.github.io/ciano/") + ")<br>"
-         + " (" + url("https://sites.google.com/site/ffmulticonverter/") + ")"
+         + url("https://videomorph.webmisolutions.com") + "<br>"
+         + url("http://qwinff.github.io") + "<br>"
+         + url("http://sourceforge.net/projects/curlew") + "<br>"
+         + url("https://robertsanseries.github.io/ciano") + "<br>"
+         + url("https://sites.google.com/site/ffmulticonverter")
          + "<br>"
          );
     translators->setHtml(getTranslators());

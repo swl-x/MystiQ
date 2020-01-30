@@ -39,6 +39,9 @@ public:
 
     bool disable_video;
     bool insert_subtitle;
+    bool disable_color;
+    bool vertical_flip;
+    bool horizontal_flip;
     bool copy_video;
     bool video_same_quality; ///< whether to keep all video quality (-sameq option in ffmpeg)
     bool video_deinterlace;
@@ -94,6 +97,9 @@ public:
           audio_volume(0),
           disable_video(false),
           insert_subtitle(false),
+          disable_color(false),
+          vertical_flip(false),
+          horizontal_flip(false),
           copy_video(false),
           video_same_quality(false),
           video_deinterlace(false),

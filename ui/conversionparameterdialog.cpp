@@ -63,6 +63,9 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     connect(ui->chkCopyAudio, SIGNAL(toggled(bool)), SLOT(audio_tab_update_enabled_widgets()));
     connect(ui->chkDisableVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkInsertSubtitle, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkNonColor, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkVFlip, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkHFlip, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkCopyVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
 
     // Hide speed-changing options if sox is not available.
@@ -141,6 +144,9 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
     // Video Options
     ui->chkDisableVideo->setChecked(param.disable_video);
     ui->chkInsertSubtitle->setChecked(param.insert_subtitle);
+    ui->chkNonColor->setChecked(param.disable_color);
+    ui->chkVFlip->setChecked(param.vertical_flip);
+    ui->chkHFlip->setChecked(param.horizontal_flip);
     ui->chkCopyVideo->setChecked(param.copy_video);
 
     ui->spinVideoBitrate->setValue(param.video_bitrate);
@@ -220,6 +226,9 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
     // Video Options
     param.disable_video = ui->chkDisableVideo->isChecked();
     param.insert_subtitle = ui->chkInsertSubtitle->isChecked();
+    param.disable_color = ui->chkNonColor->isChecked();
+    param.vertical_flip = ui->chkVFlip->isChecked();
+    param.horizontal_flip = ui->chkHFlip->isChecked();
     param.copy_video = ui->chkCopyVideo->isChecked();
     param.video_bitrate = ui->spinVideoBitrate->value();
     param.video_same_quality = ui->chkVideoSameQuality->isChecked();
@@ -271,13 +280,22 @@ void ConversionParameterDialog::audio_tab_update_enabled_widgets()
 
 void ConversionParameterDialog::video_tab_update_enabled_widgets()
 {
-    bool disable_video= ui->chkDisableVideo->isChecked();
+    bool disable_video = ui->chkDisableVideo->isChecked();
+    bool insert_subtitle = ui->chkInsertSubtitle->isChecked();
+    bool disable_color = ui->chkNonColor->isChecked();
     bool copy_video = ui->chkCopyVideo->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
     ui->chkInsertSubtitle->setEnabled(true); // always enabled
+    ui->chkNonColor->setEnabled(true); //always enabled
+    ui->chkVFlip->setEnabled(true); //always enabled
+    ui->chkHFlip->setEnabled(true); //always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
-    ui->chkInsertSubtitle->setDisabled(disable_video);
+    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video);
+    ui->chkNonColor->setDisabled(disable_video || copy_video);
+    ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
+    ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
+
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
 }
 

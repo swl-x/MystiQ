@@ -5,6 +5,7 @@
   <launchable type="desktop-id">mystiq.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <name>MystiQ Video Converter</name>
+  <summary>Multimedia Video Converter</summary>
   <name xml:lang="zh_TW">MystiQ Video Converter</name>
   <name xml:lang="zh_CN">MystiQ Video Converter</name>
   <name xml:lang="wa">MystiQ Video Converter</name>
@@ -85,11 +86,18 @@
   <name xml:lang="af">MystiQ Video Converter</name>
   <summary>MystiQ Video Converter, an open-source multimedia converter</summary>
   <description>
-    <p>
-            MystiQ is a GUI for FFmpeg, a powerful media converter. FFmpeg can read audio and video files in various formats and convert them into other formats. MystiQ features an intuitive graphical interface and a rich set of presets to help you convert media files within a few clicks. Advanced users can also adjust conversion parameters in detail.
-        </p>
+      <p>
+          MystiQ is a GUI for FFmpeg, a powerful media converter. FFmpeg can read audio and video files in various formats and convert them into other formats. MystiQ features an intuitive graphical interface and a rich set of presets to help you convert media files within a few clicks. Advanced users can also adjust conversion parameters in detail.
+      </p>
   </description>
   <url type="homepage">https://mystiq.swlx.info/</url>
+  <url type="bugtracker">https://github.com/llamaret/mystiq/issues</url>
+  <categories>
+      <category>AudioVideo</category>
+      <category>Audio</category>
+      <category>Video</category>
+      <category>Qt</category>
+  </categories>
   <releases>
     <release version="20.02.15"/>
   </releases>
