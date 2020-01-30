@@ -96,15 +96,15 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation type="unfinished"></translation>
+        <translation>Birçok insan çeviriye katkıda bulundu. MystiQ Video Converter&apos;ı kendi dilinize çevirmenize de yardımcı olabilirsiniz. Ziyaret edin</translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>ve bir çeviri ekibine katılın.</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Değişiklikler</translation>
     </message>
 </context>
 <context>
@@ -338,7 +338,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation> piksel</translation>
+        <translation>piksel</translation>
     </message>
     <message>
         <source>Height</source>
@@ -406,19 +406,19 @@
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Video Ekstra Seçenekleri</translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Videoyu Siyah Beyaz</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Dikey Çevir</translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Yatay Çevir</translation>
     </message>
 </context>
 <context>
@@ -639,34 +639,15 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ Kullanım Kılavuzu&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter bir çapraz platform uygulamasıdır. Bu uygulama tek amacı olarak ses ve video dosyalarının birden fazla biçime dönüştürülmesine sahiptir. Ayırt edici bir özellik olarak, MystiQ açık kaynaklı bir projedir, yani kaynak kod her zaman kullanılabilir olacak ve gelişime katkıda bulunmak isteyen herkesin hoş karşılanması anlamına gelir.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Geliştirme ekibinin temel fikri, kolay ve basit bir kullanıcı arayüzü sağlamaktır. Basit olan MystiQ&apos;nun özüdür, bu da uygulamanın çalışmasını zorlaştıran özellikler eklemenin amacımız olmadığı anlamına gelir.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Şu anda MystiQ esas olarak Qt5 grafik kütüphanelerinden faydalanarak C ++ &apos;da geliştirilmiştir. FFmpeg arka ucunda, biçimler arasında dönüştürme yapmaktan sorumludur, bu yüzden MystiQ&apos;nun FFmpeg için basit bir grafik arayüzü olduğunu söyleyebiliriz.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ şu anda mevcut video biçimlerinin çoğuna dönüştürmenize, ses çıkartmayı ve ses biçimleri arasında dönüştürmeyi mümkün kılıyor. Ayrıca, videoların sürelerine göre kırpmak için küçük bir araç da içerir.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Araç Çubuğu&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Uygulamanın ana penceresinin üst kısmında araç çubuğunu aşağıdaki düğmelerle bulacağız:&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Dosya Ekle:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Dönüştürmek istediğiniz video dosyalarını seçmek için bir iletişim kutusu açar. Seçildikten sonra, Dönüşüm Görevleri Listesine yerleştirilirler&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Başlat: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Yüklenen ögeler listesinden dönüştürme işlemini başlat&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Durdur: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ögeyi dönüştürme işlemini durdurur&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Yeniden Dene: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Ögeyi dönüştürme işlemini yeniden dener&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Tümünü Yeniden Dene:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Listedeki tüm ögelerin dönüştürme işlemini yeniden dener&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Seçileni Kaldır:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Seçilen bir ögeyi listeden kaldırır&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Tamamlananları Kaldır:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Dönüşüm işlemini tamamlayan tüm ögeleri listeden kaldırır&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Listeyi Temizle:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Dönüşüm listesindeki tüm ögeleri temizler&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Çıktı Klasörünü Aç: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Sistem dosya yöneticisinden dönüştürülen dosyaları içeren klasörü açar&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Güç Seçenekleri:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt; Listedeki tüm ögelerin dönüşüm işlemini tamamlarken bilgisayarı kapatmayı, askıya almayı veya hazırda bekletmeyi seçmeyi seçer&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -992,7 +973,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>MystiQ&apos;dan gelen hataları bildir </translation>
+        <translation>MystiQ&apos;dan gelen hataları bildir</translation>
     </message>
     <message>
         <source>%1</source>

@@ -609,6 +609,10 @@
 <context>
     <name>HelpMystiQDialog</name>
     <message>
+        <source>User Manual</source>
+        <translation>ユーザ マニュアル</translation>
+    </message>
+    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -635,42 +639,15 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
-&lt;meta http-equiv=&quot;Content-Language&quot; content=&quot;ja&quot;&gt;
-&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ ユーザ マニュアル&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ ビデオ コンバーターは、クロス プラットフォームのアプリケーションです。このアプリケーションの目的は、オーディオ、およびビデオファイルを複数の形式に変換することにあります。また、MystiQ の開発はオープンソース プロジェクトで行われており、ソースコードはいつでも自由に利用できます。さらに開発に貢献してくれるすべての方を歓迎します。
-&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;開発チームの一貫した考えとして、よりフレンドリーでシンプルなユーザ インターフェースを提供することを重視しています。シンプルさが MystiQ の本質であり、アプリケーションの操作を複雑にする多機能化は私達の目的ではありません。
-&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ は現在、主に Qt5 グラフィック ライブラリを利用して C++ で開発を行っています。形式の変換は FFmpeg で行うため、MystiQ は単に FFmpeg の GUI であるということができます。
-&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ では現在、よく利用される既存のビデオ形式への変換、オーディオの抽出、オーディオ形式間の変換に対応しています。&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;ツールバー&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;アプリケーションのメイン画面上部に以下のボタンを持つツールバーが配置されています。&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;ファイルを追加:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;変換するビデオファイルを開くためのダイアログが開きます。ここで選択したファイルは、変換タスクの一覧に配置されます。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;開始: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;読み込まれている項目の一覧から変換処理を開始します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;停止: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;項目の変換処理を停止します。&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;再試行:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 項目の変換処理を再試行します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;すべて再試行:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 一覧内のすべての項目の変換処理を再試行します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;選択項目を除去:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 選択した項目を一覧から除去します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;完了済みを除去:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 変換処理が完了した項目を一覧から除去します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;一覧をクリア:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 変換リストからすべての項目を除去します。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;出力先フォルダを開く: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;変換したファイルが含まれているフォルダを開きます。&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;電源オプション:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt; 一覧内全ての項目に対する変換処理完了後の動作 (コンピュータをシャットダウン、サスペンド、休止状態) を選択します。&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>User Manual</source>
-        <translation>ユーザ マニュアル</translation>
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
