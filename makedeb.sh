@@ -52,8 +52,13 @@ for v in `echo $VARS | xargs` ; do
 done
 
 # make the debian archive
-debuild -us -uc
+debuild -us -uc -b
 
 cd ..
-cp *.deb "$HOME"/
+pwd
+ls -la *.deb
+cp *.deb "$CI_PROJECT_DIR"/
+cd "$CI_PROJECT_DIR"
+ls -la "$CI_PROJECT_DIR"/*.deb
+pwd
 rm -rdf "$TMPDIR"
