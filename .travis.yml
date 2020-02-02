@@ -5,35 +5,27 @@ compiler: gcc
 # main build matrix
 matrix:
   include:
-    - name: "Bionic Ubuntu Linux"
+    - name: "Xenial Ubuntu Linux"
       os: linux
-      dist: bionic
+      dist: xenial
       sudo: required
-      env: TARGETOS=bionic-linux
+      env: TARGETOS=xenial-linux
 
-# install, install QT5.13 from KDE Neon
+# install, install QT5.12.3 from ppa
 install:
-  # add Qt5 version 5.10+ to repositories
-  - echo "deb [trusted=yes] http://archive.neon.kde.org/user/ bionic main" > ./kde_neon.list
-  - sudo mv ./kde_neon.list /etc/apt/sources.list.d/kde_neon.list
-  # update and upgrade
-  - sudo apt-get update
-  - sudo apt-get upgrade
-  # force upgrade (we are using a Qt5 files from a newer distro)
-  - sudo apt-get dist-upgrade -o dpkg::options::="--force-overwrite"
-  # install basic deps and build deps
-  - sudo apt install build-essential g++ make ffmpeg sox mplayer libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
-  # install specific Qt5 deps
-  - sudo apt install qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5opengl5-dev libqt5widgets5 qt5-qmake-bin qtbase5-dev qt5-qmake
-  # show the Qt5 versions for debug
+  - sudo add-apt-repository ppa:beineri/opt-qt-5.12.3-xenial
+  - sudo apt update
+  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
+  - sudo apt install qt-latest tree
+  - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
+  - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
-  # install debian build deps for the .deb file generation
-  - sudo apt install devscripts dh-make fakeroot
+  - sudo apt install qtdeclarative5-dev qtmultimedia5-dev
 
 # build & test scripts
 script:
-  - /usr/lib/qt5/bin/qmake mystiq.pro
+  - qmake mystiq.pro
   - make
   - sudo make install
 
@@ -55,17 +47,13 @@ before_deploy:
   # add extra tools
   - ./complete_appdir.sh
   # run the linuxdeploy script
-  - export QML_SOURCES_PATHS="${PWD}/qml"
-  - export QML_MODULES_PATHS=/usr/lib/x86_64-linux-gnu/qt5/qml
   - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
   - export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
   # set the version on the filename
-  - mv MystiQ*AppImage MystiQ_x86_64_$VERSION.AppImage
-  # create the .deb for ubuntu & debian distros
-  - ./makedeb.sh
+  - mv MystiQ*AppImage MystiQ_$VERSION.AppImage
 
 # deploy to Github
 deploy:
@@ -77,7 +65,8 @@ deploy:
     overwrite: true
     skip_cleanup: true
     on:
+      repo: llamaret/MystiQ
       tags: true
     file: 
       - ./MystiQ*.AppImage
-      - $HOME/mystiq*.deb
+
