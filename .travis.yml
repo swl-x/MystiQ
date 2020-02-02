@@ -14,14 +14,14 @@ matrix:
 # install, install QT5.12.3 from ppa
 install:
   - sudo add-apt-repository ppa:beineri/opt-qt-5.12.3-xenial
-  - sudo apt update
-  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils
-  - sudo apt install qt-latest tree
+  - sudo apt update --assume-yes --force-yes
+  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils --assume-yes --force-yes
+  - sudo apt install qt-latest tree --assume-yes --force-yes
   - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
   - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
   - qtchooser -print-env
   - qmake -v
-  - sudo apt install qtdeclarative5-dev qtmultimedia5-dev
+  - sudo apt install qtdeclarative5-dev qtmultimedia5-dev --assume-yes --force-yes
 
 # build & test scripts
 script:
