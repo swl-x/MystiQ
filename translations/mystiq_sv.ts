@@ -98,15 +98,15 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Många har hjälpt till att översätta MystiQ Video Converter. Du kan också hjälpa till att översätta till ditt eget språk. Besök </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation> och gå med i en översättningsgrupp.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation>Ändringslogg</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -410,19 +410,19 @@
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation>Extra videoalternativ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation>Video till svartvit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation>Vertikal vändning</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation>Horisontell vändning</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -653,40 +653,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ Användarmanual&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter är ett plattformsöverskridande program. Detta program har som enda syfte att omvandla ljud- och videofiler till flera olika format. Som utmärkande drag är MystiQ ett öppen-källkods-projekt, vilket innebär att källkoden alltid kommer att finnas tillgänglig och att alla som vill bidra till utvecklingen är välkomna.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Den grundläggande idén med utvecklingen är att erbjuda ett användarvänligt och enkelt användargränssnitt. Det enkla är essensen av MystiQ, vilket innebär att det inte är vårt mål att lägga till funktioner som komplicerar användningen av programmet.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;För närvarande är MystiQ främst utvecklad i C++ som drar fördel av qt5-grafikbibliotek. I FFmpeg ansvarar det för att konvertera mellan olika format, så vi kan säga att MystiQ helt enkelt är ett grafiskt gränssnitt för FFmpeg.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ låter dig för närvarande konvertera till de flesta befintliga videoformat, samt gör det möjligt att extrahera ljud och konvertera mellan ljudformat. Det innehåller också ett litet verktyg för att trimma videor baserat på dess varaktighet.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Verktygsfält&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;I den övre delen av programmets huvudfönster hittar vi verktygsfältet med följande knappar:&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Lägg till filer:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Öppnar en dialogruta för att välja de videofiler du vill konvertera. När de har valts placeras de i listan över arbetsuppgifter.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Starta: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Startar konverteringsprocessen från listan över inlästa objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stoppa: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stoppar konverteringsprocessen för ett objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Försök igen:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Försöker igen, att konvertera ett objekt.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Försök alla igen:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Försöker igen, att konvertera alla objekt i listan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Ta bort markerat:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort ett markerat objekt från listan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Ta bort slutfört:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort alla objekt som har slutfört konverteringsprocessen, från listan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Rensa listan:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Tar bort alla objekt från konverteringslistan.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Öppna utdatamappen: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Öppnar mappen som innehåller de konverterade filerna, i systemets filhanterare.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Energialternativ:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Välj om du vill stänga av, eller försätta datorn i viloläge/vänteläge när du slutfört konverteringsprocessen av alla objekt i listan.&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Ljudalternativ&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Videoalternativ&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

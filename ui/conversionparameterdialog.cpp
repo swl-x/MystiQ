@@ -284,6 +284,8 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     bool insert_subtitle = ui->chkInsertSubtitle->isChecked();
     bool disable_color = ui->chkNonColor->isChecked();
     bool copy_video = ui->chkCopyVideo->isChecked();
+    bool vertical_flip = ui->chkVFlip->isChecked();
+    bool horizontal_flip = ui->chkHFlip->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
     ui->chkInsertSubtitle->setEnabled(true); // always enabled
@@ -291,8 +293,8 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     ui->chkVFlip->setEnabled(true); //always enabled
     ui->chkHFlip->setEnabled(true); //always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
-    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video);
-    ui->chkNonColor->setDisabled(disable_video || copy_video);
+    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip);
+    ui->chkNonColor->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip);
     ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
     ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
 
