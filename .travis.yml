@@ -15,7 +15,7 @@ matrix:
 install:
   - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-xenial 
   - sudo apt update --assume-yes --force-yes
-  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev libglvnd-dev desktop-file-utils --assume-yes --force-yes
+  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev desktop-file-utils --assume-yes --force-yes
   - sudo apt install qt-latest tree --assume-yes --force-yes
   - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
   - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
