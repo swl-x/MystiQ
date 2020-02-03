@@ -13,15 +13,15 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   viewBox="0 0 50 50"
-   style="enable-background:new 0 0 50 50;"
+   viewBox="0 0 55 55"
+   style="enable-background:new 0 0 55 55;"
    xml:space="preserve"
    sodipodi:docname="retry.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"><metadata
-   id="metadata45"><rdf:RDF><cc:Work
+   id="metadata41"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs43" /><sodipodi:namedview
+   id="defs39" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -32,69 +32,76 @@
    inkscape:pageshadow="2"
    inkscape:window-width="640"
    inkscape:window-height="480"
-   id="namedview41"
+   id="namedview37"
    showgrid="false"
-   inkscape:zoom="10.28386"
-   inkscape:cx="27.73272"
-   inkscape:cy="25"
+   inkscape:zoom="9.6580489"
+   inkscape:cx="25.853189"
+   inkscape:cy="27.5"
    inkscape:current-layer="Capa_1" />
 
-
 <path
-   style="fill:#43b05c;stroke-width:1.025846"
-   d="m 36.219236,19.069006 -26.208911,0.09724 C 9.4283743,19.168446 8.9579649,21.947 8.9579649,22.5 c 0,0.553 0.4704052,1 1.0523601,1 h 26.308997 c 6.382562,0 8.401683,4.83776 8.401683,10.90276 0,0.553 3.64468,1.09724 4.226635,1.09724 C 49.529595,35.5 50,35.053 50,34.5 50,27.332 43.762497,19.041019 36.219236,19.069006 Z"
-   id="path6"
-   inkscape:connector-curvature="0"
-   sodipodi:nodetypes="sssssssss" />
-<polygon
-   style="fill:#43b05c"
-   points="12,30.5 1,38.5 12,46.5 "
-   id="polygon8"
-   transform="matrix(1,0,0,-1,-1.0696373,59.972398)"
-   inkscape:transform-center-y="-1.2641168" />
+   style="fill:#3f9533;stroke-width:1.65333712;fill-opacity:1"
+   d="M 22.319483,17.304243 V 5.6470629 L 1.9495681,25.075709 22.319483,44.504321 V 32.847146 c 0,0 18.088481,-4.153043 30.444534,15.542917 0,0 3.080959,-15.032429 -10.719689,-25.926317 0,0.0013 -6.25014,-5.54437 -19.724845,-5.159503 z"
+   id="path4"
+   inkscape:connector-curvature="0" />
 <g
-   id="g10">
+   id="g6"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g12">
+   id="g8"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g14">
+   id="g10"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g16">
+   id="g12"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g18">
+   id="g14"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g20">
+   id="g16"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g22">
+   id="g18"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g24">
+   id="g20"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g26">
+   id="g22"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g28">
+   id="g24"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g30">
+   id="g26"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g32">
+   id="g28"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g34">
+   id="g30"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g36">
+   id="g32"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 <g
-   id="g38">
+   id="g34"
+   transform="matrix(-1,0,0,1,55,0)">
 </g>
 </svg>
