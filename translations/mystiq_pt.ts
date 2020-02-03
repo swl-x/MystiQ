@@ -1009,6 +1009,14 @@ p, li { white-space: pre-wrap; }
         <source>MystiQ Video Converter</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Translate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate Application</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

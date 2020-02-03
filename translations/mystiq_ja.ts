@@ -1000,6 +1000,14 @@ p, li { white-space: pre-wrap; }
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
         <translation>シャットダウン</translation>
     </message>
+    <message>
+        <source>Translate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate Application</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

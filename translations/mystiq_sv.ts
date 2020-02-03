@@ -1006,6 +1006,14 @@ p, li { white-space: pre-wrap; }
         <source>%1</source>
         <translation>%1</translation>
     </message>
+    <message>
+        <source>Translate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate Application</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

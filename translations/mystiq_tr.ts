@@ -1000,6 +1000,14 @@ p, li { white-space: pre-wrap; }
         <source>Conversion finished successfully.</source>
         <translation>Dönüşüm başarıyla tamamlandı.</translation>
     </message>
+    <message>
+        <source>Translate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate Application</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

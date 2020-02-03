@@ -68,6 +68,7 @@ private slots:
     void slotHelpMystiQDialog();
     void slotReport();
     void slotDonate();
+    void slotTranslate();
     void slotShowUpdateDialog();
     void slotCut();
 
@@ -90,6 +91,8 @@ private slots:
     void on_actionReport_triggered();
 
     void on_actionDonate_triggered();
+
+    void on_actionTranslate_triggered();
 
 protected:
     void closeEvent(QCloseEvent *);

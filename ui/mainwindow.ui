@@ -136,6 +136,7 @@
     <addaction name="actionAboutFFmpeg"/>
     <addaction name="actionAboutQt"/>
     <addaction name="separator"/>
+    <addaction name="actionTranslate"/>
     <addaction name="actionDonate"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
@@ -519,6 +520,18 @@
    </property>
    <property name="text">
     <string>Donate</string>
+   </property>
+  </action>
+  <action name="actionTranslate">
+   <property name="icon">
+    <iconset resource="../images.qrc">
+     <normaloff>:/actions/icons/translate.svg</normaloff>:/actions/icons/translate.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Translate Application</string>
+   </property>
+   <property name="toolTip">
+    <string>Translate</string>
    </property>
   </action>
  </widget>

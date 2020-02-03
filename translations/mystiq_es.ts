@@ -131,7 +131,7 @@
     <message>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translation>FFmpeg es una completa solución multi-plataforma para grabar, convertir y transmitir audio y video. incluye libavcodec - la libreria lider de audio/video.</translation>
+        <translation>FFmpeg es una completa solución multi-plataforma para grabar, convertir y transmitir audio y video. Incluye libavcodec - la librería líder de audio/video.</translation>
     </message>
     <message>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
@@ -654,7 +654,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1009,6 +1009,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>%1</source>
         <translation>%1</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traducir</translation>
+    </message>
+    <message>
+        <source>Translate Application</source>
+        <translation>Traducir Aplicación</translation>
     </message>
 </context>
 <context>

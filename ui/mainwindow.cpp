@@ -243,6 +243,13 @@ void MainWindow::slotDonate()
         }
 }
 
+void MainWindow::slotTranslate()
+{
+    QString translateWeb="https://www.transifex.com/swl-x-project/mystiq-video-converter/";
+    bool b = QDesktopServices::openUrl( QUrl( translateWeb, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
 void MainWindow::slotReport()
 {
 #ifdef Q_OS_WIN
@@ -565,6 +572,8 @@ void MainWindow::setup_menus()
             this, SLOT(slotReport()));
     connect(ui->actionDonate, SIGNAL(triggered()),
             this, SLOT(slotDonate()));
+    connect(ui->actionTranslate, SIGNAL(triggered()),
+            this, SLOT(slotTranslate()));
     connect(ui->actionCheckUpdate, SIGNAL(triggered()),
             this, SLOT(slotShowUpdateDialog()));
 }
@@ -600,6 +609,7 @@ void MainWindow::setup_toolbar(const QStringList &entries)
     ADD_ACTION(CheckUpdate);
     ADD_ACTION(Report);
     ADD_ACTION(Donate);
+    ADD_ACTION(Translate);
     ADD_ACTION(HelpMystiQDialog);
 
     for (int i=0; i<entries.size(); i++) {
@@ -907,6 +917,11 @@ void MainWindow::on_actionReport_triggered()
 }
 
 void MainWindow::on_actionDonate_triggered()
+{
+
+}
+
+void MainWindow::on_actionTranslate_triggered()
 {
 
 }

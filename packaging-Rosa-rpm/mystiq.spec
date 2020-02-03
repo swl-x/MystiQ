@@ -6,7 +6,7 @@
 
 Summary:	Audio/Video converter
 Name:		mystiq
-Version:	0.4.0
+Version:	20.02.15
 Release:	1
 License:	GPLv3
 Group:		Video
@@ -28,7 +28,6 @@ BuildRequires:	pkgconfig(Qt5Multimedia)
 BuildRequires:	pkgconfig(Qt5QuickWidgets)
 Requires:	ffmpeg
 Requires:	sox
-Requires:	mplayer 
 
 %description
 MystiQ is a GUI for FFmpeg, a powerful media converter. 

@@ -10,6 +10,23 @@ to be two digits long
  - This changelog file
 
 
+## [20.02.15] - 2020-02-15
+### Added
+ - Added Chinese language Pack
+ - Added Turkish language Pack
+ - Added Presets for Youtube
+ - Added Video Color to Black & White option
+ - Added Horizontal & Vertical Flip options
+ - Added metainfo file (only GNU/Linux)
+ 
+### Fixed
+ - Fixed Sweden Language Pack
+ 
+### Changed
+ - Changed to Qt 5.14.1 (only Microsoft windows)
+ - Changed to FFmpeg 4.2.2 (only Microsoft Windows)
+ 
+ 
 ## [20.01.22] - 2020-01-22
 ### Added
  - Japanese language Pack
