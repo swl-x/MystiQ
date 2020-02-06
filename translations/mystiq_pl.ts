@@ -735,15 +735,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Dodaj pliki do konwersji. </translation>
+        <translation>Dodaj pliki do konwersji.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N </translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>W&amp;yjście </translation>
+        <translation>W&amp;yjście</translation>
     </message>
     <message>
         <source>Exit the program.</source>
@@ -751,7 +751,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>S&amp;top </translation>
+        <translation>S&amp;top</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
@@ -759,12 +759,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Ustawienia &amp;parametrów  </translation>
+        <translation>Ustawienia &amp;parametrów</translation>
     </message>
     <message>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
-        <translation>Ustawienia parametrów </translation>
+        <translation>Ustawienia parametrów</translation>
     </message>
     <message>
         <source>Edit conversion parameters of selected files.</source>
@@ -780,11 +780,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Open Output Folder</source>
-        <translation>&amp;Otwórz folder zapisu </translation>
+        <translation>&amp;Otwórz folder zapisu</translation>
     </message>
     <message>
         <source>Open output folder of the selected file.</source>
-        <translation>Otwórz folder zapisu, wybranego pliku. </translation>
+        <translation>Otwórz folder zapisu, wybranego pliku.</translation>
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
@@ -801,12 +801,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
-        <translation>Usuń wszystkie wybrane pozycje na liście. </translation>
+        <translation>Usuń wszystkie wybrane pozycje na liście.</translation>
     </message>
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>U&amp;suń wykonane </translation>
+        <translation>U&amp;suń wykonane</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -814,11 +814,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all completed items in the list.</source>
-        <translation>Usuń wszystkie zaznaczone pozycje na liście. </translation>
+        <translation>Usuń wszystkie zaznaczone pozycje na liście.</translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation>Wyczyść listę </translation>
+        <translation>Wyczyść listę</translation>
     </message>
     <message>
         <source>Remove all items in the list.</source>
@@ -826,15 +826,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>&amp;Spróbuj ponownie </translation>
+        <translation>&amp;Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Spróbuj ponownie </translation>
+        <translation>Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Retry selected tasks.</source>
-        <translation>Ponów wybrane zadania. </translation>
+        <translation>Ponów wybrane zadania.</translation>
     </message>
     <message>
         <source>Retry &amp;All</source>
@@ -842,15 +842,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Ponów wszystkie zadania. </translation>
+        <translation>Ponów wszystkie zadania.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
-        <translation>&amp;Opcje </translation>
+        <translation>&amp;Opcje</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opcje </translation>
+        <translation>Opcje</translation>
     </message>
     <message>
         <source>About This Program</source>
@@ -862,7 +862,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
-        <translation>Zmień nazwę pliku wyjściowego wybranego elementu. </translation>
+        <translation>Zmień nazwę pliku wyjściowego wybranego elementu.</translation>
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
@@ -874,7 +874,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Show Error &amp;Message</source>
-        <translation>Wyświetl informację o błędzie </translation>
+        <translation>Wyświetl informację o &amp;błędzie</translation>
     </message>
     <message>
         <source>Check For &amp;Updates</source>
@@ -887,20 +887,20 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>All tasks have finished.</source>
-        <translation>Wszystkie zadania zostały zakończone. </translation>
+        <translation>Wszystkie zadania zostały zakończone.</translation>
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Nic do konwersji. </translation>
+        <translation>Nic do konwersji.</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Konwersja jest nadal w toku, przerwać? </translation>
+        <translation>Konwersja jest nadal w toku, przerwać?</translation>
     </message>
     <message>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
-        <translation>Zamyka komputer </translation>
+        <translation>Zamyka komputer</translation>
     </message>
     <message>
         <source>Shutdown when all tasks are done.</source>
@@ -909,7 +909,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Zawiesza system.</translation>
+        <translation>Zawiesza system</translation>
     </message>
     <message>
         <source>Suspend when all tasks are done.</source>
@@ -918,15 +918,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Hibernuje system.</translation>
+        <translation>Hibernuje system</translation>
     </message>
     <message>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Hibernuje system,  gdy wszystkie zadania są wykonywane. </translation>
+        <translation>Hibernuje system,  gdy wszystkie zadania są wykonywane.</translation>
     </message>
     <message>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Ten program, będzie sprawdzać  dostępność aktualizacji po przez łączenie się z Internetem. Czy wyrażasz zgodę na to? </translation>
+        <translation>Ten program, będzie sprawdzać  dostępność aktualizacji po przez łączenie się z Internetem. Czy wyrażasz zgodę na to?</translation>
     </message>
     <message>
         <source>Failed to load preset file. The application will quit now.</source>
@@ -1006,7 +1006,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Zgłaszanie błędów z MystiQ</translation>
+        <translation>Zgłaszanie błędów z MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1047,7 +1047,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation> FFmpeg lub FFprobe% 1 nie zostały znalezione w systemie. Proszę rozważyć ich instalację przed uruchomieniem MystiQ</translation>
+        <translation> FFmpeg lub FFprobe %1 nie zostały znalezione w systemie. Proszę rozważyć ich instalację przed uruchomieniem MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1061,7 +1061,7 @@ p, li { white-space: pre-wrap; }
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opcje </translation>
+        <translation>Opcje</translation>
     </message>
     <message>
         <source>General</source>
@@ -1073,19 +1073,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Automatycznie rozpoczyna konwersję, po dodaniu plików do listy. </translation>
+        <translation>Automatycznie rozpoczyna konwersję, po dodaniu plików do listy.</translation>
     </message>
     <message>
         <source>Start conversion automatically</source>
-        <translation>Automatycznie rozpoczyna konwersję   </translation>
+        <translation>Automatycznie rozpoczyna konwersję</translation>
     </message>
     <message>
         <source>FFmpeg</source>
-        <translation>FFmpeg </translation>
+        <translation>FFmpeg</translation>
     </message>
     <message>
         <source>Number of threads to use in conversion</source>
-        <translation>Liczba wątków do wykorzystania w konwersji </translation>
+        <translation>Liczba wątków do wykorzystania w konwersji</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1093,15 +1093,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hide unavailable formats (requires restarting)</source>
-        <translation>Ukrywanie niedostępnych formatów (wymaga ponownego uruchomienia) </translation>
+        <translation>Ukrywanie niedostępnych formatów (wymaga ponownego uruchomienia)</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Narzędzia </translation>
+        <translation>Narzędzia</translation>
     </message>
     <message>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation>Należy ponownie uruchomić MystiQ , aby zmiany odniosły skutek. </translation>
+        <translation>Należy ponownie uruchomić MystiQ , aby zmiany odniosły skutek.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1116,16 +1116,16 @@ p, li { white-space: pre-wrap; }
     <name>PoweroffDialog</name>
     <message>
         <source>MystiQ</source>
-        <translation>MystiQ </translation>
+        <translation>MystiQ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj  </translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <source>Shutdown immediately</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Zamknij komputer,  natychmiast.</translation>
+        <translation>Zamknij komputer,  natychmiast</translation>
     </message>
     <message>
         <source>Suspend immediately</source>
@@ -1135,7 +1135,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate immediately</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Włącz hibernacje, natychmiast </translation>
+        <translation>Włącz hibernacje, natychmiast</translation>
     </message>
     <message>
         <source>Shutdown</source>
@@ -1150,11 +1150,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Hibernuje system </translation>
+        <translation>Hibernuje system</translation>
     </message>
     <message>
         <source>Operation Failed: %1</source>
-        <translation>Operacja nie powiodła się: %1 </translation>
+        <translation>Operacja nie powiodła się: %1</translation>
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
@@ -1173,7 +1173,7 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation>Odtwórz zaznaczony materiał </translation>
+        <translation>Odtwórz zaznaczony materiał</translation>
     </message>
     <message>
         <source>Begin</source>
@@ -1199,11 +1199,11 @@ p, li { white-space: pre-wrap; }
     <name>TimeRangeEdit</name>
     <message>
         <source>From Begin</source>
-        <translation>Od początku - bez opcji cięcia   </translation>
+        <translation>Od początku - bez opcji cięcia</translation>
     </message>
     <message>
         <source>To End</source>
-        <translation>Do końca - bez opcji cięcia  </translation>
+        <translation>Do końca - bez opcji cięcia</translation>
     </message>
 </context>
 <context>
