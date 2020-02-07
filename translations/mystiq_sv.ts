@@ -59,7 +59,8 @@
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation></translation>
+        <translatorcomment>Italienska språket (Italien)</translatorcomment>
+        <translation>Italienska (Italien)</translation>
     </message>
     <message>
         <source>Spanish (Spain)</source>
@@ -70,6 +71,7 @@
     <message>
         <source>French (France)</source>
         <extracomment>French Language (France)</extracomment>
+        <translatorcomment>Franska språket (Frankrike)</translatorcomment>
         <translation>Franska (Frankrike)</translation>
     </message>
     <message>
