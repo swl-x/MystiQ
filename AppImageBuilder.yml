@@ -1,0 +1,70 @@
+version: 1
+
+AppDir:
+  path: ./AppDir
+
+  app_info:
+    id: info.swlx.mystiq
+    name: mystiq
+    icon: mystiq
+    version: 20.02.15
+    exec: usr/bin/mystiq
+
+  apt:
+    arch: amd64
+    sources:
+      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan main restricted universe multiverse'
+        key_url: 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3b4fe6acc0b21f32'
+      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan-updates main restricted universe multiverse'
+      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan-backports main restricted universe multiverse'
+
+    include:
+      - ffmpeg
+      - libqt5quickwidgets5
+      - qml-module-qtquick2
+      - qml-module-qtmultimedia
+      - libqt5multimedia5-plugins
+
+  files:
+    exclude:
+      - usr/share/man
+      - usr/share/doc/*/README.*
+      - usr/share/doc/*/changelog.*
+      - usr/share/doc/*/NEWS.*
+      - usr/share/doc/*/TODO.*
+  
+  runtime:
+    env:
+      PATH: '"$APPDIR"/usr/bin:"$PATH"'
+  
+  test:
+    debian:
+      image: debian:stable
+      command: "./AppRun"
+      use_host_x: True
+      env:
+        - QT_DEBUG_PLUGINS=1
+    arch:
+      image: archlinux
+      command: "./AppRun"
+      use_host_x: True
+      env:
+        - QT_DEBUG_PLUGINS=1
+    fedora:
+      image: fedora:26
+      command: "./AppRun"
+      use_host_x: True
+      env:
+        - QT_DEBUG_PLUGINS=1
+    ubuntu:
+      image: ubuntu:xenial
+      command: "./AppRun"
+      use_host_x: True
+      env:
+        - QT_DEBUG_PLUGINS=1
+
+
+AppImage:
+  update-information: None
+  sign-key: None
+  arch: x86_64

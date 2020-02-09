@@ -12,11 +12,6 @@
         <translation>MystiQ について</translation>
     </message>
     <message>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation>フランス語 (France)</translation>
-    </message>
-    <message>
         <source>License</source>
         <translation>ライセンス</translation>
     </message>
@@ -104,6 +99,16 @@
     </message>
     <message>
         <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungarian (Hungary)</source>
+        <extracomment>Hungarian Language (Hungary)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian (Rusia)</source>
+        <extracomment>Russian Language (Russia)</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

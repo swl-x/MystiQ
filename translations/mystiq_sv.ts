@@ -77,11 +77,6 @@
         <translation></translation>
     </message>
     <message>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation>Franska (Frankrike)</translation>
-    </message>
-    <message>
         <source>Application Name:&lt;br&gt; %1</source>
         <translation>Programnamn:&lt;br&gt; %1</translation>
     </message>
@@ -105,6 +100,16 @@
     <message>
         <source>Changelog</source>
         <translation>Ändringslogg</translation>
+    </message>
+    <message>
+        <source>Hungarian (Hungary)</source>
+        <extracomment>Hungarian Language (Hungary)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian (Rusia)</source>
+        <extracomment>Russian Language (Russia)</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

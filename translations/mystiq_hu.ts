@@ -81,11 +81,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -104,6 +99,16 @@
     </message>
     <message>
         <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungarian (Hungary)</source>
+        <extracomment>Hungarian Language (Hungary)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian (Rusia)</source>
+        <extracomment>Russian Language (Russia)</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

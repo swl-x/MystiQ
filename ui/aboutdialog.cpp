@@ -131,25 +131,28 @@ QString AboutDialog::getTranslators()
     struct {QString locale; QString translator;} table[] = {
         //: Turkish Language (Turkey)
         {"tr_TR", trad(tr("Turkish (Turkey)")
-                    , "Serdar Sağlam <https://www.transifex.com/qt-turkce-ceviri/qt-turkce-ceviri/>")},
+                    , "Serdar Sağlam")},
         //: Swedish Language (Sweden)
         {"sv_SV", trad(tr("Swedish (Sweden)")
-                    , "Åke Engelbrektson <https://svenskasprakfiler.se>")},
+                    , "Åke Engelbrektson")},
         //: Japanese Language (Japan)
         {"jp_JP", trad(tr("Japanese (Japan)")
-                    , "Tilt <tiltstr@gmail.com>")},
+                    , "Tilt")},
         //: German Language (Germany)
         {"de_DE", trad(tr("German (Germany)")
-                    , "Leslie León Sinclair <koratsuki.nijuusan@gmail.com>")},
+                    , "Leslie León Sinclair")},
         //: Italian Language (Italy)
         {"it_IT", trad(tr("Italian (Italy)")
-                    , "SymbianFlo <symbianflo@mandrivausers.ro>")},
+                    , "SymbianFlo")},
         //: Spanish Language (Spain)
         {"es_ES", trad(tr("Spanish (Spain)")
-                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
-        //: French Language (France)
-        {"fr_FR", trad(tr("French (France)")
-                    , "Maikel Llamaret Heredia <llamaret@webmisolutions.com>")},
+                    , "Maikel Llamaret Heredia")},
+        //: Hungarian Language (Hungary)
+        {"hu_HU", trad(tr("Hungarian (Hungary)")
+                    , "Varga Gábor")},
+        //: Russian Language (Russia)
+        {"hu_HU", trad(tr("Russian (Rusia)")
+                    , "Виктор Ерухин, Александр, Андрей Селезнев, Жердагдемедийна Гуравча, Просто Человек")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 

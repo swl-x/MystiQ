@@ -133,6 +133,7 @@ TRANSLATIONS += \
     translations/mystiq_pt.ts \
     translations/mystiq_ja.ts \
     translations/mystiq_ru.ts \
+    translations/mystiq_ru_RU.ts \
     translations/mystiq_ro.ts \
     translations/mystiq_pl.ts \
     translations/mystiq_tr.ts \
