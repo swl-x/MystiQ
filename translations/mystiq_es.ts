@@ -91,11 +91,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Muchas personas han contribuido con traducciones. También puede ayudar a traducir MystiQ Video Converter a su propio idioma. Visitar</translation>
+        <translation>Muchas personas han contribuido con traducciones. También puede ayudar a traducir MystiQ Video Converter a su propio idioma. Visitar </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>y únete a un equipo de traducción.</translation>
+        <translation> y únete a un equipo de traducción.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -1052,7 +1052,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation>FFmpeg o FFprobe %1 no se han encontrado en el sistema. Por favor considere instalarlos antes de ejecutar MystiQ</translation>
+        <translation> FFmpeg o FFprobe %1 no se han encontrado en el sistema. Por favor considere instalarlos antes de ejecutar MystiQ</translation>
     </message>
 </context>
 <context>

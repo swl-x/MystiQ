@@ -46,7 +46,7 @@
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ графический интерфейс к FFmpeg</translation>
+        <translation>MystiQ графический интерфейс к FFmpeg.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
@@ -91,11 +91,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите.</translation>
+        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>присоединяйтесь к команде переводчиков.</translation>
+        <translation> присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -168,7 +168,7 @@
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла</translation>
+        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла.</translation>
     </message>
     <message>
         <source>Auto Adjust Audio Bitrate</source>
@@ -188,7 +188,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Выбор и папка</translation>
+        <translation>Выбор и &amp;папка</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -197,7 +197,7 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Создать &amp; новую папку в исходной папке</translation>
+        <translation>Создать &amp;новую папку в исходной папке</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -206,7 +206,7 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Вывод к &amp; исходная папка</translation>
+        <translation>Вывод к &amp;исходная папка</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>px</translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -459,6 +459,7 @@
 
 </source>
         <translation>Сообщение об ошибке от FFmpeg:
+
 </translation>
     </message>
     <message>
@@ -721,7 +722,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Начать процесс конвертации</translation>
+        <translation>Начать процесс конвертации.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -741,31 +742,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Добавить файлы и конвертировать</translation>
+        <translation>Добавить файлы и конвертировать.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N&#xa0;</translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Выход</translation>
+        <translation>В&amp;ыход</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Выход из программы</translation>
+        <translation>Выход из программы.</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>Остановить</translation>
+        <translation>О&amp;становить</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Остановка процесса конвертации</translation>
+        <translation>Остановка процесса конвертации.</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Установки &amp; Параметры</translation>
+        <translation>Установки &amp;Параметры</translation>
     </message>
     <message>
         <source>Set Parameters</source>
@@ -812,7 +813,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>Удаление завершено</translation>
+        <translation>У&amp;даление завершено</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -897,7 +898,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Нет объектов для конвертирования</translation>
+        <translation>Нет объектов для конвертирования.</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
@@ -1004,7 +1005,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation>MystiQ нуждается в тебе.</translation>
+        <translation>MystiQ нуждается в тебе</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
@@ -1012,7 +1013,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Сообщения об ошибках в MystiQ</translation>
+        <translation>Сообщения об ошибках в MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1053,7 +1054,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation>FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
+        <translation> FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1164,7 +1165,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек.</translation>
+        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек</translation>
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
