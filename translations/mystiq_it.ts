@@ -107,7 +107,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Russian (Rusia)</source>
+        <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
         <translation type="unfinished"></translation>
     </message>
