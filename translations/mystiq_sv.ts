@@ -36,6 +36,15 @@
         <translation>MystiQ hemsida: %1</translation>
     </message>
     <message>
+        <source>Some audio-processing functionalities are provided by SoX.</source>
+        <translation>Vissa ljudbearbetningsfunktioner tillhandahålles av SoX.</translation>
+    </message>
+    <message>
+        <source>Spanish (Spain)</source>
+        <extracomment>Spanish Language (Spain)</extracomment>
+        <translation>Spanska (Spanien)</translation>
+    </message>
+    <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
         <translation>MystiQ är ett användargränssnitt för FFmpeg.</translation>
     </message>
@@ -44,35 +53,8 @@
         <translation>Utvecklare:&lt;br&gt; %1</translation>
     </message>
     <message>
-        <source>Some audio-processing functionalities are provided by SoX.</source>
-        <translation>Vissa ljudbearbetningsfunktioner tillhandahålles av SoX.</translation>
-    </message>
-    <message>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
         <translation>FFmpeg har hämtats från &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; och &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Japanese (Japan)</source>
-        <extracomment>Japanese Language (Japan)</extracomment>
-        <translation>Japanska (Japan)</translation>
-    </message>
-    <message>
-        <source>Italian (Italy)</source>
-        <extracomment>Italian Language (Italy)</extracomment>
-        <translatorcomment>Italienska språket (Italien)</translatorcomment>
-        <translation>Italienska (Italien)</translation>
-    </message>
-    <message>
-        <source>Spanish (Spain)</source>
-        <extracomment>Spanish Language (Spain)</extracomment>
-        <translatorcomment>Spanische Sprasche (Spanien)</translatorcomment>
-        <translation>Spanska (Spanien)</translation>
-    </message>
-    <message>
-        <source>French (France)</source>
-        <extracomment>French Language (France)</extracomment>
-        <translatorcomment>Franska språket (Frankrike)</translatorcomment>
-        <translation>Franska (Frankrike)</translation>
     </message>
     <message>
         <source>Swedish (Sweden)</source>
@@ -80,14 +62,28 @@
         <translation>Svenska (Sverige)</translation>
     </message>
     <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation>Programnamn:&lt;br&gt; %1</translation>
+        <source>Japanese (Japan)</source>
+        <extracomment>Japanese Language (Japan)</extracomment>
+        <translation>Japanska (Japan)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translatorcomment>Deutsche Sprache (Deutschland)</translatorcomment>
         <translation>Tyska (Tyskland)</translation>
+    </message>
+    <message>
+        <source>Italian (Italy)</source>
+        <extracomment>Italian Language (Italy)</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>French (France)</source>
+        <extracomment>French Language (France)</extracomment>
+        <translation>Franska (Frankrike)</translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation>Programnamn:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
@@ -155,32 +151,16 @@
         <translation>Lägg till filer.</translation>
     </message>
     <message>
-        <source>Add Files</source>
-        <translation>Lägg till filer</translation>
-    </message>
-    <message>
         <source>Remove selected files.</source>
         <translation>Ta bort markerade filer.</translation>
-    </message>
-    <message>
-        <source>Remove Selected</source>
-        <translation>Ta bort markerat</translation>
-    </message>
-    <message>
-        <source>Clear List</source>
-        <translation>Rensa listan</translation>
     </message>
     <message>
         <source>Output Settings</source>
         <translation>Utdatainställningar</translation>
     </message>
     <message>
-        <source>Convert to</source>
-        <translation>Konvertera till</translation>
-    </message>
-    <message>
-        <source>Preset</source>
-        <translation>Förinställning</translation>
+        <source>Edit</source>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
@@ -191,8 +171,12 @@
         <translation>Autojustera ljudets bithastighet</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Redigera</translation>
+        <source>Preset</source>
+        <translation>Förinställning</translation>
+    </message>
+    <message>
+        <source>Convert to</source>
+        <translation>Konvertera till</translation>
     </message>
     <message>
         <source>Output Path</source>
@@ -267,6 +251,18 @@
         <source>Failed to create folder. Please select another output folder.</source>
         <translation>Kunde inte skapa mappen. Välj en annan utdatamapp.</translation>
     </message>
+    <message>
+        <source>Add Files</source>
+        <translation>Lägg till filer</translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation>Ta bort markerat</translation>
+    </message>
+    <message>
+        <source>Clear List</source>
+        <translation>Rensa listan</translation>
+    </message>
 </context>
 <context>
     <name>ConversionParameterDialog</name>
@@ -281,10 +277,6 @@
     <message>
         <source>Disable Audio</source>
         <translation>Inaktivera ljud</translation>
-    </message>
-    <message>
-        <source>Copy Audio (Do not re-encode)</source>
-        <translation>Kopiera ljud (koda inte om)</translation>
     </message>
     <message>
         <source>Audio Options</source>
@@ -331,12 +323,16 @@
         <translation>Inaktivera video</translation>
     </message>
     <message>
-        <source>Copy Video (Do not re-encode)</source>
-        <translation>Kopiera video (koda inte om)</translation>
-    </message>
-    <message>
         <source>Video Options</source>
         <translation>Videoalternativ</translation>
+    </message>
+    <message>
+        <source>Same Quantizer as Source</source>
+        <translation>Samma kvantiserare som källan</translation>
+    </message>
+    <message>
+        <source>Deinterlace</source>
+        <translation>Avfläta</translation>
     </message>
     <message>
         <source>Width</source>
@@ -351,24 +347,8 @@
         <translation>Höjd</translation>
     </message>
     <message>
-        <source>qrc:/qml/main.qml</source>
-        <translation>qrc:/qml/main.qml</translation>
-    </message>
-    <message>
         <source>Crop</source>
         <translation>Beskär</translation>
-    </message>
-    <message>
-        <source>Same Quantizer as Source</source>
-        <translation>Samma kvantiserare som källan</translation>
-    </message>
-    <message>
-        <source>Deinterlace</source>
-        <translation>Avfläta</translation>
-    </message>
-    <message>
-        <source>Insert Subtitle if Available</source>
-        <translation>Infoga undertext om tillgänglig</translation>
     </message>
     <message>
         <source>Time</source>
@@ -409,6 +389,22 @@
     <message>
         <source>Additional FFmpeg Options</source>
         <translation>Fler FFmpeg-alternativ</translation>
+    </message>
+    <message>
+        <source>Copy Audio (Do not re-encode)</source>
+        <translation>Kopiera ljud (ingen omkodning)</translation>
+    </message>
+    <message>
+        <source>Insert Subtitle if Available</source>
+        <translation>Infoga undertext om tillgänglig</translation>
+    </message>
+    <message>
+        <source>Copy Video (Do not re-encode)</source>
+        <translation>Kopiera video (ingen omkodning)</translation>
+    </message>
+    <message>
+        <source>qrc:/qml/main.qml</source>
+        <translation>qrc:/qml/main.qml</translation>
     </message>
     <message>
         <source>Video Extra Options</source>
@@ -722,14 +718,6 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <source>MystiQ Media Converter</source>
-        <translation>MystiQ Media Converter</translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
-        <translation>&amp;Hjälp</translation>
-    </message>
-    <message>
         <source>Start conversion process.</source>
         <translation>Starta konverteringsprocessen.</translation>
     </message>
@@ -764,10 +752,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Exit the program.</source>
         <translation>Avsluta programmet.</translation>
-    </message>
-    <message>
-        <source>F5</source>
-        <translation>F5</translation>
     </message>
     <message>
         <source>S&amp;top</source>
@@ -837,10 +821,6 @@ p, li { white-space: pre-wrap; }
         <translation>Ta bort alla slutförda objekt från listan.</translation>
     </message>
     <message>
-        <source>Clear &amp;List</source>
-        <translation>&amp;Rensa listan</translation>
-    </message>
-    <message>
         <source>Clear List</source>
         <translation>Rensa listan</translation>
     </message>
@@ -877,10 +857,6 @@ p, li { white-space: pre-wrap; }
         <translation>Alternativ</translation>
     </message>
     <message>
-        <source>About MystiQ</source>
-        <translation>Om MystiQ</translation>
-    </message>
-    <message>
         <source>About This Program</source>
         <translation>Om detta program</translation>
     </message>
@@ -901,10 +877,6 @@ p, li { white-space: pre-wrap; }
         <translation>Ändra utdatamapp för markerade objekt.</translation>
     </message>
     <message>
-        <source>Poweroff</source>
-        <translation>Stäng av</translation>
-    </message>
-    <message>
         <source>Show Error &amp;Message</source>
         <translation>Visa fel&amp;meddelanden</translation>
     </message>
@@ -916,6 +888,81 @@ p, li { white-space: pre-wrap; }
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
         <translation>Klipp</translation>
+    </message>
+    <message>
+        <source>All tasks have finished.</source>
+        <translation>Alla åtgärder har slutförts.</translation>
+    </message>
+    <message>
+        <source>Nothing to convert.</source>
+        <translation>Inget att konvertera.</translation>
+    </message>
+    <message>
+        <source>Conversion is still in progress. Abort?</source>
+        <translation>Kovertering pågår fortfarande. Vill du avbryta?</translation>
+    </message>
+    <message>
+        <source>Shutdown</source>
+        <extracomment>Shutdown the computer (completely poweroff)</extracomment>
+        <translation>Stäng av</translation>
+    </message>
+    <message>
+        <source>Shutdown when all tasks are done.</source>
+        <translation>Stäng av datorn när alla åtgärder har slutförts.</translation>
+    </message>
+    <message>
+        <source>Suspend</source>
+        <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
+        <translation>Vänteläge</translation>
+    </message>
+    <message>
+        <source>Suspend when all tasks are done.</source>
+        <translation>Försätt datorn i vänteläge när alla åtgärder har slutförts.</translation>
+    </message>
+    <message>
+        <source>Hibernate</source>
+        <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
+        <translation>Viloläge</translation>
+    </message>
+    <message>
+        <source>Hibernate when all tasks are done.</source>
+        <translation>Försätt datorn i viloläge när alla åtgärder har slutförts.</translation>
+    </message>
+    <message>
+        <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
+        <translation>Detta program kommer att söka efter uppdateringar online. Vill du tillåta programmet att använda internet för uppdateringar?</translation>
+    </message>
+    <message>
+        <source>Failed to load preset file. The application will quit now.</source>
+        <translation>Kunde inte läsa in förinställningsfilen. Programmet kommer att avslutas nu.</translation>
+    </message>
+    <message>
+        <source>Elapsed Time: %1 h %2 m %3 s</source>
+        <translation>Förfluten tid: %1 t %2 m %3 s</translation>
+    </message>
+    <message>
+        <source>MystiQ Media Converter</source>
+        <translation>MystiQ Media Converter</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Hjälp</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
+    <message>
+        <source>Clear &amp;List</source>
+        <translation>Rensa &amp;listan</translation>
+    </message>
+    <message>
+        <source>About MystiQ</source>
+        <translation>Om MystiQ</translation>
+    </message>
+    <message>
+        <source>Poweroff</source>
+        <translation>Avstängning</translation>
     </message>
     <message>
         <source>User Manual</source>
@@ -942,20 +989,8 @@ p, li { white-space: pre-wrap; }
         <translation>Donera</translation>
     </message>
     <message>
-        <source>Conversion finished successfully.</source>
-        <translation>Konvertering slutförd utan fel.</translation>
-    </message>
-    <message>
         <source>Conversion failed.</source>
         <translation>Konvertering misslyckades.</translation>
-    </message>
-    <message>
-        <source>All tasks have finished.</source>
-        <translation>Alla arbetsuppgifter slutförda.</translation>
-    </message>
-    <message>
-        <source>Nothing to convert.</source>
-        <translation>Inget att konvertera.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
@@ -978,55 +1013,16 @@ p, li { white-space: pre-wrap; }
         <translation>Rapportera fel i MystiQ </translation>
     </message>
     <message>
+        <source>%1</source>
+        <translation>%1</translation>
+    </message>
+    <message>
         <source>Your comment:</source>
         <translation>Din kommentar:</translation>
     </message>
     <message>
         <source>Report:</source>
         <translation>Rapport:</translation>
-    </message>
-    <message>
-        <source>Conversion is still in progress. Abort?</source>
-        <translation>Konvertering pågår fortfarande. Vill du avbryta?</translation>
-    </message>
-    <message>
-        <source>Shutdown</source>
-        <extracomment>Shutdown the computer (completely poweroff)</extracomment>
-        <translation>Stäng av</translation>
-    </message>
-    <message>
-        <source>Shutdown when all tasks are done.</source>
-        <translation>Stäng av datorn när alla arbetsuppgifter är slutförda.</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Vänteläge</translation>
-    </message>
-    <message>
-        <source>Suspend when all tasks are done.</source>
-        <translation>Försätt datorn i vänteläge när alla arbetsuppgifter är slutförda.</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Viloläge</translation>
-    </message>
-    <message>
-        <source>Hibernate when all tasks are done.</source>
-        <translation>Försätt datorn i viloläge när alla arbetsuppgifter är slutförda.</translation>
-    </message>
-    <message>
-        <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Detta program kommer att söka efter uppdateringar online. Tillåter du programmet att att använda internet för att söka efter uppdateringar?</translation>
-    </message>
-    <message>
-        <source>Failed to load preset file. The application will quit now.</source>
-        <translation>Kunde inte läsa in förinställningsfil. Programmet kommer att avslutas nu.</translation>
-    </message>
-    <message>
-        <source>Elapsed Time: %1 h %2 m %3 s</source>
-        <translation>Förfluten tid: %1 t %2 m %3 s</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
@@ -1038,8 +1034,8 @@ p, li { white-space: pre-wrap; }
         <translation>MystiQ Video Converter</translation>
     </message>
     <message>
-        <source>%1</source>
-        <translation>%1</translation>
+        <source>Conversion finished successfully.</source>
+        <translation>Konverteringen slutfördes korrekt.</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -1180,10 +1176,6 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PreviewDialog</name>
     <message>
-        <source>Video Preview</source>
-        <translation>Förhandsvisning av video</translation>
-    </message>
-    <message>
         <source>Play Selected Range</source>
         <translation>Spela up det markerade intervallet</translation>
     </message>
@@ -1201,6 +1193,10 @@ p, li { white-space: pre-wrap; }
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
         <translation>Spela upp %1~%2</translation>
+    </message>
+    <message>
+        <source>Video Preview</source>
+        <translation>Förhandsgranska video</translation>
     </message>
 </context>
 <context>
