@@ -105,7 +105,7 @@
         <translation>Húngaro (Hungría)</translation>
     </message>
     <message>
-        <source>Russian (Rusia)</source>
+        <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
         <translation>Ruso (Rusia)</translation>
     </message>
