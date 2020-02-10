@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About MystiQ</source>
-        <translation>Informacje o: MystiQ</translation>
+        <translation>Informacje o: MystiQ </translation>
     </message>
     <message>
         <source>Information</source>
@@ -25,7 +23,7 @@
     </message>
     <message>
         <source>Compiled with libnotify %1</source>
-        <translation>Skompilowany z libnotify %1</translation>
+        <translation>Skompilowany z libnotify %1 </translation>
     </message>
     <message>
         <source>MystiQ Homepage: %1</source>
@@ -38,7 +36,7 @@
     <message>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
-        <translation>Hiszpański (Hiszpania)</translation>
+        <translation>Hiszpański (Hiszpania) </translation>
     </message>
     <message>
         <source>License</source>
@@ -50,7 +48,7 @@
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation>Programiści:&lt;br&gt; %1</translation>
+        <translation>Programiści:&lt;br&gt;% 1</translation>
     </message>
     <message>
         <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
@@ -78,7 +76,7 @@
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation>Nazwa aplikacji:&lt;br&gt; %1</translation>
+        <translation>Nazwa aplikacji:&lt;br&gt;% 1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
@@ -91,11 +89,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Wiele osób przyczyniło się do tłumaczenia. Możesz także pomóc przetłumaczyć MystiQ Video Converter na swój własny język. Odwiedzić </translation>
+        <translation>Wiele osób przyczyniło się do tłumaczenia. Możesz także pomóc przetłumaczyć MystiQ Video Converter na swój własny język. Odwiedzić</translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation> i dołącz do zespołu tłumaczącego.</translation>
+        <translation>i dołącz do zespołu tłumaczącego.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -104,27 +102,27 @@
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Węgierski (Węgry)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Rosyjski (Rosja)</translation>
     </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
     <message>
         <source>About FFmpeg</source>
-        <translation>Informacje o: FFmpeg</translation>
+        <translation>Informacje o: FFmpeg </translation>
     </message>
     <message>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation>FFmpeg  </translation>
     </message>
     <message>
         <source>Available Codecs</source>
-        <translation>Dostępne kodeki</translation>
+        <translation>Dostępne kodeki </translation>
     </message>
     <message>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
@@ -133,7 +131,7 @@
     </message>
     <message>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>FFmpeg to wolne oprogramowanie na licencji LGPL lub GPL.</translation>
+        <translation>FFmpeg to wolne oprogramowanie na licencji LGPL lub GPL. </translation>
     </message>
     <message>
         <source>Please visit %1 for more information.</source>
@@ -144,15 +142,15 @@
     <name>AddTaskWizard</name>
     <message>
         <source>Add Tasks</source>
-        <translation>Dodaj zadania</translation>
+        <translation>Dodaj zadania </translation>
     </message>
     <message>
         <source>Files to be converted</source>
-        <translation>Pliki do konwersji</translation>
+        <translation>Pliki do konwersji </translation>
     </message>
     <message>
         <source>Add files.</source>
-        <translation>Dodaj pliki.</translation>
+        <translation>Dodaj pliki </translation>
     </message>
     <message>
         <source>Remove selected files.</source>
@@ -164,7 +162,7 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>Edytuj </translation>
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
@@ -176,50 +174,50 @@
     </message>
     <message>
         <source>Preset</source>
-        <translation>Ustawienia domyślne</translation>
+        <translation>Ustawienia domyślne  </translation>
     </message>
     <message>
         <source>Convert to</source>
-        <translation>Konwersja do</translation>
+        <translation>Konwersja do </translation>
     </message>
     <message>
         <source>Output Path</source>
-        <translation>Ścieżka zapisu konwersji</translation>
+        <translation>Ścieżka zapisu konwersji </translation>
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Wybierz &amp;folder</translation>
+        <translation>Wybierz &amp;folder </translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation>Przeglądaj</translation>
+        <translation>Przeglądaj </translation>
     </message>
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Utwórz  &amp;nowy folder w folderze źródłowym</translation>
+        <translation>Utwórz  &amp;nowy folder w folderze źródłowym </translation>
     </message>
     <message>
         <source>Folder Name</source>
-        <translation>Nazwa folderu</translation>
+        <translation>Nazwa folderu </translation>
     </message>
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Zapisz w &amp;folderze źródłowym</translation>
+        <translation>Zapisz w &amp;folderze źródłowym </translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
-        <translation>Proszę wybrać co najmniej jeden plik.</translation>
+        <translation>Proszę wybrać co najmniej jeden plik. </translation>
     </message>
     <message>
         <source>Select Files</source>
         <extracomment>This text is the title of an openfile dialog.</extracomment>
-        <translation>Wybierz pliki</translation>
+        <translation>Wybierz pliki </translation>
     </message>
     <message>
         <source>Multimedia</source>
-        <translation>Multimedia</translation>
+        <translation>Multimedia </translation>
     </message>
     <message>
         <source>Video</source>
@@ -227,11 +225,11 @@
     </message>
     <message>
         <source>Audio</source>
-        <translation>Audio</translation>
+        <translation>Audio </translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Wszystkie pliki</translation>
+        <translation>Wszystkie pliki </translation>
     </message>
     <message>
         <source>Select Directory</source>
@@ -271,19 +269,19 @@
     <name>ConversionParameterDialog</name>
     <message>
         <source>Conversion Parameters</source>
-        <translation>Parametry konwersji</translation>
+        <translation>Parametry konwersji </translation>
     </message>
     <message>
         <source>Audio</source>
-        <translation>Audio</translation>
+        <translation>Audio </translation>
     </message>
     <message>
         <source>Disable Audio</source>
-        <translation>Wyłącz audio</translation>
+        <translation>Wyłącz audio </translation>
     </message>
     <message>
         <source>Audio Options</source>
-        <translation>Opcje audio</translation>
+        <translation>Opcje audio </translation>
     </message>
     <message>
         <source>Sample Rate</source>
@@ -307,7 +305,7 @@
     </message>
     <message>
         <source>Channels</source>
-        <translation>Kanały</translation>
+        <translation>Kanały </translation>
     </message>
     <message>
         <source>Volume</source>
@@ -315,7 +313,7 @@
     </message>
     <message>
         <source>%</source>
-        <translation>%</translation>
+        <translation>% </translation>
     </message>
     <message>
         <source>Video</source>
@@ -323,31 +321,31 @@
     </message>
     <message>
         <source>Disable Video</source>
-        <translation>Wyłącz wideo</translation>
+        <translation>Wyłącz wideo </translation>
     </message>
     <message>
         <source>Video Options</source>
-        <translation>Opcje wideo</translation>
+        <translation>Opcje wideo </translation>
     </message>
     <message>
         <source>Same Quantizer as Source</source>
-        <translation>Przetwarzanie sygnału, podobnie jako źródło</translation>
+        <translation>Przetwarzanie sygnału, podobnie jako źródło </translation>
     </message>
     <message>
         <source>Deinterlace</source>
-        <translation>Przeplot</translation>
+        <translation>Przeplot </translation>
     </message>
     <message>
         <source>Width</source>
-        <translation>Szerokość</translation>
+        <translation>Szerokość </translation>
     </message>
     <message>
         <source> px</source>
-        <translation> Pikseli</translation>
+        <translation> Pikseli </translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Wysokość</translation>
+        <translation>Wysokość </translation>
     </message>
     <message>
         <source>Crop</source>
@@ -370,16 +368,16 @@
     </message>
     <message>
         <source>&amp;Preview</source>
-        <translation>&amp;Podgląd</translation>
+        <translation>&amp;Podgląd </translation>
     </message>
     <message>
         <source>Scaling</source>
         <extracomment>time scaling, changing the speed of the output file</extracomment>
-        <translation>Skalowanie</translation>
+        <translation>Skalowanie </translation>
     </message>
     <message>
         <source>Speed</source>
-        <translation>Prędkość</translation>
+        <translation>Prędkość </translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -387,11 +385,11 @@
     </message>
     <message>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation>FFmpeg </translation>
     </message>
     <message>
         <source>Additional FFmpeg Options</source>
-        <translation>Dodatkowe opcje FFmpeg</translation>
+        <translation>Dodatkowe opcje FFmpeg </translation>
     </message>
     <message>
         <source>Copy Audio (Do not re-encode)</source>
@@ -431,28 +429,28 @@
     <message>
         <source>Cancel</source>
         <extracomment>Cancel the operation of adding new tasks</extracomment>
-        <translation>Anuluj</translation>
+        <translation>Anuluj   </translation>
     </message>
     <message>
         <source>Adding files (%1/%2)</source>
         <extracomment>This text is the progress indicator of adding multiple tasks. %1 is the number of files that are already added. %2 is the total number of files.</extracomment>
-        <translation>Dodawanie plików (%1/%2)</translation>
+        <translation>Dodawanie plików (%1/%2) </translation>
     </message>
     <message>
         <source>Some files are not recognized by the converter.</source>
-        <translation>Niektóre pliki nie są rozpoznawane przez konwerter.</translation>
+        <translation>Niektóre pliki nie są rozpoznawane przez konwerter. </translation>
     </message>
     <message>
         <source>New File Name</source>
-        <translation>Nowa nazwa pliku</translation>
+        <translation>Nowa nazwa pliku </translation>
     </message>
     <message>
         <source>Please input the new name for the output file.</source>
-        <translation>Proszę wpisać nową nazwę, dla pliku wyjściowego.</translation>
+        <translation>Proszę wpisać nową nazwę, dla pliku wyjściowego. </translation>
     </message>
     <message>
         <source>Output Directory</source>
-        <translation>Katalog wyjściowy</translation>
+        <translation>Katalog wyjściowy </translation>
     </message>
     <message>
         <source>Error Message from FFmpeg:
@@ -464,11 +462,11 @@
     </message>
     <message>
         <source>Drag and drop files here to add tasks.</source>
-        <translation>Przeciągnij i upuść pliki tutaj, następnie ustaw parametry konwersji.</translation>
+        <translation>Przeciągnij i upuść pliki tutaj, następnie ustaw parametry konwersji. </translation>
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Ukryj &quot;%1&quot;</translation>
     </message>
     <message>
@@ -477,19 +475,19 @@
     </message>
     <message>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>Źródło </translation>
     </message>
     <message>
         <source>Destination</source>
-        <translation>Miejsce docelowe</translation>
+        <translation>Miejsce docelowe </translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Czas nagrania</translation>
+        <translation>Czas nagrania </translation>
     </message>
     <message>
         <source>File Size</source>
-        <translation>Wielkość pliku</translation>
+        <translation>Wielkość pliku </translation>
     </message>
     <message>
         <source>Sample Rate</source>
@@ -503,7 +501,7 @@
     <message>
         <source>Channels</source>
         <extracomment>Audio</extracomment>
-        <translation>Kanały</translation>
+        <translation>Kanały </translation>
     </message>
     <message>
         <source>Audio Codec</source>
@@ -515,12 +513,12 @@
     </message>
     <message>
         <source>Video Bitrate</source>
-        <translation>Wideo przepustowość</translation>
+        <translation>Wideo przepustowość </translation>
     </message>
     <message>
         <source>Framerate</source>
         <extracomment>Video</extracomment>
-        <translation>Częstotliwość wyświetlania klatek</translation>
+        <translation>Częstotliwość wyświetlania klatek </translation>
     </message>
     <message>
         <source>Video Codec</source>
@@ -532,24 +530,24 @@
     </message>
     <message>
         <source>%1 Hz</source>
-        <translation>%1 Hz</translation>
+        <translation>%1 Hz </translation>
     </message>
     <message>
         <source>%1 kb/s</source>
-        <translation>%1 kb/s</translation>
+        <translation>%1 kb/s </translation>
     </message>
     <message>
         <source>%1 fps</source>
-        <translation>%1 fps</translation>
+        <translation>%1 fps </translation>
     </message>
     <message>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
-        <translation>Usuwanie zadań...</translation>
+        <translation>Usuwanie zadań... </translation>
     </message>
     <message>
         <source>KiB</source>
-        <translation>KB</translation>
+        <translation>KB </translation>
     </message>
     <message>
         <source>MiB</source>
@@ -557,11 +555,11 @@
     </message>
     <message>
         <source>GiB</source>
-        <translation>GB</translation>
+        <translation>GB </translation>
     </message>
     <message>
         <source>TiB</source>
-        <translation>TB</translation>
+        <translation>TB </translation>
     </message>
     <message>
         <source>B</source>
@@ -570,7 +568,7 @@
     </message>
     <message>
         <source>File Exists</source>
-        <translation>Plik istnieje</translation>
+        <translation>Plik istnieje </translation>
     </message>
     <message>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
@@ -578,37 +576,37 @@
     </message>
     <message>
         <source>Remove Task</source>
-        <translation>Usuń zadanie</translation>
+        <translation>Usuń zadanie </translation>
     </message>
     <message>
         <source>Cannot remove a task while it is in progress.</source>
-        <translation>Nie można usunąć zadanie, gdy jest w toku.</translation>
+        <translation>Nie można usunąć zadanie, gdy jest w toku. </translation>
     </message>
     <message>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
-        <translation>Zakończono</translation>
+        <translation>Zakończono </translation>
     </message>
     <message>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
-        <translation>Nie udało się</translation>
+        <translation>Nie udało się </translation>
     </message>
     <message>
         <source>Error: %1</source>
         <extracomment>%1 is the error message</extracomment>
-        <translation>Błąd: %1</translation>
+        <translation>Błąd: %1 </translation>
     </message>
 </context>
 <context>
     <name>ExtraTranslations</name>
     <message>
         <source>Convert between media file formats</source>
-        <translation>Konwersja plików multimedialnych pomiędzy różnymi formatami</translation>
+        <translation>Konwersja plików multimedialnych pomiędzy różnymi formatami.</translation>
     </message>
     <message>
         <source>Media Converter</source>
-        <translation>Konwerter mediów</translation>
+        <translation>Konwerter mediów </translation>
     </message>
 </context>
 <context>
@@ -621,35 +619,35 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -705,11 +703,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Play Selection</source>
-        <translation>Odtwórz wybrany materiał</translation>
+        <translation>Odtwórz wybrany materiał </translation>
     </message>
     <message>
         <source>Mark as End</source>
-        <translation>Wskaż jako nowy koniec</translation>
+        <translation>Wskaż jako nowy koniec </translation>
     </message>
     <message>
         <source>Seek to End</source>
@@ -720,7 +718,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Rozpoczyna proces konwersji.</translation>
+        <translation>Rozpoczyna proces konwersji. </translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -728,27 +726,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Convert</source>
-        <translation>&amp;Konwersja</translation>
+        <translation>&amp;Konwersja </translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edytuj</translation>
+        <translation>&amp;Edytuj </translation>
     </message>
     <message>
         <source>&amp;Add Files</source>
-        <translation>&amp;Dodaj pliki</translation>
+        <translation>&amp;Dodaj pliki </translation>
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Dodaj pliki do konwersji.</translation>
+        <translation>Dodaj pliki do konwersji. </translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation>Ctrl+N </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>W&amp;yjście</translation>
+        <translation>W&amp;yjście </translation>
     </message>
     <message>
         <source>Exit the program.</source>
@@ -756,7 +754,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>S&amp;top</translation>
+        <translation>S&amp;top </translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
@@ -764,12 +762,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Ustawienia &amp;parametrów</translation>
+        <translation>Ustawienia &amp;parametrów  </translation>
     </message>
     <message>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
-        <translation>Ustawienia parametrów</translation>
+        <translation>Ustawienia parametrów </translation>
     </message>
     <message>
         <source>Edit conversion parameters of selected files.</source>
@@ -785,11 +783,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Open Output Folder</source>
-        <translation>&amp;Otwórz folder zapisu</translation>
+        <translation>&amp;Otwórz folder zapisu </translation>
     </message>
     <message>
         <source>Open output folder of the selected file.</source>
-        <translation>Otwórz folder zapisu, wybranego pliku.</translation>
+        <translation>Otwórz folder zapisu, wybranego pliku. </translation>
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
@@ -806,12 +804,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
-        <translation>Usuń wszystkie wybrane pozycje na liście.</translation>
+        <translation>Usuń wszystkie wybrane pozycje na liście. </translation>
     </message>
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>U&amp;suń wykonane</translation>
+        <translation>U&amp;suń wykonane </translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -819,11 +817,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all completed items in the list.</source>
-        <translation>Usuń wszystkie zaznaczone pozycje na liście.</translation>
+        <translation>Usuń wszystkie zaznaczone pozycje na liście. </translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation>Wyczyść listę</translation>
+        <translation>Wyczyść listę </translation>
     </message>
     <message>
         <source>Remove all items in the list.</source>
@@ -831,15 +829,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>&amp;Spróbuj ponownie</translation>
+        <translation>&amp;Spróbuj ponownie </translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Spróbuj ponownie</translation>
+        <translation>Spróbuj ponownie </translation>
     </message>
     <message>
         <source>Retry selected tasks.</source>
-        <translation>Ponów wybrane zadania.</translation>
+        <translation>Ponów wybrane zadania. </translation>
     </message>
     <message>
         <source>Retry &amp;All</source>
@@ -847,15 +845,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Ponów wszystkie zadania.</translation>
+        <translation>Ponów wszystkie zadania. </translation>
     </message>
     <message>
         <source>&amp;Options</source>
-        <translation>&amp;Opcje</translation>
+        <translation>&amp;Opcje </translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>Opcje </translation>
     </message>
     <message>
         <source>About This Program</source>
@@ -867,7 +865,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
-        <translation>Zmień nazwę pliku wyjściowego wybranego elementu.</translation>
+        <translation>Zmień nazwę pliku wyjściowego wybranego elementu. </translation>
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
@@ -879,7 +877,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Show Error &amp;Message</source>
-        <translation>Wyświetl informację o &amp;błędzie</translation>
+        <translation>Wyświetl informację o błędzie </translation>
     </message>
     <message>
         <source>Check For &amp;Updates</source>
@@ -892,20 +890,20 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>All tasks have finished.</source>
-        <translation>Wszystkie zadania zostały zakończone.</translation>
+        <translation>Wszystkie zadania zostały zakończone. </translation>
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Nic do konwersji.</translation>
+        <translation>Nic do konwersji. </translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Konwersja jest nadal w toku, przerwać?</translation>
+        <translation>Konwersja jest nadal w toku, przerwać? </translation>
     </message>
     <message>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer (completely poweroff)</extracomment>
-        <translation>Zamyka komputer</translation>
+        <translation>Zamyka komputer </translation>
     </message>
     <message>
         <source>Shutdown when all tasks are done.</source>
@@ -914,7 +912,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Zawiesza system</translation>
+        <translation>Zawiesza system.</translation>
     </message>
     <message>
         <source>Suspend when all tasks are done.</source>
@@ -923,15 +921,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Hibernuje system</translation>
+        <translation>Hibernuje system.</translation>
     </message>
     <message>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Hibernuje system,  gdy wszystkie zadania są wykonywane.</translation>
+        <translation>Hibernuje system,  gdy wszystkie zadania są wykonywane. </translation>
     </message>
     <message>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Ten program, będzie sprawdzać  dostępność aktualizacji po przez łączenie się z Internetem. Czy wyrażasz zgodę na to?</translation>
+        <translation>Ten program, będzie sprawdzać  dostępność aktualizacji po przez łączenie się z Internetem. Czy wyrażasz zgodę na to? </translation>
     </message>
     <message>
         <source>Failed to load preset file. The application will quit now.</source>
@@ -1011,7 +1009,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Zgłaszanie błędów z MystiQ </translation>
+        <translation>Zgłaszanie błędów z MystiQ</translation>
     </message>
     <message>
         <source>%1</source>
@@ -1052,7 +1050,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation> FFmpeg lub FFprobe %1 nie zostały znalezione w systemie. Proszę rozważyć ich instalację przed uruchomieniem MystiQ</translation>
+        <translation> FFmpeg lub FFprobe% 1 nie zostały znalezione w systemie. Proszę rozważyć ich instalację przed uruchomieniem MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1066,7 +1064,7 @@ p, li { white-space: pre-wrap; }
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>Opcje </translation>
     </message>
     <message>
         <source>General</source>
@@ -1078,19 +1076,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Automatycznie rozpoczyna konwersję, po dodaniu plików do listy.</translation>
+        <translation>Automatycznie rozpoczyna konwersję, po dodaniu plików do listy. </translation>
     </message>
     <message>
         <source>Start conversion automatically</source>
-        <translation>Automatycznie rozpoczyna konwersję</translation>
+        <translation>Automatycznie rozpoczyna konwersję   </translation>
     </message>
     <message>
         <source>FFmpeg</source>
-        <translation>FFmpeg</translation>
+        <translation>FFmpeg </translation>
     </message>
     <message>
         <source>Number of threads to use in conversion</source>
-        <translation>Liczba wątków do wykorzystania w konwersji</translation>
+        <translation>Liczba wątków do wykorzystania w konwersji </translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1098,15 +1096,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hide unavailable formats (requires restarting)</source>
-        <translation>Ukrywanie niedostępnych formatów (wymaga ponownego uruchomienia)</translation>
+        <translation>Ukrywanie niedostępnych formatów (wymaga ponownego uruchomienia) </translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Narzędzia</translation>
+        <translation>Narzędzia </translation>
     </message>
     <message>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation>Należy ponownie uruchomić MystiQ , aby zmiany odniosły skutek.</translation>
+        <translation>Należy ponownie uruchomić MystiQ , aby zmiany odniosły skutek. </translation>
     </message>
     <message>
         <source>Name</source>
@@ -1121,16 +1119,16 @@ p, li { white-space: pre-wrap; }
     <name>PoweroffDialog</name>
     <message>
         <source>MystiQ</source>
-        <translation>MystiQ</translation>
+        <translation>MystiQ </translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Anuluj  </translation>
     </message>
     <message>
         <source>Shutdown immediately</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Zamknij komputer,  natychmiast</translation>
+        <translation>Zamknij komputer,  natychmiast.</translation>
     </message>
     <message>
         <source>Suspend immediately</source>
@@ -1140,7 +1138,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate immediately</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Włącz hibernacje, natychmiast</translation>
+        <translation>Włącz hibernacje, natychmiast </translation>
     </message>
     <message>
         <source>Shutdown</source>
@@ -1155,11 +1153,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Hibernuje system</translation>
+        <translation>Hibernuje system </translation>
     </message>
     <message>
         <source>Operation Failed: %1</source>
-        <translation>Operacja nie powiodła się: %1</translation>
+        <translation>Operacja nie powiodła się: %1 </translation>
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
@@ -1178,7 +1176,7 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation>Odtwórz zaznaczony materiał</translation>
+        <translation>Odtwórz zaznaczony materiał </translation>
     </message>
     <message>
         <source>Begin</source>
@@ -1204,11 +1202,11 @@ p, li { white-space: pre-wrap; }
     <name>TimeRangeEdit</name>
     <message>
         <source>From Begin</source>
-        <translation>Od początku - bez opcji cięcia</translation>
+        <translation>Od początku - bez opcji cięcia   </translation>
     </message>
     <message>
         <source>To End</source>
-        <translation>Do końca - bez opcji cięcia</translation>
+        <translation>Do końca - bez opcji cięcia  </translation>
     </message>
 </context>
 <context>
