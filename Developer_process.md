@@ -1,44 +1,44 @@
-# Developer process & workflows
+# Developer Process & Workflow
 
-This document stablish the process and workflows as per github and gitflow good practices (in some cases simplified and relaxed), if in doubt please take a peek [here](https://medium.com/@devmrin/learn-complete-gitflow-workflow-basics-how-to-from-start-to-finish-8756ad5b7394) or [here](https://nvie.com/posts/a-successful-git-branching-model/)
+This document defines the process and workflow as per github and gitflow good practices (in some cases simplified and relaxed). If in doubt, please take a peek [here](https://medium.com/@devmrin/learn-complete-gitflow-workflow-basics-how-to-from-start-to-finish-8756ad5b7394) or [here](https://nvie.com/posts/a-successful-git-branching-model/).
 
-This practices must appear so "elite" or "cathedral style" at first, but believe me you will thanks me for teaching you this if you pretend to work for a bigger or professional soft company. At the end and with the time you will see how easy is to pin-point any info from the entangle of branches, issues, travis, etc.
+This practices must appear so "elite" or "cathedral style" at first, but they are intended to ensure quality and fluidity in our development process. At the end, and with the time, you'll see how this can help you out to pin-point any info from the entangle of branches, issues, Travis, etc.
 
-At first we will be easy with this but people, please catch the (git)flow ASAP.
+If you really want to collaborate with MystyQ's development, please catch our (git)flow ASAP.
 
-## Issues!
+## Issues
 
-Its all about issues, every change must have a reference issue in which the dev team can debate about, and branches that name the user and issue it's working on.
+It's all about issues. Every change must have a reference issue on which the dev team can debate about. Branches must be named after the the user name and the concrete issue he's working on.
 
-So if you need to do a change, fix something or add a new feature, please open an issue or feature for it. Once you have a issue number to work with, create a branch from latest `develop` in YOUR own fork and name it `user_t#_short_description_of_issue` see [here](https://github.com/stdevPavelmc/MystiQ/tree/stdevPavelmc_t8_travis_integration) where I created a branch named `stdevPavelmc_t8_travis_integration`
+So, if you need to do a change, fix something or add a new feature, then please open an issue or feature for it. Once you have an issue number to work with, go and create a branch from latest `develop` in **your own fork** and name it as `user_t#_short_description_of_issue`. For an example, take a look at [this branch](https://github.com/stdevPavelmc/MystiQ/tree/stdevPavelmc_t8_travis_integration).
 
 ## Commits
 
-All commits comments must start with `Refs #8, ....` where in this case the #8 refers to the issue you are working on, why? see it [here in action](https://github.com/llamaret/MystiQ/issues/8)
+Commit comments must start with `Refs #8, ....`. In this case the `#8` refers to the number of the issue you're working on. Why? see it [here in action](https://github.com/llamaret/MystiQ/issues/8).
 
-Hover the mouse over the name, number and comments of the commit `d4a19cd` github does a great job by linking all together, this is possible because we mentiones the issue in the branch name and also in the commit comment.
+If you go to the above link and hover the mouse over the name, number and comments of the commit `d4a19cd`, then you'll notice that GitHub does a great job by linking all together. This is possible because we mentioned the issue in the branch name and also in the commit comment.
 
-## Pull request
+## Pull Requests (PR)
 
-Pull request are intentions to merge some code into the main tree, you can open a pull request of your local work at any time, the only condition is that you have pushed at least a commit for an issue.
+Pull requests are intentions to merge some code or change into the main tree. You can open a PR with your proposals at any time, the only condition is that you have pushed at least a commit for an issue.
 
-In fact is a recommended practice, open an issue, analyze, make your first commit and open the pull request ride away; in this way changes will be picked by travis and CI/CD will fire to tell you if your changes are good o broke something.
+In fact, the recommended practice is to open an issue, work on it, make your first commit, and open the PR right away. This way, changes will be picked by Travis and CI/CD will fire to tell you if your changes are good o break something.
 
-**As a general rule a pulll request must end with a comment on which you mentions @llamaret and estate that the pull request is ready to merge**
+**As a general rule, a PR must include a comment on which you mention @llamaret and state that the PR is ready for review and to be merged if accepted.**
 
-The merge action by the repo owner (@llamaret) will automatically close the corresponding pull request and the issue just by adding a comment like this to the comment of the merge `Closing issue #8...` github will do the magic and will (if travis build is a success) close the PR and the matching issue, all in just one place.
+The merge action by the repo owner (@llamaret) will automatically close the pull request and the issue just by adding a comment like this to the comment of the merge `Closing issue #8...`. GitHub will do the magic and (if Travis build is a success) close the PR and the matching issue, all in just one step.
 
-## Travis
+## Travis CI
 
-This repo has travis-ci as CI/CD engine, see [https://travis-ci.org/llamaret/MystiQ](https://travis-ci.org/llamaret/MystiQ) to check the status and latest tests.
+This repo has Travis CI as CI/CD engine. Please, see [https://travis-ci.org/llamaret/MystiQ](https://travis-ci.org/llamaret/MystiQ) to check the status and latest tests.
 
-Travis is configured to use your email for notifications of success/fail on the build you triggers, in the near future we will implements github & travis notifications to the Telegram channel (pending Issue for this)
+Travis CI is configured to use your email for notifications of success/fail on the build you triggers. In the near future we will implements GitHub & Travis CI notifications to the Telegram channel (pending Issue for this).
 
 ## Deploys
 
-Automatic deploys to github are in the plan for tomorrow (aka ASAP) and will cover at least builds for the following distros:
+Automatic deploys to GitHub are in the plan for tomorrow (aka ASAP) and will cover at least builds for the following Operating Systems:
 
 - Ubuntu Bionic (works on Debian 9/10)
 - Windows
 
-In all cases we will try to use 32/64 bits if possible.
+In all cases, we'll try to build for 32/64 bits architectures if possible.
