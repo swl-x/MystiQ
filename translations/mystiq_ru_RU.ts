@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru_RU" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -46,7 +44,7 @@
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ графический интерфейс к FFmpeg.</translation>
+        <translation>MystiQ графический интерфейс к FFmpeg</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
@@ -87,11 +85,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите </translation>
+        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите.</translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation> присоединяйтесь к команде переводчиков.</translation>
+        <translation>присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -109,11 +107,11 @@
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Соавторы: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>Вдохновением для некоторых особенностей MystiQ видеоконвертера</translation>
     </message>
 </context>
 <context>
@@ -172,7 +170,7 @@
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла.</translation>
+        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла</translation>
     </message>
     <message>
         <source>Auto Adjust Audio Bitrate</source>
@@ -192,7 +190,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Выбор и &amp;папка</translation>
+        <translation>Выбор и папка</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -201,7 +199,7 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Создать &amp;новую папку в исходной папке</translation>
+        <translation>Создать &amp; новую папку в исходной папке</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -210,7 +208,7 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Вывод к &amp;исходная папка</translation>
+        <translation>Вывод к &amp; исходная папка</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
@@ -347,7 +345,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation> px</translation>
+        <translation>px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -431,15 +429,15 @@
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворот на 90 градусов по часовой стрелке</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Поверните на 90 градусов против часовой стрелки</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворот на 180 градусов</translation>
     </message>
 </context>
 <context>
@@ -475,7 +473,6 @@
 
 </source>
         <translation>Сообщение об ошибке от FFmpeg:
-
 </translation>
     </message>
     <message>
@@ -484,7 +481,7 @@
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Скрыть &quot; %1&quot;</translation>
     </message>
     <message>
@@ -637,35 +634,35 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot; font-family:&apos;Fira Sans&apos;; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Fira Sans'; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Fira Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Fira Sans&apos;; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Fira Sans'; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Fira Sans&apos;;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -738,7 +735,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Начать процесс конвертации.</translation>
+        <translation>Начать процесс конвертации</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -758,31 +755,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Добавить файлы и конвертировать.</translation>
+        <translation>Добавить файлы и конвертировать</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation>Ctrl+N </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>В&amp;ыход</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Выход из программы.</translation>
+        <translation>Выход из программы</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>О&amp;становить</translation>
+        <translation>Остановить</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Остановка процесса конвертации.</translation>
+        <translation>Остановка процесса конвертации</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Установки &amp;Параметры</translation>
+        <translation>Установки &amp; Параметры</translation>
     </message>
     <message>
         <source>Set Parameters</source>
@@ -829,7 +826,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>У&amp;даление завершено</translation>
+        <translation>Удаление завершено</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -914,7 +911,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Нет объектов для конвертирования.</translation>
+        <translation>Нет объектов для конвертирования</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
@@ -1021,7 +1018,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation>MystiQ нуждается в тебе</translation>
+        <translation>MystiQ нуждается в тебе.</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
@@ -1029,7 +1026,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Сообщения об ошибках в MystiQ </translation>
+        <translation>Сообщения об ошибках в MystiQ</translation>
     </message>
     <message>
         <source>%1</source>
@@ -1070,7 +1067,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation> FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
+        <translation>FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1181,7 +1178,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек</translation>
+        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек.</translation>
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
