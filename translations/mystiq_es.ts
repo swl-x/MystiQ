@@ -53,10 +53,6 @@
         <translation>Desarrolladores:&lt;br&gt; %1</translation>
     </message>
     <message>
-        <source>FFmpeg presets were taken from &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</source>
-        <translation>Las preconfiguraciones de FFmpeg han sido tomadas de &lt;b&gt;VideoMorph&lt;/b&gt;, &lt;b&gt;QWinff&lt;/b&gt;, &lt;b&gt;Curlew&lt;/b&gt;, &lt;b&gt;Ciano&lt;/b&gt; and &lt;b&gt;FF Multi Converter&lt;/b&gt;.</translation>
-    </message>
-    <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
         <translation>Sueco (Suecia)</translation>
@@ -110,6 +106,14 @@
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
         <translation>Ruso (Rusia)</translation>
+    </message>
+    <message>
+        <source>Collaborators:&lt;br&gt; %1</source>
+        <translation>Colaboradores:&lt;br&gt; %1</translation>
+    </message>
+    <message>
+        <source>Some features of MystiQ Video Converter have been inspired by</source>
+        <translation>Algunas características de MystiQ Video Converter se han inspirado en</translation>
     </message>
 </context>
 <context>
@@ -424,6 +428,18 @@
     <message>
         <source>Horizontal Flip</source>
         <translation>Volteo horizontal</translation>
+    </message>
+    <message>
+        <source>Rotate 90 degrees clockwise</source>
+        <translation>Girar 90 grados en sentido horario</translation>
+    </message>
+    <message>
+        <source>Rotate 90 degrees counterclockwise</source>
+        <translation>Girar 90 grados en sentido antihorario</translation>
+    </message>
+    <message>
+        <source>Rotate 180 degrees</source>
+        <translation>Girar 180 grados</translation>
     </message>
 </context>
 <context>

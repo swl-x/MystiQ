@@ -507,8 +507,8 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list.append("-deinterlace");
         }
 
-        // begining insert subtitle or disable color
-        if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip)
+        // begining insert subtitle or disable color or flip or rotate
+        if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip || o.rotate_90more || o.rotate_90less || o.rotate_180)
         {
             list.append("-vf");
         }
@@ -534,7 +534,7 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list.append("hue=s=0");
           }
         }
-        if (o.vertical_flip && !o.horizontal_flip)
+        if (o.vertical_flip && !o.horizontal_flip && !o.rotate_90more && !o.rotate_90less)
         {
           list.append("vflip");
         }
@@ -542,11 +542,31 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         {
           list.append("hflip");
         }
-        if (o.vertical_flip && o.horizontal_flip)
+        if (o.vertical_flip && o.horizontal_flip && !o.rotate_90more && o.rotate_90less)
         {
           list.append("vflip,hflip");
         }
-         // finishing insert subtitle or disable color
+        if (o.rotate_90more && !o.vertical_flip)
+        {
+          list.append("transpose=1");
+        }
+        if (o.rotate_90more && o.vertical_flip)
+        {
+          list.append("transpose=3");
+        }
+        if (o.rotate_90less && !o.vertical_flip )
+        {
+          list.append("transpose=2");
+        }
+        if (o.rotate_90less && o.vertical_flip )
+        {
+          list.append("transpose=0");
+        }
+        if (o.rotate_180)
+        {
+          list.append("transpose=2,transpose=2");
+        }
+         // finishing insert subtitle or disable color or flip or rotate
 
         // video bitrate
         if (o.video_bitrate > 0) {

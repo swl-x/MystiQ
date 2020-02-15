@@ -42,6 +42,9 @@ public:
     bool disable_color;
     bool vertical_flip;
     bool horizontal_flip;
+    bool rotate_90more;
+    bool rotate_90less;
+    bool rotate_180;
     bool copy_video;
     bool video_same_quality; ///< whether to keep all video quality (-sameq option in ffmpeg)
     bool video_deinterlace;
@@ -100,6 +103,9 @@ public:
           disable_color(false),
           vertical_flip(false),
           horizontal_flip(false),
+          rotate_90more(false),
+          rotate_90less(false),
+          rotate_180(false),
           copy_video(false),
           video_same_quality(false),
           video_deinterlace(false),

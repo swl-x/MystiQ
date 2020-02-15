@@ -207,33 +207,6 @@
             <string>Video Extra Options</string>
            </property>
            <layout class="QGridLayout" name="gridLayout_2">
-            <item row="0" column="0">
-             <widget class="QCheckBox" name="chkInsertSubtitle">
-              <property name="minimumSize">
-               <size>
-                <width>0</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Insert Subtitle if Available</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QCheckBox" name="chkDisableVideo">
-              <property name="text">
-               <string>Disable Video</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
-             <widget class="QCheckBox" name="chkCopyVideo">
-              <property name="text">
-               <string>Copy Video (Do not re-encode)</string>
-              </property>
-             </widget>
-            </item>
             <item row="1" column="0">
              <widget class="QCheckBox" name="chkNonColor">
               <property name="minimumSize">
@@ -253,6 +226,33 @@
               </property>
              </widget>
             </item>
+            <item row="0" column="2">
+             <widget class="QCheckBox" name="chkCopyVideo">
+              <property name="text">
+               <string>Copy Video (Do not re-encode)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QCheckBox" name="chkDisableVideo">
+              <property name="text">
+               <string>Disable Video</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="chkInsertSubtitle">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Insert Subtitle if Available</string>
+              </property>
+             </widget>
+            </item>
             <item row="1" column="1">
              <widget class="QCheckBox" name="chkVFlip">
               <property name="text">
@@ -264,6 +264,27 @@
              <widget class="QCheckBox" name="chkHFlip">
               <property name="text">
                <string>Horizontal Flip</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QCheckBox" name="chkR90_more">
+              <property name="text">
+               <string>Rotate 90 degrees clockwise</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QCheckBox" name="chkR90_less">
+              <property name="text">
+               <string>Rotate 90 degrees counterclockwise</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QCheckBox" name="chkR180">
+              <property name="text">
+               <string>Rotate 180 degrees</string>
               </property>
              </widget>
             </item>

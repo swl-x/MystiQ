@@ -10,13 +10,14 @@ to be two digits long
  - This changelog file
 
 
-## [20.02.15] - 2020-02-15
+## [20.02.18] - 2020-02-18
 ### Added
  - Added Chinese language Pack
  - Added Turkish language Pack
  - Added Presets for Youtube
  - Added Video Color to Black & White option
  - Added Horizontal & Vertical Flip options
+ - Added Rotate options
  - Added metainfo file (only GNU/Linux)
  
 ### Fixed

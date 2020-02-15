@@ -66,6 +66,9 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     connect(ui->chkNonColor, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkVFlip, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkHFlip, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkR90_more, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkR90_less, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkR180, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkCopyVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
 
     // Hide speed-changing options if sox is not available.
@@ -147,6 +150,9 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
     ui->chkNonColor->setChecked(param.disable_color);
     ui->chkVFlip->setChecked(param.vertical_flip);
     ui->chkHFlip->setChecked(param.horizontal_flip);
+    ui->chkR90_more->setChecked(param.rotate_90more);
+    ui->chkR90_less->setChecked(param.rotate_90less);
+    ui->chkR180->setChecked(param.rotate_180);
     ui->chkCopyVideo->setChecked(param.copy_video);
 
     ui->spinVideoBitrate->setValue(param.video_bitrate);
@@ -229,6 +235,9 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
     param.disable_color = ui->chkNonColor->isChecked();
     param.vertical_flip = ui->chkVFlip->isChecked();
     param.horizontal_flip = ui->chkHFlip->isChecked();
+    param.rotate_90more = ui->chkR90_more->isChecked();
+    param.rotate_90less = ui->chkR90_less->isChecked();
+    param.rotate_180 = ui->chkR180->isChecked();
     param.copy_video = ui->chkCopyVideo->isChecked();
     param.video_bitrate = ui->spinVideoBitrate->value();
     param.video_same_quality = ui->chkVideoSameQuality->isChecked();
@@ -286,17 +295,29 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     bool copy_video = ui->chkCopyVideo->isChecked();
     bool vertical_flip = ui->chkVFlip->isChecked();
     bool horizontal_flip = ui->chkHFlip->isChecked();
+    bool rotate_90more = ui->chkR90_more->isChecked();
+    bool rotate_90less = ui->chkR90_less->isChecked();
+    bool rotate_180 = ui->chkR180->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
     ui->chkInsertSubtitle->setEnabled(true); // always enabled
     ui->chkNonColor->setEnabled(true); //always enabled
     ui->chkVFlip->setEnabled(true); //always enabled
     ui->chkHFlip->setEnabled(true); //always enabled
+    ui->chkR90_more->setEnabled(true); //always enabled
+    ui->chkR90_less->setEnabled(true); //always enabled
+    ui->chkR180->setEnabled(true); //always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
-    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip);
-    ui->chkNonColor->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip);
-    ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
-    ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video);
+    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180);
+    ui->chkNonColor->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180);
+    ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_180);
+    ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_90more || rotate_90less || rotate_180);
+    ui->chkR90_more->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90less || rotate_180);
+    ui->chkR90_less->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90more || rotate_180);
+    ui->chkR180->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less);
+    ui->chkR90_more->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90less && !rotate_180);
+    ui->chkR90_less->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90more && !rotate_180);
+    ui->chkR180->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !rotate_90more && !rotate_90less && !horizontal_flip && !vertical_flip );
 
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
 }

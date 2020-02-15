@@ -20,7 +20,7 @@
 
   <!-- audio file extensions used in the file open dialog -->
   <AudioExtensions>
-     mp3 ogg wav wma  ac3 ra ape flac
+     mp3 ogg wav wma  ac3 ra ape flac opus
   </AudioExtensions>
 
   <!-- url pointing to the update info xml -->

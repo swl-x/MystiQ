@@ -6,7 +6,7 @@
 
 Summary:	Audio/Video converter
 Name:		mystiq
-Version:	20.02.15
+Version:	20.02.18
 Release:	1
 License:	GPLv3
 Group:		Video

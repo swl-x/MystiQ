@@ -239,7 +239,7 @@ void MainWindow::slotDonate()
         );
         d.exec();
         if (d.clickedButton() == ok_button) {
-            QDesktopServices::openUrl(QUrl("http://paypal.me/webmisolutions"));
+            QDesktopServices::openUrl(QUrl("https://liberapay.com/MystiQ/donate"));
         }
 }
 

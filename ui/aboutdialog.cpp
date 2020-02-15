@@ -69,7 +69,8 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("MystiQ is a GUI frontend for FFmpeg.")
          + "<br><br>"
          //: %1 is the name and email of the programmer
-         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com<br><b>Gabriel A. López López</b>: glpz@daxslab.com<br><b>Pavel Milanés Costa</b>: pavelmc@gmail.com<br><b>Carlos Cesar Caballero</b>: ccesar@daxslab.com<br><b>Luis Felipe Domínguez Vega</b>: ldominguezvega@gmail.com<br><b>Juan José Morejón Angulo </b>: bxt.jjma@gmail.com") + "<br><br>"
+         + tr("Developers:<br> %1").arg("<b>Maikel Llamaret Heredia</b>: llamaret@webmisolutions.com<br><b>Luis Felipe Domínguez Vega</b>: ldominguezvega@gmail.com<br><br>"
+         + tr("Collaborators:<br> %1").arg("<b>Gabriel A. López López</b>: glpz@daxslab.com<br><b>Pavel Milanés Costa</b>: pavelmc@gmail.com<br><b>Carlos Cesar Caballero</b>: ccesar@daxslab.com<br><b>Juan José Morejón Angulo </b>: bxt.jjma@gmail.com<br><b>Leodanis Pozo Ramos</b>: lpozor78@gmail.org") + "<br><br>")
          //: %1 is the name and email of the logo designer
          + tr("Application Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "
@@ -80,11 +81,12 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr(" and join a translation team.")+"<br><br>"
          + tr("Some audio-processing functionalities are provided by SoX.")
          + " (" + url("http://sox.sourceforge.net/") + ")<br><br>"
-         + tr("FFmpeg presets were taken from <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b> and <b>FF Multi Converter</b>.")+"<br>"
+         + tr("Some features of MystiQ Video Converter have been inspired by")+(" <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b>, <b>HandBrake</b> and <b>FF Multi Converter</b>.")+"<br>"
          + url("https://videomorph.webmisolutions.com") + "<br>"
          + url("http://qwinff.github.io") + "<br>"
          + url("http://sourceforge.net/projects/curlew") + "<br>"
          + url("https://robertsanseries.github.io/ciano") + "<br>"
+         + url("https://handbrake.fr") + "<br>"
          + url("https://sites.google.com/site/ffmulticonverter")
          + "<br>"
          );
