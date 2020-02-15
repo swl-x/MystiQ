@@ -81,7 +81,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr(" and join a translation team.")+"<br><br>"
          + tr("Some audio-processing functionalities are provided by SoX.")
          + " (" + url("http://sox.sourceforge.net/") + ")<br><br>"
-         + tr("Some features of MystiQ Video Converter have been inspired by")+(" <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b>, <b>HandBrake</b> and <b>FF Multi Converter</b>.")+"<br>"
+         + tr("Some features of MystiQ Video Converter have been inspired by")+(" <b>VideoMorph</b>, <b>QWinff</b>, <b>Curlew</b>, <b>Ciano</b>, <b>HandBrake</b>, <b>FF Multi Converter</b>.")+"<br>"
          + url("https://videomorph.webmisolutions.com") + "<br>"
          + url("http://qwinff.github.io") + "<br>"
          + url("http://sourceforge.net/projects/curlew") + "<br>"
