@@ -100,20 +100,20 @@
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ungerska (Ungern)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ryska (Ryssland)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Medarbetare:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissa funktioner i MystiQ Video Converter har inspirerats av</translation>
     </message>
 </context>
 <context>
@@ -433,15 +433,15 @@
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotera 90 grader medurs</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotera 90 grader moturs</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotera 180 grader</translation>
     </message>
 </context>
 <context>
