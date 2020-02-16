@@ -15,12 +15,12 @@
   <VideoExtensions>
      avi vfw divx mpg mpeg m1v m2v mpv dv 3gp mov mp4 m4v mqv dat vcd ogg ogm
      ogv asf wmv bin iso vob mkv nsv ram flv rm swf ts rmvb dvr-ms m2t m2ts rec
-     mts webm
+     mts webm dv
   </VideoExtensions>
 
   <!-- audio file extensions used in the file open dialog -->
   <AudioExtensions>
-     mp3 ogg wav wma  ac3 ra ape flac opus
+     mp3 m4a 3g2 ogg wav wma  ac3 ra ape flac opus
   </AudioExtensions>
 
   <!-- url pointing to the update info xml -->
