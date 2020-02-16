@@ -154,7 +154,7 @@ QString AboutDialog::getTranslators()
                     , "Varga Gábor")},
         //: Russian Language (Russia)
         {"hu_HU", trad(tr("Russian (Russia)")
-                    , "Виктор Ерухин, Александр, Андрей Селезнев, Жердагдемедийна Гуравча, Просто Человек")},
+                    , "Алексей Суднев, Виктор Ерухин, Александр, Андрей Селезнев, Жердагдемедийна Гуравча, Просто Человек")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 
