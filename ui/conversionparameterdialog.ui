@@ -224,6 +224,10 @@
               <property name="text">
                <string>Video to Black and White</string>
               </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/black-white.svg</normaloff>:/actions/icons/black-white.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="0" column="2">
@@ -258,6 +262,10 @@
               <property name="text">
                <string>Vertical Flip</string>
               </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/vertical-flip.svg</normaloff>:/actions/icons/vertical-flip.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="1" column="2">
@@ -265,12 +273,26 @@
               <property name="text">
                <string>Horizontal Flip</string>
               </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/horizontal-flip.svg</normaloff>:/actions/icons/horizontal-flip.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="2" column="0">
              <widget class="QCheckBox" name="chkR90_more">
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
               <property name="text">
                <string>Rotate 90 degrees clockwise</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/rotate-90-clock.svg</normaloff>:/actions/icons/rotate-90-clock.svg</iconset>
+              </property>
+              <property name="tristate">
+               <bool>false</bool>
               </property>
              </widget>
             </item>
@@ -279,12 +301,20 @@
               <property name="text">
                <string>Rotate 90 degrees counterclockwise</string>
               </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/rotate-90-anticlock.svg</normaloff>:/actions/icons/rotate-90-anticlock.svg</iconset>
+              </property>
              </widget>
             </item>
             <item row="2" column="2">
              <widget class="QCheckBox" name="chkR180">
               <property name="text">
                <string>Rotate 180 degrees</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../images.qrc">
+                <normaloff>:/actions/icons/rotate-180.svg</normaloff>:/actions/icons/rotate-180.svg</iconset>
               </property>
              </widget>
             </item>
