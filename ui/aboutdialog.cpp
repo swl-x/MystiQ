@@ -25,7 +25,7 @@
  #include "services/notificationservice-libnotify.h"
 #endif
 
-#define PROJECT_HOMEPAGE "https://mystiq.swlx.info/"
+#define PROJECT_HOMEPAGE "https://mystiqapp.com/"
 
 namespace {
 QString url(QString lnk)

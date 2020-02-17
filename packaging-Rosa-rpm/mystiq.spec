@@ -10,7 +10,7 @@ Version:	20.02.18
 Release:	1
 License:	GPLv3
 Group:		Video
-Url:		https://mystiq.swlx.info/
+Url:		https://mystiqapp.com/
 Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}.tar.gz
 Patch0:		rosa-data.patch
 BuildRequires:	qt5-devel

@@ -24,7 +24,7 @@
   </AudioExtensions>
 
   <!-- url pointing to the update info xml -->
-  <UpdateInfoUrl>https://mystiq.swlx.info/latest.xml</UpdateInfoUrl>
+  <UpdateInfoUrl>https://mystiqapp.com/latest.xml</UpdateInfoUrl>
 
   <!-- Whether to check for updates on program startup by default.
        This value will be overridden by user settings. -->

@@ -260,7 +260,7 @@ void MainWindow::slotReport()
 #endif
     QStringList stringList;
     stringList << "mailto:";
-    stringList << "llamaret@webmisolutions.com";
+    stringList << "info@mystiqapp.com";
     stringList << "?";
     stringList << "subject=";
     stringList << QString( tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING) );

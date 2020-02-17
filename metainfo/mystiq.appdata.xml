@@ -90,7 +90,7 @@
           MystiQ is a GUI for FFmpeg, a powerful media converter. FFmpeg can read audio and video files in various formats and convert them into other formats. MystiQ features an intuitive graphical interface and a rich set of presets to help you convert media files within a few clicks. Advanced users can also adjust conversion parameters in detail.
       </p>
   </description>
-  <url type="homepage">https://mystiq.swlx.info/</url>
+  <url type="homepage">https://mystiqapp.com/</url>
   <url type="bugtracker">https://github.com/llamaret/mystiq/issues</url>
   <categories>
       <category>AudioVideo</category>
@@ -106,6 +106,6 @@
   <developer_name>Maikel Llamaret Heredia</developer_name>
   <update_contact>Maikel Llamaret Heredia -- llamaret@webmisolutions.com</update_contact>
   <screenshots>
-    <screenshot type="default">https://mystiq.swlx.info/mystiq.png</screenshot>
+    <screenshot type="default">https://mystiqapp.com/mystiq.png</screenshot>
   </screenshots>
 </component>
