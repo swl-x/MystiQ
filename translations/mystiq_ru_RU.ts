@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru_RU" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -483,7 +481,7 @@
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Скрыть &quot; %1&quot;</translation>
     </message>
     <message>
@@ -636,8 +634,8 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -675,15 +673,20 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Audio:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding sound.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Copy audio (do not recode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the audio from the source file. The resulting file will have the same sound parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It's the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the passage way a signal or data is transported. In case of audio files, it's the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Volume: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Insert Subtitle if Available: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;By checking this option, the application will verify if a subtitle file of the same name is found in the same location of the source file, if found, it will embed it in the resulting file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Руководство пользователя MystiQ &lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter-это кроссплатформенное приложение. Это приложение имеет в качестве своей единственной цели преобразование аудио и видео файлов в другие форматы. Отличительной особенностью MystiQ является проект с открытым исходным кодом, что означает, что исходный код всегда будет доступен, и каждый, кто хочет внести свой вклад в разработку, может быть приглашен.</translation>
     </message>
 </context>
 <context>
@@ -742,7 +745,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N&#xa0;</translation>
+        <translation>Ctrl+N </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
