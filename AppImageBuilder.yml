@@ -5,7 +5,7 @@ AppDir:
 
   app_info:
     id: info.swlx.mystiq
-    name:   
+    name: MystiQ
     icon: mystiq
     version: !ENV ${VERSION}
     exec: usr/bin/mystiq

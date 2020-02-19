@@ -32,7 +32,7 @@ script:
  - make -j$(nproc)
  - INSTALL_ROOT=${PWD}/AppDir make install
  - cp icons/mystiq.svg AppDir/usr/share/icons
- - export VERSION="$(git describe 2> /dev/null)"
+ - export VERSION="$TRAVIS_BRANCH"
  - appimage-builder --skip-test
 
 # notifications (only via telegram)
