@@ -32,7 +32,8 @@ script:
  - make -j$(nproc)
  - INSTALL_ROOT=${PWD}/AppDir make install
  - cp icons/mystiq.svg AppDir/usr/share/icons
- 
+ - export VERSION="$(git describe 2> /dev/null)"
+ - appimage-builder --skip-test
 
 # notifications (only via telegram)
 notifications:
@@ -41,11 +42,6 @@ notifications:
 
 # make the AppImage bundle
 after_success:
-
-  
-  - export VERSION="$(git describe 2> /dev/null)"
-  - appimage-builder --skipt-test
-
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
