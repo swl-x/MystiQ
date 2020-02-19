@@ -5,29 +5,35 @@ compiler: gcc
 # main build matrix
 matrix:
   include:
-    - name: "Xenial Ubuntu Linux"
+    - name: "Bionic Ubuntu Linux"
       os: linux
-      dist: xenial
+      dist: bionic
       sudo: required
-      env: TARGETOS=xenial-linux
 
-# install, install QT5.12.3 from ppa
+
 install:
-  - sudo add-apt-repository -y ppa:beineri/opt-qt-5.12.3-xenial 
-  - sudo apt update --assume-yes --force-yes
-  - sudo apt install build-essential g++ make ffmpeg sox libnotify-dev mesa-common-dev libpulse-dev libpulse-mainloop-glib0 desktop-file-utils --assume-yes --force-yes
-  - sudo apt install qt-latest tree --assume-yes --force-yes
-  - echo "/opt/qt512/bin" | sudo tee /etc/xdg/qtchooser/default.conf
-  - echo "/opt/qt512/lib" | sudo tee -a /etc/xdg/qtchooser/default.conf
-  - qtchooser -print-env
-  - qmake -v
-  - sudo apt install qtdeclarative5-dev qtmultimedia5-dev --assume-yes --force-yes
+  - curl https://origin.archive.neon.kde.org/public.key | sudo apt-key add -
+  - echo "deb http://archive.neon.kde.org/user bionic main" | sudo tee -a /etc/apt/sources.list.d/neon.list
+  - sudo apt update -y
+  - sudo apt install -y build-essential g++ qt5-default libqt5opengl5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
 
+  # Install appimage-builder toolchain
+  - sudo apt install -y build-essential python3 python3-setuptools python3-pip patchelf gnupg2 file desktop-file-utils fakeroot
+  - sudo pip3 install git+https://github.com/AppImageCrafters/appimage-builder.git
+  
+  # Install appimagetool
+  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /tmp/appimagetool
+  - chmod +x /tmp/appimagetool
+  - sudo mv /tmp/appimagetool /usr/bin
+  
 # build & test scripts
 script:
-  - qmake mystiq.pro
-  - make
-  - sudo make install
+ - qmake CONFIG+=release PREFIX=/usr ./mystiq.pro
+ - make -j$(nproc)
+ - INSTALL_ROOT=${PWD}/AppDir make install
+ - cp icons/mystiq.svg AppDir/usr/share/icons
+ - export VERSION="$TRAVIS_BRANCH-$(git describe --tags --exact-match HEAD 2> /dev/null)-$TRAVIS_BUILD_NUMBER"
+ - appimage-builder --skip-test
 
 # notifications (only via telegram)
 notifications:
@@ -35,38 +41,16 @@ notifications:
   #webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
 # make the AppImage bundle
-before_deploy:
-    # install AppImage toolchain
-  - wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
-  - wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
-  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
-  - chmod +x *.AppImage
-  - chmod +x comple*.sh
-  # build the AppDir
-  - make install INSTALL_ROOT=AppDir
-  # add extra tools
-  - ./complete_appdir.sh
-  # run the linuxdeploy script
-  - ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin qt --output appimage
+after_success:
   # listing the result
   - ls -lh *.AppImage
   # get the tag version
-  - export VERSION="$(git describe --tags --exact-match HEAD 2> /dev/null)"
-  # set the version on the filename
-  - mv MystiQ*AppImage MystiQ_$VERSION.AppImage
 
-# deploy to Github
-deploy:
-  # deploy on linux
-  - provider: releases
-    api_key: $OAUTHTOKEN
-    file_glob: true
-    draft: true
-    overwrite: true
-    skip_cleanup: true
-    on:
-      repo: llamaret/MystiQ
-      tags: true
-    file: 
-      - ./MystiQ*.AppImage
+  - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
+  - export GITHUB_TOKEN="$OAUTHTOKEN"
+  - bash upload.sh MystiQ*.AppImage*
 
+branches:
+  except:
+    - # Do not build tags that we create when we upload to GitHub Releases
+    - /^(?i:continuous.*)$/

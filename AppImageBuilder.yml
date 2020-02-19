@@ -1,37 +1,50 @@
 version: 1
 
 AppDir:
-  path: ./AppDir
+  path: AppDir
 
   app_info:
     id: info.swlx.mystiq
-    name: mystiq
+    name: MystiQ
     icon: mystiq
-    version: 20.02.15
+    version: !ENV ${VERSION}
     exec: usr/bin/mystiq
 
   apt:
     arch: amd64
     sources:
-      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan main restricted universe multiverse'
+      - sourceline: 'deb [arch=amd64] http://archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse'
         key_url: 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3b4fe6acc0b21f32'
-      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan-updates main restricted universe multiverse'
-      - sourceline: 'deb [arch=amd64] http://mx.archive.ubuntu.com/ubuntu/ eoan-backports main restricted universe multiverse'
+      - sourceline: 'deb [arch=amd64] http://archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse'
+      - sourceline: 'deb [arch=amd64] http://archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse'
+      - sourceline: 'deb http://archive.neon.kde.org/user bionic main'
+        key_url: 'http://archive.neon.kde.org/public.key'
+      
 
     include:
+      - sox
       - ffmpeg
+      - libqt5qml5
+      - libqt5svg5
+      - libqt5opengl5
       - libqt5quickwidgets5
       - qml-module-qtquick2
+      - qml-module-qtquick-dialogs
       - qml-module-qtmultimedia
       - libqt5multimedia5-plugins
+      - gstreamer1.0-libav
+      - gstreamer1.0-plugins-base
+      - gstreamer1.0-plugins-good
 
   files:
     exclude:
+      - usr/lib/x86_64-linux-gnu/gconv
       - usr/share/man
       - usr/share/doc/*/README.*
       - usr/share/doc/*/changelog.*
       - usr/share/doc/*/NEWS.*
       - usr/share/doc/*/TODO.*
+      - usr/include
   
   runtime:
     env:
