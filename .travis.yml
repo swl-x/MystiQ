@@ -32,7 +32,7 @@ script:
  - make -j$(nproc)
  - INSTALL_ROOT=${PWD}/AppDir make install
  - cp icons/mystiq.svg AppDir/usr/share/icons
- - export VERSION="$TRAVIS_BRANCH"
+ - export VERSION="$TRAVIS_BRANCH-$(git describe --tags --exact-match HEAD 2> /dev/null)-$TRAVIS_BUILD_NUMBER"
  - appimage-builder --skip-test
 
 # notifications (only via telegram)
@@ -47,4 +47,10 @@ after_success:
   # get the tag version
 
   - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
+  - export GITHUB_TOKEN="$OAUTHTOKEN"
   - bash upload.sh MystiQ*.AppImage*
+
+branches:
+  except:
+    - # Do not build tags that we create when we upload to GitHub Releases
+    - /^(?i:continuous.*)$/
