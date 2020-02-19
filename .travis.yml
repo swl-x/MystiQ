@@ -14,9 +14,18 @@ matrix:
 install:
   - curl https://origin.archive.neon.kde.org/public.key | sudo apt-key add -
   - echo "deb http://archive.neon.kde.org/user bionic main" | sudo tee -a /etc/apt/sources.list.d/neon.list
-  - sudo apt update --assume-yes --force-yes
-  - sudo apt install --assume-yes --force-yes build-essential g++ qt5-default libqt5opengl5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
+  - sudo apt update -y
+  - sudo apt install -y build-essential g++ qt5-default libqt5opengl5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
 
+  # Install appimage-builder toolchain
+  - sudo apt install -y build-essential python3 python3-setuptools python3-pip patchelf gnupg2 file desktop-file-utils
+  - sudo pip3 install git+https://github.com/AppImageCrafters/appimage-builder.git
+  
+  # Install appimagetool
+  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /tmp/appimagetool
+  - chmod +x /tmp/appimagetool
+  - sudo mv /tmp/appimagetool /usr/bin
+  
 # build & test scripts
 script:
  - qmake CONFIG+=release PREFIX=/usr ./mystiq.pro
@@ -32,14 +41,7 @@ notifications:
 
 # make the AppImage bundle
 after_success:
-  # Install appimage-builder toolchain
-  - sudo apt install --assume-yes --force-yes build-essential python3 python3-setuptools python3-pip patchelf gnupg2 libglib2 file desktop-file-utils
-  - sudo pip3 install git+https://github.com/AppImageCrafters/appimage-builder.git
-  
-  # Install appimagetool
-  - wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /tmp/appimagetool
-  - chmod +x /tmp/appimagetool
-  - sudo mv /tmp/appimagetool /usr/bin
+
   
   - export VERSION="$(git describe 2> /dev/null)"
   - appimage-builder --skipt-test
