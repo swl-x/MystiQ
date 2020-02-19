@@ -12,8 +12,8 @@ matrix:
 
 
 install:
-  - sudo echo "deb http://archive.neon.kde.org/user bionic main" > /etc/apt/sources.list.d/neon.list
-  - wget https://origin.archive.neon.kde.org/public.key -O - | sudo apt-key add -
+  - curl https://origin.archive.neon.kde.org/public.key | sudo apt-key add -
+  - echo "deb http://archive.neon.kde.org/user bionic main" | sudo tee -a /etc/apt/sources.list.d/neon.list
   - sudo apt update --assume-yes --force-yes
   - sudo apt install --assume-yes --force-yes build-essential g++ qt5-default libqt5opengl5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
 
