@@ -5,7 +5,7 @@
     <name>AboutDialog</name>
     <message>
         <source>About MystiQ</source>
-        <translation>О MystiQ</translation>
+        <translation>о программе MystiQ</translation>
     </message>
     <message>
         <source>Information</source>
@@ -13,27 +13,27 @@
     </message>
     <message>
         <source>Translators</source>
-        <translation>Переводчики</translation>
+        <translation>Перевод</translation>
     </message>
     <message>
         <source>Portable</source>
-        <translation>Переносная</translation>
+        <translation>Портативная</translation>
     </message>
     <message>
         <source>Compiled with Qt %1</source>
-        <translation>Скомпилированно с помощью Qt %1</translation>
+        <translation>Скомпилирован с Qt %1</translation>
     </message>
     <message>
         <source>Compiled with libnotify %1</source>
-        <translation>Скомпилированно с libnotify %1</translation>
+        <translation>Компиляция осуществляется с помощью libnotify %1</translation>
     </message>
     <message>
         <source>MystiQ Homepage: %1</source>
-        <translation>Домашняя страница MystiQ: %1</translation>
+        <translation>Страница проекта MystiQ: %1</translation>
     </message>
     <message>
         <source>Some audio-processing functionalities are provided by SoX.</source>
-        <translation>Некоторые функции обработки аудио предоставлены SoX.</translation>
+        <translation>Некоторые из функций обработки звука, предоставляются компанией SoX.</translation>
     </message>
     <message>
         <source>Spanish (Spain)</source>
@@ -46,7 +46,7 @@
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ - это графический интерфейс для FFmpeg.</translation>
+        <translation>MystiQ графический интерфейс к FFmpeg</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
@@ -55,65 +55,65 @@
     <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Шведский (Швеция)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Японский (Япония)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Немецкий (Германия)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Итальянский (Италия)</translation>
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Наименование приложения: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта программа является свободным программным обеспечением; вы можете распространять и/или изменять ее в соответствии с условиями GNU General Public License version 3.</translation>
     </message>
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Турецкий (Турция)</translation>
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation type="unfinished"></translation>
+        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите.</translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменения</translation>
     </message>
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Венгерский (Венгрия)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Русский (Россия)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Соавторы: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>Вдохновением для некоторых особенностей MystiQ видеоконвертера</translation>
     </message>
 </context>
 <context>
@@ -128,31 +128,31 @@
     </message>
     <message>
         <source>Available Codecs</source>
-        <translation>Доступные кодеки</translation>
+        <translation>Доступные Кодеки</translation>
     </message>
     <message>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translation>FFmpeg — полноценное кроссплатформенное решение для записи, конвертации и вещания аудио и видео. Оно включает libavcodec — ведущую библиотеку кодеков для аудио и видео.</translation>
+        <translation>FFmpeg-это комплексное кроссплатформенное решение для записи, преобразования и потоковой передачи аудио и видео. Он включает в себя libavcodec-ведущую библиотеку аудио / видео кодеков.</translation>
     </message>
     <message>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>FFmpeg — свободное программное обеспечение, лицензированное под LGPL или GPL.</translation>
+        <translation>Ffmpeg является свободным программным обеспечением под лицензией LGPL или GPL.</translation>
     </message>
     <message>
         <source>Please visit %1 for more information.</source>
-        <translation>Посетите %1, чтобы получить дополнительную информацию.</translation>
+        <translation>Пожалуйста, посетите %1 для получения дополнительной информации.</translation>
     </message>
 </context>
 <context>
     <name>AddTaskWizard</name>
     <message>
         <source>Add Tasks</source>
-        <translation>Добавить задания</translation>
+        <translation>Добавить задачу</translation>
     </message>
     <message>
         <source>Files to be converted</source>
-        <translation>Файлы для преобразования</translation>
+        <translation>Файлы для изменения</translation>
     </message>
     <message>
         <source>Add files.</source>
@@ -164,23 +164,23 @@
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Настройки вывода</translation>
+        <translation>Настройки вывода результата</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Правка</translation>
+        <translation>Редактирование</translation>
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Автоматически подстроить битрейт для уменьшения размера итогового файла.</translation>
+        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла</translation>
     </message>
     <message>
         <source>Auto Adjust Audio Bitrate</source>
-        <translation>Автоматически подстроить битрейт звука</translation>
+        <translation>Автоматическая настройка аудио битрейта</translation>
     </message>
     <message>
         <source>Preset</source>
-        <translation>Предустановки</translation>
+        <translation>Предустановка</translation>
     </message>
     <message>
         <source>Convert to</source>
@@ -192,16 +192,16 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Выберите &amp;папку</translation>
+        <translation>Выбор и папка</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation>Обзор</translation>
+        <translation>Браузер</translation>
     </message>
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Создать &amp;новую папку в исходной</translation>
+        <translation>Создать &amp; новую папку в исходной папке</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -210,11 +210,11 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Выводить в &amp;исходную папку</translation>
+        <translation>Вывод к &amp; исходная папка</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
-        <translation>Нужно выбрать хотя бы один файл.</translation>
+        <translation>Пожалуйста, выберите хотя бы один файл.</translation>
     </message>
     <message>
         <source>Select Files</source>
@@ -244,11 +244,11 @@
     </message>
     <message>
         <source>Searching for files...</source>
-        <translation type="unfinished">Поиск файлов...</translation>
+        <translation>Поиск файлов...</translation>
     </message>
     <message>
         <source>Some files could not be found.</source>
-        <translation>Некоторые файлы не найдены.</translation>
+        <translation>Некоторые файлы не удалось найти.</translation>
     </message>
     <message>
         <source>Folder does not exist. Create a new folder?</source>
@@ -256,19 +256,19 @@
     </message>
     <message>
         <source>Failed to create folder. Please select another output folder.</source>
-        <translation>Не удалось создать папку. Укажите другую папку.</translation>
+        <translation>Не удалось создать папку. Пожалуйста, выберите другую папку вывода.</translation>
     </message>
     <message>
         <source>Add Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить файлы</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить выбранные</translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation type="unfinished">Очистить список</translation>
+        <translation>Очистить список</translation>
     </message>
 </context>
 <context>
@@ -283,11 +283,11 @@
     </message>
     <message>
         <source>Disable Audio</source>
-        <translation>Отключить аудио</translation>
+        <translation>Отключить Аудио</translation>
     </message>
     <message>
         <source>Audio Options</source>
-        <translation>Настройки аудио</translation>
+        <translation>Настройки Аудио</translation>
     </message>
     <message>
         <source>Sample Rate</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>kb/s</source>
-        <translation>Кб/с</translation>
+        <translation>кб/с</translation>
     </message>
     <message>
         <source>Channels</source>
@@ -315,7 +315,7 @@
     </message>
     <message>
         <source>Volume</source>
-        <translation>Громкость</translation>
+        <translation>Объем</translation>
     </message>
     <message>
         <source>%</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Same Quantizer as Source</source>
-        <translation>Такой же квантователь, как у исходного</translation>
+        <translation>Тот же Квантователь, что и источник</translation>
     </message>
     <message>
         <source>Deinterlace</source>
@@ -355,7 +355,7 @@
     </message>
     <message>
         <source>Crop</source>
-        <translation type="unfinished">Кадрирование</translation>
+        <translation>Кадрировать</translation>
     </message>
     <message>
         <source>Time</source>
@@ -365,16 +365,16 @@
     <message>
         <source>Cutting</source>
         <extracomment>video time cutting: options for begin time and end time</extracomment>
-        <translation>Обрезка</translation>
+        <translation>Разрезание</translation>
     </message>
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translation type="unfinished">Вырезать</translation>
+        <translation>Резать</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
-        <translation>&amp;Предпросмотр</translation>
+        <translation>&amp;Предварительный просмотр</translation>
     </message>
     <message>
         <source>Scaling</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Дополнительно</translation>
+        <translation>Дополнительный</translation>
     </message>
     <message>
         <source>FFmpeg</source>
@@ -395,51 +395,51 @@
     </message>
     <message>
         <source>Additional FFmpeg Options</source>
-        <translation>Дополнительные настройки FFmpeg</translation>
+        <translation>Дополнительные опции FFmpeg</translation>
     </message>
     <message>
         <source>Copy Audio (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy Video (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать аудио (не перекодировать)</translation>
     </message>
     <message>
         <source>Insert Subtitle if Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставить субтитры, если они имеются</translation>
+    </message>
+    <message>
+        <source>Copy Video (Do not re-encode)</source>
+        <translation>Копировать видео (не перекодировать)</translation>
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/qml/main.qml</translation>
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Дополнительные опции Видео</translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Видео в черно-белом режиме</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикальный переворот</translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Горизонтальный переворот</translation>
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворот на 90 градусов по часовой стрелке</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Поверните на 90 градусов против часовой стрелки</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворот на 180 градусов</translation>
     </message>
 </context>
 <context>
@@ -456,7 +456,7 @@
     </message>
     <message>
         <source>Some files are not recognized by the converter.</source>
-        <translation>Некоторые файлы не опознаны конвертером.</translation>
+        <translation>Некоторые файлы не распознаются конвертером.</translation>
     </message>
     <message>
         <source>New File Name</source>
@@ -464,28 +464,27 @@
     </message>
     <message>
         <source>Please input the new name for the output file.</source>
-        <translation>Требуется указать новое имя итогового файла.</translation>
+        <translation>Пожалуйста, введите новое имя для итогового файла.</translation>
     </message>
     <message>
         <source>Output Directory</source>
-        <translation>Папка вывода</translation>
+        <translation>Папка для сохранения</translation>
     </message>
     <message>
         <source>Error Message from FFmpeg:
 
 </source>
         <translation>Сообщение об ошибке от FFmpeg:
-
 </translation>
     </message>
     <message>
         <source>Drag and drop files here to add tasks.</source>
-        <translation>Перетащите сюда файлы, чтобы добавить задания.</translation>
+        <translation>Перетащите файлы сюда, чтобы добавить задачи.</translation>
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
         <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
-        <translation>Скрыть &quot;%1&quot;</translation>
+        <translation>Скрыть &quot; %1&quot;</translation>
     </message>
     <message>
         <source>Restore All Columns</source>
@@ -497,11 +496,11 @@
     </message>
     <message>
         <source>Destination</source>
-        <translation>Назначение</translation>
+        <translation>Место назначения</translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Длительность</translation>
+        <translation>Продолжительность</translation>
     </message>
     <message>
         <source>File Size</source>
@@ -514,7 +513,7 @@
     </message>
     <message>
         <source>Audio Bitrate</source>
-        <translation>Битрейт аудио</translation>
+        <translation>Аудио битрейт</translation>
     </message>
     <message>
         <source>Channels</source>
@@ -523,15 +522,15 @@
     </message>
     <message>
         <source>Audio Codec</source>
-        <translation>Кодек аудио</translation>
+        <translation>Аудио кодек</translation>
     </message>
     <message>
         <source>Dimensions</source>
-        <translation>Измерения</translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <source>Video Bitrate</source>
-        <translation>Битрейт видео</translation>
+        <translation>Видео битрейт</translation>
     </message>
     <message>
         <source>Framerate</source>
@@ -540,11 +539,11 @@
     </message>
     <message>
         <source>Video Codec</source>
-        <translation>Кодек видео</translation>
+        <translation>Видео кодек</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Прогресс</translation>
+        <translation>Процесс</translation>
     </message>
     <message>
         <source>%1 Hz</source>
@@ -552,37 +551,37 @@
     </message>
     <message>
         <source>%1 kb/s</source>
-        <translation>%1 Кб/с</translation>
+        <translation>%1 кб/с</translation>
     </message>
     <message>
         <source>%1 fps</source>
-        <translation>%1 fps</translation>
+        <translation>%1 частота кадров</translation>
     </message>
     <message>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
-        <translation>Удаление заданий…</translation>
+        <translation>Удаление задач...</translation>
     </message>
     <message>
         <source>KiB</source>
-        <translation>КиБ</translation>
+        <translation>KiB</translation>
     </message>
     <message>
         <source>MiB</source>
-        <translation>МиБ</translation>
+        <translation>MiB</translation>
     </message>
     <message>
         <source>GiB</source>
-        <translation>ГиБ</translation>
+        <translation>GiB</translation>
     </message>
     <message>
         <source>TiB</source>
-        <translation>ТиБ</translation>
+        <translation>TiB</translation>
     </message>
     <message>
         <source>B</source>
         <extracomment>Bytes</extracomment>
-        <translation>Б</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>File Exists</source>
@@ -590,25 +589,25 @@
     </message>
     <message>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
-        <translation>%1 уже существует на диске или в списке заданий. Всё равно использовать это имя файла в качестве итогового?</translation>
+        <translation>%1 уже существует на диске или в списке задач. По-прежнему использовать это имя в качестве итогового файла?</translation>
     </message>
     <message>
         <source>Remove Task</source>
-        <translation>Удалить задание</translation>
+        <translation>Удалить задачу</translation>
     </message>
     <message>
         <source>Cannot remove a task while it is in progress.</source>
-        <translation>Нельзя удалить задание, пока оно выполняется.</translation>
+        <translation>Не удается удалить задачу, пока она выполняется.</translation>
     </message>
     <message>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
-        <translation>Завершено</translation>
+        <translation>Выполнено</translation>
     </message>
     <message>
         <source>Failed</source>
         <extracomment>The text to be displayed on the progress bar when a conversion fails</extracomment>
-        <translation>Не удалось</translation>
+        <translation>Неудавшийся</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -620,11 +619,11 @@
     <name>ExtraTranslations</name>
     <message>
         <source>Convert between media file formats</source>
-        <translation>Преобразование между медиа-форматами</translation>
+        <translation>Преобразование между форматами файлов мультимедиа</translation>
     </message>
     <message>
         <source>Media Converter</source>
-        <translation>Медиа-конвертер</translation>
+        <translation>Медиаконвертор</translation>
     </message>
 </context>
 <context>
@@ -682,8 +681,14 @@ p, li { white-space: pre-wrap; }
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Insert Subtitle if Available: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;By checking this option, the application will verify if a subtitle file of the same name is found in the same location of the source file, if found, it will embed it in the resulting file.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Insert Subtitle if Available: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;By checking this option, the application will verify if a subtitle file of the same name is found in the same location of the source file, if found, it will embed it in the resulting file. It is currently compatible with subtitles in SRT, SSA, ASS and SUB format.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Video:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding video.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -692,46 +697,46 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
-        <translation>Обрезка</translation>
+        <translation>Резка</translation>
     </message>
     <message>
         <source>Mark as Begin</source>
-        <translation type="unfinished">Отметить начало</translation>
+        <translation>Отметить как начало</translation>
     </message>
     <message>
         <source>Seek to Begin</source>
-        <translation type="unfinished">Перейти в конец</translation>
+        <translation>Перемотка к началу</translation>
     </message>
     <message>
         <source>Play Selection</source>
-        <translation type="unfinished">Воспроизвести выделенное</translation>
+        <translation>Выбор старта</translation>
     </message>
     <message>
         <source>Mark as End</source>
-        <translation type="unfinished">Отметить конец</translation>
+        <translation>Выбор окончания</translation>
     </message>
     <message>
         <source>Seek to End</source>
-        <translation type="unfinished">Перейти в начало</translation>
+        <translation>Перемотка к концу</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Запустить процесс преобразования.</translation>
+        <translation>Начать процесс конвертации</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Файл</translation>
+        <translation>&amp;Файлы</translation>
     </message>
     <message>
         <source>&amp;Convert</source>
-        <translation>П&amp;реобразовать</translation>
+        <translation>&amp;Конвертация</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Правка</translation>
+        <translation>&amp;Редактирование</translation>
     </message>
     <message>
         <source>&amp;Add Files</source>
@@ -739,40 +744,40 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Добавить файлы для преобразования.</translation>
+        <translation>Добавить файлы и конвертировать</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation>Ctrl+N&#xa0;</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>В&amp;ыход</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Выйти из приложения.</translation>
+        <translation>Выход из программы</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>С&amp;топ</translation>
+        <translation>Остановить</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Остановить процесс преобразования.</translation>
+        <translation>Остановка процесса конвертации</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Настроить &amp;параметры</translation>
+        <translation>Установки &amp; Параметры</translation>
     </message>
     <message>
         <source>Set Parameters</source>
         <extracomment>Edit output file parameters.</extracomment>
-        <translation>Настроить параметры</translation>
+        <translation>Установить параметры</translation>
     </message>
     <message>
         <source>Edit conversion parameters of selected files.</source>
-        <translation>Редактировать параметры преобразования файлов.</translation>
+        <translation>Редактирование параметров конвертирования выбранных файлов.</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -784,11 +789,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Open Output Folder</source>
-        <translation>&amp;Открыть папку вывода</translation>
+        <translation>&amp;Открыть папку с результатом</translation>
     </message>
     <message>
         <source>Open output folder of the selected file.</source>
-        <translation>Открыть выходную папку выбранного файла.</translation>
+        <translation>Откройте итоговую папку  выбранного файла.</translation>
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
@@ -801,24 +806,24 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
-        <translation>&amp;Удалить выбранное</translation>
+        <translation>&amp;Удалить выбранные</translation>
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
-        <translation>Удалить выбранные элементы из списка.</translation>
+        <translation>Удалите все выбранные элементы из списка.</translation>
     </message>
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>У&amp;далить завершёные</translation>
+        <translation>Удаление завершено</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
-        <translation>Удалить завершённые элементы</translation>
+        <translation>Удаление выполненных элементов</translation>
     </message>
     <message>
         <source>Remove all completed items in the list.</source>
-        <translation>Удалить завершённые элементы из списка.</translation>
+        <translation>Удалите все завершенные элементы из списка.</translation>
     </message>
     <message>
         <source>Clear List</source>
@@ -826,27 +831,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all items in the list.</source>
-        <translation>Удалить все элементы из списка.</translation>
+        <translation>Удалите все элементы из списка.</translation>
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>&amp;Попробовать снова</translation>
+        <translation>&amp;Повторить</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Попробовать снова</translation>
+        <translation>Повторить</translation>
     </message>
     <message>
         <source>Retry selected tasks.</source>
-        <translation>Перезапустить выбранные задания.</translation>
+        <translation>Повторите выполнение выбранных заданий.</translation>
     </message>
     <message>
         <source>Retry &amp;All</source>
-        <translation>Перезапустить &amp;все</translation>
+        <translation>Повторить &amp;Всё</translation>
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Перезапустить все задания.</translation>
+        <translation>Повторите все задания.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
@@ -858,49 +863,48 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>About This Program</source>
-        <translation>Об этом приложении</translation>
+        <translation>О данной программе</translation>
     </message>
     <message>
         <source>Change Output &amp;Filename</source>
-        <translation>Изменить имя итогового &amp;файла</translation>
+        <translation>Изменить итоговые данные &amp;имя файла</translation>
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
-        <translation>Изменить имя итогового файла выбранного элемента.</translation>
+        <translation>Измените итоговое имя файла выбранного элемента.</translation>
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
-        <translation>Изменить папку &amp;вывода</translation>
+        <translation>Изменить итоговые данные &amp;Каталог</translation>
     </message>
     <message>
         <source>Change the output directory of the selected items.</source>
-        <translation>Изменить папку вывода выбранного элемента.</translation>
+        <translation>Измените итоговый каталог выбранных элементов.</translation>
     </message>
     <message>
         <source>Show Error &amp;Message</source>
-        <translation>Показать &amp;сообщение об ошибке</translation>
+        <translation>Показать ошибку &amp;Сообщение</translation>
     </message>
     <message>
         <source>Check For &amp;Updates</source>
-        <translation>Проверить &amp;обновления</translation>
+        <translation>Проверить наличие &amp;Обновлений</translation>
     </message>
     <message>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translatorcomment>Вырезать видеофайл (выберите временной интервал)</translatorcomment>
-        <translation>Вырезать</translation>
+        <translation>Резать</translation>
     </message>
     <message>
         <source>All tasks have finished.</source>
-        <translation>Все задания завершены.</translation>
+        <translation>Все задания выполнены.</translation>
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Нет объектов для преобразования.</translation>
+        <translation>Нет объектов для конвертирования</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Выполняется преобразование. Прервать?</translation>
+        <translation>Конвертация все еще продолжается. Прервать?</translation>
     </message>
     <message>
         <source>Shutdown</source>
@@ -909,45 +913,45 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shutdown when all tasks are done.</source>
-        <translation>Выключить при завершении всех заданий.</translation>
+        <translation>Выключить, когда все задачи выполнены.</translation>
     </message>
     <message>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Ждущий режим</translation>
+        <translation>Приостановить</translation>
     </message>
     <message>
         <source>Suspend when all tasks are done.</source>
-        <translation>Перейти в ждущий режим при завершении всех заданий.</translation>
+        <translation>Приостановить работу, когда все задачи будут выполнены.</translation>
     </message>
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Гибернация</translation>
+        <translation>Спящий режим</translation>
     </message>
     <message>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Перейти в состояние гибернации после завершения всех заданий.</translation>
+        <translation>Спящий режим, когда все задачи выполнены.</translation>
     </message>
     <message>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation>Приложение проверит наличие обновление. Разрешить приложению использовать Интернет для поиска обновлений?</translation>
+        <translation>Эта программа будет проверять наличие обновлений в интернете. Разрешаете ли вы этой программе использовать Интернет для проверки обновлений?</translation>
     </message>
     <message>
         <source>Failed to load preset file. The application will quit now.</source>
-        <translation>Не удалось загрузить файл предустановок. Приложение завершается.</translation>
+        <translation>Не удалось загрузить предустановленный файл. Теперь приложение будет закрыто.</translation>
     </message>
     <message>
         <source>Elapsed Time: %1 h %2 m %3 s</source>
-        <translation>Оставшееся время: %1 ч %2 м %3 c</translation>
+        <translation>Затраченное время: %1 ч %2 м %3 с</translation>
     </message>
     <message>
         <source>MystiQ Media Converter</source>
-        <translation></translation>
+        <translation>MystiQ медиаконвертер</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Помогите</translation>
+        <translation>&amp;Помощь</translation>
     </message>
     <message>
         <source>F5</source>
@@ -955,15 +959,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation>Очистить &amp;список</translation>
+        <translation>Очистка &amp;списка</translation>
     </message>
     <message>
         <source>About MystiQ</source>
-        <translation>О MystiQ</translation>
+        <translation>О программе MystiQ</translation>
     </message>
     <message>
         <source>Poweroff</source>
-        <translation>Выключить</translation>
+        <translation>Отключить</translation>
     </message>
     <message>
         <source>User Manual</source>
@@ -975,51 +979,47 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Report Error</source>
-        <translation>Сообщить об о&amp;шибке</translation>
+        <translation>&amp;Сообщение об ошибке</translation>
     </message>
     <message>
         <source>Report Error</source>
-        <translation>Сообщить об ошибке</translation>
+        <translation>Сообщение об ошибке</translation>
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation>жертвовать</translation>
-    </message>
-    <message>
-        <source>Conversion finished successfully.</source>
-        <translation>Преобразование завершено успешно.</translation>
+        <translation>Пожертвование</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
-        <translation>Преобразование не удалось.</translation>
+        <translation>Конвертация на удалась.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
-        <translation>Поддержка MystiQ</translation>
+        <translation>Техническая поддержка MystiQ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>близко</translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation>MystiQ нуждается в тебе</translation>
+        <translation>MystiQ нуждается в тебе.</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation>MystiQ - бесплатное программное обеспечение. Однако разработка требует много времени и много работы. Чтобы продолжать разработку MystiQ с новыми функциями, нам нужна ваша помощь. Пожалуйста, рассмотрите возможность поддержать проект MystiQ, отправив пожертвование. &lt;b&gt; Даже самая маленькая сумма очень поможет. &lt;/ b&gt;</translation>
+        <translation>MystiQ это бесплатное программное обеспечение. Однако разработка требует много времени и большой работы. Чтобы продолжать развивать MystiQ с новыми функциями, нам нужна ваша помощь. Пожалуйста, подумайте о том, чтобы поддержать проект MystiQ, отправив пожертвование. &lt;b&gt; Даже самая маленькая сумма очень поможет. &lt;/b&gt;</translation>
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Сообщение об ошибках от MystiQ </translation>
+        <translation>Сообщения об ошибках в MystiQ</translation>
     </message>
     <message>
         <source>%1</source>
-        <translation></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>Your comment:</source>
@@ -1027,25 +1027,28 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report:</source>
-        <translation>Доклад:</translation>
+        <translation>Отчет:</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translatorcomment>Преобразование %1-го файла в файлы %2. %2 - это количество файлов.</translatorcomment>
         <translation>MystiQ конвертирует %1/%2</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
-        <translation></translation>
+        <translation>MystiQ видео конвертер</translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation>Конвертация закончилась успешно.</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевод</translation>
     </message>
     <message>
         <source>Translate Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевести программу</translation>
     </message>
 </context>
 <context>
@@ -1053,14 +1056,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -1071,19 +1074,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>General</source>
-        <translation>Основной</translation>
+        <translation>Главные</translation>
     </message>
     <message>
         <source>Check for updates on program startup</source>
-        <translation>Проверять обновления при запуске приложения</translation>
+        <translation>Проверьте наличие обновлений при запуске программы</translation>
     </message>
     <message>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation>Начинать преобразование автоматически после добавления файлов в список.</translation>
+        <translation>Автоматическое начало конвертации после добавления файлов в список.</translation>
     </message>
     <message>
         <source>Start conversion automatically</source>
-        <translation>Начинать преобразование автоматически</translation>
+        <translation>Автоматический запуск конвертации</translation>
     </message>
     <message>
         <source>FFmpeg</source>
@@ -1091,11 +1094,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Number of threads to use in conversion</source>
-        <translation>Количество потоков при конвертации</translation>
+        <translation>Количество потоков при конвертировании</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Скрыть форматы вывода, недоступные в текущей установке ffmpeg. Рекомендуется включить эту опцию, если только вы не уверены, что MystiQ не смог обнаружить доступные форматы. (Требуется перезапуск MystiQ)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; Скрыть итоговые форматы, которые недоступны в текущей установке ffmpeg. Рекомендуется включить эту опцию, если вы не уверены, что MystiQ не удалось обнаружить доступные форматы. (требуется перезапуск MystiQ для вступления в силу) &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
         <source>Hide unavailable formats (requires restarting)</source>
@@ -1107,11 +1110,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation>Перезапустите MystiQ, чтобы настройки вступили в силу.</translation>
+        <translation>Вы должны перезапустить MystiQ, чтобы изменения вступили в силу.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Наименование</translation>
     </message>
     <message>
         <source>Command</source>
@@ -1131,112 +1134,112 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Shutdown immediately</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Завершить работу немедленно</translation>
+        <translation>Немедленное выключение</translation>
     </message>
     <message>
         <source>Suspend immediately</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Перейти в ждущий режим немедленно</translation>
+        <translation>Немедленно приостановить</translation>
     </message>
     <message>
         <source>Hibernate immediately</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Перейти в состояние гибернации немедленно</translation>
+        <translation>Немедленно отправить в сон</translation>
     </message>
     <message>
         <source>Shutdown</source>
         <extracomment>Shutdown the computer</extracomment>
-        <translation>Завершить</translation>
+        <translation>Выключение</translation>
     </message>
     <message>
         <source>Suspend</source>
         <extracomment>Suspend the computer (sleep to ram, standby)</extracomment>
-        <translation>Ждущий режим</translation>
+        <translation>Приостановить</translation>
     </message>
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Гибернация</translation>
+        <translation>Сон</translation>
     </message>
     <message>
         <source>Operation Failed: %1</source>
-        <translation>Операция не удалась: %1</translation>
+        <translation>Ошибка операции: %1</translation>
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Завершение работы через &lt;b&gt;%1&lt;/b&gt; с</translation>
+        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек.</translation>
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Переход в ждущий режим через &lt;b&gt;%1&lt;/b&gt; c</translation>
+        <translation>Приостановка в &lt;b&gt; %1 &lt;/b&gt;</translation>
     </message>
     <message>
         <source>Hibernating in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Переход в состояние гибернации через &lt;b&gt;%1&lt;/b&gt; c</translation>
+        <translation>Сон в &lt;b&gt; %1 &lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation>Воспроизвести выбранный участок</translation>
+        <translation>Воспроизведение выбранного диапазона</translation>
     </message>
     <message>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation type="unfinished">Начало</translation>
+        <translation>Начало</translation>
     </message>
     <message>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation type="unfinished">Конец</translation>
+        <translation>Конец</translation>
     </message>
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translation>Воспроизвести %1~%2</translation>
+        <translation>Пуск %1~%2</translation>
     </message>
     <message>
         <source>Video Preview</source>
-        <translation>Предварительный просмотр видео</translation>
+        <translation>Предпросмотр видео</translation>
     </message>
 </context>
 <context>
     <name>TimeRangeEdit</name>
     <message>
         <source>From Begin</source>
-        <translation>Начало</translation>
+        <translation>К началу</translation>
     </message>
     <message>
         <source>To End</source>
-        <translation>Конец</translation>
+        <translation>К концу</translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
         <source>Show &amp;Release Notes</source>
-        <translation>Примечания к &amp;релизу</translation>
+        <translation>Отобразить &amp;Примечание к выпуску</translation>
     </message>
     <message>
         <source>Check for updates on program startup</source>
-        <translation>Проверять обновления при запуске приложения</translation>
+        <translation>Проверьте наличие обновлений при запуске программы</translation>
     </message>
     <message>
         <source>Downloading update information...</source>
-        <translation>Загружается информация об обновлении...</translation>
+        <translation>Загрузка информации об обновлении...</translation>
     </message>
     <message>
         <source>Cannot connect to server.</source>
-        <translation>Не удалось связаться с сервером.</translation>
+        <translation>Не удается подключиться к серверу.</translation>
     </message>
     <message>
         <source>Failed to parse the received data.</source>
-        <translation>Не удалось обработать полученные данные.</translation>
+        <translation>Не удалось проанализировать полученные данные.</translation>
     </message>
     <message>
         <source>You are already using the latest version of MystiQ.</source>
-        <translation>Ваша версия MystiQ не нуждается в обновлении.</translation>
+        <translation>Вы уже используете последнюю версию MystiQ.</translation>
     </message>
     <message>
         <source>An unknown error has occurred.</source>
@@ -1244,16 +1247,16 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>A new version of MystiQ has been released!</source>
-        <translation>Опубликована новая версия MystiQ!</translation>
+        <translation>Вышла новая версия MystiQ!</translation>
     </message>
     <message>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translation>Версия &lt;b&gt;%1&lt;/b&gt; доступна в %2.</translation>
+        <translation>Версия &lt;b&gt; %1 &lt;/b&gt; доступна в %2.</translation>
     </message>
     <message>
         <source>You can download this version using the link:</source>
-        <translation>Вы можете скачать эту версию используя ссылку:</translation>
+        <translation>Вы можете скачать эту версию по ссылке:</translation>
     </message>
 </context>
 </TS>
