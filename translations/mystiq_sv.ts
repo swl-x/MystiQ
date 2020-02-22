@@ -115,6 +115,11 @@
         <source>Some features of MystiQ Video Converter have been inspired by</source>
         <translation>Vissa funktioner i MystiQ Video Converter har inspirerats av</translation>
     </message>
+    <message>
+        <source>Galician (Galicia)</source>
+        <extracomment>Galician Language (Galicia)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

@@ -155,6 +155,9 @@ QString AboutDialog::getTranslators()
         //: Russian Language (Russia)
         {"hu_HU", trad(tr("Russian (Russia)")
                     , "Алексей Суднев, Виктор Ерухин, Александр, Андрей Селезнев, Жердагдемедийна Гуравча, Просто Человек")},
+        //: Galician Language (Galicia)
+        {"gl_GL", trad(tr("Galician (Galicia)")
+                    , "Leandro Vergara")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 

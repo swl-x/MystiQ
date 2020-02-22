@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="gl">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -85,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Moita xente contribuíu con traduccións. Ti podes axudar a traducir o MystiQ Video Converter na túa propia linguaxe. Visita</translation>
+        <translation>Moita xente contribuíu con traduccións. Ti podes axudar a traducir o MystiQ Video Converter na túa propia linguaxe. Visita </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>e únete o equipo de traducción.</translation>
+        <translation> e únete o equipo de traducción.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -112,6 +114,12 @@
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
         <translation>Algunhas características de MystiQ Video Converter foron inspiradas por</translation>
+    </message>
+    <message>
+        <source>Galician (Galicia)</source>
+        <extracomment>Galician Language (Galicia)</extracomment>
+        <translatorcomment>Lingua Galega (Galicia)</translatorcomment>
+        <translation>Galego (Galicia)</translation>
     </message>
 </context>
 <context>
@@ -462,7 +470,7 @@
     </message>
     <message>
         <source>Please input the new name for the output file.</source>
-        <translation>Por favor, introduce novo nome para o ficheiro de saida</translation>
+        <translation>Por favor, introduce novo nome para o ficheiro de saida.</translation>
     </message>
     <message>
         <source>Output Directory</source>
@@ -482,7 +490,7 @@
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Agochar &quot;%1&quot;</translation>
     </message>
     <message>
@@ -601,6 +609,7 @@
     <message>
         <source>Finished</source>
         <extracomment>The text to be displayed on the progress bar when a conversion finishes</extracomment>
+        <translatorcomment>O texto que se mostrará na barra de progreso cando finalice unha conversión</translatorcomment>
         <translation>Rematado</translation>
     </message>
     <message>
@@ -635,8 +644,8 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -674,8 +683,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Audio:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding sound.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Copy audio (do not recode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the audio from the source file. The resulting file will have the same sound parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It's the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the passage way a signal or data is transported. In case of audio files, it's the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Volume: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
@@ -685,8 +694,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -778,7 +787,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Comezar proceso de Conversión</translation>
+        <translation>Comezar proceso de Conversión.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -810,7 +819,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Sair do Programa</translation>
+        <translation>Sair do Programa.</translation>
     </message>
     <message>
         <source>S&amp;top</source>
@@ -818,7 +827,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Parar o proceso de conversión</translation>
+        <translation>Parar o proceso de conversión.</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
@@ -864,7 +873,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
-        <translation>Borrar todos os elementos seleccionados da lista</translation>
+        <translation>Borrar todos os elementos seleccionados da lista.</translation>
     </message>
     <message>
         <source>R&amp;emove Completed</source>
@@ -877,7 +886,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all completed items in the list.</source>
-        <translation>Borra todos os elementos rematados da lista</translation>
+        <translation>Borra todos os elementos rematados da lista.</translation>
     </message>
     <message>
         <source>Clear List</source>
@@ -885,7 +894,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all items in the list.</source>
-        <translation>Borra todos os elementos da lista</translation>
+        <translation>Borra todos os elementos da lista.</translation>
     </message>
     <message>
         <source>&amp;Retry</source>
@@ -905,11 +914,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Reintentar todas las tarefas</translation>
+        <translation>Reintentar todas las tarefas.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
-        <translation>%Opcións</translation>
+        <translation>&amp;Opcións</translation>
     </message>
     <message>
         <source>Options</source>
@@ -941,7 +950,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check For &amp;Updates</source>
-        <translation>Comproba se hai @Actualizacións</translation>
+        <translation>Comproba se hai &amp;Actualizacións</translation>
     </message>
     <message>
         <source>Cut</source>
@@ -1049,7 +1058,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Conversion failed.</source>
-        <translation>Conversión Fallada</translation>
+        <translation>Conversión Fallada.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
@@ -1069,7 +1078,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Reportando erros de MystiQ</translation>
+        <translation>Reportando erros de MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1086,7 +1095,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation>MystiQ está a Converter %1%2</translation>
+        <translatorcomment>Convertendo o ficheiro %1-th en ficheiros %2. %2 é o número de ficheiros.</translatorcomment>
+        <translation>MystiQ está a Converter %1/%2</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
@@ -1110,7 +1120,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation>Non se atopou FFmpeg ou FFprobe %1 no sistema. Considere a súa instalación antes de executar MystiQ</translation>
+        <translatorcomment>%1 é un programa de computadora</translatorcomment>
+        <translation> Non se atopou FFmpeg ou FFprobe %1 no sistema. Considere a súa instalación antes de executar MystiQ</translation>
     </message>
 </context>
 <context>
