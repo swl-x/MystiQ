@@ -17,5 +17,6 @@
         <file>translations/mystiq_vi.qm</file>
         <file>translations/mystiq_tr.qm</file>
         <file>translations/mystiq_ru_RU.qm</file>
+        <file>translations/mystiq_gl.qm</file>
     </qresource>
 </RCC>
