@@ -73,6 +73,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
          + tr("Collaborators:<br> %1").arg("<b>Gabriel A. López López</b>: glpz@daxslab.com<br><b>Pavel Milanés Costa</b>: pavelmc@gmail.com<br><b>Carlos Cesar Caballero</b>: ccesar@daxslab.com<br><b>Juan José Morejón Angulo </b>: bxt.jjma@gmail.com<br><b>Leodanis Pozo Ramos</b>: lpozor78@gmail.org") + "<br><br>")
          //: %1 is the name and email of the logo designer
          + tr("Application Name:<br> %1").arg("<b>Hugo Florentino</b>: cre8or@gmx.net") + "<br><br>"
+         + tr("Icons Theme:<br> %1").arg("<b>Fabián Inostroza Oyarzún</b>: fabian_alexis@icloud.com") + "<br><br>"
          + tr("This program is free software; you can redistribute it and/or modify it "
               "under the terms of the GNU General Public License version 3.")
          + "<br><br>"

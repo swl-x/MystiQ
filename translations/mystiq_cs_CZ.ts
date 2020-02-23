@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>MystiQ Homepage: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ Domovská stránka: %1</translation>
     </message>
     <message>
         <source>Some audio-processing functionalities are provided by SoX.</source>
@@ -42,83 +42,95 @@
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licence</translation>
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ je rozhraní GUI pro FFmpeg.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vývojáři: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Název aplikace: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Švédský jazyk (Švédsko)</translatorcomment>
+        <translation>Švédština (Švédsko)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Japonský jazyk (Japonsko)</translatorcomment>
+        <translation>Japonština (Japonsko)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Německý jazyk (Německo)</translatorcomment>
+        <translation>Němčina (Německo)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Italský jazyk (Itálie)</translatorcomment>
+        <translation>Italština (Itálie)</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento program je svobodný software; můžete jej dále distribuovat a / nebo upravovat podle podmínek GNU General Public License verze 3.</translation>
     </message>
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Turečtina (Turecko)</translatorcomment>
+        <translation>Turečtina (Turecko)</translation>
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation type="unfinished"></translation>
+        <translation>Mnoho lidí přispělo překlady. Můžete také pomoci převést převaděč videa MystiQ do svého vlastního jazyka. Návštěva </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation> a připojte se k překladatelskému týmu.</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznam změn</translation>
     </message>
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Maďarský jazyk (Maďarsko)</translatorcomment>
+        <translation>Maďarština (Maďarsko)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Ruský jazyk (Rusko)</translatorcomment>
+        <translation>Ruština (Rusko)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spolupracovníci: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>Některé funkce MystiQ Video Converter byly inspirovány</translation>
     </message>
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Galicijský jazyk (galicijština)</translatorcomment>
+        <translation>Galicijština (Galicie)</translation>
+    </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Ikony Téma:&lt;br&gt; %1</translation>
     </message>
 </context>
 <context>
@@ -197,7 +209,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrat &amp;složku</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -206,16 +218,18 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Vytvořte novou složku (např. Mystiq_output) ve složce obsahující vstupní soubory. Vložte výstupní soubory do nově vytvořené složky.</translatorcomment>
+        <translation>Vytvořit &amp;novou složku ve zdrojové složce</translation>
     </message>
     <message>
         <source>Folder Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Název složky</translation>
     </message>
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>umístit výstupní soubory do stejné složky jako vstupní soubory</translatorcomment>
+        <translation>Výstup do &amp;zdrojové složky</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
@@ -249,7 +263,7 @@
     </message>
     <message>
         <source>Searching for files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledání souborů...</translation>
     </message>
     <message>
         <source>Some files could not be found.</source>
@@ -265,15 +279,15 @@
     </message>
     <message>
         <source>Add Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat soubory</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranit vybrané</translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation type="unfinished">Vymazat seznam</translation>
+        <translation>Prázdný seznam</translation>
     </message>
 </context>
 <context>
@@ -340,7 +354,7 @@
     </message>
     <message>
         <source>Same Quantizer as Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Stejný kvantizátor jako zdroj</translation>
     </message>
     <message>
         <source>Deinterlace</source>
@@ -352,7 +366,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>(sp)px</translation>
+        <translation> (sp)px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -375,7 +389,8 @@
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Vystřihnout video; vyberte rozsah, který chcete převést</translatorcomment>
+        <translation>Střih</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
@@ -404,47 +419,47 @@
     </message>
     <message>
         <source>Copy Audio (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírování zvuku (Nekódovat)</translation>
     </message>
     <message>
         <source>Insert Subtitle if Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložte titulky, pokud jsou k dispozici</translation>
     </message>
     <message>
         <source>Copy Video (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírování videa (Nekódovat)</translation>
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Možnosti videa navíc</translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Video na černobílou</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikální převrácení</translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontální převrácení</translation>
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočte o 90 stupňů doprava</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočte o 90 stupňů doleva</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočit o 180 stupňů</translation>
     </message>
 </context>
 <context>
@@ -485,7 +500,7 @@
     </message>
     <message>
         <source>Drag and drop files here to add tasks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přetažením souborů sem přidejte úkoly.</translation>
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
@@ -636,7 +651,7 @@
     <name>HelpMystiQDialog</name>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Uživatelský manuál</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -695,7 +710,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -703,27 +718,28 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
+        <translatorcomment>Střih jako v &quot;řezacím videu&quot;</translatorcomment>
         <translation>Sřih</translation>
     </message>
     <message>
         <source>Mark as Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Označit jako začátek</translation>
     </message>
     <message>
         <source>Seek to Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokuste se začít</translation>
     </message>
     <message>
         <source>Play Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Výběr hry</translation>
     </message>
     <message>
         <source>Mark as End</source>
-        <translation type="unfinished"></translation>
+        <translation>Označit jako konec</translation>
     </message>
     <message>
         <source>Seek to End</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledejte do konce</translation>
     </message>
 </context>
 <context>
@@ -799,7 +815,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Open output folder of the selected file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřete výstupní složku vybraného souboru.</translation>
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
@@ -893,12 +909,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check For &amp;Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrola Aktualizací</translation>
     </message>
     <message>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Vystřihnout video soubor (vyberte časový rozsah, který chcete převést)</translatorcomment>
+        <translation>Střih</translation>
     </message>
     <message>
         <source>All tasks have finished.</source>
@@ -941,7 +958,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento program bude kontrolovat aktualizace online. Povolíte tomuto programu používat pro kontrolu aktualizací internet?</translation>
     </message>
     <message>
         <source>Failed to load preset file. The application will quit now.</source>
@@ -953,108 +970,109 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Media Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pomoc</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation type="unfinished"></translation>
+        <translation>Prázdný &amp;Seznam</translation>
     </message>
     <message>
         <source>About MystiQ</source>
-        <translation type="unfinished">Informace o MystiQ</translation>
+        <translation>Informace o MystiQ</translation>
     </message>
     <message>
         <source>Poweroff</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout</translation>
     </message>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Uživatelský Manuál</translation>
     </message>
     <message>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <source>&amp;Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nahlásit Chybu</translation>
     </message>
     <message>
         <source>Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahlásit Chybu</translation>
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Darovat</translation>
     </message>
     <message>
         <source>Conversion finished successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Převod byl úspěšně dokončen.</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Převod selhal.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpořte MystiQ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ tě potřebuje</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation type="unfinished"></translation>
+        <translation>Hlášení chyb z MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>Your comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvůj komentář:</translation>
     </message>
     <message>
         <source>Report:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpráva:</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Převod souboru %1-tého na soubory %2. %2 je počet souborů.</translatorcomment>
+        <translation>MystiQ převádí %1/%2</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeložit</translation>
     </message>
     <message>
         <source>Translate Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeložit aplikaci</translation>
     </message>
 </context>
 <context>
@@ -1062,14 +1080,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>%1 je počítačový program</translatorcomment>
+        <translation> FFmpeg nebo FFprobe %1 nebyly v systému nalezeny. Před spuštěním MystiQ zvažte jejich instalaci</translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1080,19 +1099,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Všeobecné</translation>
     </message>
     <message>
         <source>Check for updates on program startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontrolujte aktualizace při spuštění programu</translation>
     </message>
     <message>
         <source>Automatically start conversion after adding files to the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticky zahájit převod po přidání souborů do seznamu.</translation>
     </message>
     <message>
         <source>Start conversion automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Spusťte převod automaticky</translation>
     </message>
     <message>
         <source>FFmpeg</source>
@@ -1104,11 +1123,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide output formats that are not available in the current ffmpeg installation. It is recommended to turn this option on unless you are sure that MystiQ has failed to detect available formats. (requires restarting MystiQ to take effect)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt; &lt;p&gt; Skrýt výstupní formáty, které nejsou dostupné v aktuální instalaci ffmpeg. Doporučujeme tuto možnost zapnout, pokud si nejste jisti, že MystiQ nezjistil dostupné formáty. (vyžaduje restartování MystiQ, aby se projevilo) &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
         <source>Hide unavailable formats (requires restarting)</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrýt nedostupné formáty (vyžaduje restartování)</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -1116,11 +1135,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>You have to restart MystiQ for the changes to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby se změny projevily, musíte restartovat MystiQ.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Název</translation>
     </message>
     <message>
         <source>Command</source>
@@ -1188,26 +1207,27 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehrajte vybraný rozsah</translation>
     </message>
     <message>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Začít</translation>
     </message>
     <message>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Konec</translation>
     </message>
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>přehrajte video od času %1 do času %2. %1 a %2 jsou čas ve formátu hh: mm: ss.</translatorcomment>
+        <translation>Přehrát %1~%2</translation>
     </message>
     <message>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhled videa</translation>
     </message>
 </context>
 <context>
@@ -1225,44 +1245,45 @@ p, li { white-space: pre-wrap; }
     <name>UpdateDialog</name>
     <message>
         <source>Show &amp;Release Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit a &amp;uvolnit poznámky</translation>
     </message>
     <message>
         <source>Check for updates on program startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontrolujte aktualizace při spuštění programu</translation>
     </message>
     <message>
         <source>Downloading update information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stahování aktualizačních informací ...</translation>
     </message>
     <message>
         <source>Cannot connect to server.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze se připojit k serveru.</translation>
     </message>
     <message>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se analyzovat přijatá data.</translation>
     </message>
     <message>
         <source>You are already using the latest version of MystiQ.</source>
-        <translation type="unfinished"></translation>
+        <translation>Již používáte nejnovější verzi MystiQ.</translation>
     </message>
     <message>
         <source>An unknown error has occurred.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastala neznámá chyba.</translation>
     </message>
     <message>
         <source>A new version of MystiQ has been released!</source>
-        <translation type="unfinished"></translation>
+        <translation>Byla vydána nová verze MystiQ!</translation>
     </message>
     <message>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>%1 je číslo verze, %2 je domovská stránka projektu</translatorcomment>
+        <translation>Verze &lt;b&gt; %1 &lt;/b&gt; je k dispozici na %2.</translation>
     </message>
     <message>
         <source>You can download this version using the link:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuto verzi si můžete stáhnout pomocí odkazu:</translation>
     </message>
 </context>
 </TS>

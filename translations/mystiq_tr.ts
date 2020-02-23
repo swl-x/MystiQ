@@ -87,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Birçok insan çeviriye katkıda bulundu. MystiQ Video Converter&apos;ı kendi dilinize çevirmenize de yardımcı olabilirsiniz. Ziyaret edin</translation>
+        <translation>Birçok insan çeviriye katkıda bulundu. MystiQ Video Converter&apos;ı kendi dilinize çevirmenize de yardımcı olabilirsiniz. Ziyaret edin </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>ve bir çeviri ekibine katılın.</translation>
+        <translation> ve bir çeviri ekibine katılın.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -118,7 +118,12 @@
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Galiçya Dili (Galicia)</translatorcomment>
+        <translation>Galiçyaca (Galiçya)</translation>
+    </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Simgeler Tema: &lt;br&gt; %1</translation>
     </message>
 </context>
 <context>
@@ -352,7 +357,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>piksel</translation>
+        <translation> piksel</translation>
     </message>
     <message>
         <source>Height</source>
@@ -695,7 +700,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1021,7 +1026,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>MystiQ&apos;dan gelen hataları bildir</translation>
+        <translation>MystiQ&apos;dan gelen hataları bildir </translation>
     </message>
     <message>
         <source>%1</source>

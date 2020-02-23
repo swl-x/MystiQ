@@ -74,7 +74,7 @@
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation>アプリケーション名：&lt;br&gt; ％1</translation>
+        <translation>アプリケーション名：&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
@@ -109,16 +109,21 @@
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>共同編集者：&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ Video Converterのいくつかの機能は、</translation>
     </message>
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>ガリシア語（ガリシア）</translatorcomment>
+        <translation>ガリシア語（ガリシア）</translation>
+    </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>アイコンのテーマ：&lt;br&gt; %1</translation>
     </message>
 </context>
 <context>
@@ -161,11 +166,11 @@
     </message>
     <message>
         <source>Add files.</source>
-        <translation>ファイルを追加</translation>
+        <translation>追加ファイル。</translation>
     </message>
     <message>
         <source>Remove selected files.</source>
-        <translation>選択したファイルを除去</translation>
+        <translation>選択したファイルを削除します。</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -436,15 +441,15 @@
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>時計回りに90度回転</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>反時計回りに90度回転</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>180度回転</translation>
     </message>
 </context>
 <context>
@@ -695,7 +700,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>

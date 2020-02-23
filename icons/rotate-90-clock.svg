@@ -7,14 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
    version="1.1"
-   id="svg4"
+   id="svg12"
    sodipodi:docname="rotate-90-clock.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata10">
+     id="metadata18">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs8" />
+     id="defs16" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,37 +39,46 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview6"
+     id="namedview14"
      showgrid="false"
-     inkscape:zoom="31.846491"
-     inkscape:cx="8.3379206"
-     inkscape:cy="8.4808251"
-     inkscape:current-layer="g1643" />
+     inkscape:zoom="10.615497"
+     inkscape:cx="19.942512"
+     inkscape:cy="24"
+     inkscape:current-layer="g832" />
   <g
-     id="g840"
-     transform="translate(1.7173943,1.5603911)"
-     style="fill:#4c637d">
+     style="fill:#268bd2"
+     id="g10"
+     transform="matrix(0.68209375,-0.59407715,0.68209375,0.59407715,-7.741,23.946914)">
     <g
-       id="g843"
-       transform="translate(0,0.0096089)">
+       id="g832"
+       style="fill:#227dbd;fill-opacity:1">
       <g
-         id="g1643"
-         transform="matrix(-1,0,0,1,12.296008,0)">
+         id="g972"
+         transform="matrix(0,-1,-1,0,35.719229,46.184747)">
         <path
-           style="fill:#4c637d;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers stroke fill;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-           d="M 10.262724,4.5684503 4.3159559,4.5755213 6.8544693,2.0370079 5.4402557,0.62279492 0.49050832,5.5725419 5.4402557,10.522289 6.8544693,9.1080763 4.3159559,6.5695625 l 5.9467681,0.00707 c 0.296985,0.028284 0.62084,-0.083439 0.834386,-0.2969848 L 11.804217,5.572542 11.09711,4.8654351 C 10.882362,4.6506868 10.56678,4.533095 10.262724,4.5684503 Z"
+           d="M 20.102703,23.121435 26.789917,29.80866 40.164361,16.43421 33.477139,9.7469999 Z"
            id="path2"
-           inkscape:connector-curvature="0" />
+           inkscape:connector-curvature="0"
+           style="fill:#227dbd;fill-opacity:1;stroke-width:1.11453629" />
+        <g
+           transform="matrix(-0.13859786,1.009559,-1.009559,0.13859786,32.886476,-17.213198)"
+           id="g950">
+          <path
+             style="fill:#227dbd;fill-opacity:1;stroke-width:1.11453629"
+             inkscape:connector-curvature="0"
+             id="path6"
+             d="M 35.67028,0.67100728 28.983058,-6.0162177 15.608622,7.3582323 22.295839,14.045457 Z" />
+          <path
+             style="fill:#227dbd;fill-opacity:1;stroke-width:1.11453629"
+             inkscape:connector-curvature="0"
+             id="path8"
+             d="M 31.212133,16.274532 H 13.379549 V -1.5580677 Z" />
+        </g>
         <path
-           id="path2-6"
-           d="m 10.012606,12.57 h 2 V 4.5699996 h -2 z"
-           style="fill:#4c637d;stroke:#000000;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers stroke fill;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-           inkscape:connector-curvature="0" />
-        <path
-           id="path2-6-7"
-           d="M 3.8126051,4.5749996 V 6.575 H 11.812606 V 4.5749996 Z"
-           style="fill:#4c637d;stroke:none;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
-           inkscape:connector-curvature="0" />
+           d="m 14.820017,28.40425 6.68721,6.687225 13.374445,-13.37445 -6.687222,-6.68721 z"
+           id="path2-3"
+           inkscape:connector-curvature="0"
+           style="fill:#227dbd;fill-opacity:1;stroke-width:1.11453629" />
       </g>
     </g>
   </g>

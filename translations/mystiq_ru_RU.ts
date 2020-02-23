@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru_RU" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru_RU">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -44,7 +46,7 @@
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ графический интерфейс к FFmpeg</translation>
+        <translation>MystiQ графический интерфейс к FFmpeg.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
@@ -85,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите.</translation>
+        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>присоединяйтесь к команде переводчиков.</translation>
+        <translation> присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -117,6 +119,10 @@
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
         <translation>Галицкий (Галиция)</translation>
+    </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Иконки Тема: &lt;br&gt; %1</translation>
     </message>
 </context>
 <context>
@@ -175,7 +181,7 @@
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла</translation>
+        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла.</translation>
     </message>
     <message>
         <source>Auto Adjust Audio Bitrate</source>
@@ -195,7 +201,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Выбор и папка</translation>
+        <translation>Выбор и &amp;папка</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -204,7 +210,8 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Создать &amp; новую папку в исходной папке</translation>
+        <translatorcomment>Создайте новую папку (например, mystiq_output) в папке, содержащей входные файлы. Поместите выходные файлы во вновь созданную папку.</translatorcomment>
+        <translation>Создать &amp;новую папку в исходной папке</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -213,7 +220,8 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Вывод к &amp; исходная папка</translation>
+        <translatorcomment>поместите выходные файлы в ту же папку, что и входные файлы</translatorcomment>
+        <translation>Вывод к &amp;исходная папка</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
@@ -350,7 +358,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>px</translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -478,6 +486,7 @@
 
 </source>
         <translation>Сообщение об ошибке от FFmpeg:
+
 </translation>
     </message>
     <message>
@@ -486,7 +495,7 @@
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Скрыть &quot; %1&quot;</translation>
     </message>
     <message>
@@ -639,8 +648,8 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -678,8 +687,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Audio:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding sound.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Copy audio (do not recode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the audio from the source file. The resulting file will have the same sound parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It's the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the passage way a signal or data is transported. In case of audio files, it's the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Volume: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
@@ -689,10 +698,10 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;span style=&quot; font-size:16pt;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;повторите процесс преобразования всех элементов в списке.5253&lt;span style=&quot; font-size:16pt;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -781,7 +790,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Начать процесс конвертации</translation>
+        <translation>Начать процесс конвертации.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -801,31 +810,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Добавить файлы и конвертировать</translation>
+        <translation>Добавить файлы и конвертировать.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N </translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Выход</translation>
+        <translation>Выхо&amp;д</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Выход из программы</translation>
+        <translation>Выход из программы.</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>Остановить</translation>
+        <translation>О&amp;становить</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Остановка процесса конвертации</translation>
+        <translation>Остановка процесса конвертации.</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Установки &amp; Параметры</translation>
+        <translation>Установки &amp;Параметры</translation>
     </message>
     <message>
         <source>Set Parameters</source>
@@ -872,7 +881,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>Удаление завершено</translation>
+        <translatorcomment>удалить выполнено (задача, элементы)</translatorcomment>
+        <translation>&amp;Удаление завершено</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -957,7 +967,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Нет объектов для конвертирования</translation>
+        <translation>Нет объектов для конвертирования.</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
@@ -1064,7 +1074,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation>MystiQ нуждается в тебе.</translation>
+        <translation>MystiQ нуждается в тебе</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
@@ -1072,7 +1082,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Сообщения об ошибках в MystiQ</translation>
+        <translation>Сообщения об ошибках в MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1113,7 +1123,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation>FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
+        <translatorcomment>%1 - компьютерная программа</translatorcomment>
+        <translation> FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1224,7 +1235,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек.</translation>
+        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек</translation>
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>

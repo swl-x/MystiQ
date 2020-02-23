@@ -121,6 +121,10 @@
         <translatorcomment>Lingua Galega (Galicia)</translatorcomment>
         <translation>Galego (Galicia)</translation>
     </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Tema das iconas: &lt;br&gt; %1</translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

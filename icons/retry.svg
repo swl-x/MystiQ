@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -7,101 +7,180 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
    version="1.1"
-   id="Capa_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 55 55"
-   style="enable-background:new 0 0 55 55;"
-   xml:space="preserve"
-   sodipodi:docname="retry.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"><metadata
-   id="metadata41"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs39" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="640"
-   inkscape:window-height="480"
-   id="namedview37"
-   showgrid="false"
-   inkscape:zoom="9.6580489"
-   inkscape:cx="25.853189"
-   inkscape:cy="27.5"
-   inkscape:current-layer="Capa_1" />
-
-<path
-   style="fill:#3f9533;stroke-width:1.65333712;fill-opacity:1"
-   d="M 22.319483,17.304243 V 5.6470629 L 1.9495681,25.075709 22.319483,44.504321 V 32.847146 c 0,0 18.088481,-4.153043 30.444534,15.542917 0,0 3.080959,-15.032429 -10.719689,-25.926317 0,0.0013 -6.25014,-5.54437 -19.724845,-5.159503 z"
-   id="path4"
-   inkscape:connector-curvature="0" />
-<g
-   id="g6"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g8"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g10"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g12"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g14"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g16"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g18"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g20"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g22"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g24"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g26"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g28"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g30"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g32"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
-<g
-   id="g34"
-   transform="matrix(-1,0,0,1,55,0)">
-</g>
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="retry.svg">
+  <title
+     id="title7895">Antu icon Theme</title>
+  <defs
+     id="defs2">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       id="current-color-scheme-1"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       type="text/css"
+       id="current-color-scheme-3">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       type="text/css"
+       id="current-color-scheme-5">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       id="current-color-scheme-1-4"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <linearGradient
+       id="0-5"
+       gradientUnits="userSpaceOnUse"
+       y1="545.14001"
+       x2="0"
+       y2="518.14001">
+      <stop
+         stop-color="#00a661"
+         id="stop4164" />
+      <stop
+         offset="1"
+         stop-color="#37ce97"
+         id="stop4166" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(1.0000002,-2.9998508)"
+       inkscape:collect="always"
+       xlink:href="#0-5"
+       id="linearGradient919-3-6"
+       x1="55"
+       y1="311.64999"
+       x2="55"
+       y2="276.64999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#0-5-6"
+       id="linearGradient919-3"
+       x1="55"
+       y1="311.64999"
+       x2="55"
+       y2="276.64999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-2.0002098)" />
+    <linearGradient
+       id="0-5-6"
+       gradientUnits="userSpaceOnUse"
+       y1="545.14001"
+       x2="0"
+       y2="518.14001">
+      <stop
+         stop-color="#00a661"
+         id="stop4164-7" />
+      <stop
+         offset="1"
+         stop-color="#37ce97"
+         id="stop4166-5" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313708"
+     inkscape:cx="29.780787"
+     inkscape:cy="10.561912"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5422"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-midpoints="false"
+     inkscape:showpageshadow="false"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7897"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Antu icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-266.64999)">
+    <g
+       id="g1535"
+       transform="translate(35,-15.000005)">
+      <g
+         id="g911"
+         transform="translate(-35,15)">
+        <g
+           id="g5422"
+           transform="translate(-24,-4)">
+          <g
+             transform="translate(-9,-0.999995)"
+             id="layer1-6"
+             inkscape:label="Capa 1" />
+          <path
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient919-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             d="m 41.970703,274.64999 c -0.228395,0.007 -0.447585,0.0915 -0.621094,0.24024 l -14,12 c -0.453416,0.38884 -0.467099,1.08584 -0.0293,1.49218 l 14,13 c 0.639767,0.59256 1.678549,0.13961 1.679688,-0.73242 v -8 h 16 v 9 h -6 c -0.554,0 -1,0.44601 -1,1 v 7 c 0,0.554 0.446,1 1,1 h 7 7 c 0.554,0 1,-0.446 1,-1 v -7 -11 -7 c 0,-0.1385 -0.02766,-0.2709 -0.07813,-0.39062 C 67.770111,283.90102 67.414916,283.64999 67,283.64999 H 43 v -8 c 1.84e-4,-0.56391 -0.465631,-1.01646 -1.029297,-1 z"
+             id="path840-3"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

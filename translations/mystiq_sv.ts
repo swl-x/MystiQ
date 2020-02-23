@@ -120,6 +120,10 @@
         <extracomment>Galician Language (Galicia)</extracomment>
         <translation>Galiciska (Galicien)</translation>
     </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Ikoner Tema: &lt;br&gt; %1</translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

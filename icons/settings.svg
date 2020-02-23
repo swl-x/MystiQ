@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -7,88 +7,229 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
    version="1.1"
-   id="Capa_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 52 52"
-   style="enable-background:new 0 0 52 52;"
-   xml:space="preserve"
-   sodipodi:docname="settings.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"><metadata
-   id="metadata41"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-   id="defs39" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="640"
-   inkscape:window-height="480"
-   id="namedview37"
-   showgrid="false"
-   inkscape:zoom="10.282024"
-   inkscape:cx="25.402984"
-   inkscape:cy="26"
-   inkscape:current-layer="Capa_1" />
-<path
-   style="fill:#1a38ac;fill-opacity:0.73703706;stroke:#1b4a91;stroke-opacity:1"
-   d="M48.872,22.898c-4.643-0.893-6.772-6.318-3.976-10.13l1.964-2.678l-4.243-4.243l-2.638,1.787  c-3.914,2.652-9.256,0.321-9.974-4.351L29.5,0h-6l-0.777,4.041c-0.873,4.54-6.105,6.708-9.933,4.115L9.383,5.847L5.14,10.09  l1.964,2.678c2.796,3.812,0.666,9.237-3.976,10.13L0,23.5v6l3.283,0.505c4.673,0.719,7.003,6.061,4.351,9.975l-1.787,2.637  l4.243,4.243l2.678-1.964c3.812-2.796,9.237-0.667,10.13,3.976L23.5,52h6l0.355-2.309c0.735-4.776,6.274-7.071,10.171-4.213  l1.884,1.382l4.243-4.243l-1.787-2.637c-2.651-3.914-0.321-9.256,4.351-9.975L52,29.5v-6L48.872,22.898z M26.5,31  c-2.485,0-4.5-2.015-4.5-4.5s2.015-4.5,4.5-4.5s4.5,2.015,4.5,4.5S28.985,31,26.5,31z"
-   id="path2" />
-<path
-   style="fill:#556080;"
-   d="M26.5,17c-5.247,0-9.5,4.253-9.5,9.5s4.253,9.5,9.5,9.5s9.5-4.253,9.5-9.5S31.747,17,26.5,17z   M26.5,31c-2.485,0-4.5-2.015-4.5-4.5s2.015-4.5,4.5-4.5s4.5,2.015,4.5,4.5S28.985,31,26.5,31z"
-   id="path4" />
-<g
-   id="g6">
-</g>
-<g
-   id="g8">
-</g>
-<g
-   id="g10">
-</g>
-<g
-   id="g12">
-</g>
-<g
-   id="g14">
-</g>
-<g
-   id="g16">
-</g>
-<g
-   id="g18">
-</g>
-<g
-   id="g20">
-</g>
-<g
-   id="g22">
-</g>
-<g
-   id="g24">
-</g>
-<g
-   id="g26">
-</g>
-<g
-   id="g28">
-</g>
-<g
-   id="g30">
-</g>
-<g
-   id="g32">
-</g>
-<g
-   id="g34">
-</g>
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="settings.svg">
+  <title
+     id="title7895">Antu icon Theme</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient983">
+      <stop
+         style="stop-color:#e5e5e5;stop-opacity:1"
+         offset="0"
+         id="stop979" />
+      <stop
+         style="stop-color:#fbfbfb;stop-opacity:1"
+         offset="1"
+         id="stop981" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.23466667,0,0,0.23466667,-445.46491,1476.7907)"
+       gradientUnits="userSpaceOnUse"
+       y2="-5114.2363"
+       x2="2102.8335"
+       y1="-4960.8271"
+       x1="2102.8335"
+       id="linearGradient4836"
+       xlink:href="#linearGradient4587"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4587">
+      <stop
+         style="stop-color:#1b87f2;stop-opacity:1"
+         offset="0"
+         id="stop4583" />
+      <stop
+         style="stop-color:#30bafc;stop-opacity:1"
+         offset="1"
+         id="stop4585" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4587"
+       id="linearGradient849"
+       x1="-12"
+       y1="313.64999"
+       x2="-12"
+       y2="296.64999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(35,-281.64999)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient983"
+       id="linearGradient859"
+       x1="30"
+       y1="31.000006"
+       x2="30"
+       y2="17.000006"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4506"
+       id="linearGradient867"
+       x1="49"
+       y1="315.64999"
+       x2="49"
+       y2="272.64999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-24,-270.64999)" />
+    <linearGradient
+       id="linearGradient4506"
+       inkscape:collect="always">
+      <stop
+         id="stop4502"
+         offset="0"
+         style="stop-color:#252a34;stop-opacity:1" />
+      <stop
+         id="stop4504"
+         offset="1"
+         style="stop-color:#353d4b;stop-opacity:1" />
+    </linearGradient>
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       id="current-color-scheme-1"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       type="text/css"
+       id="current-color-scheme-3">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       type="text/css"
+       id="current-color-scheme-5">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <style
+       id="current-color-scheme-1-4"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style>
+    <linearGradient
+       id="0"
+       gradientUnits="userSpaceOnUse"
+       y1="545.14001"
+       x2="0"
+       y2="518.14001">
+      <stop
+         stop-color="#00a661"
+         id="stop4164" />
+      <stop
+         offset="1"
+         stop-color="#37ce97"
+         id="stop4166" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16"
+     inkscape:cx="24.288286"
+     inkscape:cy="27.972649"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-midpoints="false"
+     inkscape:showpageshadow="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7897"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Antu icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-266.64999)">
+    <g
+       id="g1535"
+       transform="translate(35,-15.000005)">
+      <g
+         id="g1089">
+        <g
+           id="g5422"
+           transform="translate(-59,11)">
+          <g
+             transform="matrix(5.5433071,0,0,5.5433071,24.533333,-1328.2455)"
+             id="layer1-3-2"
+             inkscape:label="Capa 1" />
+          <path
+             style="opacity:1;fill:url(#linearGradient867);fill-opacity:1.0;stroke:none;stroke-width:3.88529491;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 5 2 C 3.338 2 2 3.338 2 5 L 2 43 C 2 44.662 3.338 46 5 46 L 43 46 C 44.662 46 46 44.662 46 43 L 46 5 C 46 3.338 44.662 2 43 2 L 5 2 z "
+             transform="translate(24,270.64999)"
+             id="rect854" />
+        </g>
+        <path
+           style="opacity:1;fill:url(#linearGradient849);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 18 15 C 13.014001 15 9 19.014 9 24 C 9 28.986 13.014001 33 18 33 L 30 33 C 34.985999 33 39 28.986 39 24 C 39 19.014 34.985999 15 30 15 L 18 15 z "
+           transform="translate(-35,281.64999)"
+           id="rect980" />
+        <path
+           style="opacity:1;fill:url(#linearGradient859);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 30 17 C 26.122 17 23 20.122 23 24 C 23 27.878 26.122 31 30 31 C 33.878 31 37 27.878 37 24 C 37 20.122 33.878 17 30 17 z "
+           transform="translate(-35,281.64999)"
+           id="rect984" />
+      </g>
+    </g>
+  </g>
 </svg>

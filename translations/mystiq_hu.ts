@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>Portable</source>
-        <translation type="unfinished"></translation>
+        <translation>Szállítható</translation>
     </message>
     <message>
         <source>Compiled with Qt %1</source>
@@ -42,90 +42,102 @@
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedély</translation>
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation type="unfinished"></translation>
+        <translation>A MystiQ egy grafikus felhasználói felület az FFmpeg számára.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fejlesztők: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazás neve: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Svéd nyelv (Svédország)</translatorcomment>
+        <translation>Svéd (Svédország)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Japán nyelv (Japán)</translatorcomment>
+        <translation>Japán (japán)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Német nyelv (Németország)</translatorcomment>
+        <translation>Német (Németország)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Olasz nyelv (Olaszország)</translatorcomment>
+        <translation>Olasz (Olaszország)</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a program egy ingyenes szoftver; újraterjesztheti és / vagy módosíthatja a GNU General Public License 3. verziójának feltételei szerint.</translation>
     </message>
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Török nyelv (Törökország)</translatorcomment>
+        <translation>Török (Törökország)</translation>
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation type="unfinished"></translation>
+        <translation>Sokan hozzájárultak a fordításokhoz. Segíthet a MystiQ Video Converter saját nyelvére történő fordításában is. Látogatás </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation> és csatlakozzon egy fordító csoporthoz.</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Változási napló</translation>
     </message>
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Magyar nyelv (Magyarország)</translatorcomment>
+        <translation>Magyar (Magyarország)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Orosz nyelv (Oroszország)</translatorcomment>
+        <translation>Orosz (Oroszország)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Együttműködők: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>A MystiQ Video Converter néhány funkcióját az ihlette</translation>
     </message>
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Galíciai nyelv (Galícia)</translatorcomment>
+        <translation>Galíciai (Galícia)</translation>
+    </message>
+    <message>
+        <source>Icons Theme:&lt;br&gt; %1</source>
+        <translation>Ikonok téma: &lt;br&gt; %1</translation>
     </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
     <message>
         <source>About FFmpeg</source>
-        <translation>Az FFmpeg-ről:</translation>
+        <translation>Az FFmpeg-ről</translation>
     </message>
     <message>
         <source>FFmpeg</source>
@@ -138,15 +150,16 @@
     <message>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translation>Az FFmpeg teljes körű, keresztplatfomos megoldás videó- és hangfájlok felvételére, átalakítására és továbbítására, mely tartalmazza a vezető audio/video könytárat, a libavcodec-et. </translation>
+        <translatorcomment>ffmpeg leírása</translatorcomment>
+        <translation>Az FFmpeg teljes körű, keresztplatfomos megoldás videó- és hangfájlok felvételére, átalakítására és továbbítására, mely tartalmazza a vezető audio/video könytárat, a libavcodec-et.</translation>
     </message>
     <message>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>Az FFmpeg szabad szoftver. Licensze: LGPL vagy GPL</translation>
+        <translation>Az FFmpeg szabad szoftver. Licensze: LGPL vagy GPL.</translation>
     </message>
     <message>
         <source>Please visit %1 for more information.</source>
-        <translation>További információért látogassa meg a honlapot: %1</translation>
+        <translation>További információért látogassa meg a honlapot: %1.</translation>
     </message>
 </context>
 <context>
@@ -161,11 +174,11 @@
     </message>
     <message>
         <source>Add files.</source>
-        <translation>Fájlok hozzáadása</translation>
+        <translation>Fájlok hozzáadása.</translation>
     </message>
     <message>
         <source>Remove selected files.</source>
-        <translation>Kiválasztott fájlok eltávolítása</translation>
+        <translation>Kiválasztott fájlok eltávolítása.</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -189,7 +202,7 @@
     </message>
     <message>
         <source>Convert to</source>
-        <translation>Átalakítás ebbe: </translation>
+        <translation>Átalakítás ebbe</translation>
     </message>
     <message>
         <source>Output Path</source>
@@ -197,7 +210,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Mappa kiválasztása</translation>
+        <translation>Mappa &amp;Kiválasztása</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -206,7 +219,8 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Új mappa létrehozása a bemeneti fájlok mappájában</translation>
+        <translatorcomment>Hozzon létre egy új mappát (például mystiq_output) a bemeneti fájlokat tartalmazó mappába. Helyezze a kimeneti fájlokat az újonnan létrehozott mappába.</translatorcomment>
+        <translation>Új mappa &amp;létrehozása a bemeneti fájlok mappájában</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -215,11 +229,12 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Kimeneti fájlok a forrás mappába</translation>
+        <translatorcomment>tegye a kimeneti fájlokat ugyanabba a mappába, mint a bemeneti fájlokat</translatorcomment>
+        <translation>&amp;Kimeneti fájlok a forrás mappába</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
-        <translation>Legalább egy fájlt válasszon ki</translation>
+        <translation>Legalább egy fájlt válasszon ki.</translation>
     </message>
     <message>
         <source>Select Files</source>
@@ -253,7 +268,7 @@
     </message>
     <message>
         <source>Some files could not be found.</source>
-        <translation>Néhány fájl nem található</translation>
+        <translation>Néhány fájl nem található.</translation>
     </message>
     <message>
         <source>Folder does not exist. Create a new folder?</source>
@@ -265,15 +280,15 @@
     </message>
     <message>
         <source>Add Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlok Hozzáadása</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>A kiválasztott eltávolítása</translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation type="unfinished">Lista ürítése</translation>
+        <translation>Lista ürítése</translation>
     </message>
 </context>
 <context>
@@ -352,7 +367,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>px</translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -375,7 +390,8 @@
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Vágott videó; válassza ki a konvertálni kívánt tartományt</translatorcomment>
+        <translation>Vág</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
@@ -404,47 +420,47 @@
     </message>
     <message>
         <source>Copy Audio (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang másolása (ne újra kódolja)</translation>
     </message>
     <message>
         <source>Insert Subtitle if Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Helyezze be a Felirat lehetőséget, ha rendelkezésre áll</translation>
     </message>
     <message>
         <source>Copy Video (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó másolása (ne újra kódolja)</translation>
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó extra opciói</translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó fekete-fehér</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítsa függőlegesen</translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítsa vízszintesen</translation>
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Forgassa 90 fokkal jobbra</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Forgassa 90 fokkal balra</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Forgassa el 180 fokkal</translation>
     </message>
 </context>
 <context>
@@ -479,7 +495,9 @@
         <source>Error Message from FFmpeg:
 
 </source>
-        <translation>FFmpeg hibaüzenet:</translation>
+        <translation>FFmpeg hibaüzenet:
+
+</translation>
     </message>
     <message>
         <source>Drag and drop files here to add tasks.</source>
@@ -601,7 +619,7 @@
     </message>
     <message>
         <source>Cannot remove a task while it is in progress.</source>
-        <translation>Folyamatban lévő feladat nem távolítható el!</translation>
+        <translation>Folyamatban lévő feladat nem távolítható el!.</translation>
     </message>
     <message>
         <source>Finished</source>
@@ -634,7 +652,7 @@
     <name>HelpMystiQDialog</name>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Használati Utasítás</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -693,7 +711,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -705,23 +723,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Mark as Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje meg kezdőnek</translation>
     </message>
     <message>
         <source>Seek to Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresse meg</translation>
     </message>
     <message>
         <source>Play Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Play Selection</translation>
     </message>
     <message>
         <source>Mark as End</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjelölés végeként</translation>
     </message>
     <message>
         <source>Seek to End</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresse a végét</translation>
     </message>
 </context>
 <context>
@@ -756,15 +774,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Kilépés</translation>
+        <translation>&amp;Kilépés</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Kilépés a programból</translation>
+        <translation>Kilépés a programból.</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>Állj</translation>
+        <translation>Á&amp;llj</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
@@ -772,7 +790,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Változók beállítása</translation>
+        <translation>Változók &amp;beállítása</translation>
     </message>
     <message>
         <source>Set Parameters</source>
@@ -785,7 +803,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>A Qt-ről</translation>
+        <translation>A &amp;Qt-ről</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -801,11 +819,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
-        <translation>Az FFmpeg-ről</translation>
+        <translation>Az &amp;FFmpeg-ről</translation>
     </message>
     <message>
         <source>About FFmpeg</source>
-        <translation>Az FFmpeg-ről:</translation>
+        <translation>Az FFmpeg-ről</translation>
     </message>
     <message>
         <source>&amp;Remove Selected</source>
@@ -819,7 +837,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>Eltávolítás befejezve</translation>
+        <translatorcomment>eltávolítás befejezve (feladat, tételek)</translatorcomment>
+        <translation>&amp;Eltávolítás befejezve</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -835,7 +854,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove all items in the list.</source>
-        <translation>Minden listán lévő elem eltávolítása</translation>
+        <translation>Minden listán lévő elem eltávolítása.</translation>
     </message>
     <message>
         <source>&amp;Retry</source>
@@ -871,7 +890,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change Output &amp;Filename</source>
-        <translation>Kimeneti fájlnév megváltoztatása</translation>
+        <translation>Kimeneti fájlnév &amp;megváltoztatása</translation>
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
@@ -879,24 +898,25 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
-        <translation>Kimeneti könyvtár megváltoztatása</translation>
+        <translation>Kimeneti könyvtár me&amp;gváltoztatása</translation>
     </message>
     <message>
         <source>Change the output directory of the selected items.</source>
-        <translation>Kiválasztott elemek kimeneti könytárának megváltoztatása</translation>
+        <translation>Kiválasztott elemek kimeneti könytárának megváltoztatása.</translation>
     </message>
     <message>
         <source>Show Error &amp;Message</source>
-        <translation>Hibaüzenetek megjelenítése</translation>
+        <translation>Hibaüzenetek meg&amp;jelenítése</translation>
     </message>
     <message>
         <source>Check For &amp;Updates</source>
-        <translation>Frissítések ellenőrzése</translation>
+        <translation>Frissítések elle&amp;nőrzése</translation>
     </message>
     <message>
         <source>Cut</source>
         <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Videofájl kivágása (válasszon egy időtartamot a megerősítéshez)</translatorcomment>
+        <translation>Vág</translation>
     </message>
     <message>
         <source>All tasks have finished.</source>
@@ -951,108 +971,109 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Media Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Segítség</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista &amp;Törlése</translation>
     </message>
     <message>
         <source>About MystiQ</source>
-        <translation type="unfinished">A MystiQ-ről</translation>
+        <translation>A MystiQ-ről</translation>
     </message>
     <message>
         <source>Poweroff</source>
-        <translation type="unfinished"></translation>
+        <translation>Kikapcsolni</translation>
     </message>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Használati Utasítás</translation>
     </message>
     <message>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <source>&amp;Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hibajelentés</translation>
     </message>
     <message>
         <source>Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Hibajelentés</translation>
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Adományoz</translation>
     </message>
     <message>
         <source>Conversion finished successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az átalakítás sikeresen befejeződött.</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az átalakítás sikertelen.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Támogassa a MystiQ-t</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zárja be az alkalmazást</translation>
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>A MystiQ-nek szüksége van rád</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>A MystiQ egy ingyenes szoftver. A fejlesztés azonban sok időt és munkát igényel. A MystiQ új funkciókkal történő továbbfejlesztése érdekében segítségre van szüksége. Kérjük, fontolja meg a MystiQ projekt támogatását egy adomány elküldésével. &lt;b&gt; Még a legkisebb összeg is sokat segít. &lt;/b&gt;</translation>
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation type="unfinished"></translation>
+        <translation>Hibajelentés a MystiQ-tól </translation>
     </message>
     <message>
         <source>%1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Your comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>A te hozzászólásod:</translation>
     </message>
     <message>
         <source>Report:</source>
-        <translation type="unfinished"></translation>
+        <translation>Feljelent:</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>A (z) %1-es fájl konvertálása %2 fájlba. %2 a fájlok száma.</translatorcomment>
+        <translation>A MystiQ konvertálja a %1/%2 fájlt</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordít</translation>
     </message>
     <message>
         <source>Translate Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazás Fordítása</translation>
     </message>
 </context>
 <context>
@@ -1060,14 +1081,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1186,26 +1207,27 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Játsszon a kiválasztott tartományban</translation>
     </message>
     <message>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Kezdődik</translation>
     </message>
     <message>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Vége</translation>
     </message>
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>a videó lejátszása %1-től %2-ig. %1 és %2 idő hh: mm: ss formátumban.</translatorcomment>
+        <translation>Játssz %1~%2</translation>
     </message>
     <message>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó előnézete</translation>
     </message>
 </context>
 <context>
@@ -1223,7 +1245,7 @@ p, li { white-space: pre-wrap; }
     <name>UpdateDialog</name>
     <message>
         <source>Show &amp;Release Notes</source>
-        <translation>Kiadási megjegyzések</translation>
+        <translation>Kiadási &amp;Megjegyzések</translation>
     </message>
     <message>
         <source>Check for updates on program startup</source>
@@ -1235,7 +1257,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cannot connect to server.</source>
-        <translation>Nem lehet kapcsolódni a kiszolgálóhoz</translation>
+        <translation>Nem lehet kapcsolódni a kiszolgálóhoz.</translation>
     </message>
     <message>
         <source>Failed to parse the received data.</source>
@@ -1247,7 +1269,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>An unknown error has occurred.</source>
-        <translation>Ismeretlen hiba!</translation>
+        <translation>Ismeretlen hiba!.</translation>
     </message>
     <message>
         <source>A new version of MystiQ has been released!</source>
@@ -1256,7 +1278,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translation>A &lt;b&gt;%1&lt;/b&gt; kiadás elérhető itt: %2</translation>
+        <translatorcomment>%1 verziószám, %2 a projekt honlapja</translatorcomment>
+        <translation>A &lt;b&gt;%1&lt;/b&gt; kiadás elérhető itt: %2.</translation>
     </message>
     <message>
         <source>You can download this version using the link:</source>
