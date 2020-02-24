@@ -49,6 +49,7 @@ Other free software projects that influenced the development of MystiQ:
  - [Curlew](http://sourceforge.net/projects/curlew)
  - [Ciano](https://robertsanseries.github.io/ciano/)
  - [FFMulticonverter](https://sites.google.com/site/ffmulticonverter/)
+ - [HandBrake](https://handbrake.fr)
 
 MystiQ Video Converter is a product of the effort of the [SWL-X Project community](https://swlx.info). We have also received help from the [KaOS Linux project community](https://gitter.im/KaOSx/KaOS/), especially the support of its leader @Demm.
 
