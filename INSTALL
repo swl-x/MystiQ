@@ -23,15 +23,21 @@ sudo apt install libc6 ffmpeg qt5-default libqt5multimedia5-plugins libqt5qml5 l
 
 Compile:
   - clone git repository: "git clone https://github.com/swl-x/mystiq.git"
-  - run "qmake <option>"
+  - run "qmake mystiq.pro"
   - run "make"
   - run "sudo make install"
   
-qmake options:
-DEFINES+=NO_NEW_VERSION_CHECK
   
-  
-Hint:
-To check that all external programs are installed,
-please run mystiq on the console and control
-the output section "---Begin Search external tools---"
+If you want to use MystiQ Video Converter from an alternative repository, without the need to compile, you can configure an alternative repository:
+
+#### Arch Linux
+For Arch Linux, edit `/etc/pacman.conf` and add the following (the order of the repositories is important in pacman.conf, because pacman always downloads the first package it finds):
+
+[home_llamaret_Arch]
+SigLevel = Never
+Server = https://download.opensuse.org/repositories/home:/llamaret/Arch/$arch
+
+Then run the following as root
+
+`pacman -Syu`
+`pacman -S home_llamaret_Arch / mystiq`
