@@ -1269,5 +1269,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>このバージョンは、次のリンクからダウンロードできます:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>アップデートをチェックする</translation>
+    </message>
 </context>
 </TS>

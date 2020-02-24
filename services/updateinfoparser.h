@@ -55,7 +55,9 @@ private:
     QString m_vid;
     QString m_releaseDate;
     QString m_releaseNotes;
-    QString m_downloadUrl;
+    QString m_downloadUrlWindows;
+    QString m_downloadUrlLinux;
+    QString m_downloadUrlMacOS;
     QString m_downloadPage;
 };
 

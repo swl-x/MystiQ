@@ -17,13 +17,16 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string notr="true">MystiQ Updates</string>
+   <string>Check Update</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../images.qrc">
     <normaloff>:/actions/icons/check_update.svg</normaloff>:/actions/icons/check_update.svg</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
    <item>
     <widget class="QLabel" name="lblStatus">
      <property name="text">
@@ -36,19 +39,6 @@
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
      <item>
       <widget class="QPushButton" name="btnReleaseNotes">
        <property name="text">
@@ -77,6 +67,9 @@
    </item>
    <item>
     <widget class="QCheckBox" name="chkCheckUpdateOnStartup">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
      <property name="text">
       <string>Check for updates on program startup</string>
      </property>
@@ -94,7 +87,7 @@
       <enum>Qt::Horizontal</enum>
      </property>
      <property name="standardButtons">
-      <set>QDialogButtonBox::Ok</set>
+      <set>QDialogButtonBox::Close</set>
      </property>
     </widget>
    </item>

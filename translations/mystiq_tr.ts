@@ -1269,5 +1269,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>Bu sürümü aşağıdaki bağlantıdan indirebilirsiniz:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>Güncellemeyi Kontrol Et</translation>
+    </message>
 </context>
 </TS>

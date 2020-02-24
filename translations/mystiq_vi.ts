@@ -1266,5 +1266,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

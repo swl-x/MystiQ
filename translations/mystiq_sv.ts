@@ -1327,5 +1327,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>Du kan ladda ner den här versionen via länken:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>Kolla Uppdatering</translation>
+    </message>
 </context>
 </TS>

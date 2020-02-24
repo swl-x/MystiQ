@@ -143,7 +143,7 @@ QString UpdateDialog::get_status()
     if (!url.isEmpty()) {
         result << "<br>";
         result << tr("You can download this version using the link:");
-        result << "<br><br>";
+        result << "<br>";
         result << link(m_updateChecker->downloadUrl());
     }
     return result.join("");

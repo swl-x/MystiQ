@@ -1271,5 +1271,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>Vous pouvez télécharger cette version depuis le lien :</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>Vérifier la mise à jour</translation>
+    </message>
 </context>
 </TS>

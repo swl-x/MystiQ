@@ -1326,5 +1326,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>Вы можете скачать эту версию по ссылке:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>Проверить обновление</translation>
+    </message>
 </context>
 </TS>

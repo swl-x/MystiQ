@@ -1285,5 +1285,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>Tuto verzi si můžete stáhnout pomocí odkazu:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation>Zkontrolovat Aktualizace</translation>
+    </message>
 </context>
 </TS>

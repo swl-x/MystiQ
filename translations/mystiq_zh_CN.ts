@@ -1266,5 +1266,9 @@ p, li { white-space: pre-wrap; }
         <source>You can download this version using the link:</source>
         <translation>您可以从以下链接下载这个版本:</translation>
     </message>
+    <message>
+        <source>Check Update</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

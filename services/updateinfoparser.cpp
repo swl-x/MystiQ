@@ -39,15 +39,9 @@ bool XmlUpdateInfoParser::parse(QString s)
     m_vid = table.lookup("VersionId");
     m_releaseDate = table.lookup("ReleaseDate");
     m_releaseNotes = table.lookup("ReleaseNotes");
-#ifdef Q_OS_WIN32
-    if (Constants::getBool("Portable")) {
-        m_downloadUrl = table.lookup("DownloadLinks/WindowsPortable");
-    } else {
-        m_downloadUrl = table.lookup("DownloadLinks/WindowsInstaller");
-    }
-#else
-    m_downloadUrl = "";
-#endif
+    m_downloadUrlWindows = table.lookup("DownloadLinks/WindowsInstaller");
+    m_downloadUrlLinux = table.lookup("DownloadLinks/LinuxInstaller");
+    m_downloadUrlMacOS = table.lookup("DownloadLinks/MacOSInstaller");
     m_downloadPage = table.lookup("DownloadPage");
 
     if (!m_version.isEmpty())
@@ -78,7 +72,15 @@ QString XmlUpdateInfoParser::releaseNotes() const
 
 QString XmlUpdateInfoParser::downloadUrl() const
 {
-    return m_downloadUrl;
+    #ifdef Q_OS_WIN32
+    return m_downloadUrlWindows;
+    #endif
+    #ifdef Q_OS_LINUX
+    return m_downloadUrlLinux;
+    #endif
+    #ifdef Q_OS_MACOS
+    return m_downloadUrlMacOS;
+    #endif
 }
 
 QString XmlUpdateInfoParser::downloadPage() const
