@@ -23,8 +23,7 @@ Copyright (C) 2020 Maikel Llamaret Heredia <llamaret@webmisolutions.com>
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later
-version.
+Foundation, either version 3 of the License.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
@@ -50,3 +49,9 @@ Other free software projects that influenced the development of MystiQ:
  - [Curlew](http://sourceforge.net/projects/curlew)
  - [Ciano](https://robertsanseries.github.io/ciano/)
  - [FFMulticonverter](https://sites.google.com/site/ffmulticonverter/)
+
+MystiQ Video Converter is a product of the effort of the [SWL-X Project community](https://swlx.info). We have also received help from the [KaOS Linux project community](https://gitter.im/KaOSx/KaOS/), especially the support of its leader @Demm.
+
+Valid to thank the [Rosa Linux project](http://www.rosalab.com), its leaders and the community of this distribution on [Telegram](https://t.me/rosalinux).
+
+It is appropriate to mention the [Transifex platform](https://www.transifex.com/swl-x-project/mystiq-video-converter/), thanks to which many volunteers have joined to include language packs for MystiQ Video Converter, which has allowed the application to reach many in more languages.
