@@ -104,6 +104,9 @@ void UpdateDialog::slotReceivedUpdateResult(int result)
     case UpdateChecker::UpdateNotFound:
         message = tr("You are already using the latest version of MystiQ.");
         break;
+    case UpdateChecker::UpdateDevChanel:
+        message = tr("The current version you are using is newer than the release channel version.<br>Therefore, you are using the development channel.");
+        break;
     default:
         message = tr("An unknown error has occurred.");
     }

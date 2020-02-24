@@ -1273,5 +1273,9 @@ p, li { white-space: pre-wrap; }
         <source>Check Update</source>
         <translation>Chequear Actualizaciones</translation>
     </message>
+    <message>
+        <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
+        <translation>La actual versión que estás usando es más reciente que la versión del canal de liberación.&lt;br&gt;Por lo tanto, estás usando el canal de desarrollo.</translation>
+    </message>
 </context>
 </TS>

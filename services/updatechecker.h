@@ -37,6 +37,7 @@ public:
         ConnectionError,
         DataError,
         UpdateNotFound,
+        UpdateDevChanel,
         UpdateFound
     };
 

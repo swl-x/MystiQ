@@ -1331,5 +1331,9 @@ p, li { white-space: pre-wrap; }
         <source>Check Update</source>
         <translation>Comprobe Actualizar</translation>
     </message>
+    <message>
+        <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

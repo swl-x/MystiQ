@@ -110,7 +110,11 @@ void UpdateChecker::downloadFinished(bool success, QString /*url*/, QString cont
             p->release_date = parser.releaseDate();
             p->download_url = parser.downloadUrl();
             p->download_page = parser.downloadPage();
-        } else {
+        } else if (parser.versionId() < VERSION_INTEGER){
+            // Using dev channel
+            p->result = UpdateDevChanel;
+        }
+        else if (parser.versionId() == VERSION_INTEGER){
             // no new version found
             p->result = UpdateNotFound;
         }
