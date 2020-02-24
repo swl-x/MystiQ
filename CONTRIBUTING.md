@@ -39,3 +39,13 @@ Travis is configured to use your email for notifications of success/fail on the 
 ### Deploys
 
 Automatic implementations in github are planned for the generation of an AppImage package that can be run from any GNU/Linux distribution under the 64-bit architecture
+
+### Translations
+
+Any volunteer can contribute translations for MystiQ Video Converter.
+
+You can clone or forge the repository, go to the / translations folder and create a new .ts file and work on the new translation a translation tool like Qt Linguist (Qt5). After the file is finished and reviewed, you can make a pull request and wait for it to be reviewed and approved.
+
+However, the easiest way is to use the [Transifex platform](https://www.transifex.com/swl-x-project/mystiq-video-converter/). From there you can request to participate in the translation of an existing language or request the creation of a new language pack. After the translation is finished, automatically, without your participation, a pull request will be made from Transifex to our repository in Github providing the new language pack.
+
+## Monetary contribution
