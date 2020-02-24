@@ -13,7 +13,7 @@ MAINT="Pavel Milanes Costa"
 EMAIL="pavelmc@gmail.com"
 LIC="gpl3"
 HOMEPAGE="https://mystiqapp.com"
-VCS="https://github.com/llamaret/mystiq.git"
+VCS="https://github.com/swl-x/mystiq.git"
 DEPS="libc6, ffmpeg (>=3.0.0), qt5-default (>=5.10.0), libqt5multimedia5-plugins (>=5.10.0), libqt5qml5 (>=5.10.0), libqt5quickwidgets5 (>=5.10.0), qml-module-qtquick2 (>=5.10.0), qml-module-qtquick-dialogs (>=5.10.0), qml-module-qtmultimedia (>=5.10.0)"
 RECOM="sox, libnotify-bin"
 DATE=`date +"%a, %d %b 20%y %H:%M:%S %z"`

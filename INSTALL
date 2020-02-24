@@ -22,7 +22,7 @@ To run, on Debian and derivated install:
 sudo apt install libc6 ffmpeg qt5-default libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
 
 Compile:
-  - clone git repository: "git clone https://github.com/llamaret/mystiq.git"
+  - clone git repository: "git clone https://github.com/swl-x/mystiq.git"
   - run "qmake <option>"
   - run "make"
   - run "sudo make install"

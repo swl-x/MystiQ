@@ -99,7 +99,7 @@
       <category>Qt</category>
   </categories>
   <releases>
-    <release version="20.02.15"/>
+    <release version="20.03.18"/>
   </releases>
   <project_group>SWL-X</project_group>
   <project_license>GPL-3.0</project_license>

@@ -14,7 +14,7 @@ So if you need to do a change, fix something or add a new feature, please open a
 
 ## Commits
 
-All commits comments must start with `Refs #8, ....` where in this case the #8 refers to the issue you are working on, why? see it [here in action](https://github.com/llamaret/MystiQ/issues/8)
+All commits comments must start with `Refs #8, ....` where in this case the #8 refers to the issue you are working on, why? see it [here in action](https://github.com/swl-x/MystiQ/issues/8)
 
 Hover the mouse over the name, number and comments of the commit `d4a19cd` github does a great job by linking all together, this is possible because we mentiones the issue in the branch name and also in the commit comment.
 

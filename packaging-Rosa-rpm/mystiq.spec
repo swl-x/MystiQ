@@ -11,7 +11,7 @@ Release:	1
 License:	GPLv3
 Group:		Video
 Url:		https://mystiqapp.com/
-Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}.tar.gz
+Source0:	https://github.com/swl-x/MystiQ/archive/v%{version}.tar.gz
 Patch0:		rosa-data.patch
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-tools
