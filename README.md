@@ -14,7 +14,7 @@ can also adjust conversion parameters in detail.
 
 For compiling and installing MystiQ, please refer to [INSTALL](INSTALL).
 
-If you want to contribute as a developer please see the file [CONTRIBUTING.md](CONTRIBUTING.md).
+If you want to contribute in any way with the project, see the file [CONTRIBUTING.md](CONTRIBUTING.md).
 
 License
 -------
