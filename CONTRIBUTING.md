@@ -49,3 +49,10 @@ You can clone or forge the repository, go to the / translations folder and creat
 However, the easiest way is to use the [Transifex platform](https://www.transifex.com/swl-x-project/mystiq-video-converter/). From there you can request to participate in the translation of an existing language or request the creation of a new language pack. After the translation is finished, automatically, without your participation, a pull request will be made from Transifex to our repository in Github providing the new language pack.
 
 ## Monetary contribution
+
+MystiQ is free software. However, development requires a lot of time and a lot of work. To continue developing MystiQ with new features, we need your help. Please consider supporting the MystiQ project by sending a donation. Even the smallest amount will help a lot.
+
+If you decide and have the possibility of giving us a monetary contribution, you can use one of the following platforms from which we manage the contributions of the community:
+
+- [https://opencollective.com/mystiq](https://opencollective.com/mystiq)
+- [https://liberapay.com/llamaret](https://liberapay.com/llamaret)
