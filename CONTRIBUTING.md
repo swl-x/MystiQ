@@ -50,6 +50,8 @@ However, the easiest way is to use the [Transifex platform](https://www.transife
 
 ## Monetary contribution
 
+### Sponsor Management Platforms
+
 MystiQ is free software. However, development requires a lot of time and a lot of work. To continue developing MystiQ with new features, we need your help. Please consider supporting the MystiQ project by sending a donation. Even the smallest amount will help a lot.
 
 If you decide and have the possibility of giving us a monetary contribution, you can use one of the following platforms from which we manage the contributions of the community:
