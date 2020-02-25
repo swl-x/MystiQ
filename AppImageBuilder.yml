@@ -41,6 +41,7 @@ AppDir:
       - gstreamer1.0-fluendo-mp3
       - gstreamer1.0-pulseaudio
       - libasound2-plugins
+
     exclude:
       - libgl1
       - libegl1
