@@ -48,6 +48,7 @@ AppDir:
       - libegl1-mesa
       - libgl1-mesa-dri
 
+
   files:
     exclude:
       - usr/lib/x86_64-linux-gnu/gconv
