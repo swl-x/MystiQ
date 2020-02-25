@@ -30,16 +30,23 @@ AppDir:
       - libqt5quickwidgets5
       - qml-module-qtquick2
       - qml-module-qtquick-dialogs
-      - qml-module-qtmultimedia
       - libqt5multimedia5-plugins
-      - gstreamer1.0-libav
+      - qml-module-qtmultimedia
+      - gstreamer1.0-x
+      - gstreamer1.0-alsa
       - gstreamer1.0-plugins-base
       - gstreamer1.0-plugins-good
+      - gstreamer1.0-plugins-bad
+      - gstreamer1.0-plugins-ugly
+      - gstreamer1.0-fluendo-mp3
+      - gstreamer1.0-pulseaudio
+      - libasound2-plugins
     exclude:
       - libgl1
       - libegl1
       - libdrm2
       - libegl1-mesa
+      - libgl1-mesa-dri
 
   files:
     exclude:
