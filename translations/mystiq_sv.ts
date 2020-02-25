@@ -1333,7 +1333,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation>Den version du använder är nyare än den version som släppts på publiceringskanalen.<br>Därför använder du nu utvecklingskanalen.</translation>
+        <translation>Den nuvarande versionen du använder är nyare än versionskanalversionen.&lt;br&gt;Därför använder du utvecklingskanalen.</translation>
     </message>
 </context>
 </TS>
