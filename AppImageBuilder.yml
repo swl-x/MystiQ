@@ -41,13 +41,30 @@ AppDir:
       - gstreamer1.0-fluendo-mp3
       - gstreamer1.0-pulseaudio
       - libasound2-plugins
+      
+      # the following X libs are not resolved by apt
+      - libxrender1
+      - libxcursor1
 
     exclude:
-      - libgl1
-      - libegl1
+      # there is no reason to be bundled
+      - perl
+      - perl-base
+      - perl-modules
+      
+      # graphics sctack (excluded to allow running in system with non-common graphic cards)
       - libdrm2
-      - libegl1-mesa
+      - libgl1
       - libgl1-mesa-dri
+      - libegl1
+      - libegl1-mesa
+      
+      # fontconfig (if included the app crashes on archlinux)
+      - fontconfig
+      - fontconfig-config
+      - libfontconfig1
+      - libfreetype6
+
 
 
   files:
