@@ -35,6 +35,11 @@ AppDir:
       - gstreamer1.0-libav
       - gstreamer1.0-plugins-base
       - gstreamer1.0-plugins-good
+    exclude:
+      - libgl1
+      - libegl1
+      - libdrm2
+      - libegl1-mesa
 
   files:
     exclude:
