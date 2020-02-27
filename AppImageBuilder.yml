@@ -30,16 +30,40 @@ AppDir:
       - libqt5quickwidgets5
       - qml-module-qtquick2
       - qml-module-qtquick-dialogs
-      - qml-module-qtmultimedia
       - libqt5multimedia5-plugins
-      - gstreamer1.0-libav
+      - qml-module-qtmultimedia
+      - gstreamer1.0-x
+      - gstreamer1.0-alsa
       - gstreamer1.0-plugins-base
       - gstreamer1.0-plugins-good
+      - gstreamer1.0-plugins-bad
+      - gstreamer1.0-plugins-ugly
+      - gstreamer1.0-fluendo-mp3
+      - gstreamer1.0-pulseaudio
+      - libasound2-plugins
+      
+      # the following X libs are not resolved by apt
+      - libxrender1
+      - libxcursor1
+
     exclude:
-      - libgl1
-      - libegl1
+      # there is no reason to be bundled
+      - perl
+      - perl-base
+      - perl-modules
+      
+      # graphics sctack (excluded to allow running in system with non-common graphic cards)
       - libdrm2
+      - libgl1
+      - libgl1-mesa-dri
+      - libegl1
       - libegl1-mesa
+      
+      # fontconfig (if included the app crashes on archlinux)
+      - fontconfig
+      - fontconfig-config
+      - libfontconfig1
+      - libfreetype6
 
   files:
     exclude:
