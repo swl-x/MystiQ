@@ -75,10 +75,6 @@ AppDir:
       - usr/share/doc/*/TODO.*
       - usr/include
   
-  runtime:
-    env:
-      PATH: '"$APPDIR"/usr/bin:"$PATH"'
-  
   test:
     debian:
       image: debian:stable
