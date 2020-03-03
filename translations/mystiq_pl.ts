@@ -126,6 +126,11 @@
         <source>Icons Theme:&lt;br&gt; %1</source>
         <translation>Motyw ikon: &lt;br&gt; %1</translation>
     </message>
+    <message>
+        <source>Indonesian (Indonesia)</source>
+        <extracomment>Indonesian Language (Indonesia)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

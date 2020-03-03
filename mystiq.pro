@@ -130,6 +130,7 @@ TRANSLATIONS += \
     translations/mystiq_fr.ts \
     translations/mystiq_gl.ts \
     translations/mystiq_de.ts \
+    translations/mystiq_id.ts \
     translations/mystiq_it.ts \
     translations/mystiq_pt.ts \
     translations/mystiq_ja.ts \

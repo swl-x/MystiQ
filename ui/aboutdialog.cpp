@@ -159,6 +159,9 @@ QString AboutDialog::getTranslators()
         //: Galician Language (Galicia)
         {"gl_GL", trad(tr("Galician (Galicia)")
                     , "Leandro Vergara")},
+        //: Indonesian Language (Indonesia)
+        {"id_ID", trad(tr("Indonesian (Indonesia)")
+                    , "Kiki Syahadat")},
     };
     const int size = sizeof(table) / sizeof(table[0]);
 
