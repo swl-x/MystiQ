@@ -1,17 +1,37 @@
-Source: _NAME_
-Section: unknown
+Source: mystiq
+Section: video
 Priority: optional
-Maintainer: _MAINT_ <_EMAIL_>
-Build-Depends: debhelper (>= 10)
+Maintainer: Maikel Llamaret Heredia <info@mystiqapp.com>
+Build-Depends: debhelper (>= 10),
+#make,
+ g++,
+ ffmpeg,
+ sox,
+ libnotify-dev,
+ qt5-default,
+ qtdeclarative5-dev,
+ qtmultimedia5-dev,
+ qt5-qmake,
+ libqt5opengl5-dev
 Standards-Version: 4.1.2
-Homepage: _HOMEPAGE_
-Vcs-Git: _VCS_
-Vcs-Browser: _VCS_
+Homepage:  https://mystiqapp.com
+Vcs-Browser: https://github.com/llamaret/mystiq.git
+Vcs-Git: https://github.com/llamaret/mystiq.git
 
-Package: _NAME_
+Package: mystiq
 Architecture: amd64
-Depends: _DEPS_
-Recommends: _RECOM_
+Depends:
+ libc6,
+ ffmpeg,
+ qt5-default (>= 5.10.0),
+ libqt5multimedia5-plugins (>= 5.10.0),
+ libqt5qml5 (>= 5.10.0),
+ libqt5quickwidgets5 (>= 5.10.0),
+ qml-module-qtquick2 (>= 5.10.0),
+ qml-module-qtquick-dialogs (>= 5.10.0),
+ qml-module-qtmultimedia (>= 5.10.0),
+ libqt5opengl5 (>= 5.10.0)
+Recommends: sox, libnotify-bin
 Description: A FFmpeg GUI front-end based on Qt5 and writed in C++
  MystiQ is a GUI for [FFmpeg](http://ffmpeg.org), a powerful media converter.
  FFmpeg can read audio and video files in various formats and convert them into
