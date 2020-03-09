@@ -8,18 +8,19 @@ BuildRequires:
   - libqt5-linguist
   - libqt5multimedia5
   - libqt5declarative
+  - libqt5opengl5
   - alsa-devel
   - libX11-devel
   
-depends=('ffmpeg' 'qt5-base' 'qtdeclarative5' 'qtmultimedia5')
+depends=('ffmpeg' 'qt5-base' 'qtdeclarative5' 'qtmultimedia5' 'libqt5opengl5')
 optdepends=('sox: audio speed adjusting support'
 				'libnotify: display desktop notifications')  
   
 To build, on Debian and derivated install:
-sudo apt install ffmpeg sox libnotify-dev qt5-default qtdeclarative5-dev qtmultimedia5-dev qt5-qmake g++ make
+sudo apt install ffmpeg sox libnotify-dev qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5opengl5-dev qt5-qmake g++ make
 
 To run, on Debian and derivated install:
-sudo apt install libc6 ffmpeg qt5-default libqt5multimedia5-plugins libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
+sudo apt install libc6 ffmpeg qt5-default libqt5multimedia5-plugins libqt5opengl5 libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
 
 Compile:
   - clone git repository: "git clone https://github.com/swl-x/mystiq.git"
