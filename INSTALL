@@ -72,6 +72,15 @@ apt-get update
 apt-get install mystiq
 
 
+### MX Linux 19
+
+MystiQ can be installed via the MX Package Manager (Currently under MX Test Repo Tab)
+
+Or with the Test Repo enabled (not recommended) run the following as root:
+apt-get update
+apt-get install mystiq
+
+
 ### Ubuntu
 
 For Ubuntu 20.04 run the following:
