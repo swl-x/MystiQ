@@ -46,7 +46,7 @@
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation>MystiQ графический интерфейс к FFmpeg</translation>
+        <translation>MystiQ графический интерфейс к FFmpeg.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
@@ -87,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите.</translation>
+        <translation>Многие люди внесли свой вклад в переводы. Вы также можете помочь перевести Mystiq Video Converter на ваш собственный язык. Заходите </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>присоединяйтесь к команде переводчиков.</translation>
+        <translation> присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -118,11 +118,11 @@
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Галицкий (Галиция)</translation>
     </message>
     <message>
         <source>Icons Theme:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Иконки Тема: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Indonesian (Indonesia)</source>
@@ -186,7 +186,7 @@
     </message>
     <message>
         <source>Auto adjust output bitrate to reduce output file size.</source>
-        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла</translation>
+        <translation>Автоматическая настройка выходного битрейта для уменьшения размера итогового файла.</translation>
     </message>
     <message>
         <source>Auto Adjust Audio Bitrate</source>
@@ -206,7 +206,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Выбор и папка</translation>
+        <translation>Выбор и &amp;папка</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -215,7 +215,8 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Создать &amp; новую папку в исходной папке</translation>
+        <translatorcomment>Создайте новую папку (например, mystiq_output) в папке, содержащей входные файлы. Поместите выходные файлы во вновь созданную папку.</translatorcomment>
+        <translation>Создать &amp;новую папку в исходной папке</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -224,7 +225,8 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translation>Вывод к &amp; исходная папка</translation>
+        <translatorcomment>поместите выходные файлы в ту же папку, что и входные файлы</translatorcomment>
+        <translation>Вывод к &amp;исходная папка</translation>
     </message>
     <message>
         <source>Please select at least one file.</source>
@@ -361,7 +363,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>px</translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -489,6 +491,7 @@
 
 </source>
         <translation>Сообщение об ошибке от FFmpeg:
+
 </translation>
     </message>
     <message>
@@ -703,7 +706,61 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Руководство пользователя MystiQ&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter-это кроссплатформенное приложение. Это приложение имеет в качестве своей единственной цели преобразование аудио и видео файлов в другие форматы. Отличительной особенностью MystiQ является проект с открытым исходным кодом, что означает, что исходный код всегда будет доступен, и каждый, кто хочет внести свой вклад в разработку, будет приветствоваться.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter является бесплатным: вы можете распространять и / или изменять его на условиях GNU (General Public License), опубликованных Фондом свободного программного обеспечения. MystiQ Video Converter свободно распространяется с единственной целью быть полезным приложением для ваших нужд, но без каких-либо гарантий, даже если его использование является коммерческим или просто определенной целью смотрите лицензию GPL v3 для получения более подробной информации. Это приложение включает в себя английскую копию лицензии на распространение программного обеспечения.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Основная идея команды разработчиков состоит в том, чтобы обеспечить дружественный и простой пользовательский интерфейс. В простоте и заключается суть MystiQ, а это значит, что мы не ставим перед собой задачу добавлять функции, усложняющие работу приложения.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В настоящее время MystiQ в основном разрабатывается на языке C ++ с использованием графических библиотек Qt5. В фоновом режиме FFmpeg он отвечает за конвертацию между форматами, поэтому мы можем сказать, что MystiQ-это просто графический интерфейс для FFmpeg.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В настоящее время MystiQ позволяет конвертировать видео в большинство существующих форматов, а также позволяет извлекать аудио и конвертировать между аудиоформатами. Он также включает в себя небольшой инструмент для обрезки видео на основе их продолжительности.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter в настоящее время поддерживает следующие аудио и видео форматы:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Аудио: MP3 и M4A файлы 3g2 форматы OGG WAV и WMA с АС3 RA APE FLAC OPUS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Видео: AVI VFW DivX MPG MPEG m2v, m1v MPV DV 3GP MOV MP4 M4V MQV DAT VCD OGG OGM OGV ASF WMV BIN ISO VOB MKV NSV RAM FLV RM SWF TS RMVB DVR-MS m2t m2ts REC MTS WEBM DV&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Панель инструментов&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;В верхней части главного окна приложения мы найдем панель инструментов со следующими кнопками:&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Добавить файлы:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Открывает диалоговое окно для выбора видео файлов, которые вы хотите конвертировать. После выбора они помещаются в список задач конвертации&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/span&gt;Конвертация:&lt;span style=&quot; font-size:16pt;&quot;&gt;запуск процесса преобразования из списка загруженных элементов&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Стоп:&lt;/span&gt;&lt;/span&gt;останавливает процесс преобразования элемента.&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Повтор:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;повторите процесс преобразования элемента.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Повторить все:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;повторить процесс преобразования всех элементов в списке.&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Удалить выбранный:&lt;span style=&quot; font-size:16pt;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;удалить выбранный элемент из списка.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Удалить завершенные:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;удалить все элементы из списка, завершившие процесс преобразования.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Очистить список:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;удалить все элементы из списка преобразования&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Открыть папку вывода:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;из системного файлового менеджера откройте папку, содержащую преобразованные файлы&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Параметры питания:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&lt;/span&gt;выберите, следует ли выключить, приостановить или перевести компьютер в режим гибернации при завершении процесса преобразования всех элементов в списке.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Параметры Аудио&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Отключить звук:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет получить итоговый файл, без звука.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Копировать аудио (не перекодировать):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет конвертировать без обработки аудио из исходного файла. Итоговый файл будет иметь те же звуковые параметры, что и исходный файл.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Частота дискретизации:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;при производстве аудио частота дискретизации (или &quot;частота дискретизации&quot;) определяет, сколько раз в секунду производится выборка звука. Технически говоря, это частота сэмплов, используемых в цифровой записи.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Битрейт:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;это скорость передачи битов или данных, которые обрабатываются в единицу времени. Средний битрейт для MP3-файла составляет 128 Кбит / с или kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Каналы:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;это способ прохождения сигнала или передачи данных. В случае аудиофайлов это проход или канал связи, по которому звуковой сигнал передается от источника плеера к динамику. Аудиофайл может содержать один, два или даже больше каналов.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Объём:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет настроить максимальный объем конечного файла, принимая за соответствие уровню объёма исходного файла.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Опции Видео&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Вставить субтитр, если он доступен: установив этот флажок, приложение проверит, находится ли файл субтитров с тем же именем в том же месте исходного файла, если он будет найден, оно вставит его в результирующий файл. В настоящее время он совместим с субтитрами в формате SRT, SSA, ASS и SUB.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Отключить видео:&lt;span style=&quot; font-size:16pt;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет получить итоговый файл, без видео.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Копировать видео (не перекодировать):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет конвертировать без обработки видео из исходного файла. Итоговый файл будет иметь те же параметры видео, что и исходный файл.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Черно-белое видео:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;позволяет получить видеофайл в оттенках серого.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Опции переворачивания и поворота:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;итоговый файл будет повернут или перевернут в выбранном направлении.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Деинтерлейс:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;это процесс преобразования чересстрочного видео, такого как обычные аналоговые телевизионные сигналы или сигналы HDTV формата 1080i, в не чересстрочную форму. Чересстрочный видеокадр состоит из двух последовательно взятых подполей, каждое из которых последовательно сканируется по нечетным, а затем четным линиям датчика изображения.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Тот же Квантователь, что и источник:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;он участвует в обработке изображений, представляет собой метод сжатия с потерями, достигаемый сжатием диапазона значений до одного квантового значения. При выборе этого параметра итоговый файл будет иметь тот же деинтерлейсинг, что и исходный файл.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -738,7 +795,7 @@ p, li { white-space: pre-wrap; }
     <name>MainWindow</name>
     <message>
         <source>Start conversion process.</source>
-        <translation>Начать процесс конвертации</translation>
+        <translation>Начать процесс конвертации.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -758,31 +815,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add files for conversion.</source>
-        <translation>Добавить файлы и конвертировать</translation>
+        <translation>Добавить файлы и конвертировать.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N&#xa0;</translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Выход</translation>
+        <translation>Выхо&amp;д</translation>
     </message>
     <message>
         <source>Exit the program.</source>
-        <translation>Выход из программы</translation>
+        <translation>Выход из программы.</translation>
     </message>
     <message>
         <source>S&amp;top</source>
-        <translation>Остановить</translation>
+        <translation>О&amp;становить</translation>
     </message>
     <message>
         <source>Stop conversion process.</source>
-        <translation>Остановка процесса конвертации</translation>
+        <translation>Остановка процесса конвертации.</translation>
     </message>
     <message>
         <source>Set &amp;Parameters</source>
-        <translation>Установки &amp; Параметры</translation>
+        <translation>Установки &amp;Параметры</translation>
     </message>
     <message>
         <source>Set Parameters</source>
@@ -829,7 +886,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translation>Удаление завершено</translation>
+        <translatorcomment>удалить выполнено (задача, элементы)</translatorcomment>
+        <translation>&amp;Удаление завершено</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
@@ -914,7 +972,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Nothing to convert.</source>
-        <translation>Нет объектов для конвертирования</translation>
+        <translation>Нет объектов для конвертирования.</translation>
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
@@ -1021,7 +1079,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation>MystiQ нуждается в тебе.</translation>
+        <translation>MystiQ нуждается в тебе</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
@@ -1029,7 +1087,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Сообщения об ошибках в MystiQ</translation>
+        <translation>Сообщения об ошибках в MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1090,7 +1148,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation>FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
+        <translatorcomment>%1 - компьютерная программа</translatorcomment>
+        <translation> FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
 <context>
@@ -1201,7 +1260,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shutting down in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек.</translation>
+        <translation>Завершение работы в &lt;b&gt; %1 &lt;/b&gt; сек</translation>
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
@@ -1294,7 +1353,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить обновление</translation>
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
