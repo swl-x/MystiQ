@@ -1124,6 +1124,26 @@ p, li { white-space: pre-wrap; }
         <source>Translate Application</source>
         <translation>Översätt programmet</translation>
     </message>
+    <message>
+        <source>Report Bugs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>We need your feedback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Github</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

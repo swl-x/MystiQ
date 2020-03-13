@@ -87,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Banyak orang berkontribusi menerjemahkan. Anda juga bisa membantu menerjemahkan MystiQ Video Converter ke bahasa Anda sendiri. Kunjungi </translation>
+        <translation>Banyak orang berkontribusi menerjemahkan. Anda juga bisa membantu menerjemahkan MystiQ Video Converter ke bahasa Anda sendiri. Kunjungi</translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation> dan bergabung dengan tim penerjemah.</translation>
+        <translation>dan bergabung dengan tim penerjemah.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -127,8 +127,7 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translatorcomment>Bahasa Indonesia (Indonesia)</translatorcomment>
-        <translation>Indonesia (Indonesia)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -216,7 +215,7 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Buat folder baru &amp;di dalam folder sumber</translation>
+        <translation>Buat folder baru di dalam folder sumber</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -705,7 +704,62 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is free: you can redistribute it and / or modify it under the terms GNU (General Public License) published by the Free Software Foundation. MystiQ Video Converter is freely distributed with the sole purpose of being a useful application to your needs, but WITHOUT NO WARRANTY, even if its use is COMMERCIAL or MERELY A PARTICULAR PURPOSE See the GPL v3 license for more details. This application includes an English copy of the Software distribution license.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The essential idea of ​​the development team is to provide a friendly and simple user interface. The simple is the essence of MystiQ, which means that it is not our objective to add features that complicate the operation of the application.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Currently MystiQ is mainly developed in C ++ taking advantage of the Qt5 graphic libraries. In the FFmpeg backend he is in charge of converting between formats, so we can say that MystiQ is simply a graphical interface for FFmpeg.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ currently allows you to convert to most existing video formats, as well as make it possible to extract audio and convert between audio formats. It also includes a small tool to trim videos based on the duration of these.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter currently supports the following audio and video formats:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Audio: mp3 m4a 3g2 ogg wav wma  ac3 ra ape flac opus&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Video: avi vfw divx mpg mpeg m1v m2v mpv dv 3gp mov mp4 m4v mqv dat vcd ogg ogm ogv asf wmv bin iso vob mkv nsv ram flv rm swf ts rmvb dvr-ms m2t m2ts rec mts webm dv&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Toolbar&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;In the upper part of the main window of the application we will find the toolbar with the following buttons:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Add Files:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Opens a dialog to select the video files you want to convert. Once selected, they are placed in the List of Conversion Tasks&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Start: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Start conversion process from the list of loaded items&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stop: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stops the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the process of converting an item&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Retry All:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Retry the conversion process of all items in the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Selected:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove a selected item from the list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Remove Completed:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the list that have completed the conversion process&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clear List:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Remove all items from the conversion list&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Open Output Folder: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;From the system file manager open the folder that contains the converted files&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Power Options:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Choose whether to shut down, suspend or hibernate the computer when completing the conversion process of all items in the list&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Audio Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Audio:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding sound.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Copy audio (do not recode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the audio from the source file. The resulting file will have the same sound parameters as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Volume: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Insert Subtitle if Available: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;By checking this option, the application will verify if a subtitle file of the same name is found in the same location of the source file, if found, it will embed it in the resulting file. It is currently compatible with subtitles in SRT, SSA, ASS and SUB format.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Video:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding video.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -744,15 +798,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Berkas</translation>
+        <translation>Berkas</translation>
     </message>
     <message>
         <source>&amp;Convert</source>
-        <translation>&amp;Konversi</translation>
+        <translation>Konversi</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Sunting</translation>
+        <translation>Sunting</translation>
     </message>
     <message>
         <source>&amp;Add Files</source>
@@ -768,7 +822,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>K&amp;eluar</translation>
+        <translation>Keluar</translation>
     </message>
     <message>
         <source>Exit the program.</source>
@@ -822,7 +876,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
-        <translation>&amp;Hapus yang dipilih</translation>
+        <translation>Hapus yang dipilih</translation>
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
@@ -851,7 +905,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>&amp;Coba kembali</translation>
+        <translation>Coba kembali</translation>
     </message>
     <message>
         <source>Retry</source>
@@ -883,7 +937,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change Output &amp;Filename</source>
-        <translation>Ubah Nama Berkas Kel&amp;uaran</translation>
+        <translation>Ubah Nama Berkas Keluaran</translation>
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
@@ -967,7 +1021,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Ban&amp;tuan</translation>
+        <translation>Bantuan</translation>
     </message>
     <message>
         <source>F5</source>
@@ -975,7 +1029,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation>Bersihkan &amp;Daftar</translation>
+        <translation>Bersihkan Daftar</translation>
     </message>
     <message>
         <source>About MystiQ</source>
@@ -1031,7 +1085,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Melaporkan kutu dari MystiQ </translation>
+        <translation>Melaporkan kutu dari MystiQ</translation>
     </message>
     <message>
         <source>%1</source>
@@ -1065,6 +1119,26 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Translate Application</source>
         <translation>Terjemahkan Aplikasi</translation>
+    </message>
+    <message>
+        <source>Report Bugs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>We need your feedback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Github</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1276,11 +1350,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check Update</source>
-        <translation>Cek pembaruan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation>Versi saat ini yang Anda gunakan lebih baru daripada versi saluran rilis.&lt;br&gt;Oleh karena itu, Anda menggunakan saluran pengembangan.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

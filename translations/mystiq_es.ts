@@ -1067,6 +1067,26 @@ p, li { white-space: pre-wrap; }
         <source>Translate Application</source>
         <translation>Traducir Aplicación</translation>
     </message>
+    <message>
+        <source>Report Bugs</source>
+        <translation>Reportar Errores</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>Email</translation>
+    </message>
+    <message>
+        <source>We need your feedback</source>
+        <translation>Necesitamos sus reportes</translation>
+    </message>
+    <message>
+        <source>Github</source>
+        <translation>Github</translation>
+    </message>
+    <message>
+        <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
+        <translation>El equipo de desarrollo de MystiQ Video Converter necesita que los usuarios que usan la aplicación ayuden a la detección de errores. Si usted detecta algún error y lo informa a nuestro equipo, ayudará a acelerar el proceso de corrección. Por lo tanto, puede ser parte de nuestro equipo de desarrollo incluso si no es un programador. Para informar errores, puede enviarnos un correo electrónico con la descripción detallada del mismo o puede ingresar a Github y describirnos el problema (en este caso debe tener creada una cuenta en Github).</translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>

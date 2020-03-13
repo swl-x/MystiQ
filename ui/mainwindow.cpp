@@ -252,37 +252,54 @@ void MainWindow::slotTranslate()
 
 void MainWindow::slotReport()
 {
-#ifdef Q_OS_WIN
-    QString eol = "\r\n";
-#endif
-#if defined(Q_OS_LINUX) || defined(Q_OS_MACOS)
-    QString eol = "\n";
-#endif
-    QStringList stringList;
-    stringList << "mailto:";
-    stringList << "info@mystiqapp.com";
-    stringList << "?";
-    stringList << "subject=";
-    stringList << QString( tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING) );
-    stringList << "&";
-    stringList << "body=";
-    stringList << tr("Your comment:");
-    stringList << eol;
-    stringList << eol;
-    stringList << eol;
-    stringList << eol;
-    stringList << "--------------------------------";
-    stringList << eol;
-    stringList << tr("Report:");
-    stringList << eol;
-    stringList << eol;
-    stringList << eol;
-    stringList << eol;
-    stringList << "--------------------------------";
+    QMessageBox d(this);
+        d.setWindowTitle(tr("Report Bugs"));
+        QPushButton * email_button = d.addButton(tr("Email"), QMessageBox::YesRole);
+        QPushButton * github_button = d.addButton(tr("Github"), QMessageBox::YesRole);
+        d.addButton(tr("Close"), QMessageBox::NoRole);
+        d.setDefaultButton(email_button);
+        d.setText("<h1>" + tr("We need your feedback") + "</h1><p>" +
+            tr("MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).")
+        );
+        d.exec();
+        if (d.clickedButton() == email_button) {
+                #ifdef Q_OS_WIN
+                    QString eol = "\r\n";
+                #endif
+                #if defined(Q_OS_LINUX) || defined(Q_OS_MACOS)
+                    QString eol = "\n";
+                #endif
+                    QStringList stringList;
+                    stringList << "mailto:";
+                    stringList << "info@mystiqapp.com";
+                    stringList << "?";
+                    stringList << "subject=";
+                    stringList << QString( tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING) );
+                    stringList << "&";
+                    stringList << "body=";
+                    stringList << tr("Your comment:");
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << "--------------------------------";
+                    stringList << eol;
+                    stringList << tr("Report:");
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << eol;
+                    stringList << "--------------------------------";
 
-    QString string = stringList.join( "" );
-    bool b = QDesktopServices::openUrl( QUrl( string, QUrl::TolerantMode ) );
-    Q_UNUSED(b)
+                    QString string = stringList.join( "" );
+                    bool b = QDesktopServices::openUrl( QUrl( string, QUrl::TolerantMode ) );
+                    Q_UNUSED(b)
+        }
+        if (d.clickedButton() == github_button) {
+                QString github_issue="https://github.com/swl-x/MystiQ/issues/new/choose";
+                bool b = QDesktopServices::openUrl( QUrl( github_issue, QUrl::TolerantMode ) );
+                Q_UNUSED(b)
+        }
 }
 
 void MainWindow::slotShowUpdateDialog()
