@@ -57,4 +57,5 @@ MystiQ is free software. However, development requires a lot of time and a lot o
 If you decide and have the possibility of giving us a monetary contribution, you can use one of the following platforms from which we manage the contributions of the community:
 
 - [https://opencollective.com/mystiq](https://opencollective.com/mystiq)
-- [https://liberapay.com/llamaret](https://liberapay.com/llamaret)
+- [https://liberapay.com/MystiQ](https://liberapay.com/MystiQ)
+- [https://patreon.com/mystiq](https://patreon.com/mystiq)
