@@ -127,7 +127,7 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Indonesiska (Indonesien)</translation>
     </message>
 </context>
 <context>
@@ -1126,23 +1126,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportera fel</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Vi behöver din återkoppling</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>GitHub</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ Video Converters utvecklingsgrupp behöver användare som använder programmet, för att upptäcka fel. Om du hittar ett fel och rapporterar det till vår grupp, kommer det att bidra till att påskynda korrigeringsprocessen. Därför kan du vara en del av vår utvecklingsgrupp även om du inte är utvecklare. Om du vill rapportera ett fel kan du skicka ett e-postmeddelande med en detaljerad beskrivning av felet eller också kan du logga in på GitHub och beskriva problemet ( i det fallet måste du ha ett GitHub-konto).</translation>
     </message>
 </context>
 <context>
@@ -1358,7 +1358,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation>Den nuvarande versionen du använder är nyare än versionskanalversionen.&lt;br&gt;Därför använder du utvecklingskanalen.</translation>
+        <translation>Den version du nu använder är nyare än publiceringskanalens version.&lt;br&gt;Därför använder du utvecklingskanalen.</translation>
     </message>
 </context>
 </TS>
