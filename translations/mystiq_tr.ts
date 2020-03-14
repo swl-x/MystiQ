@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -118,7 +116,6 @@
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translatorcomment>Galiçya Dili (Galicia)</translatorcomment>
         <translation>Galiçyaca (Galiçya)</translation>
     </message>
     <message>
@@ -128,7 +125,7 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Endonezce (Endonezya)</translation>
     </message>
 </context>
 <context>
@@ -362,7 +359,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation> piksel</translation>
+        <translation> pk</translation>
     </message>
     <message>
         <source>Height</source>
@@ -499,7 +496,7 @@
     </message>
     <message>
         <source>Hide &quot;%1&quot;</source>
-        <extracomment>Hide a column in the list. For example, the text maybe &apos;Hide &quot;Duration&quot;&apos;. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
+        <extracomment>Hide a column in the list. For example, the text maybe 'Hide &quot;Duration&quot;'. The two &quot; are quotation marks in English, you may replace it with local quotation marks.</extracomment>
         <translation>Gizle &quot;%1&quot;</translation>
     </message>
     <message>
@@ -652,8 +649,8 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User&apos;s Manual&lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ User's Manual&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter is a cross platform application. This application has as its sole objective the conversion of audio and video files to multiple formats. As a distinctive feature, MystiQ is an open source project, which means that the source code will always be available and everyone who wishes to contribute to the development is welcome.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -691,8 +688,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Audio:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding sound.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Copy audio (do not recode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the audio from the source file. The resulting file will have the same sound parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It's the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Channels: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the passage way a signal or data is transported. In case of audio files, it's the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Volume: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Options&lt;/span&gt;&lt;/p&gt;
@@ -702,10 +699,65 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It's involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Fira Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;MystiQ Kullanıcı Kılavuzu&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/mystiq_96x96.png&quot; style=&quot;float: left;&quot; /&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter bir çapraz platform uygulamasıdır. Bu uygulama tek amacı olarak ses ve video dosyalarının birden fazla biçime dönüştürülmesine sahiptir. Ayırt edici bir özellik olarak, MystiQ açık kaynaklı bir projedir, yani kaynak kod her zaman kullanılabilir olacak ve gelişime katkıda bulunmak isteyen herkesin hoş karşılanması anlamına gelir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter ücretsizdir: Ücretsiz Yazılım Vakfı tarafından yayınlanan GNU (Genel Kamu Lisansı) terimleri altında yeniden dağıtabilir ve / veya değiştirebilirsiniz. MystiQ Video Converter, yalnızca gereksinimleriniz için yararlı bir uygulama olmak amacıyla serbestçe dağıtılır, ancak kullanımı TİCARİ veya MERKEZİ BİR ÖZEL AMAÇLI olsa bile, GARANTİ YOKTUR Daha fazla bilgi için GPL v3 lisansına bakın. Bu uygulama, Yazılım dağıtım lisansının İngilizce bir kopyasını içerir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Geliştirme ekibinin temel fikri, kolay ve basit bir kullanıcı arayüzü sağlamaktır. Basit olan MystiQ&apos;nun özüdür, bu da uygulamanın çalışmasını zorlaştıran özellikler eklemenin amacımız olmadığı anlamına gelir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Şu anda MystiQ esas olarak Qt5 grafik kütüphanelerinden faydalanarak C ++ &apos;da geliştirilmiştir. FFmpeg arka ucunda, formatlar arasında dönüştürme yapmaktan sorumludur, bu yüzden MystiQ&apos;nun sadece FFmpeg için grafik bir arayüz olduğunu söyleyebiliriz.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ şu anda mevcut video formatlarının çoğuna dönüştürme yapabilmenin yanı sıra ses çıkarmayı ve ses formatları arasında dönüştürme yapmayı mümkün kılıyor. Ayrıca, videoların sürelerine göre kırpmak için küçük bir araç da içerir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;MystiQ Video Converter şu anda aşağıdaki ses ve video formatlarını desteklemektedir:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Ses: mp3 m4a 3g2 ogg wav wma  ac3 ra ape flac opus&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- Video: avi vfw divx mpg mpeg m1v m2v mpv dv 3gp mov mp4 m4v mqv dat vcd ogg ogm ogv asf wmv bin iso vob mkv nsv ram flv rm swf ts rmvb dvr-ms m2t m2ts rec mts webm dv&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot1.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Araç Çubuğu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Uygulamanın ana penceresinin üst kısmında araç çubuğunu aşağıdaki düğmelerle bulacağız:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot2.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Dosya Ekle:&lt;/span&gt; &lt;span style=&quot; font-size:12pt;&quot;&gt;Dönüştürmek istediğiniz video dosyalarını seçmek için bir iletişim kutusu açar. Seçildikten sonra, Dönüşüm Görevleri Listesine yerleştirilirler&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Başlat: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Bir ögeyi dönüştürme işlemini başlatır&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Durdur: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Bir ögeyi dönüştürme işlemini durdurur&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Yeniden dene:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Bir ögeyi dönüştürme işlemini yeniden dener &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Tümünü yeniden dene:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Dönüştürme listesindeki tüm ögeleri yeniden dener &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Seçileni Kaldır:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Seçili ögeyi listeden kaldırır &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tamamlananları Kaldır:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Tamamlanan ögelerin tümünü listeden kaldırır &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Listeyi Temizle:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Dönüşüm listesindeki ögeleri temizle&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Çıkış Klasörünü Aç: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Sistem dosya yöneticisinden dönüştürülen dosyaları içeren klasörü açar&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Güç Seçenekleri:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  &lt;/span&gt;Listedeki tüm ögelerin dönüştürme işlemini tamamlarken bilgisayarı kapatmayı, askıya almayı veya hazırda bekletmeyi seçmeyi seçer&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Ses Seçenekleri&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot3.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sesi İptal Et:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Ses olmadan bir dosya elde etmenizi sağlar.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sesi kopyala (yeniden kodlamadan):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Kaynak dosyadaki sesi işlemeden dönüştürmenizi sağlar. Ortaya çıkan dosya, kaynak dosyayla aynı ses parametrelerine sahip olacaktır.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Sample Rate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; In audio production, a sample rate (or &amp;quot;sampling rate&amp;quot;) defines how many times per second a sound is sampled. Technically speaking, it is the frequency of samples used in a digital recording.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Bitrate:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; It&apos;s the bit rate or data that is processed per unit of time. The average bitrate for an MP3 file is 128 kbits per second or kbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Kanallar: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the passage way a signal or data is transported. In case of audio files, it&apos;s the passage or communication channel in which a sound signal is transported from the player source to the speaker. An audio file can contain one, two or even more Channels.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Ses: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Allows you to configure the maximum volume of the destination file taking as a match the volume level of the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Video Seçenekleri&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/app/icons/screenshot4.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Insert Subtitle if Available: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;By checking this option, the application will verify if a subtitle file of the same name is found in the same location of the source file, if found, it will embed it in the resulting file. It is currently compatible with subtitles in SRT, SSA, ASS and SUB format.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Disable Video:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to obtain a resulting file excluding video.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Copy Video (Do not re-encode):&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Allows you to convert without processing the video from the source file. The resulting file will have the same video parameters as the source file.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Video to Black and White: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It allows to obtain a video file is grayscale.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Flip and Rotate options: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The resulting file will be rotated or flipped in the direction chosen.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -1068,23 +1120,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Hataları Bildir</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-posta</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Görüşlerinize ihtiyacımız var</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ Video Converter geliştirme ekibi hataları tespit etmek için uygulamayı kullanan kullanıcılara ihtiyaç duyar. Bir hata bulursanız ve ekibimize bildirirseniz, düzeltme işleminin hızlandırılmasına yardımcı olur. Bu nedenle, geliştirici olmasanız bile geliştirme ekibimizin bir parçası olabilirsiniz. Bir hatayı bildirmek için bize ayrıntılı açıklamasını içeren bir e-posta gönderebilir veya Github&apos;a girip sorunu açıklayabilirsiniz (bu durumda bir GitHub Hesabınız olmalıdır).</translation>
     </message>
 </context>
 <context>
@@ -1300,7 +1352,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullandığınız mevcut sürüm, yayın kanalı sürümünden daha yenidir.&lt;br&gt;Bu nedenle, geliştirme kanalını kullanıyorsunuz.</translation>
     </message>
 </context>
 </TS>
