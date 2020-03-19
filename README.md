@@ -1,6 +1,5 @@
 MystiQ, FFmpeg GUI front-end based on Qt5
 =========================================
-<div align="center">
 [![Gitter](https://badges.gitter.im/swl-x-MystiQ/community.svg)](https://gitter.im/swl-x-MystiQ/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <a href="https://github.com/lupoDharkael/flameshot/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/lupoDharkael/flameshot.svg?style=flat-square" alt="License" />
@@ -14,7 +13,6 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg?style=flat-square&label=docs" alt="Docs" />
 </a>      
-</div>
 ![MystiQ Video Converter](http://mystiqapp.com/mystiq.png)
 
 Introduction
