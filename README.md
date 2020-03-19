@@ -13,9 +13,8 @@ MystiQ, FFmpeg GUI front-end based on Qt5
       <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg" alt="Total Downloads" />
 </a>      
 <a href="https://mystiqapp.com">
-      <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg" alt="Docs" />
+      <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg&label=Website" alt="Docs" />
 </a>      
-![MystiQ Video Converter](http://mystiqapp.com/mystiq.png)
 
 Introduction
 ------------
@@ -25,6 +24,8 @@ FFmpeg can read audio and video files in various formats and convert them into
 other formats. MystiQ features an intuitive graphical interface and a rich set
 of presets to help you convert media files within a few clicks. Advanced users
 can also adjust conversion parameters in detail.
+
+![MystiQ Video Converter](http://mystiqapp.com/mystiq.png)
 
 For compiling and installing MystiQ, please refer to [INSTALL](INSTALL).
 
