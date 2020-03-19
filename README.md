@@ -1,17 +1,20 @@
 MystiQ, FFmpeg GUI front-end based on Qt5
 =========================================
 [![Gitter](https://badges.gitter.im/swl-x-MystiQ/community.svg)](https://gitter.im/swl-x-MystiQ/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+<a href="https://gitter.im/swl-x-MystiQ/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
+      <img src="https://badges.gitter.im/swl-x-MystiQ/community.svg" alt="Gitter Chat" />
+</a>
 <a href="https://github.com/lupoDharkael/flameshot/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/lupoDharkael/flameshot.svg?style=flat-square" alt="License" />
+      <img src="https://img.shields.io/github/license/lupoDharkael/flameshot.svg" alt="License" />
 </a>
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/github/v/release/swl-x/MystiQ.svg" alt="Release" />
 </a>
 <a href="https://github.com/swl-x/MystiQ/releases">
-      <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg?style=flat-square" alt="Total Downloads" />
+      <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg" alt="Total Downloads" />
 </a>      
 <a href="https://mystiqapp.com">
-      <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg?style=flat-square&label=docs" alt="Docs" />
+      <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg" alt="Docs" />
 </a>      
 ![MystiQ Video Converter](http://mystiqapp.com/mystiq.png)
 
