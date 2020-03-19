@@ -10,8 +10,8 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://github.com/swl-x/MystiQ/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/swl-x/MystiQ" />
 </a>
-<a href="https://github.com/swl-x/MystiQ/compare/gh-pages...master">
-        <img src="https://img.shields.io/github/commits-since/swl-x/MystiQ/gh-pages?label=commits%20to%20be%20deployed"
+<a href="https://github.com/swl-x/MystiQ/compare/develop...master">
+        <img src="https://img.shields.io/github/commits-since/swl-x/MystiQ/develop?label=commits%20to%20be%20deployed"
             alt="commits to be deployed">
 </a>      
 <a href="https://github.com/swl-x/MystiQ/releases">
