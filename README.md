@@ -6,15 +6,12 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://github.com/lupoDharkael/flameshot/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/lupoDharkael/flameshot.svg" alt="License" />
 </a>
-<a href="https://mystiqapp.com">
+<a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/v/release/swl-x/MystiQ.svg" alt="Release" />
 </a>
 <a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg" alt="Total Downloads" />
-</a>      
-<a href="https://mystiqapp.com">
-      <img src="https://img.shields.io/github/release/swl-x/MystiQ.svg&label=Website" alt="Docs" />
-</a>      
+</a>          
 
 Introduction
 ------------
