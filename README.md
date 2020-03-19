@@ -4,8 +4,8 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://gitter.im/swl-x-MystiQ/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
       <img src="https://badges.gitter.im/swl-x-MystiQ/community.svg" alt="Gitter Chat" />
 </a>
-<a href="https://github.com/lupoDharkael/flameshot/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/lupoDharkael/flameshot.svg" alt="License" />
+<a href="https://github.com/swl-x/MystiQ/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/swl-x/MystiQ.svg" alt="License" />
 </a>
 <a href="https://github.com/swl-x/MystiQ/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/swl-x/MystiQ" />
