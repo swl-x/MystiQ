@@ -15,7 +15,11 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 </a>
 <a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg" alt="Total Downloads" />
-</a>          
+</a> 
+<a href="https://twitter.com/intent/follow?screen_name=swl_swlx">
+        <img src="https://img.shields.io/twitter/follow/swl_swlx?style=social&logo=twitter"
+            alt="follow on Twitter">
+</a>         
 </p>
 
 Introduction
