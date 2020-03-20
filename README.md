@@ -8,7 +8,7 @@ MystiQ, FFmpeg GUI front-end based on Qt5
       <img src="https://img.shields.io/aur/votes/MystiQ?label=AUR%20votes" alt="AUR Votes" />
 </a>      
 <a href="https://mystiqapp.com">
-      <img src="https://img.shields.io/website?down_color=%237293c0&down_message=Offline&label=Website&up_color=%23545e7c&up_message=Online&url=https%3A%2F%2Fmystiqapp.com" alt="MystiQ Website" />
+      <img src="https://img.shields.io/website?down_color=%237293c0&down_message=Offline&label=website&up_color=%23545e7c&up_message=online&url=https%3A%2F%2Fmystiqapp.com" alt="MystiQ Website" />
 </a>      
 <a href="https://gitter.im/swl-x-MystiQ/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
       <img src="https://badges.gitter.im/swl-x-MystiQ/community.svg" alt="Gitter Chat" />
@@ -40,7 +40,7 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 </p>  
 <p align="center">
 <a href="https://liberapay.com/MystiQ">
-      <img src="https://img.shields.io/liberapay/gives/MystiQ?label=Liberapay%20Support" alt="Liberapay Support" />
+      <img src="https://img.shields.io/liberapay/gives/MystiQ?label=liberapay%20support" alt="Liberapay Support" />
 </a>
 <a href="https://opencollective.com/mystiq">
       <img src="https://img.shields.io/opencollective/all/MystiQ?color=%2373a4f0" alt="Open Collective Support" />
