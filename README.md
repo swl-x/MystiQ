@@ -27,7 +27,10 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 </a>       
 <a href="https://github.com/swl-x/MystiQ/graphs/commit-activity">
       <img src="https://img.shields.io/github/last-commit/swl-x/MystiQ" alt="Last Commit" />
-</a>       
+</a>  
+<a href="https://travis-ci.org/github/swl-x/MystiQ">
+      <img src="https://img.shields.io/travis/swl-x/MystiQ?label=travis%20build" alt="Travis Build" />
+</a>        
 <a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/release-date/swl-x/MystiQ" alt="Last Release Date" />
 </a>      
