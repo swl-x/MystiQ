@@ -49,14 +49,14 @@ MystiQ, FFmpeg GUI front-end based on Qt5
       <img src="https://img.shields.io/opencollective/all/MystiQ?color=%2373a4f0" alt="Open Collective Support" />
 </a>  
 </p>
-<p align="center">
+<p align="center"> 
+<a href="https://github.com/swl-x/MystiQ/stargazers">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/swl-x/MystiQ?style=social"> 
+</a>  
 <a href="https://twitter.com/intent/follow?screen_name=swl_swlx">
         <img src="https://img.shields.io/twitter/follow/swl_swlx?style=social&logo=twitter"
             alt="follow on Twitter">
-</a> 
-<a href="https://github.com/swl-x/MystiQ/stargazers">
-        <img alt="GitHub stars" src="https://img.shields.io/github/stars/swl-x/MystiQ?style=social"> 
-</a>            
+</a>      
 </p>
 
 Introduction
