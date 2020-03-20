@@ -4,6 +4,9 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/maintenance/yes/2020" alt="Maintenance" />
 </a>
+<i>
+      <img src="https://img.shields.io/aur/votes/MystiQ?label=AUR%20votes" alt="AUR Votes" />
+</i>      
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/website?down_color=%237293c0&down_message=Offline&label=Website&up_color=%23545e7c&up_message=Online&url=https%3A%2F%2Fmystiqapp.com" alt="MystiQ Website" />
 </a>      
