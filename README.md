@@ -16,6 +16,9 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://github.com/swl-x/MystiQ/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/swl-x/MystiQ" />
 </a> 
+<a href="https://github.com/swl-x/MystiQ/">
+      <img src="https://img.shields.io/github/last-commit/swl-x/MystiQ" alt="Last Commit" />
+</a>       
 <a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/release-date/swl-x/MystiQ" alt="Last Release Date" />
 </a>      
@@ -24,9 +27,6 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 </a>
 <a href="https://github.com/swl-x/MystiQ/releases">
       <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg?color=%237293c0" alt="Total Downloads" />
-</a> 
-<a href="https://github.com/swl-x/MystiQ/">
-      <img src="https://img.shields.io/github/last-commit/swl-x/MystiQ" alt="Last Commit" />
 </a>       
 <a href="https://twitter.com/intent/follow?screen_name=swl_swlx">
         <img src="https://img.shields.io/twitter/follow/swl_swlx?style=social&logo=twitter"
