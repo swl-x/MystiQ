@@ -16,6 +16,9 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://github.com/swl-x/MystiQ/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/swl-x/MystiQ.svg" alt="License" />
 </a>
+<a href="https://github.com/swl-x/MystiQ/archive/master.zip">
+      <img src="https://img.shields.io/github/repo-size/swl-x/MystiQ" alt="Repo Size" />
+</a>      
 <a href="https://github.com/swl-x/MystiQ/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/swl-x/MystiQ" />
 </a> 
