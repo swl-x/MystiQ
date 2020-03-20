@@ -135,12 +135,3 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/MystiQ/contribute)]
 
 <a href="https://opencollective.com/MystiQ/organization/0/website"><img src="https://opencollective.com/MystiQ/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/1/website"><img src="https://opencollective.com/MystiQ/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/2/website"><img src="https://opencollective.com/MystiQ/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/3/website"><img src="https://opencollective.com/MystiQ/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/4/website"><img src="https://opencollective.com/MystiQ/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/5/website"><img src="https://opencollective.com/MystiQ/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/6/website"><img src="https://opencollective.com/MystiQ/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/7/website"><img src="https://opencollective.com/MystiQ/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/8/website"><img src="https://opencollective.com/MystiQ/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/MystiQ/organization/9/website"><img src="https://opencollective.com/MystiQ/organization/9/avatar.svg"></a>
