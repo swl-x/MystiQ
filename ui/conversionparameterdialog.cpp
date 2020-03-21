@@ -69,6 +69,14 @@ ConversionParameterDialog::ConversionParameterDialog(QWidget *parent) :
     connect(ui->chkR90_more, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkR90_less, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkR180, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkRGGM, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkRBGM, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkRCC, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkRCHC, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkRCD, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkGMGM, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkGMC, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
+    connect(ui->chkYBC, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
     connect(ui->chkCopyVideo, SIGNAL(toggled(bool)), SLOT(video_tab_update_enabled_widgets()));
 
     // Hide speed-changing options if sox is not available.
@@ -153,6 +161,14 @@ void ConversionParameterDialog::read_fields(const ConversionParameters& param)
     ui->chkR90_more->setChecked(param.rotate_90more);
     ui->chkR90_less->setChecked(param.rotate_90less);
     ui->chkR180->setChecked(param.rotate_180);
+    ui->chkRGGM->setChecked(param.rggm);
+    ui->chkRBGM->setChecked(param.rbgm);
+    ui->chkRCC->setChecked(param.rcc);
+    ui->chkRCHC->setChecked(param.rchc);
+    ui->chkRCD->setChecked(param.rcd);
+    ui->chkGMGM->setChecked(param.gmgm);
+    ui->chkGMC->setChecked(param.gmc);
+    ui->chkYBC->setChecked(param.ybc);
     ui->chkCopyVideo->setChecked(param.copy_video);
 
     ui->spinVideoBitrate->setValue(param.video_bitrate);
@@ -238,6 +254,14 @@ void ConversionParameterDialog::write_fields(ConversionParameters& param)
     param.rotate_90more = ui->chkR90_more->isChecked();
     param.rotate_90less = ui->chkR90_less->isChecked();
     param.rotate_180 = ui->chkR180->isChecked();
+    param.rggm = ui->chkRGGM->isChecked();
+    param.rbgm = ui->chkRBGM->isChecked();
+    param.rcc = ui->chkRCC->isChecked();
+    param.rchc = ui->chkRCHC->isChecked();
+    param.rcd = ui->chkRCD->isChecked();
+    param.gmgm = ui->chkGMGM->isChecked();
+    param.gmc = ui->chkGMC->isChecked();
+    param.ybc = ui->chkYBC->isChecked();
     param.copy_video = ui->chkCopyVideo->isChecked();
     param.video_bitrate = ui->spinVideoBitrate->value();
     param.video_same_quality = ui->chkVideoSameQuality->isChecked();
@@ -298,6 +322,14 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     bool rotate_90more = ui->chkR90_more->isChecked();
     bool rotate_90less = ui->chkR90_less->isChecked();
     bool rotate_180 = ui->chkR180->isChecked();
+    bool rggm = ui->chkRGGM->isChecked();
+    bool rbgm = ui->chkRBGM->isChecked();
+    bool rcc = ui->chkRCC->isChecked();
+    bool rchc = ui->chkRCHC->isChecked();
+    bool rcd = ui->chkRCD->isChecked();
+    bool gmgm = ui->chkGMGM->isChecked();
+    bool gmc = ui->chkGMC->isChecked();
+    bool ybc = ui->chkYBC->isChecked();
 
     ui->chkDisableVideo->setEnabled(true); // always enabled
     ui->chkInsertSubtitle->setEnabled(true); // always enabled
@@ -307,19 +339,28 @@ void ConversionParameterDialog::video_tab_update_enabled_widgets()
     ui->chkR90_more->setEnabled(true); //always enabled
     ui->chkR90_less->setEnabled(true); //always enabled
     ui->chkR180->setEnabled(true); //always enabled
+    ui->chkRGGM->setEnabled(true); //always enabled
+    ui->chkRBGM->setEnabled(true); //always enabled
+    ui->chkRCC->setEnabled(true); //always enabled
+    ui->chkRCHC->setEnabled(true); //always enabled
+    ui->chkRCD->setEnabled(true); //always enabled
+    ui->chkGMGM->setEnabled(true); //always enabled
+    ui->chkGMC->setEnabled(true); //always enabled
+    ui->chkYBC->setEnabled(true); //always enabled
     ui->chkCopyVideo->setEnabled(!disable_video);
-    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180);
-    ui->chkNonColor->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180);
-    ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_180);
-    ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_90more || rotate_90less || rotate_180);
-    ui->chkR90_more->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90less || rotate_180);
-    ui->chkR90_less->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90more || rotate_180);
-    ui->chkR180->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less);
-    ui->chkR90_more->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90less && !rotate_180);
-    ui->chkR90_less->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90more && !rotate_180);
-    ui->chkR180->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !rotate_90more && !rotate_90less && !horizontal_flip && !vertical_flip );
+    ui->chkInsertSubtitle->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkNonColor->setDisabled(disable_video || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkVFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkHFlip->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || rotate_90more || rotate_90less || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkR90_more->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90less || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkR90_less->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || horizontal_flip || rotate_90more || rotate_180 || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkR180->setDisabled(disable_video || insert_subtitle || disable_color || copy_video || vertical_flip || horizontal_flip || rotate_90more || rotate_90less || rggm || rbgm || rcc || rchc || rcd || gmgm || gmc || ybc);
+    ui->chkR90_more->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90less && !rotate_180 && !rggm && !rbgm && !rcc && !rchc && !rcd && !gmgm && !gmc && !ybc);
+    ui->chkR90_less->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !horizontal_flip && !rotate_90more && !rotate_180 && !rggm && !rbgm && !rcc && !rchc && !rcd && !gmgm && !gmc && !ybc);
+    ui->chkR180->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !rotate_90more && !rotate_90less && !horizontal_flip && !vertical_flip && !rggm && !rbgm && !rcc && !rchc && !rcd && !gmgm && !gmc && !ybc);
 
     ui->groupVideoOptions->setEnabled(!disable_video && !copy_video);
+    ui->stereoscopic_3D_options->setEnabled(!disable_video && !copy_video && !insert_subtitle && !disable_color && !vertical_flip && !horizontal_flip && !rotate_90less && !rotate_90more && !rotate_180);
 }
 
 void ConversionParameterDialog::onCutUpChanged(double value)

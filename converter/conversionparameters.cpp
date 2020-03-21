@@ -92,6 +92,14 @@ int parseFFmpegArguments(QStringList& args, int index, ConversionParameters& res
             CHECK_OPTION_1("-vf", rotate_90more, true);
             CHECK_OPTION_1("-vf", rotate_90less, true);
             CHECK_OPTION_1("-vf", rotate_180, true);
+            CHECK_OPTION_1("-vf", rggm, true);
+            CHECK_OPTION_1("-vf", rbgm, true);
+            CHECK_OPTION_1("-vf", rcc, true);
+            CHECK_OPTION_1("-vf", rchc, true);
+            CHECK_OPTION_1("-vf", rcd, true);
+            CHECK_OPTION_1("-vf", gmgm, true);
+            CHECK_OPTION_1("-vf", gmc, true);
+            CHECK_OPTION_1("-vf", ybc, true);
             CHECK_OPTION_1("-sameq", video_same_quality, true);
             CHECK_OPTION_1("-deinterlace", video_deinterlace, true);
             CHECK_OPTION_2_METHOD("-b", video_bitrate, toInt);

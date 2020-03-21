@@ -507,8 +507,8 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
             list.append("-deinterlace");
         }
 
-        // begining insert subtitle or disable color or flip or rotate
-        if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip || o.rotate_90more || o.rotate_90less || o.rotate_180)
+        // begining insert subtitle or disable color or flip or rotate or stereoscopic
+        if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip || o.rotate_90more || o.rotate_90less || o.rotate_180 || o.rggm || o.rbgm || o.rcc || o.rchc || o.rcd || o.gmgm || o.gmc || o.ybc)
         {
             list.append("-vf");
         }
@@ -566,7 +566,39 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         {
           list.append("transpose=2,transpose=2");
         }
-         // finishing insert subtitle or disable color or flip or rotate
+        if (o.rggm)
+        {
+            list.append("stereo3d=sbs2l:argg");
+        }
+        if (o.rbgm)
+        {
+            list.append("stereod3d=sbs2l:arbg");
+        }
+        if (o.rcc)
+        {
+            list.append("stereo3d=sbs2l:arcc");
+        }
+        if (o.rchc)
+        {
+            list.append("stereo3d=sbs2l:arch");
+        }
+        if (o.rcd)
+        {
+            list.append("stereo3d=sbs2l:arcd");
+        }
+        if (o.gmgm)
+        {
+            list.append("stereo3d=sbs2l:agmg");
+        }
+        if (o.gmc)
+        {
+            list.append("stereo3d=sbs2l:agmc");
+        }
+        if (o.ybc)
+        {
+            list.append("stereo3d=sbs2l:aybc");
+        }
+         // finishing insert subtitle or disable color or flip or rotate or stereoscopic
 
         // video bitrate
         if (o.video_bitrate > 0) {

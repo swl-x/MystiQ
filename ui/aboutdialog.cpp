@@ -21,6 +21,7 @@
 #include "ui_aboutdialog.h"
 #include "version.h"
 #include "services/constants.h"
+#include <QDesktopServices>
 #ifdef USE_LIBNOTIFY
  #include "services/notificationservice-libnotify.h"
 #endif
@@ -194,4 +195,60 @@ QString AboutDialog::trad(const QString& lang, const QStringList& authors)
     s+= "</ul>";
 
     return QString("<b>%1</b>: %2").arg(lang).arg(s);
+}
+
+void AboutDialog::on_github_button_clicked()
+{
+    QString github_go="https://github.com/swl-x/MystiQ/";
+    bool b = QDesktopServices::openUrl( QUrl( github_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_gitter_button_clicked()
+{
+    QString gitter_go="https://gitter.im/swl-x-MystiQ/community";
+    bool b = QDesktopServices::openUrl( QUrl( gitter_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_facebook_button_clicked()
+{
+    QString facebook_go="https://facebook.com/blogswlx";
+    bool b = QDesktopServices::openUrl( QUrl( facebook_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_twitter_button_clicked()
+{
+    QString twitter_go="https://twitter.com/swl_swlx";
+    bool b = QDesktopServices::openUrl( QUrl( twitter_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_telegram_button_clicked()
+{
+    QString telegram_go="https://t.me/blogswlx";
+    bool b = QDesktopServices::openUrl( QUrl( telegram_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_liberapay_button_clicked()
+{
+    QString liberapay_go="https://liberapay.com/MystiQ/donate";
+    bool b = QDesktopServices::openUrl( QUrl( liberapay_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_opencollective_button_clicked()
+{
+    QString opencollective_go="https://opencollective.com/mystiq/donate";
+    bool b = QDesktopServices::openUrl( QUrl( opencollective_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
+}
+
+void AboutDialog::on_patreon_button_clicked()
+{
+    QString patreon_go="https://patreon.com/mystiq";
+    bool b = QDesktopServices::openUrl( QUrl( patreon_go, QUrl::TolerantMode ) );
+    Q_UNUSED(b)
 }

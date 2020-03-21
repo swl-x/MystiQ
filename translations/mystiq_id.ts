@@ -87,11 +87,11 @@
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation>Banyak orang berkontribusi menerjemahkan. Anda juga bisa membantu menerjemahkan MystiQ Video Converter ke bahasa Anda sendiri. Kunjungi</translation>
+        <translation>Banyak orang berkontribusi menerjemahkan. Anda juga bisa membantu menerjemahkan MystiQ Video Converter ke bahasa Anda sendiri. Kunjungi </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation>dan bergabung dengan tim penerjemah.</translation>
+        <translation> dan bergabung dengan tim penerjemah.</translation>
     </message>
     <message>
         <source>Changelog</source>
@@ -127,7 +127,8 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Bahasa Indonesia (Indonesia)</translatorcomment>
+        <translation>Indonesia (Indonesia)</translation>
     </message>
 </context>
 <context>
@@ -215,7 +216,8 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Buat folder baru di dalam folder sumber</translation>
+        <translatorcomment>Buat folder baru (mis. Mystiq_output) di folder yang berisi file input. Letakkan file output di folder yang baru dibuat.</translatorcomment>
+        <translation>&amp;Buat folder baru di dalam folder sumber</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -454,6 +456,46 @@
     <message>
         <source>Rotate 180 degrees</source>
         <translation>Putar 180 derajat</translation>
+    </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -798,15 +840,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>Berkas</translation>
+        <translation>Ber&amp;kas</translation>
     </message>
     <message>
         <source>&amp;Convert</source>
-        <translation>Konversi</translation>
+        <translation>&amp;Konversi</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Sunting</translation>
+        <translation>&amp;Sunting</translation>
     </message>
     <message>
         <source>&amp;Add Files</source>
@@ -822,7 +864,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Keluar</translation>
+        <translation>Ke&amp;luar</translation>
     </message>
     <message>
         <source>Exit the program.</source>
@@ -876,7 +918,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&amp;Remove Selected</source>
         <extracomment>remove selected (tasks, items)</extracomment>
-        <translation>Hapus yang dipilih</translation>
+        <translatorcomment>hapus yang dipilih (tugas, item)</translatorcomment>
+        <translation>&amp;Hapus yang dipilih</translation>
     </message>
     <message>
         <source>Remove all selected items in the list.</source>
@@ -905,7 +948,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Retry</source>
-        <translation>Coba kembali</translation>
+        <translation>&amp;Coba kembali</translation>
     </message>
     <message>
         <source>Retry</source>
@@ -937,7 +980,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change Output &amp;Filename</source>
-        <translation>Ubah Nama Berkas Keluaran</translation>
+        <translation>Ubah Nama Berkas &amp;Keluaran</translation>
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
@@ -1021,7 +1064,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Bantuan</translation>
+        <translation>&amp;Bantuan</translation>
     </message>
     <message>
         <source>F5</source>
@@ -1029,7 +1072,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation>Bersihkan Daftar</translation>
+        <translation>Bersihkan &amp;Daftar</translation>
     </message>
     <message>
         <source>About MystiQ</source>
@@ -1085,7 +1128,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation>Melaporkan kutu dari MystiQ</translation>
+        <translation>Melaporkan kutu dari MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
@@ -1122,23 +1165,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Laporkan Bug</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Kami membutuhkan tanggapan Anda</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>Tim pengembangan MystiQ Video Converter membutuhkan pengguna yang menggunakan aplikasi untuk membantu mendeteksi kesalahan. Jika Anda menemukan kesalahan dan melaporkannya ke tim kami, itu akan membantu mempercepat proses koreksi. Karena itu, Anda dapat menjadi bagian dari tim pengembangan kami bahkan jika Anda bukan pengembang. Untuk melaporkan kesalahan, Anda dapat mengirim email kepada kami dengan uraian terperinci tentangnya atau Anda dapat memasukkan Github dan menjelaskan masalahnya (dalam hal ini Anda harus memiliki Akun GitHub).</translation>
     </message>
 </context>
 <context>
@@ -1350,11 +1393,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Cek pembaruan</translation>
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versi saat ini yang Anda gunakan lebih baru daripada versi saluran rilis.&lt;br&gt;Oleh karena itu, Anda menggunakan saluran pengembangan.</translation>
     </message>
 </context>
 </TS>

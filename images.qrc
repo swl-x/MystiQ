@@ -52,6 +52,14 @@
         <file>icons/rotate-90-clock.svg</file>
         <file>icons/rotate-180.svg</file>
         <file>icons/black-white.svg</file>
+        <file>icons/facebook.svg</file>
+        <file>icons/twitter.svg</file>
+        <file>icons/telegram.svg</file>
+        <file>icons/github.svg</file>
+        <file>icons/gitter.svg</file>
+        <file>icons/open-collective.svg</file>
+        <file>icons/patreon.svg</file>
+        <file>icons/liberapay.svg</file>
     </qresource>
     <qresource prefix="/app">
         <file>icons/banner.png</file>

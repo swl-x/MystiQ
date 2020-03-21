@@ -135,7 +135,8 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Indonéz nyelv (Indonézia)</translatorcomment>
+        <translation>Indonéz (Indonézia)</translation>
     </message>
 </context>
 <context>
@@ -466,6 +467,46 @@
     <message>
         <source>Rotate 180 degrees</source>
         <translation>Forgassa el 180 fokkal</translation>
+    </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1082,23 +1123,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelentés a hibákról</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Szüksége van visszajelzésre</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>A MystiQ Video Converter fejlesztői csapatának olyan felhasználókra van szüksége, akik az alkalmazást használják a hibák észlelésére. Ha hibát talál, és jelentést tesz a csapatunknak, ez elősegíti a javítási folyamat felgyorsítását. Ezért akkor is részt vehet a fejlesztői csapatunkban, ha nem fejlesztő. Hiba jelentése érdekében e-mailt küldhet nekünk a hiba részletes leírásáról, vagy beléphet a Githubba, és leírhatja a problémát (ebben az esetben rendelkeznie kell GitHub fiókkal).</translation>
     </message>
 </context>
 <context>
@@ -1316,7 +1357,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>A jelenleg használt verzió újabb, mint a kiadási csatorna verziója.&lt;br&gt;Ezért használja a fejlesztési csatornát.</translation>
     </message>
 </context>
 </TS>

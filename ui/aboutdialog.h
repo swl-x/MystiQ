@@ -32,6 +32,23 @@ public:
     explicit AboutDialog(QWidget *parent = nullptr);
     ~AboutDialog();
 
+private slots:
+    void on_github_button_clicked();
+
+    void on_gitter_button_clicked();
+
+    void on_facebook_button_clicked();
+
+    void on_twitter_button_clicked();
+
+    void on_telegram_button_clicked();
+
+    void on_liberapay_button_clicked();
+
+    void on_opencollective_button_clicked();
+
+    void on_patreon_button_clicked();
+
 private:
     Ui::AboutDialog *ui;
     QString getTranslators();

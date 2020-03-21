@@ -135,7 +135,8 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Indonéština (Indonésie)</translatorcomment>
+        <translation>Indonéština (Indonésie)</translation>
     </message>
 </context>
 <context>
@@ -465,6 +466,46 @@
     <message>
         <source>Rotate 180 degrees</source>
         <translation>Otočit o 180 stupňů</translation>
+    </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1081,23 +1122,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahlásit chyby</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Potřebujeme vaši zpětnou vazbu</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>Vývojový tým MystiQ Video Converter potřebuje uživatele, kteří pomocí aplikace pomáhají detekovat chyby. Pokud najdete chybu a nahlásíte ji našemu týmu, pomůže to urychlit proces opravy. Proto se můžete stát součástí našeho vývojového týmu, i když nejste vývojář. Chcete-li nahlásit chybu, můžete nám poslat e-mail s podrobným popisem nebo zadejte Github a popište problém (v tomto případě musíte mít účet GitHub).</translation>
     </message>
 </context>
 <context>
@@ -1316,7 +1357,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuální verze, kterou používáte, je novější než verze kanálu vydání.&lt;br&gt;Proto používáte vývojový kanál.</translation>
     </message>
 </context>
 </TS>

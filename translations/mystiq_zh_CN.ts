@@ -455,6 +455,46 @@
         <source>Rotate 180 degrees</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConvertList</name>

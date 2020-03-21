@@ -231,15 +231,23 @@ void MainWindow::slotDonate()
 {
     QMessageBox d(this);
         d.setWindowTitle(tr("Support MystiQ"));
-        QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
+        QPushButton * liberapay_button = d.addButton("Liberapay", QMessageBox::YesRole);
+        QPushButton * opencollective_button = d.addButton("Open Collective", QMessageBox::YesRole);
+        QPushButton * patreon_button = d.addButton("Patreon", QMessageBox::YesRole);
         d.addButton(tr("Close"), QMessageBox::NoRole);
-        d.setDefaultButton(ok_button);
+        d.setDefaultButton(liberapay_button);
         d.setText("<h1>" + tr("MystiQ needs you") + "</h1><p>" +
             tr("MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. <b>Even the smallest amount will help a lot.</b>")
         );
         d.exec();
-        if (d.clickedButton() == ok_button) {
+        if (d.clickedButton() == liberapay_button) {
             QDesktopServices::openUrl(QUrl("https://liberapay.com/MystiQ/donate"));
+        }
+        if (d.clickedButton() == opencollective_button) {
+            QDesktopServices::openUrl(QUrl("https://opencollective.com/mystiq/donate"));
+        }
+        if (d.clickedButton() == patreon_button) {
+            QDesktopServices::openUrl(QUrl("https://patreon.com/mystiq"));
         }
 }
 
@@ -256,6 +264,7 @@ void MainWindow::slotReport()
         d.setWindowTitle(tr("Report Bugs"));
         QPushButton * email_button = d.addButton(tr("Email"), QMessageBox::YesRole);
         QPushButton * github_button = d.addButton(tr("Github"), QMessageBox::YesRole);
+        QPushButton * gitter_button = d.addButton(tr("Gitter"), QMessageBox::YesRole);
         d.addButton(tr("Close"), QMessageBox::NoRole);
         d.setDefaultButton(email_button);
         d.setText("<h1>" + tr("We need your feedback") + "</h1><p>" +
@@ -298,6 +307,11 @@ void MainWindow::slotReport()
         if (d.clickedButton() == github_button) {
                 QString github_issue="https://github.com/swl-x/MystiQ/issues/new/choose";
                 bool b = QDesktopServices::openUrl( QUrl( github_issue, QUrl::TolerantMode ) );
+                Q_UNUSED(b)
+        }
+        if (d.clickedButton() == gitter_button) {
+                QString gitter_room="https://gitter.im/swl-x-MystiQ/community";
+                bool b = QDesktopServices::openUrl( QUrl( gitter_room, QUrl::TolerantMode ) );
                 Q_UNUSED(b)
         }
 }

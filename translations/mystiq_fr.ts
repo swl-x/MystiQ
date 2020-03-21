@@ -130,7 +130,8 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Langue indonésienne (Indonésie)</translatorcomment>
+        <translation>Indonésien (Indonésie)</translation>
     </message>
 </context>
 <context>
@@ -457,6 +458,46 @@
     <message>
         <source>Rotate 180 degrees</source>
         <translation>Rotation à 180 degrés</translation>
+    </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1070,23 +1111,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaler des bogues</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Nous avons besoin de vos commentaires</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;équipe de développement de MystiQ Video Converter a besoin d&apos;utilisateurs qui utilisent l&apos;application pour aider à détecter les erreurs. Si vous trouvez une erreur et que vous la signalez à notre équipe, cela accélérera le processus de correction. Par conséquent, vous pouvez faire partie de notre équipe de développement même si vous n&apos;êtes pas développeur. Pour signaler une erreur, vous pouvez nous envoyer un e-mail avec la description détaillée de celui-ci ou vous pouvez entrer Github et décrire le problème (dans ce cas, vous devez avoir un compte GitHub).</translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1343,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>La version actuelle que vous utilisez est plus récente que la version du canal de publication.&lt;br&gt;Par conséquent, vous utilisez le canal de développement.</translation>
     </message>
 </context>
 </TS>

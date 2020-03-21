@@ -18,6 +18,7 @@
 #include <QSettings>
 #include "updatedialog.h"
 #include "ui_updatedialog.h"
+#include "version.h"
 #include "services/updatechecker.h"
 #include "services/constants.h"
 
@@ -102,7 +103,7 @@ void UpdateDialog::slotReceivedUpdateResult(int result)
         message = tr("Failed to parse the received data.");
         break;
     case UpdateChecker::UpdateNotFound:
-        message = tr("You are already using the latest version of MystiQ.");
+        message = tr("You are already using the latest version of MystiQ.")+QString("<br><b>MystiQ Video Converter %1</b>").arg(VERSION_STRING);
         break;
     case UpdateChecker::UpdateDevChanel:
         message = tr("The current version you are using is newer than the release channel version.<br>Therefore, you are using the development channel.");

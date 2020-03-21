@@ -45,6 +45,14 @@ public:
     bool rotate_90more;
     bool rotate_90less;
     bool rotate_180;
+    bool rggm;
+    bool rbgm;
+    bool rcc;
+    bool rchc;
+    bool rcd;
+    bool gmgm;
+    bool gmc;
+    bool ybc;
     bool copy_video;
     bool video_same_quality; ///< whether to keep all video quality (-sameq option in ffmpeg)
     bool video_deinterlace;
@@ -106,6 +114,14 @@ public:
           rotate_90more(false),
           rotate_90less(false),
           rotate_180(false),
+          rggm(false),
+          rbgm(false),
+          rcc(false),
+          rchc(false),
+          rcd(false),
+          gmgm(false),
+          gmc(false),
+          ybc(false),
           copy_video(false),
           video_same_quality(false),
           video_deinterlace(false),

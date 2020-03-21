@@ -130,7 +130,8 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Indonesische Sprache (Indonesien)</translatorcomment>
+        <translation>Indonesisch (Indonesien)</translation>
     </message>
 </context>
 <context>
@@ -457,6 +458,46 @@
     <message>
         <source>Rotate 180 degrees</source>
         <translation>Um 180 Grad drehen</translation>
+    </message>
+    <message>
+        <source>3D Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Blue Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Dubois </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Half Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Yellow Blue Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Cyan Color </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Red Green Gray Monochromatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Green Magenta Color </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1070,23 +1111,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler melden</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Wir brauchen Ihr Feedback</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Entwicklungsteam von MystiQ Video Converter benötigt Benutzer, die die Anwendung verwenden, um Fehler zu erkennen. Wenn Sie einen Fehler finden und ihn unserem Team melden, wird dies den Korrekturprozess beschleunigen. Daher können Sie Teil unseres Entwicklungsteams sein, auch wenn Sie kein Entwickler sind. Um einen Fehler zu melden, können Sie uns eine E-Mail mit der detaillierten Beschreibung senden oder Github eingeben und das Problem beschreiben (in diesem Fall müssen Sie über ein GitHub-Konto verfügen).</translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1343,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die aktuell verwendete Version ist neuer als die Version des Release-Kanals.&lt;br&gt;Daher verwenden Sie den Entwicklungskanal.</translation>
     </message>
 </context>
 </TS>
