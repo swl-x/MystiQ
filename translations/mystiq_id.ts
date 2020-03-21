@@ -462,39 +462,39 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Blue Gray Monochromatic</source>
+        <source>Red Blue Gray Monochromatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Cyan Gray Monochromatic</source>
+        <source>Red Cyan Dubois</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Cyan Dubois </source>
+        <source>Green Magenta Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Cyan Half Color </source>
+        <source>Red Cyan Half Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Yellow Blue Color </source>
+        <source>Yellow Blue Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Cyan Color </source>
+        <source>Red Cyan Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Green Magenta Gray Monochromatic</source>
+        <source>Green Magenta Gray Monochromatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Red Green Gray Monochromatic</source>
+        <source>Red Green Gray Monochromatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Green Magenta Color </source>
+        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1182,6 +1182,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
         <translation>Tim pengembangan MystiQ Video Converter membutuhkan pengguna yang menggunakan aplikasi untuk membantu mendeteksi kesalahan. Jika Anda menemukan kesalahan dan melaporkannya ke tim kami, itu akan membantu mempercepat proses koreksi. Karena itu, Anda dapat menjadi bagian dari tim pengembangan kami bahkan jika Anda bukan pengembang. Untuk melaporkan kesalahan, Anda dapat mengirim email kepada kami dengan uraian terperinci tentangnya atau Anda dapat memasukkan Github dan menjelaskan masalahnya (dalam hal ini Anda harus memiliki Akun GitHub).</translation>
+    </message>
+    <message>
+        <source>Gitter</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

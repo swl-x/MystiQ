@@ -581,7 +581,7 @@
              <item row="0" column="2">
               <widget class="QRadioButton" name="chkRBGM">
                <property name="text">
-                <string> Red Blue Gray Monochromatic</string>
+                <string>Red Blue Gray Monochromatic</string>
                </property>
                <property name="autoExclusive">
                 <bool>true</bool>
@@ -591,35 +591,35 @@
              <item row="1" column="2">
               <widget class="QRadioButton" name="chkRCD">
                <property name="text">
-                <string> Red Cyan Dubois </string>
+                <string>Red Cyan Dubois</string>
                </property>
               </widget>
              </item>
              <item row="2" column="1">
               <widget class="QRadioButton" name="chkGMC">
                <property name="text">
-                <string> Green Magenta Color </string>
+                <string>Green Magenta Color</string>
                </property>
               </widget>
              </item>
              <item row="1" column="1">
               <widget class="QRadioButton" name="chkRCHC">
                <property name="text">
-                <string> Red Cyan Half Color </string>
+                <string>Red Cyan Half Color</string>
                </property>
               </widget>
              </item>
              <item row="2" column="2">
               <widget class="QRadioButton" name="chkYBC">
                <property name="text">
-                <string> Yellow Blue Color </string>
+                <string>Yellow Blue Color</string>
                </property>
               </widget>
              </item>
              <item row="1" column="0">
               <widget class="QRadioButton" name="chkRCC">
                <property name="text">
-                <string> Red Cyan Color </string>
+                <string>Red Cyan Color</string>
                </property>
               </widget>
              </item>
@@ -629,14 +629,14 @@
                 <bool>false</bool>
                </property>
                <property name="text">
-                <string> Green Magenta Gray Monochromatic</string>
+                <string>Green Magenta Gray Monochromatic</string>
                </property>
               </widget>
              </item>
              <item row="0" column="1">
               <widget class="QRadioButton" name="chkRGGM">
                <property name="text">
-                <string> Red Green Gray Monochromatic</string>
+                <string>Red Green Gray Monochromatic</string>
                </property>
               </widget>
              </item>

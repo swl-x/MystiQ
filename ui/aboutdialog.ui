@@ -477,7 +477,7 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>...</string>
+        <string/>
        </property>
        <property name="icon">
         <iconset resource="../images.qrc">

@@ -462,40 +462,40 @@
         <translation>3D-alternativ</translation>
     </message>
     <message>
-        <source> Red Blue Gray Monochromatic</source>
-        <translation> Röd Blå Grå monokromatisk</translation>
+        <source>Red Blue Gray Monochromatic</source>
+        <translation>Röd Blå Grå monokromatisk</translation>
     </message>
     <message>
-        <source> Red Cyan Gray Monochromatic</source>
-        <translation> Röd Cyan Grå monokromatisk</translation>
+        <source>Red Cyan Dubois</source>
+        <translation>Röd Cyan Dubois</translation>
     </message>
     <message>
-        <source> Red Cyan Dubois </source>
-        <translation> Röd Cyan Dubois </translation>
+        <source>Green Magenta Color</source>
+        <translation>Grön Magenta Färg</translation>
     </message>
     <message>
-        <source> Red Cyan Half Color </source>
-        <translation> Röd Cyan Halvfärg </translation>
+        <source>Red Cyan Half Color</source>
+        <translation>Röd Cyan Halvfärg</translation>
     </message>
     <message>
-        <source> Yellow Blue Color </source>
-        <translation> Gul Blå Färg </translation>
+        <source>Yellow Blue Color</source>
+        <translation>Gul Blå Färg</translation>
     </message>
     <message>
-        <source> Red Cyan Color </source>
-        <translation> Röd Cyan Färg </translation>
+        <source>Red Cyan Color</source>
+        <translation>Röd Cyan Färg</translation>
     </message>
     <message>
-        <source> Green Magenta Gray Monochromatic</source>
-        <translation> Grön Magenta Grå Monokromatisk</translation>
+        <source>Green Magenta Gray Monochromatic</source>
+        <translation>Grön Magenta Grå Monokromatisk</translation>
     </message>
     <message>
-        <source> Red Green Gray Monochromatic</source>
-        <translation> Röd Grön Grå Monokromatisk</translation>
+        <source>Red Green Gray Monochromatic</source>
+        <translation>Röd Grön Grå Monokromatisk</translation>
     </message>
     <message>
-        <source> Green Magenta Color </source>
-        <translation> Grön Magenta Färg </translation>
+        <source>None</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1183,6 +1183,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
         <translation>MystiQ Video Converters utvecklingsgrupp behöver användare som använder programmet, för att upptäcka fel. Om du hittar ett fel och rapporterar det till vår grupp, kommer det att bidra till att påskynda korrigeringsprocessen. Därför kan du vara en del av vår utvecklingsgrupp även om du inte är utvecklare. Om du vill rapportera ett fel kan du skicka ett e-postmeddelande med en detaljerad beskrivning av felet eller också kan du logga in på GitHub och beskriva problemet ( i det fallet måste du ha ett GitHub-konto).</translation>
+    </message>
+    <message>
+        <source>Gitter</source>
+        <translation>Gitter</translation>
     </message>
 </context>
 <context>
