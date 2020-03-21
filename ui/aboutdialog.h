@@ -41,7 +41,7 @@ private slots:
 
     void on_twitter_button_clicked();
 
-    void on_telegram_button_clicked();
+    void on_transifex_button_clicked();
 
     void on_liberapay_button_clicked();
 

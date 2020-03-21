@@ -225,10 +225,10 @@ void AboutDialog::on_twitter_button_clicked()
     Q_UNUSED(b)
 }
 
-void AboutDialog::on_telegram_button_clicked()
+void AboutDialog::on_transifex_button_clicked()
 {
-    QString telegram_go="https://t.me/blogswlx";
-    bool b = QDesktopServices::openUrl( QUrl( telegram_go, QUrl::TolerantMode ) );
+    QString transifex_go="https://www.transifex.com/swl-x-project/mystiq-video-converter/";
+    bool b = QDesktopServices::openUrl( QUrl( transifex_go, QUrl::TolerantMode ) );
     Q_UNUSED(b)
 }
 

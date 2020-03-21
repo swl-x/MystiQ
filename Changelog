@@ -9,6 +9,19 @@ to be two digits long
 ### Added
  - This changelog file
 
+## [20.03.23] - 2020-03-23
+### Added
+ - Added stereoscopic filters for 3D video options
+ - Added Hungarian language Pack
+ - Added Indonesian language Pack
+ 
+### Fixed
+ - Fixed application update notification system
+ - Fixed bugs report option
+ - Fixed AppImage File (only GNU/Linux)
+ 
+### Changed
+ - Changed icons included to the graphical interface
 
 ## [20.02.18] - 2020-02-18
 ### Added
