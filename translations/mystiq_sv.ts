@@ -459,43 +459,43 @@
     </message>
     <message>
         <source>3D Options</source>
-        <translation type="unfinished"></translation>
+        <translation>3D-alternativ</translation>
     </message>
     <message>
         <source> Red Blue Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Blå Grå monokromatisk</translation>
     </message>
     <message>
         <source> Red Cyan Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Cyan Grå monokromatisk</translation>
     </message>
     <message>
         <source> Red Cyan Dubois </source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Cyan Dubois </translation>
     </message>
     <message>
         <source> Red Cyan Half Color </source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Cyan Halvfärg </translation>
     </message>
     <message>
         <source> Yellow Blue Color </source>
-        <translation type="unfinished"></translation>
+        <translation> Gul Blå Färg </translation>
     </message>
     <message>
         <source> Red Cyan Color </source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Cyan Färg </translation>
     </message>
     <message>
         <source> Green Magenta Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation> Grön Magenta Grå Monokromatisk</translation>
     </message>
     <message>
         <source> Red Green Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation> Röd Grön Grå Monokromatisk</translation>
     </message>
     <message>
         <source> Green Magenta Color </source>
-        <translation type="unfinished"></translation>
+        <translation> Grön Magenta Färg </translation>
     </message>
 </context>
 <context>
