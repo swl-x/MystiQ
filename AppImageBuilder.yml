@@ -74,7 +74,13 @@ AppDir:
       - usr/share/doc/*/NEWS.*
       - usr/share/doc/*/TODO.*
       - usr/include
-  
+
+  runtime:
+    generator: wrapper
+    env:
+      PATH: '${APPDIR}/usr/bin:${APPDIR}/bin:${PATH}'
+      APPDIR_LIBRARY_PATH: "$APPDIR/lib/x86_64-linux-gnu:$APPDIR/usr/lib/x86_64-linux-gnu:$APPDIR/usr/lib/x86_64-linux-gnu/pulseaudio"
+
   test:
     debian:
       image: debian:stable
