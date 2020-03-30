@@ -4,9 +4,6 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/maintenance/yes/2020" alt="Maintenance" />
 </a>
-<a href="https://aur.archlinux.org/packages/mystiq/">
-      <img src="https://img.shields.io/aur/votes/MystiQ?label=AUR%20votes" alt="AUR Votes" />
-</a>      
 <a href="https://mystiqapp.com">
       <img src="https://img.shields.io/website?down_color=%237293c0&down_message=Offline&label=website&up_color=%23545e7c&up_message=online&url=https%3A%2F%2Fmystiqapp.com" alt="MystiQ Website" />
 </a>      
@@ -22,9 +19,6 @@ MystiQ, FFmpeg GUI front-end based on Qt5
 <a href="https://github.com/swl-x/MystiQ/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/swl-x/MystiQ" />
 </a> 
-<a href="https://github.com/swl-x/MystiQ/" alt="Programming Languages">
-        <img src="https://img.shields.io/github/languages/count/swl-x/MystiQ?label=programming%20languages" />
-</a>       
 <a href="https://github.com/swl-x/MystiQ/graphs/commit-activity">
       <img src="https://img.shields.io/github/last-commit/swl-x/MystiQ" alt="Last Commit" />
 </a>  
