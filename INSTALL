@@ -11,6 +11,7 @@ BuildRequires:
   - libqt5opengl5
   - alsa-devel
   - libX11-devel
+  - libnotify
   
 depends=('ffmpeg' 'qt5-base' 'qtdeclarative5' 'qtmultimedia5' 'libqt5opengl5')
 optdepends=('sox: audio speed adjusting support'

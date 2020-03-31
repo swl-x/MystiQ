@@ -127,7 +127,7 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Индонезийский (Индонезия)</translation>
     </message>
 </context>
 <context>
@@ -215,7 +215,6 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translatorcomment>Создайте новую папку (например, mystiq_output) в папке, содержащей входные файлы. Поместите выходные файлы во вновь созданную папку.</translatorcomment>
         <translation>Создать &amp;новую папку в исходной папке</translation>
     </message>
     <message>
@@ -225,7 +224,6 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translatorcomment>поместите выходные файлы в ту же папку, что и входные файлы</translatorcomment>
         <translation>Вывод к &amp;исходная папка</translation>
     </message>
     <message>
@@ -459,43 +457,43 @@
     </message>
     <message>
         <source>3D Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки 3D</translation>
     </message>
     <message>
         <source>Red Blue Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Красный Синий Серый Монохроматический</translation>
     </message>
     <message>
         <source>Red Cyan Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>Красный Голубой Дюбуа</translation>
     </message>
     <message>
         <source>Green Magenta Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Зелёный Пурпурный Цвет</translation>
     </message>
     <message>
         <source>Red Cyan Half Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Красный Голубой Полутона</translation>
     </message>
     <message>
         <source>Yellow Blue Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Желтый Синий Цвет</translation>
     </message>
     <message>
         <source>Red Cyan Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Красный Голубой Цвет</translation>
     </message>
     <message>
         <source>Green Magenta Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Зеленый Пурпурный Серый Монохромный</translation>
     </message>
     <message>
         <source>Red Green Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Красный Зеленый Серый Монохромный</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>ни один</translation>
     </message>
 </context>
 <context>
@@ -926,7 +924,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translatorcomment>удалить выполнено (задача, элементы)</translatorcomment>
         <translation>&amp;Удаление завершено</translation>
     </message>
     <message>
@@ -1164,27 +1161,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщение об ошибке</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес электронной почты</translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Мы бы хотели знать Ваше мнение</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github</translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>Команде разработчиков MystiQ Video Converter нужны пользователи, которые пользуются этим приложением для выявления ошибок. Если Вы обнаружите ошибку и сообщите о ней нашей команде, это поможет ускорить процесс её исправления. Таким образом, вы можете стать частью нашей команды, даже не являясь разработчиком. Чтобы сообщить об ошибке, Вы можете отправить нам электронное письмо с подробным описанием или зайти на веб-сервис Github и описать проблему (в этом случае у вас должен быть аккаунт на GitHub).</translation>
     </message>
     <message>
         <source>Gitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Дифракционная решетка</translation>
     </message>
 </context>
 <context>
@@ -1192,7 +1189,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translatorcomment>%1 - компьютерная программа</translatorcomment>
         <translation> FFmpeg или FFprobe %1 не найдены в системе. Пожалуйста, рассмотрите возможность их установки перед запуском MystiQ</translation>
     </message>
 </context>
@@ -1401,7 +1397,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущая версия, которую вы используете, является более новой, чем версия канала выпуска.
+&lt;br&gt;Поэтому вы используете канал развития.</translation>
     </message>
 </context>
 </TS>
