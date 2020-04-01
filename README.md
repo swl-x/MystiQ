@@ -32,14 +32,6 @@ MystiQ, FFmpeg GUI front-end based on Qt5
       <img src="https://img.shields.io/github/downloads/swl-x/MystiQ/total.svg?color=%237293c0" alt="Total Downloads" />
 </a>   
 </p>  
-<p align="center">
-<a href="https://liberapay.com/MystiQ">
-      <img src="https://img.shields.io/liberapay/gives/MystiQ?label=liberapay%20support" alt="Liberapay Support" />
-</a>
-<a href="https://opencollective.com/mystiq">
-      <img src="https://img.shields.io/opencollective/all/MystiQ?color=%2373a4f0" alt="Open Collective Support" />
-</a>  
-</p>
 <p align="center"> 
 <a href="https://github.com/swl-x/MystiQ/stargazers">
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/swl-x/MystiQ?style=social"> 
