@@ -38,11 +38,11 @@
     <message>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
-        <translation>Spanyol</translation>
+        <translation>Spanyol (Spanyolország)</translation>
     </message>
     <message>
         <source>License</source>
-        <translation>Engedély</translation>
+        <translation>Licenc</translation>
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
@@ -53,32 +53,28 @@
         <translation>Fejlesztők: &lt;br&gt; %1</translation>
     </message>
     <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation>Alkalmazás neve: &lt;br&gt; %1</translation>
-    </message>
-    <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translatorcomment>Svéd nyelv (Svédország)</translatorcomment>
         <translation>Svéd (Svédország)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translatorcomment>Japán nyelv (Japán)</translatorcomment>
         <translation>Japán (japán)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translatorcomment>Német nyelv (Németország)</translatorcomment>
         <translation>Német (Németország)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translatorcomment>Olasz nyelv (Olaszország)</translatorcomment>
         <translation>Olasz (Olaszország)</translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation>Alkalmazás neve: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
@@ -87,7 +83,6 @@
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translatorcomment>Török nyelv (Törökország)</translatorcomment>
         <translation>Török (Törökország)</translation>
     </message>
     <message>
@@ -100,23 +95,21 @@
     </message>
     <message>
         <source>Changelog</source>
-        <translation>Változási napló</translation>
+        <translation>Változásnapló</translation>
     </message>
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translatorcomment>Magyar nyelv (Magyarország)</translatorcomment>
         <translation>Magyar (Magyarország)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translatorcomment>Orosz nyelv (Oroszország)</translatorcomment>
         <translation>Orosz (Oroszország)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation>Együttműködők: &lt;br&gt; %1</translation>
+        <translation>Együttműködők: &lt;br&gt; %1, blackPanther Magyarország</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
@@ -125,7 +118,6 @@
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translatorcomment>Galíciai nyelv (Galícia)</translatorcomment>
         <translation>Galíciai (Galícia)</translation>
     </message>
     <message>
@@ -135,8 +127,7 @@
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translatorcomment>Indonéz nyelv (Indonézia)</translatorcomment>
-        <translation>Indonéz (Indonézia)</translation>
+        <translation>Indonéziai (Indonéz)</translation>
     </message>
 </context>
 <context>
@@ -156,12 +147,11 @@
     <message>
         <source>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.</source>
         <extracomment>ffmpeg description</extracomment>
-        <translatorcomment>ffmpeg leírása</translatorcomment>
         <translation>Az FFmpeg teljes körű, keresztplatfomos megoldás videó- és hangfájlok felvételére, átalakítására és továbbítására, mely tartalmazza a vezető audio/video könytárat, a libavcodec-et.</translation>
     </message>
     <message>
         <source>FFmpeg is free software licensed under the LGPL or GPL.</source>
-        <translation>Az FFmpeg szabad szoftver. Licensze: LGPL vagy GPL.</translation>
+        <translation>Az FFmpeg szabad szoftver. Licence: LGPL vagy GPL.</translation>
     </message>
     <message>
         <source>Please visit %1 for more information.</source>
@@ -216,7 +206,7 @@
     </message>
     <message>
         <source>Select &amp;folder</source>
-        <translation>Mappa &amp;Kiválasztása</translation>
+        <translation>Mappa &amp;kiválasztása</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -225,7 +215,6 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translatorcomment>Hozzon létre egy új mappát (például mystiq_output) a bemeneti fájlokat tartalmazó mappába. Helyezze a kimeneti fájlokat az újonnan létrehozott mappába.</translatorcomment>
         <translation>Új mappa &amp;létrehozása a bemeneti fájlok mappájában</translation>
     </message>
     <message>
@@ -235,7 +224,6 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translatorcomment>tegye a kimeneti fájlokat ugyanabba a mappába, mint a bemeneti fájlokat</translatorcomment>
         <translation>&amp;Kimeneti fájlok a forrás mappába</translation>
     </message>
     <message>
@@ -305,7 +293,7 @@
     </message>
     <message>
         <source>Audio</source>
-        <translation>Audió</translation>
+        <translation>Hang</translation>
     </message>
     <message>
         <source>Disable Audio</source>
@@ -313,7 +301,7 @@
     </message>
     <message>
         <source>Audio Options</source>
-        <translation>Audió lehetőségek</translation>
+        <translation>Hangopciók</translation>
     </message>
     <message>
         <source>Sample Rate</source>
@@ -353,11 +341,11 @@
     </message>
     <message>
         <source>Disable Video</source>
-        <translation>Inaktív videó</translation>
+        <translation>Videó kikapcsolása</translation>
     </message>
     <message>
         <source>Video Options</source>
-        <translation>Videó lehetőségek</translation>
+        <translation>Videoopciók</translation>
     </message>
     <message>
         <source>Same Quantizer as Source</source>
@@ -396,8 +384,7 @@
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translatorcomment>Vágott videó; válassza ki a konvertálni kívánt tartományt</translatorcomment>
-        <translation>Vág</translation>
+        <translation>Kivágás</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
@@ -438,7 +425,7 @@
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
-        <translation></translation>
+        <translation>qrc:/qml/main.qml</translation>
     </message>
     <message>
         <source>Video Extra Options</source>
@@ -446,7 +433,7 @@
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation>Videó fekete-fehér</translation>
+        <translation>Videó fekete-fehérbe</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
@@ -470,43 +457,43 @@
     </message>
     <message>
         <source>3D Options</source>
-        <translation type="unfinished"></translation>
+        <translation>3D opciók</translation>
     </message>
     <message>
         <source>Red Blue Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Piros Kék Szürke Egyszínű</translation>
     </message>
     <message>
         <source>Red Cyan Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>Piros Cián Dubois</translation>
     </message>
     <message>
         <source>Green Magenta Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Zöld Lila Szín</translation>
     </message>
     <message>
         <source>Red Cyan Half Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Piros Cián fél-szín</translation>
     </message>
     <message>
         <source>Yellow Blue Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Sárga Kék Szín</translation>
     </message>
     <message>
         <source>Red Cyan Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Piros Cián Szín</translation>
     </message>
     <message>
         <source>Green Magenta Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Zöld Lila Szürke egyszínű</translation>
     </message>
     <message>
         <source>Red Green Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Piros Zöld Szürke Egyszínű</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs</translation>
     </message>
 </context>
 <context>
@@ -628,7 +615,7 @@
     <message>
         <source>Removing tasks...</source>
         <extracomment>Remove files from the tasklist</extracomment>
-        <translation>Feladat eltávolítása...</translation>
+        <translation>Feladatok eltávolítása...</translation>
     </message>
     <message>
         <source>KiB</source>
@@ -657,7 +644,7 @@
     </message>
     <message>
         <source>%1 already exists on disk or in the task list. Still use this name as the output filename?</source>
-        <translation>A(z) %1 már létezik a lemezen vagy a feladatlistában.  Továbbra is ezt használjha kimeneti fájlnévként?</translation>
+        <translation>%1 már létezik a lemezen vagy a feladatlistában.  Továbbra is ezt használja kimeneti fájlnévként?</translation>
     </message>
     <message>
         <source>Remove Task</source>
@@ -857,7 +844,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Open Output Folder</source>
-        <translation>&amp;Kimeneti könyvtár megnyitása</translation>
+        <translation>&amp;Kimeneti mappa megnyitása</translation>
     </message>
     <message>
         <source>Open output folder of the selected file.</source>
@@ -883,16 +870,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>R&amp;emove Completed</source>
         <extracomment>remove completed (task, items)</extracomment>
-        <translatorcomment>eltávolítás befejezve (feladat, tételek)</translatorcomment>
-        <translation>&amp;Eltávolítás befejezve</translation>
+        <translation>&amp;Befejezettek eltávolítása</translation>
     </message>
     <message>
         <source>Remove Completed Items</source>
-        <translation>Elkemek eltávolítása befejezve</translation>
+        <translation>Befejezettek eltávolítása</translation>
     </message>
     <message>
         <source>Remove all completed items in the list.</source>
-        <translation>Az összes elkészült elem eltávolítása a listáról.</translation>
+        <translation>Minden elkészült elem eltávolítása a listáról.</translation>
     </message>
     <message>
         <source>Clear List</source>
@@ -920,7 +906,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Minden feladat újrapróbálása.</translation>
+        <translation>Minden feladat ismétlése.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
@@ -960,9 +946,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cut</source>
-        <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translatorcomment>Videofájl kivágása (válasszon egy időtartamot a megerősítéshez)</translatorcomment>
-        <translation>Vág</translation>
+        <extracomment>Cut video file (select a time range to convert)</extracomment>
+        <translation>Kivágás</translation>
     </message>
     <message>
         <source>All tasks have finished.</source>
@@ -974,7 +959,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Conversion is still in progress. Abort?</source>
-        <translation>Átalakítás folymatban. Megszakítja?</translation>
+        <translation>Átalakítás még folyamatban van. Megszakítja?</translation>
     </message>
     <message>
         <source>Shutdown</source>
@@ -1017,7 +1002,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Media Converter</source>
-        <translation></translation>
+        <translation>MystiQ Médiakonverter</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -1037,7 +1022,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Poweroff</source>
-        <translation>Kikapcsolni</translation>
+        <translation>Kikapcsolás</translation>
     </message>
     <message>
         <source>User Manual</source>
@@ -1057,15 +1042,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <source>Donate</source>
         <translation>Adományoz</translation>
-    </message>
-    <message>
-        <source>Conversion finished successfully.</source>
-        <translation>Az átalakítás sikeresen befejeződött.</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
@@ -1093,7 +1074,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>%1</source>
-        <translation></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>Your comment:</source>
@@ -1101,17 +1082,20 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report:</source>
-        <translation>Feljelent:</translation>
+        <translation>Jelentés:</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translatorcomment>A (z) %1-es fájl konvertálása %2 fájlba. %2 a fájlok száma.</translatorcomment>
         <translation>A MystiQ konvertálja a %1/%2 fájlt</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
-        <translation></translation>
+        <translation>MistiQ videokonverter</translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation>Az átalakítás sikeresen befejeződött.</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -1123,7 +1107,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation>Jelentés a hibákról</translation>
+        <translation>Hibajelentés</translation>
     </message>
     <message>
         <source>Email</source>
@@ -1131,7 +1115,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation>Szüksége van visszajelzésre</translation>
+        <translation>Szükségünk van a visszajelzésedre</translation>
     </message>
     <message>
         <source>Github</source>
@@ -1139,11 +1123,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation>A MystiQ Video Converter fejlesztői csapatának olyan felhasználókra van szüksége, akik az alkalmazást használják a hibák észlelésére. Ha hibát talál, és jelentést tesz a csapatunknak, ez elősegíti a javítási folyamat felgyorsítását. Ezért akkor is részt vehet a fejlesztői csapatunkban, ha nem fejlesztő. Hiba jelentése érdekében e-mailt küldhet nekünk a hiba részletes leírásáról, vagy beléphet a Githubba, és leírhatja a problémát (ebben az esetben rendelkeznie kell GitHub fiókkal).</translation>
+        <translation>A MystiQ videokonverter fejlesztőcsapatának olyan felhasználókra van szüksége, akik használat közben segítik a hibák észlelését. Ha hibát találsz, és jelented a csapatunknak, ez elősegíti a javítási folyamat felgyorsítását. Így részese lehetsz a fejlesztői csapatunknak akkor is, ha nem fejlesztő. Hiba jelentést e-mailt küldheted nekünk a hiba részletes leírásáról, vagy beléphetsz a Github-ra, és ott is leírhatod a problémát (ebben az esetben rendelkezned kell GitHub fiókkal).</translation>
     </message>
     <message>
         <source>Gitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Gitter</translation>
     </message>
 </context>
 <context>
@@ -1151,14 +1135,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation></translation>
+        <translatorcomment>%1 egy számítógépes program</translatorcomment>
+        <translation> FFmpeg vagy a FFprobe %1 nem találhatóak meg a rendszeren. Kérjük telepítse valamelyiket mielőtt futtatja a MystiQ-t</translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -1277,22 +1262,21 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation>Játsszon a kiválasztott tartományban</translation>
+        <translation>Kiválasztott tartomány lejátszása</translation>
     </message>
     <message>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation>Kezdődik</translation>
+        <translation>Kezdés</translation>
     </message>
     <message>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation>Vége</translation>
+        <translation>Befejezés</translation>
     </message>
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translatorcomment>a videó lejátszása %1-től %2-ig. %1 és %2 idő hh: mm: ss formátumban.</translatorcomment>
         <translation>Játssz %1~%2</translation>
     </message>
     <message>
@@ -1348,7 +1332,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translatorcomment>%1 verziószám, %2 a projekt honlapja</translatorcomment>
         <translation>A &lt;b&gt;%1&lt;/b&gt; kiadás elérhető itt: %2.</translation>
     </message>
     <message>
@@ -1361,7 +1344,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation>A jelenleg használt verzió újabb, mint a kiadási csatorna verziója.&lt;br&gt;Ezért használja a fejlesztési csatornát.</translation>
+        <translation>A jelenleg használt verzió újabb, mint a kiadási csatorna verziója.&lt;br&gt;A fejlesztői változatot használod.</translation>
     </message>
 </context>
 </TS>

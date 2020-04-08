@@ -53,32 +53,28 @@
         <translation>Vývojáři: &lt;br&gt; %1</translation>
     </message>
     <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation>Název aplikace: &lt;br&gt; %1</translation>
-    </message>
-    <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translatorcomment>Švédský jazyk (Švédsko)</translatorcomment>
         <translation>Švédština (Švédsko)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translatorcomment>Japonský jazyk (Japonsko)</translatorcomment>
         <translation>Japonština (Japonsko)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translatorcomment>Německý jazyk (Německo)</translatorcomment>
         <translation>Němčina (Německo)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translatorcomment>Italský jazyk (Itálie)</translatorcomment>
         <translation>Italština (Itálie)</translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation>Název aplikace: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
@@ -87,7 +83,6 @@
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translatorcomment>Turečtina (Turecko)</translatorcomment>
         <translation>Turečtina (Turecko)</translation>
     </message>
     <message>
@@ -105,13 +100,11 @@
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translatorcomment>Maďarský jazyk (Maďarsko)</translatorcomment>
         <translation>Maďarština (Maďarsko)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translatorcomment>Ruský jazyk (Rusko)</translatorcomment>
         <translation>Ruština (Rusko)</translation>
     </message>
     <message>
@@ -125,7 +118,6 @@
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translatorcomment>Galicijský jazyk (galicijština)</translatorcomment>
         <translation>Galicijština (Galicie)</translation>
     </message>
     <message>
@@ -224,7 +216,6 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translatorcomment>Vytvořte novou složku (např. Mystiq_output) ve složce obsahující vstupní soubory. Vložte výstupní soubory do nově vytvořené složky.</translatorcomment>
         <translation>Vytvořit &amp;novou složku ve zdrojové složce</translation>
     </message>
     <message>
@@ -234,7 +225,6 @@
     <message>
         <source>Output to &amp;source folder</source>
         <extracomment>put the output files in the same folder as the input files</extracomment>
-        <translatorcomment>umístit výstupní soubory do stejné složky jako vstupní soubory</translatorcomment>
         <translation>Výstup do &amp;zdrojové složky</translation>
     </message>
     <message>
@@ -395,7 +385,6 @@
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translatorcomment>Vystřihnout video; vyberte rozsah, který chcete převést</translatorcomment>
         <translation>Střih</translation>
     </message>
     <message>
@@ -756,7 +745,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -764,7 +753,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
-        <translatorcomment>Střih jako v &quot;řezacím videu&quot;</translatorcomment>
         <translation>Sřih</translation>
     </message>
     <message>
@@ -959,8 +947,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cut</source>
-        <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translatorcomment>Vystřihnout video soubor (vyberte časový rozsah, který chcete převést)</translatorcomment>
+        <extracomment>Cut video file (select a time range to convert)</extracomment>
         <translation>Střih</translation>
     </message>
     <message>
@@ -1063,10 +1050,6 @@ p, li { white-space: pre-wrap; }
         <translation>Darovat</translation>
     </message>
     <message>
-        <source>Conversion finished successfully.</source>
-        <translation>Převod byl úspěšně dokončen.</translation>
-    </message>
-    <message>
         <source>Conversion failed.</source>
         <translation>Převod selhal.</translation>
     </message>
@@ -1105,12 +1088,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translatorcomment>Převod souboru %1-tého na soubory %2. %2 je počet souborů.</translatorcomment>
         <translation>MystiQ převádí %1/%2</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation>Převod byl úspěšně dokončen.</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -1126,7 +1112,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mailem</translation>
     </message>
     <message>
         <source>We need your feedback</source>
@@ -1134,7 +1120,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Github</source>
-        <translation>Github</translation>
+        <translation></translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
@@ -1142,7 +1128,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Gitter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1150,7 +1136,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translatorcomment>%1 je počítačový program</translatorcomment>
         <translation> FFmpeg nebo FFprobe %1 nebyly v systému nalezeny. Před spuštěním MystiQ zvažte jejich instalaci</translation>
     </message>
 </context>
@@ -1292,7 +1277,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translatorcomment>přehrajte video od času %1 do času %2. %1 a %2 jsou čas ve formátu hh: mm: ss.</translatorcomment>
         <translation>Přehrát %1~%2</translation>
     </message>
     <message>
@@ -1348,7 +1332,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Version &lt;b&gt;%1&lt;/b&gt; is available at %2.</source>
         <extracomment>%1 is version number, %2 is the project homepage</extracomment>
-        <translatorcomment>%1 je číslo verze, %2 je domovská stránka projektu</translatorcomment>
         <translation>Verze &lt;b&gt; %1 &lt;/b&gt; je k dispozici na %2.</translation>
     </message>
     <message>

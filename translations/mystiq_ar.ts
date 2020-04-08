@@ -53,10 +53,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
         <translation type="unfinished"></translation>
@@ -74,6 +70,10 @@
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -946,7 +946,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cut</source>
-        <extracomment>Cut video file (select a time range to conert)</extracomment>
+        <extracomment>Cut video file (select a time range to convert)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1010,7 +1010,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Clear &amp;List</source>
@@ -1030,7 +1030,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Report Error</source>
@@ -1046,10 +1046,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Conversion finished successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1095,6 +1091,10 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Video Converter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

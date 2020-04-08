@@ -468,7 +468,7 @@
      <normaloff>:/actions/icons/cut.svg</normaloff>:/actions/icons/cut.svg</iconset>
    </property>
    <property name="text">
-    <string extracomment="Cut video file (select a time range to conert)">Cut</string>
+    <string extracomment="Cut video file (select a time range to convert)">Cut</string>
    </property>
   </action>
   <action name="actionHelpMystiQDialog">

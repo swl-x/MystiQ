@@ -944,7 +944,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cut</source>
-        <extracomment>Cut video file (select a time range to conert)</extracomment>
+        <extracomment>Cut video file (select a time range to convert)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

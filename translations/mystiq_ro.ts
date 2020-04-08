@@ -5,7 +5,7 @@
     <name>AboutDialog</name>
     <message>
         <source>About MystiQ</source>
-        <translation>Despre MystiQ </translation>
+        <translation>Despre MystiQ</translation>
     </message>
     <message>
         <source>Information</source>
@@ -38,96 +38,106 @@
     <message>
         <source>Spanish (Spain)</source>
         <extracomment>Spanish Language (Spain)</extracomment>
-        <translation>Spaniolă (Spania) </translation>
+        <translatorcomment>Limba spaniolă (Spania)</translatorcomment>
+        <translation>Spaniolă (Spania)</translation>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licență</translation>
     </message>
     <message>
         <source>MystiQ is a GUI frontend for FFmpeg.</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ este un frontend GUI pentru FFmpeg.</translation>
     </message>
     <message>
         <source>Developers:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Application Name:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezvoltatori: &lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Swedish (Sweden)</source>
         <extracomment>Swedish Language (Sweden)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba suedeză (Suedia)</translatorcomment>
+        <translation>Suedeză (Suedia)</translation>
     </message>
     <message>
         <source>Japanese (Japan)</source>
         <extracomment>Japanese Language (Japan)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba japoneză (Japonia)</translatorcomment>
+        <translation>Japoneză (Japonia)</translation>
     </message>
     <message>
         <source>German (Germany)</source>
         <extracomment>German Language (Germany)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba germană (Germania)</translatorcomment>
+        <translation>Germană (Germania)</translation>
     </message>
     <message>
         <source>Italian (Italy)</source>
         <extracomment>Italian Language (Italy)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba italiană (Italia)</translatorcomment>
+        <translation>Italiană (Italia)</translation>
+    </message>
+    <message>
+        <source>Application Name:&lt;br&gt; %1</source>
+        <translation>Numele cererii:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Acest program este software gratuit; îl puteți redistribui și / sau modifica în condițiile din versiunea 3 a licenței publice generale GNU.</translation>
     </message>
     <message>
         <source>Turkish (Turkey)</source>
         <extracomment>Turkish Language (Turkey)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba turcă (Turcia)</translatorcomment>
+        <translation>Turcă (Turcia)</translation>
     </message>
     <message>
         <source>Many people have contributed translations. You can also help translate the MystiQ Video Converter into your own language. Visit </source>
-        <translation type="unfinished"></translation>
+        <translation>Multe persoane au contribuit cu traduceri. Puteți ajuta, de asemenea, să traduceți MystiQ Video Converter în propria limbă. Vizita </translation>
     </message>
     <message>
         <source> and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation> și alăturați-vă unei echipe de traducere.</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Hungarian (Hungary)</source>
         <extracomment>Hungarian Language (Hungary)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba maghiară (Ungaria)</translatorcomment>
+        <translation>Maghiară (Ungaria)</translation>
     </message>
     <message>
         <source>Russian (Russia)</source>
         <extracomment>Russian Language (Russia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba rusă (Rusia)</translatorcomment>
+        <translation>Rusă (Rusia)</translation>
     </message>
     <message>
         <source>Collaborators:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Colaboratori:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Some features of MystiQ Video Converter have been inspired by</source>
-        <translation type="unfinished"></translation>
+        <translation>Unele caracteristici ale MystiQ Video Converter au fost inspirate de</translation>
     </message>
     <message>
         <source>Galician (Galicia)</source>
         <extracomment>Galician Language (Galicia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba Galică (Galicia)</translatorcomment>
+        <translation>Galiciană (Galizia)</translation>
     </message>
     <message>
         <source>Icons Theme:&lt;br&gt; %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Icoane Tema:&lt;br&gt; %1</translation>
     </message>
     <message>
         <source>Indonesian (Indonesia)</source>
         <extracomment>Indonesian Language (Indonesia)</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Limba indoneziană (Indonezia)</translatorcomment>
+        <translation>Indonezian (Indonezia)</translation>
     </message>
 </context>
 <context>
@@ -215,7 +225,8 @@
     <message>
         <source>Create &amp;new folder in source folder</source>
         <extracomment>Create a new folder (e.g. mystiq_output) in the folder containing the input files. Put the output files in the newly created folder.</extracomment>
-        <translation>Creează un nou dosar în dosarul sursă</translation>
+        <translatorcomment>Creați un folder nou (de exemplu, mystiq_output) în folderul care conține fișierele de intrare. Puneți fișierele de ieșire în folderul nou creat.</translatorcomment>
+        <translation>Creează un nou &amp;dosar în dosarul sursă</translation>
     </message>
     <message>
         <source>Folder Name</source>
@@ -258,7 +269,7 @@
     </message>
     <message>
         <source>Searching for files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Căutarea fișierelor...</translation>
     </message>
     <message>
         <source>Some files could not be found.</source>
@@ -274,15 +285,15 @@
     </message>
     <message>
         <source>Add Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugați Fișiere</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Sterge Selectia</translation>
     </message>
     <message>
         <source>Clear List</source>
-        <translation type="unfinished">Golire listă</translation>
+        <translation>Listă Clară</translation>
     </message>
 </context>
 <context>
@@ -349,7 +360,7 @@
     </message>
     <message>
         <source>Same Quantizer as Source</source>
-        <translation>Quantizer Identic cu al Sursei </translation>
+        <translation>Quantizer Identic cu al Sursei</translation>
     </message>
     <message>
         <source>Deinterlace</source>
@@ -361,7 +372,7 @@
     </message>
     <message>
         <source> px</source>
-        <translation>px</translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Height</source>
@@ -384,7 +395,8 @@
     <message>
         <source>Cut</source>
         <comment>Cut video; select a range to convert</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Cut video; selectați o gamă de convertit</translatorcomment>
+        <translation>A tăia</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
@@ -413,87 +425,87 @@
     </message>
     <message>
         <source>Copy Audio (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiați audio (nu re-codificați)</translation>
     </message>
     <message>
         <source>Insert Subtitle if Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserați Subtitrare Dacă Este Disponibil</translation>
     </message>
     <message>
         <source>Copy Video (Do not re-encode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiați Video (Nu re-codificați)</translation>
     </message>
     <message>
         <source>qrc:/qml/main.qml</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Video Extra Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni Video Suplimentare</translation>
     </message>
     <message>
         <source>Video to Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Video în Alb și Negru</translation>
     </message>
     <message>
         <source>Vertical Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Flip vertical</translation>
     </message>
     <message>
         <source>Horizontal Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Flip Orizontal</translation>
     </message>
     <message>
         <source>Rotate 90 degrees clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotiți 90 de Grade în Sensul Acelor de Ceasornic</translation>
     </message>
     <message>
         <source>Rotate 90 degrees counterclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotiți 90 de Grade în Sens Invers Acelor de Ceasornic</translation>
     </message>
     <message>
         <source>Rotate 180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotiți 180 de Grade</translation>
     </message>
     <message>
         <source>3D Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni 3D</translation>
     </message>
     <message>
         <source>Red Blue Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Roșu Albastru Gri Monocromatic</translation>
     </message>
     <message>
         <source>Red Cyan Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>Cyan Roșu Dubois</translation>
     </message>
     <message>
         <source>Green Magenta Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare Magenta verde</translation>
     </message>
     <message>
         <source>Red Cyan Half Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Jumătate Roșu Cyan Color</translation>
     </message>
     <message>
         <source>Yellow Blue Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare Galben Albastru</translation>
     </message>
     <message>
         <source>Red Cyan Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare Roșu Cian</translation>
     </message>
     <message>
         <source>Green Magenta Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Monochromatic verde Magenta Grey</translation>
     </message>
     <message>
         <source>Red Green Gray Monochromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Roșu Verde Gri Monocromatic</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nici Unul</translation>
     </message>
 </context>
 <context>
@@ -518,7 +530,7 @@
     </message>
     <message>
         <source>Please input the new name for the output file.</source>
-        <translation>Vă rugăm să introduceți noul nume a fișierului în ieșire</translation>
+        <translation>Vă rugăm să introduceți noul nume a fișierului în ieșire.</translation>
     </message>
     <message>
         <source>Output Directory</source>
@@ -685,7 +697,7 @@
     <name>HelpMystiQDialog</name>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Manual de Utilizare</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -744,7 +756,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -752,27 +764,28 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Cutting</source>
         <comment>Cutting as in &quot;cutting video&quot;</comment>
+        <translatorcomment>Tăiere ca în &quot;tăiere video&quot;</translatorcomment>
         <translation>Tăiere</translation>
     </message>
     <message>
         <source>Mark as Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcați ca Începe</translation>
     </message>
     <message>
         <source>Seek to Begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută să începi</translation>
     </message>
     <message>
         <source>Play Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați Jocul</translation>
     </message>
     <message>
         <source>Mark as End</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcați ca Sfârșit</translation>
     </message>
     <message>
         <source>Seek to End</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută să închei</translation>
     </message>
 </context>
 <context>
@@ -840,7 +853,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Despre Qt </translation>
+        <translation>Despre Qt</translation>
     </message>
     <message>
         <source>&amp;Open Output Folder</source>
@@ -852,7 +865,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>About &amp;FFmpeg</source>
-        <translation>Despre &amp; FFmpeg </translation>
+        <translation>Despre &amp;FFmpeg</translation>
     </message>
     <message>
         <source>About FFmpeg</source>
@@ -898,7 +911,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry selected tasks.</source>
-        <translation>Reîncercați elementele selectate</translation>
+        <translation>Reîncercați elementele selectate.</translation>
     </message>
     <message>
         <source>Retry &amp;All</source>
@@ -906,7 +919,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Retry all tasks.</source>
-        <translation>Reîncercați toate sarcinile. </translation>
+        <translation>Reîncercați toate sarcinile.</translation>
     </message>
     <message>
         <source>&amp;Options</source>
@@ -914,7 +927,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Options</source>
-        <translation>Opțiuni </translation>
+        <translation>Opțiuni</translation>
     </message>
     <message>
         <source>About This Program</source>
@@ -926,7 +939,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change the output filename of the selected item.</source>
-        <translation>Modificarea fișierului de ieșire a elementului selectat. </translation>
+        <translation>Modificarea fișierului de ieșire a elementului selectat.</translation>
     </message>
     <message>
         <source>Change Output &amp;Directory</source>
@@ -946,8 +959,9 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cut</source>
-        <extracomment>Cut video file (select a time range to conert)</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Cut video file (select a time range to convert)</extracomment>
+        <translatorcomment>Tăiați fișierul video (selectați un interval de timp pentru convertire)</translatorcomment>
+        <translation>A tăia</translation>
     </message>
     <message>
         <source>All tasks have finished.</source>
@@ -986,7 +1000,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hibernate when all tasks are done.</source>
-        <translation>Hibernare când toate sarcinile sunt efectuate. </translation>
+        <translation>Hibernare când toate sarcinile sunt efectuate.</translation>
     </message>
     <message>
         <source>This program is going to check for updates online. Do you allow this program to use the Internet to check for updates?</source>
@@ -1002,132 +1016,133 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>MystiQ Media Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ajutor</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Clear &amp;List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Listă clară</translation>
     </message>
     <message>
         <source>About MystiQ</source>
-        <translation type="unfinished">Despre MystiQ </translation>
+        <translation>Despre MystiQ</translation>
     </message>
     <message>
         <source>Poweroff</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprire</translation>
     </message>
     <message>
         <source>User Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Manual de Utilizare</translation>
     </message>
     <message>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>&amp;Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Raportează eroarea</translation>
     </message>
     <message>
         <source>Report Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Raportează Eroarea</translation>
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Conversion finished successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Donează</translation>
     </message>
     <message>
         <source>Conversion failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Conversia a eșuat.</translation>
     </message>
     <message>
         <source>Support MystiQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Susțineți MystiQ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Închide</translation>
     </message>
     <message>
         <source>MystiQ needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ are nevoie de tine</translation>
     </message>
     <message>
         <source>MystiQ is free software. However the development requires a lot of time and a lot of work. In order to keep developing MystiQ with new features we need your help. Please consider to support the MystiQ project by sending a donation. &lt;b&gt;Even the smallest amount will help a lot.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>MystiQ este software gratuit. Totuși, dezvoltarea necesită mult timp și multă muncă. Pentru a continua dezvoltarea MystiQ cu funcții noi, avem nevoie de ajutorul tău. Vă rugăm să luați în considerare să susțineți proiectul MystiQ trimitând o donație. &lt;b&gt;Chiar și cea mai mică sumă va ajuta foarte mult.&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Reporting bugs from MystiQ </source>
-        <translation type="unfinished"></translation>
+        <translation>Raportarea erorilor de la MystiQ </translation>
     </message>
     <message>
         <source>%1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Your comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentariul tau:</translation>
     </message>
     <message>
         <source>Report:</source>
-        <translation type="unfinished"></translation>
+        <translation>Raport:</translation>
     </message>
     <message>
         <source>MystiQ is Converting %1/%2</source>
         <extracomment>Converting the %1-th file in %2 files. %2 is the number of files.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Convertirea fișierului %1-a în fișiere %2. %2 este numărul de fișiere.</translatorcomment>
+        <translation>MystiQ convertește %1/%2</translation>
     </message>
     <message>
         <source>MystiQ Video Converter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Conversion finished successfully.</source>
+        <translation>Conversia s-a încheiat cu succes.</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduceți</translation>
     </message>
     <message>
         <source>Translate Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicație Traduceți</translation>
     </message>
     <message>
         <source>Report Bugs</source>
-        <translation type="unfinished"></translation>
+        <translation>Raportați erori</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>We need your feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Avem nevoie de feedback-ul dvs</translation>
     </message>
     <message>
         <source>Github</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>MystiQ Video Converter development team needs users who use the application to help detect errors. If you find an error and report it to our team, it will help speed up the correction process. Therefore, you can be part of our development team even if you are not a developer. To report an error, you can send us an email with the detailed description of it or you can enter Github and describe the issue (in this case you must have a GitHub Account).</source>
-        <translation type="unfinished"></translation>
+        <translation>Echipa de dezvoltare MystiQ Video Converter are nevoie de utilizatori care utilizează aplicația pentru a ajuta la detectarea erorilor. Dacă găsiți o eroare și o raportați echipei noastre, aceasta va ajuta la accelerarea procesului de corectare. Prin urmare, puteți face parte din echipa noastră de dezvoltare chiar dacă nu sunteți dezvoltator. Pentru a raporta o eroare, ne puteți trimite un e-mail cu descrierea detaliată a acesteia sau puteți introduce Github și descrie problema (în acest caz, trebuie să aveți un cont GitHub).</translation>
     </message>
     <message>
         <source>Gitter</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1135,21 +1150,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source> FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ</source>
         <extracomment>%1 is a computer program</extracomment>
-        <translation type="unfinished"></translation>
+        <translation> FFmpeg sau FFprobe %1 nu au fost găsite în sistem. Vă rugăm să luați în considerare instalarea lor înainte de a rula MystiQ</translation>
     </message>
 </context>
 <context>
     <name>MediaPlayerWidget</name>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opțiuni </translation>
+        <translation>Opțiuni</translation>
     </message>
     <message>
         <source>General</source>
@@ -1169,7 +1184,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>FFmpeg</source>
-        <translation>FFmpeg </translation>
+        <translation>FFmpeg</translation>
     </message>
     <message>
         <source>Number of threads to use in conversion</source>
@@ -1185,7 +1200,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Tools</source>
-        <translation>Instrumente </translation>
+        <translation>Instrumente</translation>
     </message>
     <message>
         <source>You have to restart MystiQ for the changes to take effect.</source>
@@ -1193,22 +1208,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Name</source>
-        <translation>Nume </translation>
+        <translation>Nume</translation>
     </message>
     <message>
         <source>Command</source>
-        <translation>Comandă </translation>
+        <translation>Comandă</translation>
     </message>
 </context>
 <context>
     <name>PoweroffDialog</name>
     <message>
         <source>MystiQ</source>
-        <translation>MystiQ </translation>
+        <translation>MystiQ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anulare </translation>
+        <translation>Anulare</translation>
     </message>
     <message>
         <source>Shutdown immediately</source>
@@ -1238,7 +1253,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Hibernate</source>
         <extracomment>Hibernate the computer (sleep to disk, completely poweroff)</extracomment>
-        <translation>Hibernare </translation>
+        <translatorcomment>Hibernarea computerului (somn pe disc, oprire completă)</translatorcomment>
+        <translation>Hibernare</translation>
     </message>
     <message>
         <source>Operation Failed: %1</source>
@@ -1250,7 +1266,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Suspending in &lt;b&gt;%1&lt;/b&gt; seconds</source>
-        <translation>Suspendare în &lt;b&gt;%1&lt;/b&gt; secunde </translation>
+        <translation>Suspendare în &lt;b&gt;%1&lt;/b&gt; secunde</translation>
     </message>
     <message>
         <source>Hibernating in &lt;b&gt;%1&lt;/b&gt; seconds</source>
@@ -1261,26 +1277,29 @@ p, li { white-space: pre-wrap; }
     <name>PreviewDialog</name>
     <message>
         <source>Play Selected Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Joacă Intervalul selectat</translation>
     </message>
     <message>
         <source>Begin</source>
         <extracomment>noun, the beginning of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>noun, începutul videoclipului</translatorcomment>
+        <translation>Începe</translation>
     </message>
     <message>
         <source>End</source>
         <extracomment>noun, the end of the video</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>substantiv, sfârșitul videoclipului</translatorcomment>
+        <translation>Sfârșit</translation>
     </message>
     <message>
         <source>Play %1~%2</source>
         <extracomment>play the video from time %1 to time %2. %1 and %2 are time in hh:mm:ss format.</extracomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>redă videoclipul de la ora %1 la ora %2. %1 și %2 au timp în format hh: mm: ss.</translatorcomment>
+        <translation>Joacă %1~%2</translation>
     </message>
     <message>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Previzualizare video</translation>
     </message>
 </context>
 <context>
@@ -1339,11 +1358,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Check Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifica actualizarea</translation>
     </message>
     <message>
         <source>The current version you are using is newer than the release channel version.&lt;br&gt;Therefore, you are using the development channel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versiunea curentă pe care o utilizați este mai nouă decât versiunea de canal de lansare.&lt;br&gt;Prin urmare, utilizați canalul de dezvoltare.</translation>
     </message>
 </context>
 </TS>
