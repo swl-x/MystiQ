@@ -163,8 +163,16 @@ unix {
     }
     # Shutdown
     QT += dbus
-    SOURCES -= services/powermanagement-dummy.cpp
-    SOURCES += services/powermanagement-linux.cpp
+    macx {
+        message("macx")
+        SOURCES -= services/powermanagement-dummy.cpp
+        SOURCES += services/powermanagement-macos.cpp
+        DEFINES += TOOLS_IN_DATA_PATH
+    } else {
+        message("other unix")
+        SOURCES -= services/powermanagement-dummy.cpp
+        SOURCES += services/powermanagement-linux.cpp
+    }
     # Install
     target.path = /usr/bin/
     icon.path = /usr/share/icons/hicolor/scalable/apps/

@@ -76,10 +76,18 @@ void ExePath::saveSettings()
 void ExePath::loadSettings()
 {
     QSettings settings;
-    foreach (QString name, program_path.keys()) {
-        QString path = settings.value("exepath/" + name
-                                      , program_path[name]).toString();
-        program_path[name] = path;
+    QStringList childList = settings.childKeys();
+    QStringList groupList = settings.childGroups();
+    foreach (QString group, groupList) {
+        if ("exepath" == group) {
+            settings.beginGroup(group);
+            QStringList childList = settings.childKeys();
+            foreach (QString name, childList) {
+                QString path = settings.value(name).toString();
+                program_path[name] = path;
+            }
+            settings.endGroup();
+        }
     }
 }
 

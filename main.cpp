@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
     // Tear down notification
     Notification::release();
 
-#ifndef TOOLS_IN_DATA_PATH
+#ifdef TOOLS_IN_DATA_PATH
     // Save path settings
     ExePath::saveSettings();
 #endif
