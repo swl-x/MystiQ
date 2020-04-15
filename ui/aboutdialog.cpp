@@ -43,6 +43,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     QTextBrowser *info = ui->txtInfo;
     QTextBrowser *translators = ui->txtTranslators;
+    QTextBrowser *donations = ui->textDonations;
     QTextBrowser *license = ui->txtLicense;
     QTextBrowser *changelog = ui->txtChangelog;
 
@@ -95,6 +96,34 @@ AboutDialog::AboutDialog(QWidget *parent) :
     translators->setHtml(getTranslators());
     //translators->setText(getTranslators());
 
+    donations->setText(
+        "<p><b>MystiQ Video Converter</b> " + tr("is a free open source application. No one has the right to charge you any fees for the use of this application.</p><p>However, the community has contributed monetarily to the support of the project, to improve the conditions of the development team workflow. Some of our financial contributors are:</p>")
+                                                +"<ul>"
+                                                 "<li>Ernesto L. Acosta Valdés</li>"
+                                                 "<li>Hugo Florentino</li>"
+                                                 "<li>Rober García</li>"
+                                                 "<li>Francisco Perdigón Romero</li>"
+                                                 "<li>Gabriel A. López</li>"
+                                                 "<li>Juan José Morejón</li>"
+                                                 "<li>Luis Felipe Domínguez</li>"
+                                                 "<li>Yoel Torres</li>"
+                                                 "<li>Óscar L. Garcell Martínez</li>"
+                                                 "<li>Arián López Delgado</li>"
+                                                 "<li>Danny Paula</li>"
+                                                 "<li>Yanssel Peral Martínez</li>"
+                                                 "<li>Daniel Villazón</li>"
+                                                 "<li>Raulo (Arthanys)</li>"
+                                                 "<li>Armando Felipe</li>"
+                                                 "<li>Ernesto Santana</li>"
+                                                 "<li>Dennis Quesada Cruz</li>"
+                                                 "<li>Raúl Alderete</li>"
+                                                 "<li>Adrián Rodríguez</li>"
+                                                 "<li>Leslie León Sinclair</li>"
+                                                 "<li>Rafael Salgueiro</li>"
+                                                 "</ul>"
+                + tr("There are other users who collaborate financially with the development of MystiQ Video Converter anonymously. We are infinitely grateful to all of them. Any amount, however small it may seem, contributes a lot.")
+         );
+
     // Constraint the width of text area to the width of the banner.
     //info->setMaximumWidth(ui->lblBanner->pixmap()->width());
 
@@ -107,6 +136,9 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     translators->setPalette(p);
     translators->setFrameShape(QTextBrowser::NoFrame);
+
+    donations->setPalette(p);
+    donations->setFrameShape(QTextBrowser::NoFrame);
 
     license->setPalette(p);
     license->setFrameShape(QTextBrowser::NoFrame);
@@ -123,6 +155,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     ui->tabInfo->setAutoFillBackground(true);
     ui->tabTranslators->setAutoFillBackground(true);
+    ui->tabDonations->setAutoFillBackground(true);
 }
 
 AboutDialog::~AboutDialog()

@@ -131,6 +131,18 @@
         <translatorcomment>Idioma Indonesio (Indonesia)</translatorcomment>
         <translation>Indonesio (Indonesia)</translation>
     </message>
+    <message>
+        <source>Donations</source>
+        <translation>Donaciones</translation>
+    </message>
+    <message>
+        <source>is a free open source application. No one has the right to charge you any fees for the use of this application.&lt;/p&gt;&lt;p&gt;However, the community has contributed monetarily to the support of the project, to improve the conditions of the development team workflow. Some of our financial contributors are:&lt;/p&gt;</source>
+        <translation>es una aplicación gratuita de código abierto. Nadie tiene derecho a cobrarle ninguna tarifa por el uso de esta aplicación.&lt;/p&gt;&lt;p&gt;Sin embargo, la comunidad ha contribuido monetariamente al apoyo del proyecto para mejorar las condiciones del flujo de trabajo del equipo de desarrollo. Algunos de nuestros contribuyentes financieros son:&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>There are other users who collaborate financially with the development of MystiQ Video Converter anonymously. We are infinitely grateful to all of them. Any amount, however small it may seem, contributes a lot.</source>
+        <translation>Existen otros usuarios que colaboran económicamente con el desarrollo de MystiQ Video Converter de manera anónima. A todos les agradecemos infinitamente. Cualquier cantidad, por mínima que parezca, aporta mucho.</translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

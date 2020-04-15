@@ -153,6 +153,8 @@
     <addaction name="actionChangeOutputDirectory"/>
     <addaction name="actionShowErrorMessage"/>
     <addaction name="actionCut"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpenSettingFolder"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -532,6 +534,15 @@
    </property>
    <property name="toolTip">
     <string>Translate</string>
+   </property>
+  </action>
+  <action name="actionOpenSettingFolder">
+   <property name="icon">
+    <iconset resource="../images.qrc">
+     <normaloff>:/actions/icons/settings_folder.svg</normaloff>:/actions/icons/settings_folder.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open Setting Folder</string>
    </property>
   </action>
  </widget>

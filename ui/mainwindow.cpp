@@ -258,6 +258,12 @@ void MainWindow::slotTranslate()
     Q_UNUSED(b)
 }
 
+void MainWindow::slotOpenSettingFolder()
+{    
+    QString mystiq_setting = "/mystiq/";
+    QDesktopServices::openUrl(QUrl((QStandardPaths::standardLocations(QStandardPaths::ConfigLocation)[0])+ mystiq_setting));
+}
+
 void MainWindow::slotReport()
 {
     QMessageBox d(this);
@@ -565,6 +571,8 @@ void MainWindow::setup_menus()
             this, SLOT(slotSetConversionParameters()));
     connect(ui->actionOpenOutputFolder, SIGNAL(triggered()),
             this, SLOT(slotOpenOutputFolder()));
+    connect(ui->actionOpenSettingFolder, SIGNAL(triggered()),
+            this, SLOT(slotOpenSettingFolder()));
     connect(ui->actionChangeOutputFilename, SIGNAL(triggered()),
             m_list, SLOT(changeSelectedOutputFile()));
     connect(ui->actionChangeOutputDirectory, SIGNAL(triggered()),
@@ -624,6 +632,7 @@ void MainWindow::setup_toolbar(const QStringList &entries)
     ADD_ACTION(RemoveCompletedItems);
     ADD_ACTION(ClearList);
     ADD_ACTION(OpenOutputFolder);
+    ADD_ACTION(OpenSettingFolder);
     ADD_ACTION(SetParameters);
     ADD_ACTION(ChangeOutputFilename);
     ADD_ACTION(ChangeOutputDirectory); // TODO: rename to "folder"
@@ -953,6 +962,11 @@ void MainWindow::on_actionDonate_triggered()
 }
 
 void MainWindow::on_actionTranslate_triggered()
+{
+
+}
+
+void MainWindow::on_actionOpenSettingFolder_triggered()
 {
 
 }

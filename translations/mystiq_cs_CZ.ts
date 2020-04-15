@@ -130,6 +130,18 @@
         <translatorcomment>Indonéština (Indonésie)</translatorcomment>
         <translation>Indonéština (Indonésie)</translation>
     </message>
+    <message>
+        <source>Donations</source>
+        <translation>Dary</translation>
+    </message>
+    <message>
+        <source>is a free open source application. No one has the right to charge you any fees for the use of this application.&lt;/p&gt;&lt;p&gt;However, the community has contributed monetarily to the support of the project, to improve the conditions of the development team workflow. Some of our financial contributors are:&lt;/p&gt;</source>
+        <translation>je bezplatná aplikace s otevřeným zdrojovým kódem. Nikdo nemá právo účtovat vám žádné poplatky za používání této aplikace.&lt;/p&gt;&lt;p&gt;Komunita však monetárně přispěla k podpoře projektu, aby zlepšila podmínky pracovního postupu vývojového týmu. Mezi naše finanční přispěvatele patří:&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>There are other users who collaborate financially with the development of MystiQ Video Converter anonymously. We are infinitely grateful to all of them. Any amount, however small it may seem, contributes a lot.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>
@@ -745,7 +757,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Deinterlace: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s the process of converting interlaced video, such as common analog television signals or 1080i format HDTV signals, into a non-interlaced form. An interlaced video frame consists of two sub-fields taken in sequence, each sequentially scanned at odd, and then even, lines of the image sensor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- Same Quantizer as source: &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;It&apos;s involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. Checking this option the resulting file will have the same deinterlacing as the source file.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>

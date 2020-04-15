@@ -52,6 +52,7 @@ private slots:
 private:
     Ui::AboutDialog *ui;
     QString getTranslators();
+    QString getDonations();
     QString trad(const QString& lang, const QString& author);
     QString trad(const QString & lang, const QStringList & authors);
 };

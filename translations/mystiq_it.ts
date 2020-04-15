@@ -132,6 +132,18 @@
         <extracomment>Indonesian Language (Indonesia)</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Donations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is a free open source application. No one has the right to charge you any fees for the use of this application.&lt;/p&gt;&lt;p&gt;However, the community has contributed monetarily to the support of the project, to improve the conditions of the development team workflow. Some of our financial contributors are:&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are other users who collaborate financially with the development of MystiQ Video Converter anonymously. We are infinitely grateful to all of them. Any amount, however small it may seem, contributes a lot.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AboutFFmpegDialog</name>

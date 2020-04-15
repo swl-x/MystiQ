@@ -59,6 +59,7 @@
         <file>icons/open-collective.svg</file>
         <file>icons/patreon.svg</file>
         <file>icons/liberapay.svg</file>
+        <file>icons/settings_folder.svg</file>
     </qresource>
     <qresource prefix="/app">
         <file>icons/banner.png</file>
