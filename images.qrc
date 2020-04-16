@@ -60,6 +60,25 @@
         <file>icons/patreon.svg</file>
         <file>icons/liberapay.svg</file>
         <file>icons/settings_folder.svg</file>
+        <file>icons/flags/es.svg</file>
+        <file>icons/flags/jp.svg</file>
+        <file>icons/flags/pl.svg</file>
+        <file>icons/flags/pt.svg</file>
+        <file>icons/flags/ro.svg</file>
+        <file>icons/flags/ru.svg</file>
+        <file>icons/flags/se.svg</file>
+        <file>icons/flags/tr.svg</file>
+        <file>icons/flags/cn.svg</file>
+        <file>icons/flags/cz.svg</file>
+        <file>icons/flags/de.svg</file>
+        <file>icons/flags/fr.svg</file>
+        <file>icons/flags/gb.svg</file>
+        <file>icons/flags/gl.svg</file>
+        <file>icons/flags/hu.svg</file>
+        <file>icons/flags/id.svg</file>
+        <file>icons/flags/it.svg</file>
+        <file>icons/flags/sa.svg</file>
+        <file>icons/world-language.svg</file>
     </qresource>
     <qresource prefix="/app">
         <file>icons/banner.png</file>

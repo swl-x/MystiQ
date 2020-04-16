@@ -201,8 +201,8 @@ os2 {
     # Shutdown not yet implemented on OS/2 Warp
     # When it is done, uncomment following lines and do proper modifications
     #LIBS +=
-    #SOURCES -= services/powermanagement-dummy.cpp
-    #SOURCES += services/powermanagement-os2.cpp
+    SOURCES -= services/powermanagement-dummy.cpp
+    SOURCES += services/powermanagement-macos.cpp
 }
 
 # This string is shown in the about box.

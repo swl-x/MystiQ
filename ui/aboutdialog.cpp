@@ -103,6 +103,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
                                                  "<li>Hugo Florentino</li>"
                                                  "<li>Rober García</li>"
                                                  "<li>Francisco Perdigón Romero</li>"
+                                                 "<li>Mauricio López</li>"
                                                  "<li>Gabriel A. López</li>"
                                                  "<li>Juan José Morejón</li>"
                                                  "<li>Luis Felipe Domínguez</li>"

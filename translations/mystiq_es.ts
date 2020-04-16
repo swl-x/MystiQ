@@ -1143,6 +1143,10 @@ p, li { white-space: pre-wrap; }
         <source>Gitter</source>
         <translation>Gitter</translation>
     </message>
+    <message>
+        <source>Open Setting Folder</source>
+        <translation>Abrir Carpeta de Configuración</translation>
+    </message>
 </context>
 <context>
     <name>MediaConverter</name>
@@ -1212,6 +1216,82 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Command</source>
         <translation>Comando</translation>
+    </message>
+    <message>
+        <source>Select Language</source>
+        <translation>Seleccionar Idioma</translation>
+    </message>
+    <message>
+        <source>Chinese</source>
+        <translation>Chino</translation>
+    </message>
+    <message>
+        <source>Czech</source>
+        <translation>Checo</translation>
+    </message>
+    <message>
+        <source>English</source>
+        <translation>Inglés</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation>Alemán</translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation>Húngaro</translation>
+    </message>
+    <message>
+        <source>Indonesian</source>
+        <translation>Indonesio</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>Italiano</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <translation>Japonés</translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <translation>Polaco</translation>
+    </message>
+    <message>
+        <source>Portuguese</source>
+        <translation>Portugués</translation>
+    </message>
+    <message>
+        <source>Romanian</source>
+        <translation>Rumano</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation>Ruso</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>Español</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Sueco</translation>
+    </message>
+    <message>
+        <source>Turkish</source>
+        <translation>Turco</translation>
+    </message>
+    <message>
+        <source>Arab</source>
+        <translation>Árabe</translation>
+    </message>
+    <message>
+        <source>Change language (requires restarting)</source>
+        <translation>Cambiar idioma (requiere reiniciar)</translation>
+    </message>
+    <message>
+        <source>System Language</source>
+        <translation>Idioma del sistema</translation>
     </message>
 </context>
 <context>
