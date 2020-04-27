@@ -230,10 +230,16 @@
         </OGVGeneric>
         <ExtractAudiomp3>
             <label>Extract Audio mp3</label>
-            <params>-q:a 0 -map a</params>
+            <params>-q:a 0 -map a -vn</params>
             <extension>mp3</extension>
             <category>MP3</category>
-        </ExtractAudiomp3>
+        </ExtractAudiomp3>        
+        <Optimizedmp3>
+            <label>Optimized mp3</label>
+            <params>-c:a libmp3lame -joint_stereo 1 -abr 1 -b:a 128k -vn</params>
+            <extension>mp3</extension>
+            <category>MP3</category>
+        </Optimizedmp3>
         <MP3GoodQualitykb>
             <label>MP3 Good Quality (160 Kbps)</label>
             <params>-acodec libmp3lame -ab 160k -ac 2 -ar 44100 -vn</params>

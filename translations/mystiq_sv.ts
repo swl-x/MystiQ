@@ -131,15 +131,15 @@
     </message>
     <message>
         <source>Donations</source>
-        <translation>Donationer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>is a free open source application. No one has the right to charge you any fees for the use of this application.&lt;/p&gt;&lt;p&gt;However, the community has contributed monetarily to the support of the project, to improve the conditions of the development team workflow. Some of our financial contributors are:&lt;/p&gt;</source>
-        <translation>är ett fritt och öppen källkodsprogram. Ingen har rätt att ta betalt för att du använder detta program.&lt;/p&gt;&lt;p&gt;Gemenskapen har dock bidragit monetärt, som stöd för projektet, för att förbättra villkoren för utvecklingsgruppens arbetsflöde. Några av våra finansiella bidragsgivare är:&lt;/p&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>There are other users who collaborate financially with the development of MystiQ Video Converter anonymously. We are infinitely grateful to all of them. Any amount, however small it may seem, contributes a lot.</source>
-        <translation>Det finns andra användare som anonymt samarbetar ekonomiskt med utvecklingen av MystiQ Video Converter. Vi är oändligt tacksamma mot dem alla. Varje belopp, hur litet det än kan tyckas vara, bidrar mycket.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1202,7 +1202,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Open Setting Folder</source>
-        <translation>Öppna mappen för inställningar</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1276,79 +1276,79 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select Language</source>
-        <translation>Välj språk</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation>Kinesiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Czech</source>
-        <translation>Tjeckiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>English</source>
-        <translation>Engelska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Tyska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hungarian</source>
-        <translation>Ungerska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Indonesian</source>
-        <translation>Indonesiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Italian</source>
-        <translation>Italienska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japanska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>Polska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Portuguese</source>
-        <translation>Portugisiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Romanian</source>
-        <translation>Rumänska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation>Ryska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Spanish</source>
-        <translation>Spanska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation>Svenska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Turkish</source>
-        <translation>Turkiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Arab</source>
-        <translation>Arabiska</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change language (requires restarting)</source>
-        <translation>Ändra språk (kräver omstart av programmet)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>System Language</source>
-        <translation>Systemspråk</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -142,3 +142,11 @@ For openSUSE Leap 15.1 run the following as root:
 zypper addrepo https://download.opensuse.org/repositories/home:llamaret/openSUSE_Leap_15.1/home:llamaret.repo
 zypper refresh
 zypper install mystiq
+
+
+### How to run on MacOS
+
+-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+-brew install wget ffmpeg sox
+-wget http://download.qt.io/official_releases/qt-installer-framework/3.2.2/QtInstallerFramework-mac-x64.dmg
+-open mystiq
