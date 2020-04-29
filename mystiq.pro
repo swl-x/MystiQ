@@ -146,6 +146,8 @@ TRANSLATIONS += \
 
 INCLUDEPATH += .
 
+LIBS += -framework CoreFoundation
+
 unix {
     # If DATA_PATH is set, MystiQ searches data in DATA_PATH
     # Otherwise, it uses the executable path as data path.

@@ -23,6 +23,7 @@
 #include "services/notification.h"
 #include "services/paths.h"
 #include "ui/mainwindow.h"
+#include <CoreFoundation/CoreFoundation.h>
 #include <QApplication>
 #include <QDebug>
 #include <QDir>
@@ -31,7 +32,7 @@
 #include <QSettings>
 #include <QStandardPaths>
 #include <QTranslator>
-#include <iostream>
+#include <corefoundation/CFBundle.h>
 
 /**
  * @brief Find  the absolute path of the translation of the current locale.
@@ -115,14 +116,11 @@ static bool register_tool(const char *id, const char *name) {
 
   ExePath::setPath(id, exefile);
   if (ExePath::checkProgramAvailability(id)) {
-    // std::cout << exefile.toStdString();
     return true;
   }
 
   // failed to invoke the program
   ExePath::setPath(id, ""); // unset the tool
-                            // std::cout << "Falso";
-  std::cout << exefile.toStdString() + "\n";
   return false;
 }
 
@@ -130,7 +128,56 @@ static bool register_tool(const char *name) {
   return register_tool(name, name);
 }
 
+static QString getFfmpeg() {
+  QString path;
+  CFURLRef appUrlFF;
+  appUrlFF = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("ffmpeg"),
+                                     NULL, NULL);
+  CFStringRef filePathFF = CFURLCopyPath(appUrlFF);
+  const char *filePathFFmpeg =
+      CFStringGetCStringPtr(filePathFF, kCFStringEncodingUTF8);
+  path = filePathFFmpeg;
+  CFRelease(filePathFF);
+  CFRelease(appUrlFF);
+
+  return path;
+}
+
+static QString getFfprobe() {
+  QString path;
+  CFURLRef appUrlProbe;
+  appUrlProbe = CFBundleCopyResourceURL(CFBundleGetMainBundle(),
+                                        CFSTR("ffprobe"), NULL, NULL);
+  CFStringRef filePathFF = CFURLCopyPath(appUrlProbe);
+  const char *filePathFFmpeg =
+      CFStringGetCStringPtr(filePathFF, kCFStringEncodingUTF8);
+  path = filePathFFmpeg;
+  CFRelease(filePathFF);
+  CFRelease(appUrlProbe);
+
+  return path;
+}
+
+static QString getSox() {
+  QString path;
+  CFURLRef appUrlSox;
+  appUrlSox = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("sox"),
+                                      NULL, NULL);
+  CFStringRef filePathFF = CFURLCopyPath(appUrlSox);
+  const char *filePathFFmpeg =
+      CFStringGetCStringPtr(filePathFF, kCFStringEncodingUTF8);
+  path = filePathFFmpeg;
+  CFRelease(filePathFF);
+  CFRelease(appUrlSox);
+
+  return path;
+}
+
 static void register_external_tools() {
+
+  QString pathToFFmpeg;
+  QString pathToFFprob;
+  QString pathToSox;
 
   bool mac = false;
 
@@ -139,11 +186,10 @@ static void register_external_tools() {
 #endif
 
   if (mac) {
-    // ExePath::loadSettings();
 
-    ExePath::setPath("ffmpeg", "/usr/local/bin/ffmpeg");
-    ExePath::setPath("ffprobe", "/usr/local/bin/ffprobe");
-    ExePath::setPath("sox", "/usr/local/bin/sox");
+    ExePath::setPath("ffmpeg", getFfmpeg());
+    ExePath::setPath("ffprobe", getFfprobe());
+    ExePath::setPath("sox", getSox());
 
   } else {
     // load user settings for the tools
