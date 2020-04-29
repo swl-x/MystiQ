@@ -207,6 +207,11 @@ os2 {
     SOURCES += services/powermanagement-macos.cpp
 }
 
+# Adding CoreFoundation Framework libraries for MacOS
+mac {
+    LIBS += -framework CoreFoundation
+}
+
 # This string is shown in the about box.
 DEFINES += VERSION_ID_STRING=$(VERSION_ID_STRING)
 

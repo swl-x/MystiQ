@@ -23,7 +23,6 @@
 #include "services/notification.h"
 #include "services/paths.h"
 #include "ui/mainwindow.h"
-#include <CoreFoundation/CoreFoundation.h>
 #include <QApplication>
 #include <QDebug>
 #include <QDir>
@@ -32,7 +31,12 @@
 #include <QSettings>
 #include <QStandardPaths>
 #include <QTranslator>
+
+// Includes for CoreFundation libraries just for MacOS
+#ifdef Q_OS_MAC
+#include <CoreFoundation/CoreFoundation.h>
 #include <corefoundation/CFBundle.h>
+#endif
 
 /**
  * @brief Find  the absolute path of the translation of the current locale.
@@ -128,6 +132,7 @@ static bool register_tool(const char *name) {
   return register_tool(name, name);
 }
 
+// Checking ffmpeg path inside Resources bundle for MacOS
 static QString getFfmpeg() {
   QString path;
   CFURLRef appUrlFF;
@@ -143,6 +148,7 @@ static QString getFfmpeg() {
   return path;
 }
 
+// Checking ffprobe path inside Resources bundle for MacOS
 static QString getFfprobe() {
   QString path;
   CFURLRef appUrlProbe;
@@ -158,6 +164,7 @@ static QString getFfprobe() {
   return path;
 }
 
+// Checking sox paths inside Resources bundle for MacOS
 static QString getSox() {
   QString path;
   CFURLRef appUrlSox;
@@ -175,18 +182,16 @@ static QString getSox() {
 
 static void register_external_tools() {
 
-  QString pathToFFmpeg;
-  QString pathToFFprob;
-  QString pathToSox;
-
   bool mac = false;
 
+// Checking MacOS Operative System
 #ifdef Q_OS_MAC
   mac = true;
 #endif
 
   if (mac) {
 
+    // Setting library path inside Resources in MacOS bundle mystiq.app
     ExePath::setPath("ffmpeg", getFfmpeg());
     ExePath::setPath("ffprobe", getFfprobe());
     ExePath::setPath("sox", getSox());
