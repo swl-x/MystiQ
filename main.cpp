@@ -34,8 +34,8 @@
 
 // Includes for CoreFundation libraries just for MacOS
 #ifdef Q_OS_MAC
-#include <CoreFoundation/CoreFoundation.h>
 #include <corefoundation/CFBundle.h>
+#include <corefoundation/CoreFoundation.h>
 #endif
 
 /**
@@ -133,6 +133,7 @@ static bool register_tool(const char *name) {
 }
 
 // Checking ffmpeg path inside Resources bundle for MacOS
+#ifdef Q_OS_MAC
 static QString getFfmpeg() {
   QString path;
   CFURLRef appUrlFF;
@@ -179,37 +180,30 @@ static QString getSox() {
 
   return path;
 }
+#endif
 
 static void register_external_tools() {
 
-  bool mac = false;
-
 // Checking MacOS Operative System
 #ifdef Q_OS_MAC
-  mac = true;
+  // Setting library path inside Resources in MacOS bundle mystiq.app
+  ExePath::setPath("ffmpeg", getFfmpeg());
+  ExePath::setPath("ffprobe", getFfprobe());
+  ExePath::setPath("sox", getSox());
+#elif
+  // load user settings for the tools
+  ExePath::loadSettings();
+  // If the setting of ffmpeg is not available, register it again.
+  // If "ffmpeg" doesn't exist on the system, try "avconv" instead.
+  ExePath::checkProgramAvailability("ffmpeg") || register_tool("ffmpeg") ||
+      register_tool("ffmpeg", "avconv");
+  // same as "ffmpeg" (try "avprobe" if "ffprobe" not available)
+  ExePath::checkProgramAvailability("ffprobe") || register_tool("ffprobe") ||
+      register_tool("ffprobe", "avprobe");
+  // same as above
+  // these tools have no alternative names
+  register_tool("sox");
 #endif
-
-  if (mac) {
-
-    // Setting library path inside Resources in MacOS bundle mystiq.app
-    ExePath::setPath("ffmpeg", getFfmpeg());
-    ExePath::setPath("ffprobe", getFfprobe());
-    ExePath::setPath("sox", getSox());
-
-  } else {
-    // load user settings for the tools
-    ExePath::loadSettings();
-    // If the setting of ffmpeg is not available, register it again.
-    // If "ffmpeg" doesn't exist on the system, try "avconv" instead.
-    ExePath::checkProgramAvailability("ffmpeg") || register_tool("ffmpeg") ||
-        register_tool("ffmpeg", "avconv");
-    // same as "ffmpeg" (try "avprobe" if "ffprobe" not available)
-    ExePath::checkProgramAvailability("ffprobe") || register_tool("ffprobe") ||
-        register_tool("ffprobe", "avprobe");
-    // same as above
-    // these tools have no alternative names
-    register_tool("sox");
-  }
 }
 
 int main(int argc, char *argv[]) {
