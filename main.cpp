@@ -190,7 +190,7 @@ static void register_external_tools() {
   ExePath::setPath("ffmpeg", getFfmpeg());
   ExePath::setPath("ffprobe", getFfprobe());
   ExePath::setPath("sox", getSox());
-#elif
+#else
   // load user settings for the tools
   ExePath::loadSettings();
   // If the setting of ffmpeg is not available, register it again.
