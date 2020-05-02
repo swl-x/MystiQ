@@ -203,8 +203,6 @@ os2 {
     #LIBS +=
     SOURCES -= services/powermanagement-dummy.cpp
     SOURCES += services/powermanagement-macos.cpp
-    # Adding CoreFoundation Framework libraries for MacOS
-    LIBS += -framework CoreFoundation
 }
 
 # This string is shown in the about box.
