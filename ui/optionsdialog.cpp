@@ -90,6 +90,15 @@ void OptionsDialog::read_fields() {
     item_path->setText(ExePath::getPath(item_program->text()));
   }
 #endif
+#ifdef Q_OS_MAC
+  // ExePath to table
+  const int count = ui->toolTable->rowCount();
+  for (int i = 0; i < count; i++) {
+    QTableWidgetItem *item_program = ui->toolTable->item(i, 0);
+    QTableWidgetItem *item_path = ui->toolTable->item(i, 1);
+    item_path->setText(ExePath::getPath(item_program->text()));
+  }
+#endif
 }
 
 void OptionsDialog::write_fields() {

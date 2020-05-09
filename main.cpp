@@ -107,31 +107,6 @@ static bool load_constants(QApplication &app) {
   return true;
 }
 
-// register an external tool for use
-// returns whether the tool can be successfully invoked
-static bool register_tool(const char *id, const char *name) {
-  QString exefile = name; // default: use the program in PATH
-
-#ifdef TOOLS_IN_DATA_PATH // Search external tools in <datapath>/tools
-#ifdef Q_OS_WIN32         // executable files must end with .exe on MS Windows
-  exefile = Paths::dataFileName("tools/%1.exe").arg(name);
-#endif // Q_OS_WIN32
-#endif // TOOLS_IN_DATA_PATH
-
-  ExePath::setPath(id, exefile);
-  if (ExePath::checkProgramAvailability(id)) {
-    return true;
-  }
-
-  // failed to invoke the program
-  ExePath::setPath(id, ""); // unset the tool
-  return false;
-}
-
-static bool register_tool(const char *name) {
-  return register_tool(name, name);
-}
-
 // Checking ffmpeg path inside Resources bundle for MacOS
 #ifdef Q_OS_MAC
 static QString getFfmpeg() {
@@ -182,15 +157,45 @@ static QString getSox() {
 }
 #endif
 
-static void register_external_tools() {
-
-// Checking MacOS Operative System
+// register an external tool for use
+// returns whether the tool can be successfully invoked
+static bool register_tool(const char *id, const char *name) {
+  QString exefile = name; // default: use the program in PATH
+#ifdef TOOLS_IN_DATA_PATH // Search external tools in <datapath>/tools
+#ifdef Q_OS_WIN32         // executable files must end with .exe on MS Windows
+  exefile = Paths::dataFileName("tools/%1.exe").arg(name);
+#endif // Q_OS_WIN32
+#ifdef Q_OS_LINUX
+  exefile = Paths::dataFileName("tools/%1").arg(name);
+#endif // Q_OS_LINUX
 #ifdef Q_OS_MAC
-  // Setting library path inside Resources in MacOS bundle mystiq.app
-  ExePath::setPath("ffmpeg", getFfmpeg());
-  ExePath::setPath("ffprobe", getFfprobe());
-  ExePath::setPath("sox", getSox());
-#else
+  qInfo() << "Show Exefile: " << exefile;
+  if (exefile == "ffmpeg") {
+    exefile = Paths::dataFileName(getFfmpeg());
+    ExePath::setPath(id, exefile);
+  } else if (exefile == "ffprobe") {
+    exefile = Paths::dataFileName(getFfprobe());
+    ExePath::setPath(id, exefile);
+  } else if (exefile == "sox") {
+    exefile = Paths::dataFileName(getSox());
+    ExePath::setPath(id, exefile);
+  }
+#endif // Q_OS_MAC
+#endif // TOOLS_IN_DATA_PATH
+  qInfo() << "Show Id: " << id;
+  ExePath::setPath(id, exefile);
+  if (ExePath::checkProgramAvailability(id))
+    return true;
+  // failed to invoke the program
+  ExePath::setPath(id, ""); // unset the tool
+  return false;
+}
+
+static bool register_tool(const char *name) {
+  return register_tool(name, name);
+}
+
+static void register_external_tools() {
   // load user settings for the tools
   ExePath::loadSettings();
   // If the setting of ffmpeg is not available, register it again.
@@ -203,7 +208,6 @@ static void register_external_tools() {
   // same as above
   // these tools have no alternative names
   register_tool("sox");
-#endif
 }
 
 int main(int argc, char *argv[]) {

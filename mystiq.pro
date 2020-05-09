@@ -196,15 +196,13 @@ win32 {
 
 os2 {
     # Application Icon
-    #DEFINES += TOOLS_IN_DATA_PATH
-    #RC_FILE = appicon_os2.rc
+    DEFINES += TOOLS_IN_DATA_PATH
+    RC_FILE = appicon_os2.rc
     # Shutdown not yet implemented on OS/2 Warp
     # When it is done, uncomment following lines and do proper modifications
     #LIBS +=
     #SOURCES -= services/powermanagement-dummy.cpp
     #SOURCES += services/powermanagement-macos.cpp
-    # Adding CoreFoundation Framework libraries for MacOS
-    #LIBS += -framework CoreFoundation
 }
 
 mac {
