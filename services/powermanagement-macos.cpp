@@ -1,5 +1,6 @@
 /*  MystiQ - a C++/Qt5 gui frontend for ffmpeg
- *  Copyright (C) 2011-2019 Maikel Llamaret Heredia <llamaret@webmisolutions.com>
+ *  Copyright (C) 2011-2019 Maikel Llamaret Heredia
+ * <llamaret@webmisolutions.com>
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -18,13 +19,10 @@
 /* Mac Implementation of PowerManagement class */
 
 #include "powermanagement.h"
-#include <QDBusMessage>
-#include <QDBusInterface>
-#include <QProcess>
 #include <QDebug>
+#include <QProcess>
 
-namespace
-{
+namespace {
 
 /* The following power management functions were taken from qshutdown:
  *
@@ -39,43 +37,61 @@ namespace
 
 const bool verbose = true;
 
-bool power_suspend()
-{
-    //todo:
-    bool hal_works = false;
-    return hal_works;
+bool power_suspend() {
+  // todo:
+
+  QString scr = "tell application \"System Events\" to sleep ";
+
+  QString exe = "/usr/bin/osascript";
+  QStringList args;
+  args << "-l"
+       << "AppleScript";
+
+  QProcess p;
+  p.start(exe, args);
+  p.write(scr.toUtf8());
+  p.closeWriteChannel();
+  p.waitForReadyRead(-1);
+
+  return true;
 }
 
-bool power_shutdown()
-{
-    //todo:
-    bool hal_works = false;
-    return hal_works;
+bool power_shutdown() {
+  // todo:
+  QString scr = "tell application \"System Events\" to shut down ";
+
+  QString exe = "/usr/bin/osascript";
+  QStringList args;
+  args << "-l"
+       << "AppleScript";
+
+  QProcess p;
+  p.start(exe, args);
+  p.write(scr.toUtf8());
+  p.closeWriteChannel();
+  p.waitForReadyRead(-1);
+
+  return true;
 }
 
-bool power_hibernate()
-{
-    //todo:
-    bool hal_works = false;
-    return hal_works;
+bool power_hibernate() {
+  // todo:
+  bool hal_works = false;
+  return hal_works;
 }
 
 } // anonymous namespace
 
-bool PowerManagement::sendRequest(int action)
-{
-    switch (action) {
-    case SHUTDOWN:
-        return power_shutdown();
-    case SUSPEND:
-        return power_suspend();
-    case HIBERNATE:
-        return power_hibernate();
-    }
-    return false;
+bool PowerManagement::sendRequest(int action) {
+  switch (action) {
+  case SHUTDOWN:
+    return power_shutdown();
+  case SUSPEND:
+    return power_suspend();
+  case HIBERNATE:
+    return power_hibernate();
+  }
+  return false;
 }
 
-bool PowerManagement::implemented()
-{
-    return true;
-}
+bool PowerManagement::implemented() { return true; }

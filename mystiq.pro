@@ -146,7 +146,7 @@ TRANSLATIONS += \
 
 INCLUDEPATH += .
 
-unix {
+unix:!mac {
     # If DATA_PATH is set, MystiQ searches data in DATA_PATH
     # Otherwise, it uses the executable path as data path.
     DEFINES += DATA_PATH=$(DATA_PATH)
@@ -212,8 +212,8 @@ mac {
     # Shutdown not yet implemented on OS/2 Warp
     # When it is done, uncomment following lines and do proper modifications
     #LIBS +=
-    #SOURCES -= services/powermanagement-dummy.cpp
-    #SOURCES += services/powermanagement-macos.cpp
+    SOURCES -= services/powermanagement-dummy.cpp
+    SOURCES += services/powermanagement-macos.cpp
     # Adding CoreFoundation Framework libraries for MacOS
     LIBS += -framework CoreFoundation
 }
