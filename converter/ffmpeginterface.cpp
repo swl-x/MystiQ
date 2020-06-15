@@ -18,6 +18,7 @@
 #include "ffmpeginterface.h"
 #include "mediaprobe.h"
 #include "exepath.h"
+#include <QDir>
 #include <QRegExp>
 #include <QTextStream>
 #include <QDebug>
@@ -384,6 +385,19 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
         QString command;
 
+#ifdef Q_OS_WIN32
+        // Fix any problems related to native separators under Windows
+        // For more information about this: https://trac.ffmpeg.org/ticket/3334
+        auto TransformToFFMPEGSubtitleBackslash = [](QString& path) {
+            path = QDir::toNativeSeparators(path);
+            path = path.replace(R"(\)", R"(\\)");
+            path = path.replace(R"(:)", R"(\:)");
+        };
+
+        for(QString* subtitle : {&subtitlesrt, &subtitlessa, &subtitlesub, &subtitleass}) {
+            TransformToFFMPEGSubtitleBackslash(*subtitle);
+        }
+#endif
         if (subtitle_srt.exists())
         {
           command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
