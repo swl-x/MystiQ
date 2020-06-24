@@ -17,6 +17,7 @@
 
 #include "filepathoperations.h"
 #include <QCoreApplication>
+#include <QRandomGenerator>
 
 FilePathOperations::FilePathOperations()
 {
@@ -62,7 +63,7 @@ QString FilePathOperations::GenerateTempFileName(const QString& filename)
     do {
         // Generate temporary file name.
         result = QString("%1-%2-temp-%3.%4").arg(filename)
-                .arg(qrand()).arg(QCoreApplication::applicationPid())
+                .arg(QRandomGenerator::global()->generate()).arg(QCoreApplication::applicationPid())
                 .arg(QFileInfo(filename).suffix());
     } while (QFileInfo(result).exists()); // Regenerate if exists.
 
