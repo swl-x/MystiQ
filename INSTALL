@@ -87,7 +87,7 @@ apt-get install mystiq
 
 For Ubuntu 20.04 run the following:
 
-sudo sh -c "echo 'https://download.opensuse.org/repositories/home:/llamaret/xUbuntu_20.04/ /' > /etc/apt/sources.list.d/home:llamaret.list"
+sudo sh -c "echo 'deb https://download.opensuse.org/repositories/home:/llamaret/xUbuntu_20.04/ /' > /etc/apt/sources.list.d/home:llamaret.list"
 wget -nv https://download.opensuse.org/repositories/home:/llamaret/xUbuntu_20.04/Release.key -O Release.key
 sudo apt-key add - < Release.key
 sudo apt-get update
