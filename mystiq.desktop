@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=AudioVideo;AudioVideoEditing;
 Comment[es_PR]=Convertir entre formatos de archivos multimedia
-Comment=Convertir entre formatos de archivos multimedia
+Comment=Convert between multimedia file formats
 Comment[ar]=تحويل بين صيغ ملفات الوسائط
 Comment[cs]=Převést mezi formáty souborů
 Comment[fr]=Convertit entre formats de fichier multimédia
@@ -16,7 +16,7 @@ Comment[zh_CN]=转换影音文件格式
 Comment[zh_TW]=轉換影音檔案格式
 Exec=mystiq %U
 GenericName[es_PR]=Convertidor de Archivos Multimedia
-GenericName=Convertidor de Archivos Multimedia
+GenericName=Multimedia file Converter
 GenericName[ar]=محول الوسائط
 GenericName[cs]=Převodník médií
 GenericName[fr]=Convertisseur de fichier multimédia
