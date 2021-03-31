@@ -49,6 +49,10 @@ private slots:
 
     void on_patreon_button_clicked();
 
+    void on_qt_about_button_clicked();
+
+    void on_ffmpeg_about_button_clicked();
+
 private:
     Ui::AboutDialog *ui;
     QString getTranslators();
