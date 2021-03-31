@@ -17,7 +17,9 @@
 
 #include <QtGlobal>
 #include <QLocale>
+#include <QMessageBox>
 #include "aboutdialog.h"
+#include "aboutffmpegdialog.h"
 #include "ui_aboutdialog.h"
 #include "version.h"
 #include "services/constants.h"
@@ -285,4 +287,15 @@ void AboutDialog::on_patreon_button_clicked()
     QString patreon_go="https://patreon.com/mystiq";
     bool b = QDesktopServices::openUrl( QUrl( patreon_go, QUrl::TolerantMode ) );
     Q_UNUSED(b)
+}
+
+void AboutDialog::on_qt_about_button_clicked()
+{
+    QMessageBox::aboutQt(this);
+}
+
+
+void AboutDialog::on_ffmpeg_about_button_clicked()
+{
+    AboutFFmpegDialog(this).exec();
 }

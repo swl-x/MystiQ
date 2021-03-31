@@ -97,7 +97,7 @@
      <x>0</x>
      <y>0</y>
      <width>990</width>
-     <height>29</height>
+     <height>22</height>
     </rect>
    </property>
    <property name="nativeMenuBar">
@@ -284,7 +284,7 @@
      <normaloff>:/actions/icons/qt.svg</normaloff>:/actions/icons/qt.svg</iconset>
    </property>
    <property name="text">
-    <string>About &amp;Qt</string>
+    <string>&amp;Qt</string>
    </property>
    <property name="statusTip">
     <string>About Qt</string>
@@ -308,7 +308,7 @@
      <normaloff>:/actions/icons/FFmpeg_icon.svg</normaloff>:/actions/icons/FFmpeg_icon.svg</iconset>
    </property>
    <property name="text">
-    <string>About &amp;FFmpeg</string>
+    <string>&amp;FFmpeg</string>
    </property>
    <property name="statusTip">
     <string>About FFmpeg</string>
