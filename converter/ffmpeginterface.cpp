@@ -317,29 +317,28 @@ bool FFmpegInterface::Private::check_progress(const QString& line)
 {
     QRegularExpression &pattern = progress_pattern;
     QRegularExpressionMatch match = pattern.match(line);
+    bool matchFound = false;
     if (match.hasMatch()) {
+        matchFound = true;
         const double t = match.captured(patterns::PROG_1_TIME).toDouble();
 
         // calculate progress
         progress = (t / duration) * 100;
-
-        return true;
     } else { // try another pattern
         QRegularExpression &alternate_pattern = progress_pattern_2;
         QRegularExpressionMatch match_alternate = alternate_pattern.match(line);
         if (match_alternate.hasMatch()) {
+            matchFound = true;
             const int hour = match_alternate.captured(patterns::PROG_2_HR).toInt();
             const int min = match_alternate.captured(patterns::PROG_2_MIN).toInt();
             const double sec = match_alternate.captured(patterns::PROG_2_SEC).toDouble();
             const double t = hour*3600 + min*60 + sec;
-
             progress = (t / duration) * 100;
-
-            return true;
         }
     }
-    errmsg = line; // save the last output line
-    return false;
+    if(!matchFound) errmsg = line; // save the last output line
+
+    return matchFound;
 }
 
 /**
@@ -749,9 +748,6 @@ void FFmpegInterface::fillParameterList(const ConversionParameters &param, QStri
 
 void FFmpegInterface::parseProcessOutput(const QString &data)
 {
-    //Show qDebug Message
-    //qDebug() << data;
-
     // split incoming data by [end of line] or [carriage return]
     QStringList lines(
         data.split(QRegularExpression(QString::fromLatin1("[\r\n]")), Qt::KeepEmptyParts));
@@ -766,10 +762,7 @@ void FFmpegInterface::parseProcessOutput(const QString &data)
         lines.back().clear();
     }
 
-    QStringList::iterator it = lines.begin();
-
-    for (; it!=lines.end(); ++it) { // parse lines
-        QString& line = *it;
+    for (const QString &line : lines) {
         if (line.isEmpty()) continue;
         if (p->check_progress(line)) {
             emit progressRefreshed(p->progress);

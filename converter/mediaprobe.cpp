@@ -35,7 +35,7 @@ namespace patterns {
 
 // META
 const char meta[]
-    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: ([0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
+    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: (-[0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
 const char META_HOUR_INDEX = 1;        // matched type: integer
 const char META_MINUTE_INDEX = 2;      // matched type: integer
 const char META_SECOND_INDEX = 3;      // matched type: double
@@ -106,9 +106,8 @@ struct MetaInformation
             duration = hour * SECONDS_PER_HOUR + minute * SECONDS_PER_MINUTE + second;
             start = match.captured(patterns::META_START_INDEX).toDouble();
             bitrate = match.captured(patterns::META_BITRATE_INDEX).toInt();
-            return true;
         }
-        return false;
+        return match.hasMatch();
     }
 };
 
@@ -331,6 +330,7 @@ bool MediaProbe::start(const QString& filename)
 
         p->ffprobe_proc.setReadChannel(QProcess::StandardError);
         p->ffprobe_proc.start(ExePath::getPath(QString::fromLatin1("ffprobe")), list);
+
         return p->ffprobe_proc.waitForStarted(TIMEOUT);
     }
     return false;
@@ -472,7 +472,6 @@ bool MediaProbe::hasSubtitle() const
 void MediaProbe::m_proc_finished(int exitcode)
 {
     p->exitcode = exitcode;
-
     if (exitcode == 0) { // If the process finished normally, parse its output.
         p->clear();
         while (p->ffprobe_proc.canReadLine()) {
@@ -480,6 +479,5 @@ void MediaProbe::m_proc_finished(int exitcode)
             p->parse_line(line);
         }
     }
-
     emit process_finished();
 }
