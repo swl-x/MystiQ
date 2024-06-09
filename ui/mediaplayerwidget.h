@@ -18,6 +18,7 @@
 #ifndef MEDIAPLAYERWIDGET_H
 #define MEDIAPLAYERWIDGET_H
 
+#include <QAudioOutput>
 #include <QWidget>
 
 class QVideoWidget;
@@ -114,6 +115,7 @@ private:
     Ui::MediaPlayerWidget *ui;
 
     QMediaPlayer *m_mediaPlayer;
+    QAudioOutput *m_audioOutput;
     QVideoWidget *m_videoView;
 
     QString m_file;

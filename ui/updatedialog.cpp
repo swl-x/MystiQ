@@ -103,7 +103,7 @@ void UpdateDialog::slotReceivedUpdateResult(int result)
         message = tr("Failed to parse the received data.");
         break;
     case UpdateChecker::UpdateNotFound:
-        message = tr("You are already using the latest version of MystiQ.")+QString("<br><b>MystiQ Video Converter %1</b>").arg(VERSION_STRING);
+        message = tr("You are already using the latest version of MystiQ.")+QString::fromLatin1("<br><b>MystiQ Video Converter %1</b>").arg(VERSION_STRING);
         break;
     case UpdateChecker::UpdateDevChanel:
         message = tr("The current version you are using is newer than the release channel version.<br>Therefore, you are using the development channel.");
@@ -111,7 +111,7 @@ void UpdateDialog::slotReceivedUpdateResult(int result)
     default:
         message = tr("An unknown error has occurred.");
     }
-    ui->lblStatus->setText(QString("%1").arg(message));
+    ui->lblStatus->setText(QString::fromLatin1("%1").arg(message));
     resizeToFit();
 }
 
@@ -138,22 +138,22 @@ QString UpdateDialog::get_status()
 {
     QStringList result;
     result << tr("A new version of MystiQ has been released!");
-    result << "<br>";
+    result << QString::fromLatin1("<br>");
     //: %1 is version number, %2 is the project homepage
     result << tr("Version <b>%1</b> is available at %2.")
               .arg(m_updateChecker->versionName(),
                    link(m_updateChecker->downloadPage()));
     QString url = m_updateChecker->downloadUrl();
     if (!url.isEmpty()) {
-        result << "<br>";
+        result << QString::fromLatin1("<br>");
         result << tr("You can download this version using the link:");
-        result << "<br>";
+        result << QString::fromLatin1("<br>");
         result << link(m_updateChecker->downloadUrl());
     }
-    return result.join("");
+    return result.join(QString::fromLatin1(""));
 }
 
 QString UpdateDialog::link(const QString &s)
 {
-    return QString("<a href=\"%1\">%1</a>").arg(s);
+    return QString::fromLatin1("<a href=\"%1\">%1</a>").arg(s);
 }

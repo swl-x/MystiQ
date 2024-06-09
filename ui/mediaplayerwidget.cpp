@@ -56,6 +56,9 @@ MediaPlayerWidget::MediaPlayerWidget(QWidget *parent) :
     ui->slideVolume->setRange(0, MAX_VOLUME);
 
     m_mediaPlayer = new QMediaPlayer(this);
+    m_audioOutput = new QAudioOutput();
+    m_mediaPlayer->setAudioOutput(m_audioOutput);
+
     m_videoView = new QVideoWidget(this);
 
     ui->layoutPlayer->addWidget(m_videoView);
@@ -64,7 +67,7 @@ MediaPlayerWidget::MediaPlayerWidget(QWidget *parent) :
 
     ui->slideSeek->setStyleSheet(SLIDER_STYLESHEET);
 
-    connect(m_mediaPlayer, &QMediaPlayer::stateChanged, [this] {
+    connect(m_mediaPlayer, &QMediaPlayer::playbackStateChanged, [this] {
         refreshTimeDisplay();
         refreshButtonState();
         emit stateChanged();
@@ -73,7 +76,7 @@ MediaPlayerWidget::MediaPlayerWidget(QWidget *parent) :
     connect(m_mediaPlayer, &QMediaPlayer::positionChanged, [this] {
         if (m_playUntil > 0
             && m_mediaPlayer->position() >= m_playUntil * 1000
-            && m_mediaPlayer->state() != QMediaPlayer::PausedState)
+            && m_mediaPlayer->playbackState() != QMediaPlayer::PausedState)
         {
             pause();
 
@@ -105,7 +108,7 @@ MediaPlayerWidget::MediaPlayerWidget(QWidget *parent) :
     });
 
     connect(m_mediaPlayer, &QMediaPlayer::mediaStatusChanged, [this] (QMediaPlayer::MediaStatus status) {
-        if (status != QMediaPlayer::InvalidMedia && status != QMediaPlayer::LoadingMedia && status != QMediaPlayer::UnknownMediaStatus )
+        if (status != QMediaPlayer::InvalidMedia && status != QMediaPlayer::LoadingMedia && status != QMediaPlayer::StalledMedia)
         {
             m_mediaPlayer->setPosition(m_beginSec * 1000);
 
@@ -157,10 +160,10 @@ void MediaPlayerWidget::load(const QString &url, qint64 begin, qint64 end)
 
     update_limits();
 
-    m_mediaPlayer->setMedia(QUrl::fromLocalFile(url));
+    m_mediaPlayer->setSource(QUrl::fromLocalFile(url));
 
     ui->slideVolume->setValue(m_volume);
-    m_mediaPlayer->setVolume(m_volume);
+    m_audioOutput->setVolume(m_volume);
 }
 
 void MediaPlayerWidget::reload()
@@ -177,7 +180,7 @@ void MediaPlayerWidget::play()
 
 void MediaPlayerWidget::playRange(int begin_sec, int end_sec)
 {
-    if (m_mediaPlayer->state() != QMediaPlayer::PlayingState)
+    if (m_mediaPlayer->playbackState() != QMediaPlayer::PlayingState)
     {
         reload();
     }
@@ -221,7 +224,7 @@ void MediaPlayerWidget::seek_and_pause(qint64 sec)
 
 void MediaPlayerWidget::togglePlayPause()
 {
-    switch (m_mediaPlayer->state()) {
+    switch (m_mediaPlayer->playbackState()) {
     case QMediaPlayer::StoppedState:
         reload();
 
@@ -246,9 +249,8 @@ void MediaPlayerWidget::togglePlayPause()
 
 void MediaPlayerWidget::wheelEvent(QWheelEvent *event)
 {
-    int numDegrees = event->delta() / 8; // delta is in eighths of a degree
-    if (event->orientation() == Qt::Vertical) {
-        if (numDegrees >= 0) {
+    if (event->angleDelta().y() != 0) { // is vertical
+        if (event->angleDelta().y() / 8 >= 0) {
             seekForward();
         } else {
             seekBackward();
@@ -279,19 +281,18 @@ void MediaPlayerWidget::refreshTimeDisplay()
 
     remaining = duration - position;
 
-    ui->lblPosition->setText(QString("%1 / %2")
-                             .arg(sec2hms(position))
-                             .arg(sec2hms(duration)));
+    ui->lblPosition->setText(
+        QString::fromLatin1("%1 / %2").arg(sec2hms(position)).arg(sec2hms(duration)));
 
-    ui->lblRemaining->setText(QString("-%1").arg(sec2hms(remaining)));
+    ui->lblRemaining->setText(QString::fromLatin1("-%1").arg(sec2hms(remaining)));
 }
 
 void MediaPlayerWidget::refreshButtonState()
 {
-    QString button_icon =
-            m_mediaPlayer->state() == QMediaPlayer::PlayingState ?
-                ":/actions/icons/pause.svg" :
-                ":/actions/icons/play.svg";
+    QString button_icon = QString::fromLatin1(m_mediaPlayer->playbackState() == QMediaPlayer::PlayingState
+                                                  ? ":/actions/icons/pause.svg"
+                                                  : ":/actions/icons/play.svg"
+                                              );
 
     ui->btnPlayPause->setIcon(QIcon(button_icon));
 }
@@ -384,5 +385,5 @@ void MediaPlayerWidget::on_slideVolume_valueChanged(int value)
                                                QAudio::LogarithmicVolumeScale,
                                                QAudio::LinearVolumeScale);
 
-    m_mediaPlayer->setVolume(qRound(linearVolume * 100));
+    m_audioOutput->setVolume(qRound(linearVolume * 100));
 }

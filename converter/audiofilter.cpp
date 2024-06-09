@@ -61,7 +61,8 @@ AudioFilter::AudioFilter(QObject *parent) :
     QSet<QString> muxing, demuxing;
     FFmpegInterface::getSupportedMuxingFormats(muxing);
     FFmpegInterface::getSupportedDemuxingFormats(demuxing);
-    m_useSoxFormat = muxing.contains("sox") && demuxing.contains("sox");
+    m_useSoxFormat = muxing.contains(QString::fromLatin1("sox"))
+                     && demuxing.contains(QString::fromLatin1("sox"));
 }
 
 bool AudioFilter::start(ConversionParameters& params, QProcess *dest)
@@ -81,21 +82,24 @@ bool AudioFilter::start(ConversionParameters& params, QProcess *dest)
     }
 
     // ffmpeg process settings
-    ffmpeg_param << "-i" << params.source << "-vn" << "-f" << fmt << "-";
+    ffmpeg_param << QString::fromLatin1("-i") << params.source << QString::fromLatin1("-vn")
+                 << QString::fromLatin1("-f") << QString::fromLatin1(fmt)
+                 << QString::fromLatin1("-");
     m_extractAudioProc->setStandardOutputProcess(m_soxProc);
 
     // sox process settings
-    sox_param << "-t" << fmt << "-" << "-t" << fmt << "-";
+    sox_param << QString::fromLatin1("-t") << QString::fromLatin1(fmt) << QString::fromLatin1("-")
+              << QString::fromLatin1("-t") << QString::fromLatin1(fmt) << QString::fromLatin1("-");
     if (params.speed_scaling) {
-        sox_param << "tempo" << QString::number(params.speed_scaling_factor);
+        sox_param << QString::fromLatin1("tempo") << QString::number(params.speed_scaling_factor);
     }
     m_soxProc->setStandardOutputProcess(dest);
 
     qDebug() << "ffmpeg" << ffmpeg_param;
     qDebug() << "sox" << sox_param;
     // start the two processes
-    m_extractAudioProc->start(ExePath::getPath("ffmpeg"), ffmpeg_param);
-    m_soxProc->start(ExePath::getPath("sox"), sox_param);
+    m_extractAudioProc->start(ExePath::getPath(QString::fromLatin1("ffmpeg")), ffmpeg_param);
+    m_soxProc->start(ExePath::getPath(QString::fromLatin1("sox")), sox_param);
 
     return m_extractAudioProc->waitForStarted(TIMEOUT)
             && m_soxProc->waitForStarted(TIMEOUT);
@@ -104,6 +108,6 @@ bool AudioFilter::start(ConversionParameters& params, QProcess *dest)
 bool AudioFilter::available()
 {
     QProcess sox_process;
-    sox_process.start(ExePath::getPath("sox"), QStringList());
+    sox_process.start(ExePath::getPath(QString::fromLatin1("sox")), QStringList());
     return sox_process.waitForStarted(TIMEOUT);
 }

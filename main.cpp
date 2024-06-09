@@ -41,8 +41,8 @@ static QString find_translation_file()
     QString locale = QLocale::system().name(); // language code + country code (xx_XX)
     QString language = locale.mid(0, 2); // language code (first two chars of locale)
     QString translation_file_basename =
-            //QDir(Paths::translationPath()).absoluteFilePath("mystiq_");
-            QDir(":/translations/").absoluteFilePath("mystiq_");
+        //QDir(Paths::translationPath()).absoluteFilePath("mystiq_");
+        QDir(QString::fromLatin1(":/translations/")).absoluteFilePath(QString::fromLatin1("mystiq_"));
 
     // look for mystiq_xx_XX.qm in the translation directory
     QString translation_language_country = translation_file_basename + locale + ".qm";
@@ -55,7 +55,7 @@ static QString find_translation_file()
         return translation_language;
 
     // translation for current locale not found, return empty string
-    return "";
+    return QString::fromLatin1("");
 }
 
 /**
@@ -70,26 +70,29 @@ static bool load_constants(QApplication& app)
 #else
     QString app_path = app.applicationDirPath();
 #endif
-    QString constant_xml_filename = ":/other/constants.xml";
+    QString constant_xml_filename = QString::fromLatin1(":/other/constants.xml");
 
     // open constant xml file
     QFile constant_xml(constant_xml_filename);
     constant_xml.open(QIODevice::ReadOnly);
     if (!constant_xml.isOpen()) {
         qCritical() << "Failed to read file: " << constant_xml_filename;
-        QMessageBox::critical(nullptr, "MystiQ",
-                              QString("Cannot load %1. The program will exit now.")
-                              .arg(constant_xml_filename));
+        QMessageBox::critical(nullptr,
+                              QString::fromLatin1("MystiQ"),
+                              QString::fromLatin1("Cannot load %1. The program will exit now.")
+                                  .arg(constant_xml_filename));
         return false;
     }
 
     qDebug() << "Reading file: " << constant_xml_filename;
     // parse the xml file
     if (!Constants::readFile(constant_xml)) {
-        QMessageBox::critical(nullptr, "MystiQ",
-                              QString("%1 contains error(s). "
-                                      "Reinstall the application may solve the problem.")
-                              .arg(constant_xml_filename));
+        QMessageBox::critical(nullptr,
+                              QString::fromLatin1("MystiQ"),
+                              QString::fromLatin1(
+                                  "%1 contains error(s). "
+                                  "Reinstall the application may solve the problem.")
+                                  .arg(constant_xml_filename));
         return false;
     }
 
@@ -100,7 +103,7 @@ static bool load_constants(QApplication& app)
 // returns whether the tool can be successfully invoked
 static bool register_tool(const char *id, const char *name)
 {
-    QString exefile = name; // default: use the program in PATH
+    QString exefile = QString::fromLatin1(name); // default: use the program in PATH
 #ifdef TOOLS_IN_DATA_PATH // Search external tools in <datapath>/tools
 #ifdef Q_OS_WIN32 // executable files must end with .exe on MS Windows
     exefile = Paths::dataFileName("tools/%1.exe").arg(name);
@@ -111,11 +114,11 @@ static bool register_tool(const char *id, const char *name)
     exefile = Paths::dataFileName("tools/%1").arg(name);
 #endif // Q_OS_MACOS
 #endif // TOOLS_IN_DATA_PATH
-    ExePath::setPath(id, exefile);
-    if (ExePath::checkProgramAvailability(id))
+    ExePath::setPath(QString::fromLatin1(id), exefile);
+    if (ExePath::checkProgramAvailability(QString::fromLatin1(id)))
         return true;
     // failed to invoke the program
-    ExePath::setPath(id, ""); // unset the tool
+    ExePath::setPath(QString::fromLatin1(id), QString::fromLatin1("")); // unset the tool
     return false;
 }
 
@@ -130,13 +133,11 @@ static void register_external_tools()
     ExePath::loadSettings();
     // If the setting of ffmpeg is not available, register it again.
     // If "ffmpeg" doesn't exist on the system, try "avconv" instead.
-    ExePath::checkProgramAvailability("ffmpeg")
-            || register_tool("ffmpeg")
-            || register_tool("ffmpeg", "avconv");
+    ExePath::checkProgramAvailability(QString::fromLatin1("ffmpeg")) || register_tool("ffmpeg")
+        || register_tool("ffmpeg", "avconv");
     // same as "ffmpeg" (try "avprobe" if "ffprobe" not available)
-    ExePath::checkProgramAvailability("ffprobe")
-            || register_tool("ffprobe")
-            || register_tool("ffprobe", "avprobe");
+    ExePath::checkProgramAvailability(QString::fromLatin1("ffprobe")) || register_tool("ffprobe")
+        || register_tool("ffprobe", "avprobe");
     // same as above
     // these tools have no alternative names
     register_tool("sox");
@@ -153,7 +154,7 @@ int main(int argc, char *argv[])
     }
 
     // Register QSettings information.
-    app.setOrganizationName("mystiq");
+    app.setOrganizationName(QString::fromLatin1("mystiq"));
     QSettings::setDefaultFormat(QSettings::IniFormat);
     if (Constants::getBool("Portable")) {
         // Portable App: Save settings in <exepath>/mystiq.ini.

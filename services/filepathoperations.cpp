@@ -30,10 +30,10 @@ QString FilePathOperations::GenerateUniqueFileName(const QDir& output_dir, const
     QString result;
     do {
         // The index part of the file
-        QString str_index("");
+        QString str_index(QString::fromLatin1(""));
         if (filename_index > 1) {
             // If the index is larger than 1, append -index to the filename.
-            str_index = QString("-%1").arg(filename_index);
+            str_index = QString::fromLatin1("-%1").arg(filename_index);
         }
 
         // Fill in output filename.
@@ -62,9 +62,11 @@ QString FilePathOperations::GenerateTempFileName(const QString& filename)
     QString result;
     do {
         // Generate temporary file name.
-        result = QString("%1-%2-temp-%3.%4").arg(filename)
-                .arg(QRandomGenerator::global()->generate()).arg(QCoreApplication::applicationPid())
-                .arg(QFileInfo(filename).suffix());
+        result = QString::fromLatin1("%1-%2-temp-%3.%4")
+                     .arg(filename)
+                     .arg(QRandomGenerator::global()->generate())
+                     .arg(QCoreApplication::applicationPid())
+                     .arg(QFileInfo(filename).suffix());
     } while (QFileInfo(result).exists()); // Regenerate if exists.
 
     return result;

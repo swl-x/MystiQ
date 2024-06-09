@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui network opengl multimedia qml widgets quick quickwidgets multimediawidgets
+DEFINES += QT_DISABLE_DEPRECATED_UP_TO=0x050F00
 #DEFINES += QT_DEPRECATED_WARNINGS
 
 QMAKE_CFLAGS_RELEASE += -flto

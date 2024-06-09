@@ -39,7 +39,7 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
     for (int i=0; i<program_list.size(); i++) {
         ui->toolTable->insertRow(i);
         ui->toolTable->setItem(i, 0, new QTableWidgetItem(program_list[i]));
-        ui->toolTable->setItem(i, 1, new QTableWidgetItem(""));
+        ui->toolTable->setItem(i, 1, new QTableWidgetItem(QString::fromLatin1("")));
         // make tool name not editable
         QTableWidgetItem *item = ui->toolTable->item(i, 0);
         item->setFlags(item->flags() ^ Qt::ItemIsEditable);
