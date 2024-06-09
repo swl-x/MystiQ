@@ -588,10 +588,7 @@ void ConvertList::task_finished_slot(int exitcode)
                 ? Task::FINISHED
                 : Task::FAILED;
 
-        if (exitcode != 0)
-            m_current_task->errmsg = m_converter->errorMessage();
-        else
-            m_current_task->errmsg = "";
+        m_current_task->errmsg = exitcode != 0 ? m_converter->errorMessage() : QString::fromLatin1("");
 
         refresh_progressbar(m_current_task);
 

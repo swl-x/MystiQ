@@ -540,9 +540,7 @@ void MainWindow::add_files(const QStringList &fileList)
 
 void MainWindow::setup_widgets()
 {
-    // list
-    ui->layoutListPlaceholder->addWidget(m_list);
-    m_list->adjustSize();
+    ui->centralWidget->layout()->addWidget(m_list);
     m_list->setContextMenuPolicy(Qt::CustomContextMenu);
 
     this->m_elapsedTimeLabel->clear();
