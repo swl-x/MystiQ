@@ -35,9 +35,9 @@ TimeRangeEdit::TimeRangeEdit(QWidget *parent) :
 {
     m_chkFromBegin->setText(tr("From Begin"));
     m_chkToEnd->setText(tr("To End"));
-    m_timeBegin->setDisplayFormat("hh:mm:ss");
+    m_timeBegin->setDisplayFormat(QString::fromLatin1("hh:mm:ss"));
     m_timeBegin->setSelectedSection(QTimeEdit::SecondSection);
-    m_timeEnd->setDisplayFormat("hh:mm:ss");
+    m_timeEnd->setDisplayFormat(QString::fromLatin1("hh:mm:ss"));
     m_timeEnd->setSelectedSection(QTimeEdit::SecondSection);
 
     QHBoxLayout *main_layout = new QHBoxLayout(this);

@@ -1,5 +1,6 @@
-import QtQuick 2.4
-import QtMultimedia 5.10
+import QtQuick
+import QtQml
+import QtMultimedia
 
 Rectangle {
     id: root
@@ -15,11 +16,13 @@ Rectangle {
     property color cut_cortain_color: "black"
     property real cut_cortain_opacity: .9
 
-    signal cut_up_changed(real value);
-    signal cut_bottom_changed(real value);
-    signal cut_left_changed(real value);
-    signal cut_right_changed(real value);
-    signal video_loaded(int w, int h);
+    signal cut_up_changed(real value)
+    signal cut_bottom_changed(real value)
+    signal cut_left_changed(real value)
+    signal cut_right_changed(real value)
+    signal video_loaded(int w, int h)
+
+    property size resolution: undefined
 
     property bool __from_external: false
     property real __free_space_w: 0.0
@@ -29,48 +32,51 @@ Rectangle {
     property real oldH: 0.0
 
     function top_cut_change(value) {
-        __from_external = true;
+        __from_external = true
 
-        var H = video.metaData.resolution.height;
+        var H = root.resolution.height
 
-        up_cut.y = value * (video.height - (__free_space_h * 2)) / H + __free_space_h;
+        up_cut.y = value * (output.height - (__free_space_h * 2)) / H + __free_space_h
     }
 
     function left_cut_change(value) {
-        __from_external = true;
+        __from_external = true
 
-        var w = video.metaData.resolution.width;
+        var w = root.resolution.width
 
-        left_cut.x = value * (video.width - (__free_space_w * 2)) / w + __free_space_w;
+        left_cut.x = value * (output.width - (__free_space_w * 2)) / w + __free_space_w
     }
 
     function bottom_cut_change(value) {
-        __from_external = true;
+        __from_external = true
 
-        var H = video.metaData.resolution.height;
+        var H = root.resolution.height
 
-        //down_cut.y = (value * (video.height - (__free_space_h * 2)) / H + __free_space_h) - cut_line_width;
-        down_cut.y = ((value * (video.height - (__free_space_h * 2)))/H) - (cut_line_width) - __free_space_h;
+        //down_cut.y = (value * (output.height - (__free_space_h * 2)) / H + __free_space_h) - cut_line_width;
+        down_cut.y = ((value * (output.height - (__free_space_h * 2))) / H)
+                - (cut_line_width) - __free_space_h
     }
 
     function right_cut_change(value) {
-        __from_external = true;
+        __from_external = true
 
-        var w = video.metaData.resolution.width;
+        var w = root.resolution.width
 
-        //right_cut.x = value * (video.width - (__free_space_w * 2)) / w + __free_space_w - right_cut.width;
-        right_cut.x = ((value * (video.width - (__free_space_w * 2))) / w) - cut_line_width + __free_space_w;
+        right_cut.x = ((value * (output.width - (__free_space_w * 2))) / w)
+                - cut_line_width + __free_space_w
     }
 
     function calculateRatios() {
-        if (video.metaData.resolution === undefined) return;
 
-        let ratio = video.metaData.resolution.width / video.metaData.resolution.height
+        if (root.resolution === undefined)
+            return
 
-        let direction = (root.height * ratio <= root.width); //TRUE -> Width : FALSE -> Height
+        let ratio = root.resolution.width / root.resolution.height
 
-        if (direction)
-        {
+        let direction = (root.height * ratio <= root.width)
+
+        //TRUE -> Width : FALSE -> Height
+        if (direction) {
             __free_space_w = (root.width - (root.height * ratio)) / 2.0
             __free_space_h = 0.0
 
@@ -79,9 +85,7 @@ Rectangle {
 
             down_cut.y = root.height - down_cut.height
             up_cut.y = 0.0
-        }
-        else
-        {
+        } else {
             __free_space_h = (root.height - (root.width / ratio)) / 2.0
             __free_space_w = 0.0
 
@@ -93,39 +97,47 @@ Rectangle {
         }
     }
 
-    Video {
-        id: video
-        anchors.fill: parent
+    MediaPlayer {
+        id: player
+        audioOutput: AudioOutput {}
+        videoOutput: output
 
-        focus: true
         source: root.file_source
         loops: MediaPlayer.Infinite
+
+        onErrorStringChanged: {
+            console.log("ERROR ON VIDEO RENDER:", errorString)
+        }
+
+        onMediaStatusChanged: {
+
+            console.log("player.onMediaStatusChanged", mediaStatus)
+
+            if (mediaStatus == MediaPlayer.LoadedMedia) {
+                setPosition(20 * duration / 100)
+                play()
+                pause()
+
+                calculateRatios()
+
+                root.resolution = metaData.value(MediaMetaData.Resolution)
+                root.video_loaded(root.resolution.width, root.resolution.height)
+            }
+        }
+    }
+
+    VideoOutput {
+        id: output
+        anchors.fill: parent
 
         MouseArea {
             anchors.fill: parent
             onClicked: {
-                if (video.playbackState == MediaPlayer.PlayingState) {
-                    video.pause()
+                if (player.playbackState == MediaPlayer.PlayingState) {
+                    player.pause()
                 } else {
-                    video.play()
+                    player.play()
                 }
-            }
-        }
-
-        onErrorStringChanged: {
-            console.log("ERROR ON VIDEO RENDER:", errorString);
-        }
-
-        onStatusChanged: {
-            if (status == MediaPlayer.Loaded && seekable == true)
-            {
-                seek(20 * duration / 100);
-                play();
-                pause();
-
-                calculateRatios();
-
-                root.video_loaded(metaData.resolution.width, metaData.resolution.height)
             }
         }
     }
@@ -211,10 +223,10 @@ Rectangle {
         onYChanged: {
             up.height = y
 
-            if (!__from_external && video.metaData.resolution !== undefined)
-            {
-                var H = video.metaData.resolution.height;
-                root.cut_up_changed((H * (y - __free_space_h)) / (video.height - __free_space_h * 2));
+            if (!__from_external && root.resolution !== undefined) {
+                var H = root.resolution.height
+                root.cut_up_changed(
+                            (H * (y - __free_space_h)) / (output.height - __free_space_h * 2))
             }
 
             __from_external = false
@@ -246,10 +258,10 @@ Rectangle {
         onYChanged: {
             down.height = root.height - y
 
-            if (!__from_external && video.metaData.resolution !== undefined)
-            {                
-                var H = video.metaData.resolution.height;
-                root.cut_bottom_changed((H * (y + height + __free_space_h)) / (video.height - __free_space_h * 2));
+            if (!__from_external && root.resolution !== undefined) {
+                var H = root.resolution.height
+                root.cut_bottom_changed((H * (y + height + __free_space_h))
+                                        / (output.height - __free_space_h * 2))
             }
 
             __from_external = false
@@ -281,15 +293,13 @@ Rectangle {
         onXChanged: {
             left.width = x
 
-            if (!__from_external && video.metaData.resolution !== undefined)
-            {
-                var W = video.metaData.resolution.width
-                root.cut_left_changed((W * (x - __free_space_w)) / (video.width - __free_space_w * 2));
+            if (!__from_external && root.resolution !== undefined) {
+                var W = root.resolution.width
+                root.cut_left_changed(
+                            (W * (x - __free_space_w)) / (output.width - __free_space_w * 2))
             }
 
             __from_external = false
-
-
         }
     }
 
@@ -318,10 +328,10 @@ Rectangle {
         onXChanged: {
             right.width = root.width - x
 
-            if (!__from_external && video.metaData.resolution !== undefined)
-            {
-                var W = video.metaData.resolution.width;
-                root.cut_right_changed((W * (x + width - __free_space_w)) / (video.width - __free_space_w * 2));
+            if (!__from_external && root.resolution !== undefined) {
+                var W = root.resolution.width
+                root.cut_right_changed((W * (x + width - __free_space_w))
+                                       / (output.width - __free_space_w * 2))
             }
 
             __from_external = false
@@ -329,24 +339,22 @@ Rectangle {
     }
 
     onFile_sourceChanged: {
-        console.log("New video file", file_source);
+        console.log("New video file", file_source)
     }
 
     onWidthChanged: {
-        calculateRatios();
+        calculateRatios()
 
-        if (video.metaData.resolution !== undefined)
-        {
-            root.video_loaded(video.metaData.resolution.width, video.metaData.resolution.height)
+        if (root.resolution !== undefined) {
+            root.video_loaded(root.resolution.width, root.resolution.height)
         }
     }
 
     onHeightChanged: {
-        calculateRatios();
+        calculateRatios()
 
-        if (video.metaData.resolution !== undefined)
-        {
-            root.video_loaded(video.metaData.resolution.width, video.metaData.resolution.height)
+        if (root.resolution !== undefined) {
+            root.video_loaded(root.resolution.width, root.resolution.height)
         }
     }
 }

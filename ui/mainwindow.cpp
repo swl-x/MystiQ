@@ -26,7 +26,6 @@
 #include "aboutdialog.h"
 #include "poweroffdialog.h"
 #include "updatedialog.h"
-#include "services/paths.h"
 #include "services/notification.h"
 #include "services/powermanagement.h"
 #include "converter/mediaconverter.h"
@@ -48,6 +47,9 @@
 #include <QPushButton>
 #include <QDebug>
 #include <QUrl>
+#include <QRegularExpression>
+#include <QActionGroup>
+#include <QStandardPaths>
 
 MainWindow::MainWindow(QWidget *parent, const QStringList& fileList) :
     QMainWindow(parent),
@@ -289,7 +291,7 @@ void MainWindow::slotReport()
                     stringList << "info@mystiqapp.com";
                     stringList << "?";
                     stringList << "subject=";
-                    stringList << QString( tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING) );
+                    stringList << tr("Reporting bugs from MystiQ ")+ tr("%1").arg(VERSION_STRING);
                     stringList << "&";
                     stringList << "body=";
                     stringList << tr("Your comment:");
@@ -538,9 +540,7 @@ void MainWindow::add_files(const QStringList &fileList)
 
 void MainWindow::setup_widgets()
 {
-    // list
-    ui->layoutListPlaceholder->addWidget(m_list);
-    m_list->adjustSize();
+    ui->centralWidget->layout()->addWidget(m_list);
     m_list->setContextMenuPolicy(Qt::CustomContextMenu);
 
     this->m_elapsedTimeLabel->clear();
@@ -765,9 +765,9 @@ void MainWindow::setup_appicon()
     QIcon icon;
     QDir iconDir = QDir(":/app/icons/");
     QStringList fileList = iconDir.entryList();
-    QRegExp pattern("^mystiq_[0-9]+x[0-9]+\\.png$");
+    QRegularExpression pattern("^mystiq_[0-9]+x[0-9]+\\.png$");
     foreach (QString file, fileList) {
-        if (pattern.indexIn(file) >= 0) {
+        if (file.indexOf(pattern) >= 0) {
             icon.addPixmap(QPixmap(iconDir.absoluteFilePath(file)));
         }
     }

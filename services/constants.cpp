@@ -20,13 +20,13 @@
 #include "constants.h"
 #include "xmllookuptable.h"
 
-#define REGEXP_HEXDIGIT "[0-9a-fA-F]"
+#define REGEXP_HEXDIGIT QString::fromLatin1("[0-9a-fA-F]"
 
 namespace
 {
     bool constants_initialized = false;
     XmlLookupTable constants;
-    QString color_pattern(QString("#(%1%1)(%1%1)(%1%1)(%1%1)?").arg(REGEXP_HEXDIGIT));
+    QString color_pattern(QString::fromLatin1("#(%1%1)(%1%1)(%1%1)(%1%1)?").arg(REGEXP_HEXDIGIT)));
 
     QString lookup_constant(const QString& key)
     {
@@ -39,7 +39,7 @@ namespace
 
     int hex2int(const QString& hex_str)
     {
-        QString qualified_str = QString("0x%1").arg(hex_str);
+        QString qualified_str = QString::fromLatin1("0x%1").arg(hex_str);
         bool ok;
         int value = qualified_str.toInt(&ok, 16);
         if (ok)
@@ -50,18 +50,18 @@ namespace
 
     QColor str2color(const QString& color_str)
     {
-        QRegExp color(color_pattern);
-        if (color.indexIn(color_str) >= 0) {
-            int r_value = hex2int(color.cap(1));
-            int g_value = hex2int(color.cap(2));
-            int b_value = hex2int(color.cap(3));
-            int a_value = 0xff;
-            if (!color.cap(4).isEmpty()) // with alpha value
-                a_value = hex2int(color.cap(4));
-            return QColor(r_value, g_value, b_value, a_value);
-        } else {
-            return QColor(0, 0, 0); // default black
+        QColor c = QColor(0, 0, 0); // default black
+        QRegularExpression color(color_pattern);
+        QRegularExpressionMatch match = color.match(color_str);
+        if (match.hasMatch()) {
+            c.setRed(hex2int(match.captured(1)));
+            c.setGreen(hex2int(match.captured(2)));
+            c.setBlue(hex2int(match.captured(3)));
+            if(match.hasCaptured(4)) { // has alpha value
+                c.setAlpha(hex2int(match.captured(4)));
+            }
         }
+        return c;
     }
 }
 
@@ -71,7 +71,7 @@ bool Constants::readFile(QFile &file)
     constants_initialized = false;
     if (constants.readFile(file)) {
         constants_initialized = true;
-        constants.setPrefix("MystiQConstants");
+        constants.setPrefix(QString::fromLatin1("MystiQConstants"));
     }
     return constants_initialized;
 }
@@ -79,8 +79,9 @@ bool Constants::readFile(QFile &file)
 bool Constants::getBool(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    QString value = lookup_constant(key).trimmed().toLower();
-    if (value.isEmpty() || value == "0" || value == "false")
+    QString value = lookup_constant(QString::fromLatin1(key)).trimmed().toLower();
+    if (value.isEmpty() || value == QString::fromLatin1("0")
+        || value == QString::fromLatin1("false"))
         return false;
     else
         return true;
@@ -89,30 +90,32 @@ bool Constants::getBool(const char *key)
 int Constants::getInteger(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    return lookup_constant(key).toInt();
+    return lookup_constant(QString::fromLatin1(key)).toInt();
 }
 
 float Constants::getFloat(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    return lookup_constant(key).toFloat();
+    return lookup_constant(QString::fromLatin1(key)).toFloat();
 }
 
 QString Constants::getString(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    return lookup_constant(key).trimmed();
+    return lookup_constant(QString::fromLatin1(key)).trimmed();
 }
 
 QStringList Constants::getSpaceSeparatedList(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    QString collapsed_string = lookup_constant(key).replace(QRegExp("[\n\t ]"), " ");
-    return collapsed_string.split(" ", QString::SkipEmptyParts);
+    QString collapsed_string = lookup_constant(QString::fromLatin1(key))
+                                   .replace(QRegularExpression(QString::fromLatin1("[\n\t ]")),
+                                            QString::fromLatin1(" "));
+    return collapsed_string.split(QString::fromLatin1(" "), Qt::SkipEmptyParts);
 }
 
 QColor Constants::getColor(const char *key)
 {
     Q_ASSERT(constants_initialized);
-    return str2color(lookup_constant(key));
+    return str2color(lookup_constant(QString::fromLatin1(key)));
 }

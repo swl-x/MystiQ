@@ -42,10 +42,13 @@ QString ExePath::getPath(QString program)
     if (program_path.contains(program))
         return program_path[program];
     else
-        Q_ASSERT_X(false, "ExePath::getPath"
-                   , QString("Program path of '%1' has not been set.")
-                   .arg(program).toStdString().c_str());
-    return "";
+        Q_ASSERT_X(false,
+                   "ExePath::getPath",
+                   QString::fromLatin1("Program path of '%1' has not been set.")
+                       .arg(program)
+                       .toStdString()
+                       .c_str());
+    return QString::fromLatin1("");
 }
 
 bool ExePath::checkProgramAvailability(QString program)

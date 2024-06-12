@@ -61,7 +61,7 @@ PoweroffDialog::~PoweroffDialog()
 int PoweroffDialog::exec(int action)
 {
     const char *icon_id = "";
-    QString button_text = "";
+    QString button_text = QString::fromLatin1("");
 
     switch (action) {
     case PowerManagement::SHUTDOWN:
@@ -83,7 +83,7 @@ int PoweroffDialog::exec(int action)
         Q_ASSERT_X(false, __FUNCTION__, "Incorrect id! Be sure to handle every power action in switch().");
     }
 
-    ui->btnExecute->setIcon(QIcon(icon_id));
+    ui->btnExecute->setIcon(QIcon(QString::fromLatin1(icon_id)));
     ui->btnExecute->setText(button_text);
 
     m_action = action;

@@ -19,7 +19,7 @@
 #include "mediaprobe.h"
 #include "exepath.h"
 #include <QDir>
-#include <QRegExp>
+#include <QRegularExpression>
 #include <QTextStream>
 #include <QDebug>
 #include <QFile>
@@ -77,11 +77,11 @@ namespace inner {
     int find_encoders_in_desc(QStringList& target, const QString& s) {
         const char *keyword_begin = "(encoders:";
         const char *keyword_end = ")";
-        int begin = s.indexOf(keyword_begin);
+        int begin = s.indexOf(QString::fromLatin1(keyword_begin));
         if (begin < 0)
             return 0; // encoder name not found in description
         begin += strlen(keyword_begin);
-        int end = s.indexOf(keyword_end, begin);
+        int end = s.indexOf(QString::fromLatin1(keyword_end), begin);
         if (end < 0)
             return 0; // error, mission ')'
         int length = end - begin;
@@ -91,7 +91,7 @@ namespace inner {
         QString encoders_str = s.mid(begin, length);
 
         // split encoder_str into encoder names and skip whitespaces
-        QStringList encoders = encoders_str.split(' ', QString::SkipEmptyParts);
+        QStringList encoders = encoders_str.split(' ', Qt::SkipEmptyParts);
         foreach (QString s, encoders) {
             target.push_back(s); // fill codec names into the list
         }
@@ -103,12 +103,12 @@ namespace inner {
     {
         QProcess ffmpeg_process;
         QStringList parameters;
-        parameters.push_back(QString(flag));
+        parameters.push_back(QString::fromLatin1(flag));
 
         ffmpeg_process.setReadChannel(QProcess::StandardOutput);
 
         //qDebug() << ExePath::getPath("ffmpeg") << parameters.join(" ");
-        ffmpeg_process.start(ExePath::getPath("ffmpeg"), parameters);
+        ffmpeg_process.start(ExePath::getPath(QString::fromLatin1("ffmpeg")), parameters);
 
         // Wait until ffmpeg has started.
         if (!ffmpeg_process.waitForStarted(TIMEOUT)) {
@@ -125,7 +125,7 @@ namespace inner {
         }
 
         // Find all available encoders
-        QRegExp pattern("[ D]E([ VAS])...\\s+([^ ]+)\\s*(.*)$");
+        QRegularExpression pattern(QString::fromLatin1("[ D]E([ VAS])...\\s+([^ ]+)\\s*(.*)$"));
         QStringList encoder_list; // temporary storage of encoder names
         const int AV_INDEX = 1;
         const int CODEC_NAME_INDEX = 2;
@@ -133,27 +133,29 @@ namespace inner {
 
         ffmpeg_codec_info.clear();
         while (ffmpeg_process.canReadLine()) {
-            QString line(ffmpeg_process.readLine());
+            QString line(QString::fromLatin1(ffmpeg_process.readLine()));
             ffmpeg_codec_info.append(line);
 
-            if (pattern.indexIn(line) != -1) {
-                QString av = pattern.cap(AV_INDEX);
-                QString codec = pattern.cap(CODEC_NAME_INDEX);
-                QString desc = pattern.cap(CODEC_DESC);
+            QRegularExpressionMatch match = pattern.match(line);
+            if (match.hasMatch()) {
+                QString av = match.captured(AV_INDEX);
+                QString codec = match.captured(CODEC_NAME_INDEX);
+                QString desc = match.captured(CODEC_DESC);
 
                 // extract codec names
                 encoder_list.clear();
-                if (!find_encoders_in_desc(encoder_list, desc))
+                if (!find_encoders_in_desc(encoder_list, desc)) {
                     encoder_list.push_back(codec);
+                }
 
                 foreach (QString codec_name, encoder_list) {
-                    if (av == "A") { // audio encoder
+                    if (av == QString::fromLatin1("A")) { // audio encoder
                         //qDebug() << "Audio Codec: " + codec_name;
                         audio_encoders.push_back(codec_name);
-                    } else if (av == "V") { // video encoder
+                    } else if (av == QString::fromLatin1("V")) { // video encoder
                         //qDebug() << "Video Codec: " + codec_name;
                         video_encoders.push_back(codec_name);
-                    } else if (av == "S") { // subtitle encoder
+                    } else if (av == QString::fromLatin1("S")) { // subtitle encoder
                         //qDebug() << "Subtitle Codec: " + codec_name;
                         subtitle_encoders.push_back(codec_name);
                     }
@@ -168,14 +170,14 @@ namespace inner {
     {
         QProcess ffmpeg_process;
         QStringList parameters;
-        parameters.push_back(QString("-version"));
+        parameters.push_back(QString::fromLatin1("-version"));
 
         //qDebug() << ExePath::getPath("ffmpeg") << parameters.join(" ");
-        ffmpeg_process.start(ExePath::getPath("ffmpeg"), parameters);
+        ffmpeg_process.start(ExePath::getPath(QString::fromLatin1("ffmpeg")), parameters);
 
         ffmpeg_process.waitForStarted(TIMEOUT);
         ffmpeg_process.waitForFinished(TIMEOUT);
-        ffmpeg_version = QString(ffmpeg_process.readAll());
+        ffmpeg_version = QString::fromLatin1(ffmpeg_process.readAll());
 
         return true;
     }
@@ -184,9 +186,9 @@ namespace inner {
     {
         QProcess ffmpeg_process;
         QStringList parameters;
-        parameters << "-formats";
+        parameters << QString::fromLatin1("-formats");
 
-        ffmpeg_process.start(ExePath::getPath("ffmpeg"), parameters);
+        ffmpeg_process.start(ExePath::getPath(QString::fromLatin1("ffmpeg")), parameters);
 
         ffmpeg_process.waitForStarted(TIMEOUT);
         ffmpeg_process.waitForFinished(TIMEOUT);
@@ -197,20 +199,21 @@ namespace inner {
         demuxing_formats.clear();
         ffmpeg_format_info.clear();
 
-        QRegExp pattern("^ ([ D])([ E]) ([^ ]+)\\s+(.*)$");
+        QRegularExpression pattern(QString::fromLatin1("^ ([ D])([ E]) ([^ ]+)\\s+(.*)$"));
         const int INDEX_DEMUX = 1;
         const int INDEX_MUX = 2;
         const int INDEX_NAME = 3;
         //const int INDEX_DETAIL = 4;
 
         while (ffmpeg_process.canReadLine()) {
-            QString line(ffmpeg_process.readLine());
+            QString line(QString::fromLatin1(ffmpeg_process.readLine()));
             ffmpeg_format_info.append(line);
-            if (pattern.indexIn(line) != -1) {
-                QString name = pattern.cap(INDEX_NAME);
-                if (pattern.cap(INDEX_DEMUX) == "D")
+            QRegularExpressionMatch match = pattern.match(line);
+            if (match.hasMatch()) {
+                QString name = match.captured(INDEX_NAME);
+                if (match.captured(INDEX_DEMUX) == QString::fromLatin1("D"))
                     demuxing_formats.append(name);
-                if (pattern.cap(INDEX_MUX) == "E")
+                if (match.captured(INDEX_MUX) == QString::fromLatin1("E"))
                     muxing_formats.append(name);
             }
         }
@@ -257,12 +260,10 @@ namespace inner {
     // extract error message from the line
     QString extract_errmsg(const QString& line)
     {
-        QRegExp pattern("^[^:]*:(.*)$");
+        QRegularExpression pattern(QString::fromLatin1("^[^:]*:(.*)$"));
         const int INDEX_MESSAGE = 1;
-        if (pattern.indexIn(line) != -1)
-            return pattern.cap(INDEX_MESSAGE).trimmed();
-        else
-            return "";
+        QRegularExpressionMatch match = pattern.match(line);
+        return match.hasMatch() ? match.captured(INDEX_MESSAGE).trimmed() : QString::fromLatin1("");
     }
 
     // scale sec with speed_factor if scale == true
@@ -283,9 +284,9 @@ struct FFmpegInterface::Private
     double duration;
     double progress;
     QString stringBuffer;
-    QRegExp progress_pattern;
-    QRegExp progress_pattern_2;
-    QRegExp duration_pattern;
+    QRegularExpression progress_pattern;
+    QRegularExpression progress_pattern_2;
+    QRegularExpression duration_pattern;
 
     bool encoders_read;
     bool __dummy_padding[7]; // Avoid internally padding of struct on RAM
@@ -295,11 +296,14 @@ struct FFmpegInterface::Private
 
     QString errmsg;
 
-    Private() : duration(0), progress(0)
-      , progress_pattern(patterns::progress)
-      , progress_pattern_2(patterns::progress2)
-      , duration_pattern(patterns::duration)
-      , encoders_read(false) { }
+    Private()
+        : duration(0)
+        , progress(0)
+        , progress_pattern(QString::fromLatin1(patterns::progress))
+        , progress_pattern_2(QString::fromLatin1(patterns::progress2))
+        , duration_pattern(QString::fromLatin1(patterns::duration))
+        , encoders_read(false)
+    {}
 
     bool check_progress(const QString&);
     QStringList getOptionList(const ConversionParameters&, bool*, bool*);
@@ -311,30 +315,30 @@ struct FFmpegInterface::Private
 */
 bool FFmpegInterface::Private::check_progress(const QString& line)
 {
-    QRegExp& pattern = progress_pattern;
-    int index = pattern.indexIn(line);
-    if (index != -1) {
-        const double t = pattern.cap(patterns::PROG_1_TIME).toDouble();
+    QRegularExpression &pattern = progress_pattern;
+    QRegularExpressionMatch match = pattern.match(line);
+    bool matchFound = false;
+    if (match.hasMatch()) {
+        matchFound = true;
+        const double t = match.captured(patterns::PROG_1_TIME).toDouble();
 
         // calculate progress
         progress = (t / duration) * 100;
-
-        return true;
     } else { // try another pattern
-        QRegExp& alternate_pattern = progress_pattern_2;
-        if (alternate_pattern.indexIn(line) != -1) {
-            const int hour = alternate_pattern.cap(patterns::PROG_2_HR).toInt();
-            const int min = alternate_pattern.cap(patterns::PROG_2_MIN).toInt();
-            const double sec = alternate_pattern.cap(patterns::PROG_2_SEC).toDouble();
+        QRegularExpression &alternate_pattern = progress_pattern_2;
+        QRegularExpressionMatch match_alternate = alternate_pattern.match(line);
+        if (match_alternate.hasMatch()) {
+            matchFound = true;
+            const int hour = match_alternate.captured(patterns::PROG_2_HR).toInt();
+            const int min = match_alternate.captured(patterns::PROG_2_MIN).toInt();
+            const double sec = match_alternate.captured(patterns::PROG_2_SEC).toDouble();
             const double t = hour*3600 + min*60 + sec;
-
             progress = (t / duration) * 100;
-
-            return true;
         }
     }
-    errmsg = line; // save the last output line
-    return false;
+    if(!matchFound) errmsg = line; // save the last output line
+
+    return matchFound;
 }
 
 /**
@@ -361,21 +365,21 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
     QStringList list;
     QString source = o.source;
-    int last_point_source = source.lastIndexOf(".");
+    int last_point_source = source.lastIndexOf(QString::fromLatin1("."));
 
-//Begins Subtitle files declaration
-        QString subtitlesrt, subtitlessa, subtitlesub, subtitleass;
-        if (last_point_source==-1){
-            subtitlesrt = source+".srt";
-            subtitlessa = source+".ssa";
-            subtitlesub = source+".sub";
-            subtitleass = source+".ass";
+    //Begins Subtitle files declaration
+    QString subtitlesrt, subtitlessa, subtitlesub, subtitleass;
+    if (last_point_source == -1) {
+        subtitlesrt = source + ".srt";
+        subtitlessa = source + ".ssa";
+        subtitlesub = source + ".sub";
+        subtitleass = source + ".ass";
         }
         else{
-            subtitlesrt = source.replace(last_point_source, 5, ".srt");
-            subtitlessa = source.replace(last_point_source, 5, ".ssa");
-            subtitlesub = source.replace(last_point_source, 5, ".sub");
-            subtitleass = source.replace(last_point_source, 5, ".ass");
+            subtitlesrt = source.replace(last_point_source, 5, QString::fromLatin1(".srt"));
+            subtitlessa = source.replace(last_point_source, 5, QString::fromLatin1(".ssa"));
+            subtitlesub = source.replace(last_point_source, 5, QString::fromLatin1(".sub"));
+            subtitleass = source.replace(last_point_source, 5, QString::fromLatin1(".ass"));
         }
         QFile subtitle_srt, subtitle_ssa, subtitle_sub, subtitle_ass;
         subtitle_srt.setFileName(subtitlesrt);
@@ -400,30 +404,42 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 #endif
         if (subtitle_srt.exists())
         {
-          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesrt);
+            command = QString::fromLatin1("subtitles='%1':force_style='FontName=Sans "
+                                          "Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle="
+                                          "1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1")
+                          .arg(subtitlesrt);
         }
         else if (subtitle_ssa.exists())
         {
-          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlessa);
+            command = QString::fromLatin1("subtitles='%1':force_style='FontName=Sans "
+                                          "Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle="
+                                          "1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1")
+                          .arg(subtitlessa);
         }
         else if (subtitle_sub.exists())
         {
-          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitlesub);
+            command = QString::fromLatin1("subtitles='%1':force_style='FontName=Sans "
+                                          "Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle="
+                                          "1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1")
+                          .arg(subtitlesub);
         }
         else if (subtitle_ass.exists())
         {
-          command = QString("subtitles='%1':force_style='FontName=Sans Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle=1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1").arg(subtitleass);
+            command = QString::fromLatin1("subtitles='%1':force_style='FontName=Sans "
+                                          "Serif,OutlineColour=&H00000000,WrapStyle=2,Borderstyle="
+                                          "1,Outline=1,Shadow=1,Fontsize=28':charenc=ISO-8859-1")
+                          .arg(subtitleass);
         }
 //Finishing Subtitle files declaration
 
         // overwrite if file exists
-        list.append("-y");
+        list.append(QString::fromLatin1("-y"));
 
         if (!bNeedsAudioFilter) {
             /* in this configuration, input is read from file
                arguments: -i <infile>
             */
-            list << "-i" << o.source;
+            list << QString::fromLatin1("-i") << o.source;
         } else {
             /* In this configuration, video (if any) is read from file
                and audio is read from stdin
@@ -433,11 +449,12 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
                   arguments: -i -
             */
             if (probe.hasVideo() && !o.disable_video)
-                list << "-i" << o.source << "-i" << "-"
-                     << "-map" << QString("0:%1").arg(probe.videoStreamIndex())
-                     << "-map" << "1";
+                list << QString::fromLatin1("-i") << o.source << QString::fromLatin1("-i")
+                     << QString::fromLatin1("-") << QString::fromLatin1("-map")
+                     << QString::fromLatin1("0:%1").arg(probe.videoStreamIndex())
+                     << QString::fromLatin1("-map") << QString::fromLatin1("1");
             else{
-                list << "-i" << "-";
+                list << QString::fromLatin1("-i") << QString::fromLatin1("-");
             }
         }
 
@@ -446,14 +463,14 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
     /* ==== Additional Options ==== */
     if (!o.ffmpeg_options.isEmpty()) {
-        QList<QString> additional_options =
-                o.ffmpeg_options.split(" ", QString::SkipEmptyParts);
+        QList<QString> additional_options = o.ffmpeg_options.split(QString::fromLatin1(" "),
+                                                                   Qt::SkipEmptyParts);
         foreach (QString opt, additional_options)
             list.append(opt);
     }
 
     if (o.threads >= 2) {
-        list.append("-threads");
+        list.append(QString::fromLatin1("-threads"));
         list.append(QString::number(o.threads));
     }
 
@@ -461,21 +478,21 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
 
     // Audio Options
     if (o.disable_audio) {
-        list.append("-an"); // no audio
+        list.append(QString::fromLatin1("-an")); // no audio
     } else if (o.copy_audio) { // copy audio data (no re-encode)
-        list.append("-acodec");
-        list.append("copy");
+        list.append(QString::fromLatin1("-acodec"));
+        list.append(QString::fromLatin1("copy"));
     } else { // audio enabled
 
         // audio bitrate in kb/s
         if (o.audio_bitrate > 0) {
-            list.append("-ab");
-            list.append(QString("%1k").arg(o.audio_bitrate));
+            list.append(QString::fromLatin1("-ab"));
+            list.append(QString::fromLatin1("%1k").arg(o.audio_bitrate));
         }
 
         // audio sample rate in hz
         if (o.audio_sample_rate > 0) {
-            list.append("-ar");
+            list.append(QString::fromLatin1("-ar"));
 
             int sample_rate = o.audio_sample_rate;
             if (o.audio_keep_sample_rate
@@ -485,46 +502,46 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
                 qDebug() << "Apply probed sample rate: " + QString::number(sample_rate);
             }
 
-            list.append(QString("%1").arg(sample_rate));
+            list.append(QString::fromLatin1("%1").arg(sample_rate));
         }
 
         // audio channels
         if (o.audio_channels > 0) {
-            list.append("-ac");
-            list.append(QString("%1").arg(o.audio_channels));
+            list.append(QString::fromLatin1("-ac"));
+            list.append(QString::fromLatin1("%1").arg(o.audio_channels));
         }
 
         // volume
         // 256 is normal volume
         if (o.audio_volume > 0 && o.audio_volume != 256) {
-            list.append("-vol");
-            list.append(QString("%1").arg(o.audio_volume));
+            list.append(QString::fromLatin1("-vol"));
+            list.append(QString::fromLatin1("%1").arg(o.audio_volume));
         }
 
     }
 
     // Video Options
     if (o.disable_video || !probe.hasVideo()) {
-        list.append("-vn"); // no video
+        list.append(QString::fromLatin1("-vn")); // no video
     } else if (o.copy_video) { // copy video data (no re-encode)
-        list.append("-vcodec");
-        list.append("copy");
+        list.append(QString::fromLatin1("-vcodec"));
+        list.append(QString::fromLatin1("copy"));
     } else { // video enabled
 
         // same video quality as source
         if (o.video_same_quality) {
-            list.append("-sameq");
+            list.append(QString::fromLatin1("-sameq"));
         }
 
         // deinterlace
         if (o.video_deinterlace) {
-            list.append("-deinterlace");
+            list.append(QString::fromLatin1("-deinterlace"));
         }
 
         // begining insert subtitle or disable color or flip or rotate or stereoscopic
         if (o.insert_subtitle || o.disable_color || o.vertical_flip || o.horizontal_flip || o.rotate_90more || o.rotate_90less || o.rotate_180 || o.rggm || o.rbgm || o.rcc || o.rchc || o.rcd || o.gmgm || o.gmc || o.ybc)
         {
-            list.append("-vf");
+            list.append(QString::fromLatin1("-vf"));
         }
         if (o.insert_subtitle && !o.disable_color)
         {
@@ -535,7 +552,7 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         }
         if (!o.insert_subtitle && o.disable_color)
         {
-          list.append("hue=s=0");
+            list.append(QString::fromLatin1("hue=s=0"));
         }
         if (o.insert_subtitle && o.disable_color)
         {
@@ -545,85 +562,85 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
           }
           else
           {
-            list.append("hue=s=0");
+              list.append(QString::fromLatin1("hue=s=0"));
           }
         }
         if (o.vertical_flip && !o.horizontal_flip && !o.rotate_90more && !o.rotate_90less)
         {
-          list.append("vflip");
+            list.append(QString::fromLatin1("vflip"));
         }
         if (!o.vertical_flip && o.horizontal_flip)
         {
-          list.append("hflip");
+            list.append(QString::fromLatin1("hflip"));
         }
         if (o.vertical_flip && o.horizontal_flip && !o.rotate_90more && o.rotate_90less)
         {
-          list.append("vflip,hflip");
+            list.append(QString::fromLatin1("vflip,hflip"));
         }
         if (o.rotate_90more && !o.vertical_flip)
         {
-          list.append("transpose=1");
+            list.append(QString::fromLatin1("transpose=1"));
         }
         if (o.rotate_90more && o.vertical_flip)
         {
-          list.append("transpose=3");
+            list.append(QString::fromLatin1("transpose=3"));
         }
         if (o.rotate_90less && !o.vertical_flip )
         {
-          list.append("transpose=2");
+            list.append(QString::fromLatin1("transpose=2"));
         }
         if (o.rotate_90less && o.vertical_flip )
         {
-          list.append("transpose=0");
+            list.append(QString::fromLatin1("transpose=0"));
         }
         if (o.rotate_180)
         {
-          list.append("transpose=2,transpose=2");
+            list.append(QString::fromLatin1("transpose=2,transpose=2"));
         }
         if (o.rggm)
         {
-            list.append("stereo3d=sbs2l:argg");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:argg"));
         }
         if (o.rbgm)
         {
-            list.append("stereod3d=sbs2l:arbg");
+            list.append(QString::fromLatin1("stereod3d=sbs2l:arbg"));
         }
         if (o.rcc)
         {
-            list.append("stereo3d=sbs2l:arcc");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:arcc"));
         }
         if (o.rchc)
         {
-            list.append("stereo3d=sbs2l:arch");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:arch"));
         }
         if (o.rcd)
         {
-            list.append("stereo3d=sbs2l:arcd");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:arcd"));
         }
         if (o.gmgm)
         {
-            list.append("stereo3d=sbs2l:agmg");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:agmg"));
         }
         if (o.gmc)
         {
-            list.append("stereo3d=sbs2l:agmc");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:agmc"));
         }
         if (o.ybc)
         {
-            list.append("stereo3d=sbs2l:aybc");
+            list.append(QString::fromLatin1("stereo3d=sbs2l:aybc"));
         }
          // finishing insert subtitle or disable color or flip or rotate or stereoscopic
 
         // video bitrate
         if (o.video_bitrate > 0) {
-            list.append("-b");
-            list.append(QString("%1k").arg(o.video_bitrate));
+            list.append(QString::fromLatin1("-b"));
+            list.append(QString::fromLatin1("%1k").arg(o.video_bitrate));
         }
 
         // video dimensions
         if (o.video_width > 0 && o.video_height > 0) {
-            list.append("-s");
-            list.append(QString("%1x%2").arg(o.video_width).arg(o.video_height));
+            list.append(QString::fromLatin1("-s"));
+            list.append(QString::fromLatin1("%1x%2").arg(o.video_width).arg(o.video_height));
         }
 
         qDebug() << "CHECKING IF CROP IS ACTIVATED" << o.toCrop << o.video_crop_top;
@@ -631,20 +648,21 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         // crop video
         if (o.toCrop)
         {
-            list.append("-filter:v");
+            list.append(QString::fromLatin1("-filter:v"));
 
-            QString crop = QString("crop=%1:%2:%3:%4")
-                    .arg(o.video_crop_right - o.video_crop_left)
-                    .arg(o.video_crop_bottom - o.video_crop_top)
-                    .arg(o.video_crop_left)
-                    .arg(o.video_crop_top);
+            QString crop = QString::fromLatin1("crop=%1:%2:%3:%4")
+                               .arg(o.video_crop_right - o.video_crop_left)
+                               .arg(o.video_crop_bottom - o.video_crop_top)
+                               .arg(o.video_crop_left)
+                               .arg(o.video_crop_top);
             list.append(crop);
         }
 
         /* -vf "setpts=<1/rate>*PTS": video filter to change video speed
             <1/rate> is the reciprocal of the scaling factor (1.0 is original speed) */
         if (o.speed_scaling)
-            list << "-vf" << QString("setpts=%1*PTS").arg(1/o.speed_scaling_factor);
+            list << QString::fromLatin1("-vf")
+                 << QString::fromLatin1("setpts=%1*PTS").arg(1 / o.speed_scaling_factor);
     }
 
     // Time Options
@@ -660,16 +678,16 @@ QStringList FFmpegInterface::Private::getOptionList(const ConversionParameters &
         When used as an output option, ffmpeg decodes but discards input
         until timestamp reaches time_begin */
     if (o.time_begin > 0) {
-        list.append("-ss");
-        list.append(QString("%1").arg(scaled_time_begin));
+        list.append(QString::fromLatin1("-ss"));
+        list.append(QString::fromLatin1("%1").arg(scaled_time_begin));
     }
     /* -t time_duration
         Stop writing the output after its duration reaches time_duration */
     if (o.time_end > 0) {
         Q_ASSERT(o.time_end >= o.time_begin);
         double scaled_duration = scaled_time_end - scaled_time_begin;
-        list.append("-t");
-        list.append(QString("%1").arg(scaled_duration));
+        list.append(QString::fromLatin1("-t"));
+        list.append(QString::fromLatin1("%1").arg(scaled_duration));
     }
 
     // destination file
@@ -700,7 +718,7 @@ FFmpegInterface::~FFmpegInterface()
 // virtual functions
 QString FFmpegInterface::executableName() const
 {
-    return ExePath::getPath("ffmpeg");
+    return ExePath::getPath(QString::fromLatin1("ffmpeg"));
 }
 
 void FFmpegInterface::reset()
@@ -730,11 +748,9 @@ void FFmpegInterface::fillParameterList(const ConversionParameters &param, QStri
 
 void FFmpegInterface::parseProcessOutput(const QString &data)
 {
-    //Show qDebug Message
-    //qDebug() << data;
-
     // split incoming data by [end of line] or [carriage return]
-    QStringList lines(data.split(QRegExp("[\r\n]"), QString::KeepEmptyParts));
+    QStringList lines(
+        data.split(QRegularExpression(QString::fromLatin1("[\r\n]")), Qt::KeepEmptyParts));
 
     if (!p->stringBuffer.isEmpty()) { // prepend buffered data
         lines.front().prepend(p->stringBuffer);
@@ -746,10 +762,7 @@ void FFmpegInterface::parseProcessOutput(const QString &data)
         lines.back().clear();
     }
 
-    QStringList::iterator it = lines.begin();
-
-    for (; it!=lines.end(); ++it) { // parse lines
-        QString& line = *it;
+    for (const QString &line : lines) {
         if (line.isEmpty()) continue;
         if (p->check_progress(line)) {
             emit progressRefreshed(p->progress);

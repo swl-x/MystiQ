@@ -54,7 +54,7 @@ int parseFFmpegArguments(QStringList& args, int index, ConversionParameters& res
 #define CHECK_OPTION_2_METHOD(argument, property, convertmethod) \
     else if (arg == argument) do { \
         QString nextarg = args[index+1]; \
-        nextarg.replace(QRegExp("[a-z]"), ""); /* remove units */ \
+        nextarg.replace(QRegularExpression("[a-z]"), ""); /* remove units */ \
         result.property = nextarg.convertmethod(); \
         used_arg_count = 2; } while (0)
 
@@ -112,17 +112,18 @@ int parseFFmpegArguments(QStringList& args, int index, ConversionParameters& res
 
             // width and height are in the same parameter (for example: "-s 800x600")
             CHECK_OPTION("-s") {
-                QRegExp pattern("([0-9]+)x([0-9]+)");
-                if (pattern.indexIn(args[index+1]) != -1) {
-                    result.video_width = pattern.cap(1).toInt();
-                    result.video_height = pattern.cap(2).toInt();
+                QRegularExpression pattern(QString::fromLatin1("([0-9]+)x([0-9]+)"));
+                QRegularExpressionMatch match = pattern.match(args[index+1]);
+                if (match.hasMatch()) {
+                    result.video_width = match.captured(1).toInt();
+                    result.video_height = match.captured(2).toInt();
                     used_arg_count = 2;
                 }
             }
 
             CHECK_OPTION("-filter:v")
             {
-                QRegularExpression pattern("crop=(\\d+):(\\d+):(\\d+):(\\d+)");
+                QRegularExpression pattern(QString::fromLatin1("crop=(\\d+):(\\d+):(\\d+):(\\d+)"));
                 QRegularExpressionMatch match = pattern.match(args[index + 1]);
 
                 if (match.hasMatch())
@@ -172,7 +173,7 @@ ConversionParameters
 ConversionParameters::fromFFmpegParameters(const QString &params_str)
 {
     ConversionParameters result;
-    QStringList args = params_str.split(" ", QString::SkipEmptyParts);
+    QStringList args = params_str.split(QString::fromLatin1(" "), Qt::SkipEmptyParts);
 
     for (int i=0; i<args.size();) {
         int used_arg_count = parseFFmpegArguments(args, i, result);
@@ -185,7 +186,7 @@ ConversionParameters::fromFFmpegParameters(const QString &params_str)
         }
     }
 
-    result.ffmpeg_options = args.join(" "); // unrecognized arguments
+    result.ffmpeg_options = args.join(QString::fromLatin1(" ")); // unrecognized arguments
 
     return result;
 }
@@ -193,5 +194,5 @@ ConversionParameters::fromFFmpegParameters(const QString &params_str)
 ConversionParameters
 ConversionParameters::fromFFmpegParameters(const char *params_str)
 {
-    return fromFFmpegParameters(QString(params_str));
+    return fromFFmpegParameters(QString::fromLatin1(params_str));
 }

@@ -79,7 +79,7 @@ bool MediaConverter::start(ConversionParameters param)
             qDebug() << "Audio filter is turned on.";
             m_pAudioFilter->start(param, &m_proc);
         }
-        qDebug() << m_pConv->executableName() << list.join(" ");
+        qDebug() << m_pConv->executableName() << list.join(QString::fromLatin1(" "));
 
         m_proc.start(m_pConv->executableName(), list);
         return m_proc.waitForStarted(TIMEOUT);
@@ -111,13 +111,13 @@ bool MediaConverter::checkExternalPrograms(QString &msg)
     QString errmsg = tr(" FFmpeg or FFprobe %1 have not been found in the system. Please consider installing them before running MystiQ");
     // check ffmpeg
     if (!FFmpegInterface::hasFFmpeg()) {
-        msg = errmsg.arg(ExePath::getPath("ffmpeg"));
+        msg = errmsg.arg(ExePath::getPath(QString::fromLatin1("ffmpeg")));
         return false;
     }
 
     // check ffprobe
     if (!MediaProbe::available()) { // The probe failed to start.
-        msg = errmsg.arg(ExePath::getPath("ffprobe"));
+        msg = errmsg.arg(ExePath::getPath(QString::fromLatin1("ffprobe")));
         return false;
     }
 
@@ -135,7 +135,7 @@ QString MediaConverter::errorMessage() const
 
 void MediaConverter::readProcessOutput()
 {
-       m_pConv->parseProcessOutput(QString(m_proc.readAll()));
+    m_pConv->parseProcessOutput(QString::fromLatin1(m_proc.readAll()));
 }
 
 void MediaConverter::convertProgressFinished(int exitcode, QProcess::ExitStatus)

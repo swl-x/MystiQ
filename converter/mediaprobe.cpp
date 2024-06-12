@@ -35,7 +35,7 @@ namespace patterns {
 
 // META
 const char meta[]
-    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: ([0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
+    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: (-[0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
 const char META_HOUR_INDEX = 1;        // matched type: integer
 const char META_MINUTE_INDEX = 2;      // matched type: integer
 const char META_SECOND_INDEX = 3;      // matched type: double
@@ -86,25 +86,28 @@ struct MetaInformation
     double start; ///< start time in seconds
     int bitrate; ///< bitrate in kb/s
     bool __dummy_padding[4];
-    QRegExp pattern;
+    QRegularExpression pattern;
 
-    MetaInformation() : pattern(patterns::meta) { clear(); }
+    MetaInformation()
+        : pattern(QString::fromLatin1(patterns::meta))
+    {
+        clear();
+    }
 
     void clear() { duration = 0; start = 0; bitrate = 0; }
 
     bool parse(const QString& line)
     {
-        int index = pattern.indexIn(line);
-        if (index != -1) {
-            int hour = pattern.cap(patterns::META_HOUR_INDEX).toInt();
-            int minute = pattern.cap(patterns::META_MINUTE_INDEX).toInt();
-            double second = pattern.cap(patterns::META_SECOND_INDEX).toDouble();
+        QRegularExpressionMatch match = this->pattern.match(line);
+        if (match.hasMatch()) {
+            int hour = match.captured(patterns::META_HOUR_INDEX).toInt();
+            int minute = match.captured(patterns::META_MINUTE_INDEX).toInt();
+            double second = match.captured(patterns::META_SECOND_INDEX).toDouble();
             duration = hour * SECONDS_PER_HOUR + minute * SECONDS_PER_MINUTE + second;
-            start = pattern.cap(patterns::META_START_INDEX).toDouble();
-            bitrate = pattern.cap(patterns::META_BITRATE_INDEX).toInt();
-            return true;
+            start = match.captured(patterns::META_START_INDEX).toDouble();
+            bitrate = match.captured(patterns::META_BITRATE_INDEX).toInt();
         }
-        return false;
+        return match.hasMatch();
     }
 };
 
@@ -117,11 +120,15 @@ struct AudioInformation
     int bitrate; ///< bitrate in kb/s
     int channels; ///< number of channels
     QString codec;
-    QRegExp pattern;
-    QRegExp pattern_check;
+    QRegularExpression pattern;
+    QRegularExpression pattern_check;
 
-    AudioInformation() : pattern(patterns::audio)
-      , pattern_check(patterns::audio_check) { clear(); }
+    AudioInformation()
+        : pattern(QString::fromLatin1(patterns::audio))
+        , pattern_check(QString::fromLatin1(patterns::audio_check))
+    {
+        clear();
+    }
 
     void clear()
     {
@@ -134,30 +141,32 @@ struct AudioInformation
 
     bool parse(const QString& line)
     {
-        int index = pattern.indexIn(line);
-        if (index != -1) {
+        QRegularExpressionMatch match = this->pattern.match(line);
+        if (match.hasMatch()) {
             has_audio = true;
-            codec = pattern.cap(patterns::AUDIO_CODEC_INDEX);
-            sample_rate = pattern.cap(patterns::AUDIO_SAMPLERATE_INDEX).toInt();
-            bitrate = pattern.cap(patterns::AUDIO_BITRATE_INDEX).toInt();
+            codec = match.captured(patterns::AUDIO_CODEC_INDEX);
+            sample_rate = match.captured(patterns::AUDIO_SAMPLERATE_INDEX).toInt();
+            bitrate = match.captured(patterns::AUDIO_BITRATE_INDEX).toInt();
 
             // extract number of channels
-            QString channels_field = pattern.cap(patterns::AUDIO_CHANNELS_INDEX);
-            QRegExp channels_pattern("([0-9]+)\\s+channel");
-            if (channels_pattern.indexIn(channels_field) != -1) {
-                channels = channels_pattern.cap(1).toInt();
-            } else if (channels_field.indexOf("stereo") != -1) {
+            QString channels_field = match.captured(patterns::AUDIO_CHANNELS_INDEX);
+            QRegularExpression channels_pattern(QString::fromLatin1("([0-9]+)\\s+channel"));
+            QRegularExpressionMatch match_channel = channels_pattern.match(channels_field);
+            if (match_channel.hasMatch()) {
+                channels = match_channel.captured(1).toInt();
+            } else if (channels_field.indexOf(QString::fromLatin1("stereo")) != -1) {
                 channels = 2;
-            } else if (channels_field.indexOf("mono") != -1) {
+            } else if (channels_field.indexOf(QString::fromLatin1("mono")) != -1) {
                 channels = 1;
             }
 
             return true;
         }
         // audio existence must be correct
-        if (pattern_check.indexIn(line) != -1) {
+        QRegularExpressionMatch match_pattern_check = this->pattern_check.match(line);
+        if (match_pattern_check.hasMatch()) {
             has_audio = true;
-            codec = "unknown";
+            codec = QString::fromLatin1("unknown");
         }
         return false;
     }
@@ -176,11 +185,15 @@ struct VideoInformation
     double frame_rate; ///< frame rate in fps
     QString codec;
     QString format;
-    QRegExp pattern;
-    QRegExp pattern_check;
+    QRegularExpression pattern;
+    QRegularExpression pattern_check;
 
-    VideoInformation() : pattern(patterns::video)
-      , pattern_check(patterns::video_check) { clear(); }
+    VideoInformation()
+        : pattern(QString::fromLatin1(patterns::video))
+        , pattern_check(QString::fromLatin1(patterns::video_check))
+    {
+        clear();
+    }
 
     void clear()
     {
@@ -195,21 +208,22 @@ struct VideoInformation
 
     bool parse(const QString& line)
     {
-        int index = pattern.indexIn(line);
-        if (index != -1) {
+        QRegularExpressionMatch match = this->pattern.match(line);
+        if (match.hasMatch()) {
             has_video = true;
-            stream_index = pattern.cap(patterns::VIDEO_STREAM_INDEX).toInt();
-            width = pattern.cap(patterns::VIDEO_WIDTH_INDEX).toInt();
-            height = pattern.cap(patterns::VIDEO_HEIGHT_INDEX).toInt();
-            bitrate = pattern.cap(patterns::VIDEO_BITRATE_INDEX).toInt();
-            frame_rate = pattern.cap(patterns::VIDEO_FRAMERATE_INDEX).toDouble();
-            codec = pattern.cap(patterns::VIDEO_CODEC_INDEX);
+            stream_index = match.captured(patterns::VIDEO_STREAM_INDEX).toInt();
+            width = match.captured(patterns::VIDEO_WIDTH_INDEX).toInt();
+            height = match.captured(patterns::VIDEO_HEIGHT_INDEX).toInt();
+            bitrate = match.captured(patterns::VIDEO_BITRATE_INDEX).toInt();
+            frame_rate = match.captured(patterns::VIDEO_FRAMERATE_INDEX).toDouble();
+            codec = match.captured(patterns::VIDEO_CODEC_INDEX);
             return true;
         }
         // video existence must be correct
-        if (pattern_check.indexIn(line) != -1) {
+        match = this->pattern_check.match(line);
+        if (match.hasMatch()) {
             has_video = true;
-            codec = "unknown";
+            codec = QString::fromLatin1("unknown");
         }
         return false;
     }
@@ -220,16 +234,18 @@ struct SubtitleInformation
 {
     bool has_subtitle;
     bool __dummy_padding[7];
-    QRegExp pattern;
+    QRegularExpression pattern;
 
-    SubtitleInformation() : pattern(patterns::subtitle) { }
+    SubtitleInformation()
+        : pattern(QString::fromLatin1(patterns::subtitle))
+    {}
 
     void clear() { has_subtitle = false; }
     bool parse(const QString& line)
     {
-        int index = pattern.indexIn(line);
-        if (index != -1) {
-            has_subtitle = true;
+        QRegularExpressionMatch match = this->pattern.match(line);
+        if (match.hasMatch()) {
+            this->has_subtitle = true;
         }
         return false; // reject all inputs
     }
@@ -313,7 +329,8 @@ bool MediaProbe::start(const QString& filename)
         list.push_back(filename);
 
         p->ffprobe_proc.setReadChannel(QProcess::StandardError);
-        p->ffprobe_proc.start(ExePath::getPath("ffprobe"), list);
+        p->ffprobe_proc.start(ExePath::getPath(QString::fromLatin1("ffprobe")), list);
+
         return p->ffprobe_proc.waitForStarted(TIMEOUT);
     }
     return false;
@@ -321,7 +338,7 @@ bool MediaProbe::start(const QString& filename)
 
 bool MediaProbe::start(const char *filename)
 {
-    return start(QString(filename));
+    return start(QString::fromLatin1(filename));
 }
 
 bool MediaProbe::run(const QString &filename, int timeout)
@@ -455,14 +472,12 @@ bool MediaProbe::hasSubtitle() const
 void MediaProbe::m_proc_finished(int exitcode)
 {
     p->exitcode = exitcode;
-
     if (exitcode == 0) { // If the process finished normally, parse its output.
         p->clear();
         while (p->ffprobe_proc.canReadLine()) {
-            QString line = QString(p->ffprobe_proc.readLine()).trimmed();
+            QString line = QString::fromLatin1(p->ffprobe_proc.readLine()).trimmed();
             p->parse_line(line);
         }
     }
-
     emit process_finished();
 }

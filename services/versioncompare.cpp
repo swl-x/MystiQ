@@ -39,9 +39,10 @@ Version::Version(const QString &s)
 {
     m_major = m_minor = m_patch = -1; // invalid value
     for (int i=0; version_patterns[i]; i++) { // try each pattern
-        QRegExp pattern(version_patterns[i]);
-        if (pattern.indexIn(s) != -1) {
-            const QStringList cap = pattern.capturedTexts();
+        QRegularExpression pattern(version_patterns[i]);
+        QRegularExpressionMatch match = pattern.match(s);
+        if (match.hasMatch()) {
+            const QStringList cap = match.capturedTexts();
             const int capture_count = cap.size() - 1;
             m_major = m_minor = m_patch = 0;
             if (capture_count >= 1)
@@ -108,7 +109,7 @@ bool Version::operator >=(const Version& other) const
 VersionRange::VersionRange(const QString &s)
 {
     if (!s.isEmpty()) {
-        QStringList lst = s.split(",", QString::SkipEmptyParts);
+        QStringList lst = s.split(",", Qt::SkipEmptyParts);
         foreach (QString range, lst) {
             m_range.push_back(range.trimmed());
         }
